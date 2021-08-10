@@ -1,0 +1,97 @@
+# Parallel Computing
+
+Julia supports:
+* coroutines (aka green threads)
+* multithreading (without a Global interpreter lock like CPython)
+* multiprocessing and distributed computing.
+
+## Coroutines
+
+Here is coroutine version of a `fibonacci()` generator function:
+
+`Channel() do ... end` creates a `Channel` object, and spawns an asynchronous `Task` to execute the code in the `do ... end` block.
+
+The task is scheduled to execute immediately, but when it calls the `put!()` function on the channel to yield a value, it blocks until another task calls the `take!()` function to grab the `put!()` value.
+
+`take!()` function is not impleteded explicitly in the code example, since it is executed automatically in the `for` loop, in the main task.
+
+To demonstrate this, we can just call the `take!()` function 10 times to get all the items from the channel:
+
+This channel is bound to the task, therefore it is automatically closed when the task ends.
+
+So if we try to get one more element, we will get an exception:
+
+Here is a more explicit version of the `fibonacci()` function:
+
+And here is a more explicit version of the `for` loop:
+
+Note that asynchronous tasks (also called "coroutines" or "green threads") are not actually run in parallel: they cooperate to alternate execution.
+
+Some functions, such as `put!()`, `take!()`, and many I/O functions, interrupt the current task's execution, at which point it lets Julia's scheduler decide which task should resume its execution.
+
+## Multithreading
+
+Julia also supports multithreading.
+
+You need to specify the number of available threads upon startup, by setting the `JULIA_NUM_THREADS` environment variable (or setting the `-t` argument).
+
+The actual number of threads started by Julia may be lower than that, as it is limited to the number of available cores on the machine (thanks to hyperthreading, each physical core may run two threads).
+
+Here is the number of threads that were actually started:
+
+Now let us run 10 tasks across these threads:
+
+Here is a multithreaded version of the `estimate_pi()` function.
+
+Each thread computes part of the sum, and the parts are added at the end:
+
+The `@inbounds` macro is an optimization: it tells the Julia compiler not to add any bounds check when accessing the array.
+
+It is safe in this case since the `s` array has one element per thread, and `t` varies from `1` to `Threads.nthreads()`, so there is no risk for `s[t]` to be out of bounds.
+
+Let's compare this with the single-threaded implementation:
+
+Julia has a `mapreduce()` function which makes it easy to implement functions like `parallel_estimate_pi()`:
+
+The `mapreduce()` function is well optimized, so it's about twice faster than `parallel_estimate_pi()`.
+
+You can also spawn a task using `Threads.@spawn`. It will get executed on any one of the running threads (it will not start a new thread):
+
+The `fetch()` function waits for the thread to finish, and fetches the result. You can also just call `wait()` if you don't need the result.
+
+You can also use channels to synchronize and communicate across tasks, even if they are running across separate threads:
+
+## Multiprocessing & Distributed Programming
+
+Julia can spawn multiple Julia processes upon startup if you specify the number of processes via the `-p` argument.
+
+You can also spawn extra processes from Julia itself:
+
+The main process has id 1:
+
+The `@Distributed.everywhere` macro lets you run any code on all workers:
+
+You can also execute code on a particular worker by using `@Distributed.spawnat <worker id> <statement>`:
+
+If you specify `:any` instead of a worker id, Julia chooses the worker for you:
+
+Both `@Distributed.everywhere` and `@Distributed.spawnat` return immediately.
+
+The output of `@Distributed.spawnat` is a `Future` object.
+
+You can call `fetch()` on this object to wait for the result:
+
+If you import some package in the main process, it is <u>not</u> automatically imported in the workers.
+
+For example, the following code fails because the worker does not know what `pyimport` is:
+
+You must use `@Distributed.everywhere` or `@Distributed.spawnat` to be able to use `using` of packages you need in each worker:
+
+Or simple you can use `import` which imports packages automatically to all workers.
+
+Similarly, if you define a function in the main process, it is <u>not</u> automatically available in the workers. You must define the function in every worker:
+
+You can pass a `Future` to `@Distributed.everywhere` or `@Distributed.spawnat`, as long as you wrap it in a `fetch()` function:
+
+In this example, worker 2 creates a random array, then worker 3 fetches this array and multiplies each element by 10, then the main process fetches the result and displays it.
+
