@@ -1,0 +1,2694 @@
+\documentclass[11pt]{article}
+
+    \usepackage[breakable]{tcolorbox}
+    \usepackage{parskip} % Stop auto-indenting (to mimic markdown behaviour)
+    
+    \usepackage{iftex}
+    \ifPDFTeX
+    	\usepackage[T1]{fontenc}
+    	\usepackage{mathpazo}
+    \else
+    	\usepackage{fontspec}
+    \fi
+
+    % Basic figure setup, for now with no caption control since it's done
+    % automatically by Pandoc (which extracts ![](path) syntax from Markdown).
+    \usepackage{graphicx}
+    % Maintain compatibility with old templates. Remove in nbconvert 6.0
+    \let\Oldincludegraphics\includegraphics
+    % Ensure that by default, figures have no caption (until we provide a
+    % proper Figure object with a Caption API and a way to capture that
+    % in the conversion process - todo).
+    \usepackage{caption}
+    \DeclareCaptionFormat{nocaption}{}
+    \captionsetup{format=nocaption,aboveskip=0pt,belowskip=0pt}
+
+    \usepackage{float}
+    \floatplacement{figure}{H} % forces figures to be placed at the correct location
+    \usepackage{xcolor} % Allow colors to be defined
+    \usepackage{enumerate} % Needed for markdown enumerations to work
+    \usepackage{geometry} % Used to adjust the document margins
+    \usepackage{amsmath} % Equations
+    \usepackage{amssymb} % Equations
+    \usepackage{textcomp} % defines textquotesingle
+    % Hack from http://tex.stackexchange.com/a/47451/13684:
+    \AtBeginDocument{%
+        \def\PYZsq{\textquotesingle}% Upright quotes in Pygmentized code
+    }
+    \usepackage{upquote} % Upright quotes for verbatim code
+    \usepackage{eurosym} % defines \euro
+    \usepackage[mathletters]{ucs} % Extended unicode (utf-8) support
+    \usepackage{fancyvrb} % verbatim replacement that allows latex
+    \usepackage{grffile} % extends the file name processing of package graphics 
+                         % to support a larger range
+    \makeatletter % fix for old versions of grffile with XeLaTeX
+    \@ifpackagelater{grffile}{2019/11/01}
+    {
+      % Do nothing on new versions
+    }
+    {
+      \def\Gread@@xetex#1{%
+        \IfFileExists{"\Gin@base".bb}%
+        {\Gread@eps{\Gin@base.bb}}%
+        {\Gread@@xetex@aux#1}%
+      }
+    }
+    \makeatother
+    \usepackage[Export]{adjustbox} % Used to constrain images to a maximum size
+    \adjustboxset{max size={0.9\linewidth}{0.9\paperheight}}
+
+    % The hyperref package gives us a pdf with properly built
+    % internal navigation ('pdf bookmarks' for the table of contents,
+    % internal cross-reference links, web links for URLs, etc.)
+    \usepackage{hyperref}
+    % The default LaTeX title has an obnoxious amount of whitespace. By default,
+    % titling removes some of it. It also provides customization options.
+    \usepackage{titling}
+    \usepackage{longtable} % longtable support required by pandoc >1.10
+    \usepackage{booktabs}  % table support for pandoc > 1.12.2
+    \usepackage[inline]{enumitem} % IRkernel/repr support (it uses the enumerate* environment)
+    \usepackage[normalem]{ulem} % ulem is needed to support strikethroughs (\sout)
+                                % normalem makes italics be italics, not underlines
+    \usepackage{mathrsfs}
+    
+
+    
+    % Colors for the hyperref package
+    \definecolor{urlcolor}{rgb}{0,.145,.698}
+    \definecolor{linkcolor}{rgb}{.71,0.21,0.01}
+    \definecolor{citecolor}{rgb}{.12,.54,.11}
+
+    % ANSI colors
+    \definecolor{ansi-black}{HTML}{3E424D}
+    \definecolor{ansi-black-intense}{HTML}{282C36}
+    \definecolor{ansi-red}{HTML}{E75C58}
+    \definecolor{ansi-red-intense}{HTML}{B22B31}
+    \definecolor{ansi-green}{HTML}{00A250}
+    \definecolor{ansi-green-intense}{HTML}{007427}
+    \definecolor{ansi-yellow}{HTML}{DDB62B}
+    \definecolor{ansi-yellow-intense}{HTML}{B27D12}
+    \definecolor{ansi-blue}{HTML}{208FFB}
+    \definecolor{ansi-blue-intense}{HTML}{0065CA}
+    \definecolor{ansi-magenta}{HTML}{D160C4}
+    \definecolor{ansi-magenta-intense}{HTML}{A03196}
+    \definecolor{ansi-cyan}{HTML}{60C6C8}
+    \definecolor{ansi-cyan-intense}{HTML}{258F8F}
+    \definecolor{ansi-white}{HTML}{C5C1B4}
+    \definecolor{ansi-white-intense}{HTML}{A1A6B2}
+    \definecolor{ansi-default-inverse-fg}{HTML}{FFFFFF}
+    \definecolor{ansi-default-inverse-bg}{HTML}{000000}
+
+    % common color for the border for error outputs.
+    \definecolor{outerrorbackground}{HTML}{FFDFDF}
+
+    % commands and environments needed by pandoc snippets
+    % extracted from the output of `pandoc -s`
+    \providecommand{\tightlist}{%
+      \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+    \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+    % Add ',fontsize=\small' for more characters per line
+    \newenvironment{Shaded}{}{}
+    \newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{{#1}}}
+    \newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{{#1}}}
+    \newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{{#1}}}}
+    \newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{{#1}}}
+    \newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{{#1}}}
+    \newcommand{\RegionMarkerTok}[1]{{#1}}
+    \newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{{#1}}}}
+    \newcommand{\NormalTok}[1]{{#1}}
+    
+    % Additional commands for more recent versions of Pandoc
+    \newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{{#1}}}
+    \newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{{#1}}}
+    \newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{{#1}}}
+    \newcommand{\ImportTok}[1]{{#1}}
+    \newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{{#1}}}}
+    \newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{{#1}}}
+    \newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{{#1}}}}
+    \newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{{#1}}}
+    \newcommand{\BuiltInTok}[1]{{#1}}
+    \newcommand{\ExtensionTok}[1]{{#1}}
+    \newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{{#1}}}
+    \newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{{#1}}}
+    \newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{{#1}}}}}
+    
+    
+    % Define a nice break command that doesn't care if a line doesn't already
+    % exist.
+    \def\br{\hspace*{\fill} \\* }
+    % Math Jax compatibility definitions
+    \def\gt{>}
+    \def\lt{<}
+    \let\Oldtex\TeX
+    \let\Oldlatex\LaTeX
+    \renewcommand{\TeX}{\textrm{\Oldtex}}
+    \renewcommand{\LaTeX}{\textrm{\Oldlatex}}
+    % Document parameters
+    % Document title
+    \title{Functions}
+    
+    
+    
+    
+    
+% Pygments definitions
+\makeatletter
+\def\PY@reset{\let\PY@it=\relax \let\PY@bf=\relax%
+    \let\PY@ul=\relax \let\PY@tc=\relax%
+    \let\PY@bc=\relax \let\PY@ff=\relax}
+\def\PY@tok#1{\csname PY@tok@#1\endcsname}
+\def\PY@toks#1+{\ifx\relax#1\empty\else%
+    \PY@tok{#1}\expandafter\PY@toks\fi}
+\def\PY@do#1{\PY@bc{\PY@tc{\PY@ul{%
+    \PY@it{\PY@bf{\PY@ff{#1}}}}}}}
+\def\PY#1#2{\PY@reset\PY@toks#1+\relax+\PY@do{#2}}
+
+\@namedef{PY@tok@w}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.73,0.73}{##1}}}
+\@namedef{PY@tok@c}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cp}{\def\PY@tc##1{\textcolor[rgb]{0.74,0.48,0.00}{##1}}}
+\@namedef{PY@tok@k}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kp}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kt}{\def\PY@tc##1{\textcolor[rgb]{0.69,0.00,0.25}{##1}}}
+\@namedef{PY@tok@o}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@ow}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\@namedef{PY@tok@nb}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@nf}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@nc}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@nn}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@ne}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.82,0.25,0.23}{##1}}}
+\@namedef{PY@tok@nv}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@no}{\def\PY@tc##1{\textcolor[rgb]{0.53,0.00,0.00}{##1}}}
+\@namedef{PY@tok@nl}{\def\PY@tc##1{\textcolor[rgb]{0.63,0.63,0.00}{##1}}}
+\@namedef{PY@tok@ni}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.60,0.60,0.60}{##1}}}
+\@namedef{PY@tok@na}{\def\PY@tc##1{\textcolor[rgb]{0.49,0.56,0.16}{##1}}}
+\@namedef{PY@tok@nt}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@nd}{\def\PY@tc##1{\textcolor[rgb]{0.67,0.13,1.00}{##1}}}
+\@namedef{PY@tok@s}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sd}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@si}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\@namedef{PY@tok@se}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.13}{##1}}}
+\@namedef{PY@tok@sr}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.40,0.53}{##1}}}
+\@namedef{PY@tok@ss}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@sx}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@m}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@gh}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\@namedef{PY@tok@gu}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.50,0.00,0.50}{##1}}}
+\@namedef{PY@tok@gd}{\def\PY@tc##1{\textcolor[rgb]{0.63,0.00,0.00}{##1}}}
+\@namedef{PY@tok@gi}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.63,0.00}{##1}}}
+\@namedef{PY@tok@gr}{\def\PY@tc##1{\textcolor[rgb]{1.00,0.00,0.00}{##1}}}
+\@namedef{PY@tok@ge}{\let\PY@it=\textit}
+\@namedef{PY@tok@gs}{\let\PY@bf=\textbf}
+\@namedef{PY@tok@gp}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,0.50}{##1}}}
+\@namedef{PY@tok@go}{\def\PY@tc##1{\textcolor[rgb]{0.53,0.53,0.53}{##1}}}
+\@namedef{PY@tok@gt}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.27,0.87}{##1}}}
+\@namedef{PY@tok@err}{\def\PY@bc##1{{\setlength{\fboxsep}{\string -\fboxrule}\fcolorbox[rgb]{1.00,0.00,0.00}{1,1,1}{\strut ##1}}}}
+\@namedef{PY@tok@kc}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kd}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kn}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@kr}{\let\PY@bf=\textbf\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@bp}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.50,0.00}{##1}}}
+\@namedef{PY@tok@fm}{\def\PY@tc##1{\textcolor[rgb]{0.00,0.00,1.00}{##1}}}
+\@namedef{PY@tok@vc}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vg}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vi}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@vm}{\def\PY@tc##1{\textcolor[rgb]{0.10,0.09,0.49}{##1}}}
+\@namedef{PY@tok@sa}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sb}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sc}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@dl}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@s2}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@sh}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@s1}{\def\PY@tc##1{\textcolor[rgb]{0.73,0.13,0.13}{##1}}}
+\@namedef{PY@tok@mb}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mf}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mh}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mi}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@il}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@mo}{\def\PY@tc##1{\textcolor[rgb]{0.40,0.40,0.40}{##1}}}
+\@namedef{PY@tok@ch}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cm}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cpf}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@c1}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+\@namedef{PY@tok@cs}{\let\PY@it=\textit\def\PY@tc##1{\textcolor[rgb]{0.25,0.50,0.50}{##1}}}
+
+\def\PYZbs{\char`\\}
+\def\PYZus{\char`\_}
+\def\PYZob{\char`\{}
+\def\PYZcb{\char`\}}
+\def\PYZca{\char`\^}
+\def\PYZam{\char`\&}
+\def\PYZlt{\char`\<}
+\def\PYZgt{\char`\>}
+\def\PYZsh{\char`\#}
+\def\PYZpc{\char`\%}
+\def\PYZdl{\char`\$}
+\def\PYZhy{\char`\-}
+\def\PYZsq{\char`\'}
+\def\PYZdq{\char`\"}
+\def\PYZti{\char`\~}
+% for compatibility with earlier versions
+\def\PYZat{@}
+\def\PYZlb{[}
+\def\PYZrb{]}
+\makeatother
+
+
+    % For linebreaks inside Verbatim environment from package fancyvrb. 
+    \makeatletter
+        \newbox\Wrappedcontinuationbox 
+        \newbox\Wrappedvisiblespacebox 
+        \newcommand*\Wrappedvisiblespace {\textcolor{red}{\textvisiblespace}} 
+        \newcommand*\Wrappedcontinuationsymbol {\textcolor{red}{\llap{\tiny$\m@th\hookrightarrow$}}} 
+        \newcommand*\Wrappedcontinuationindent {3ex } 
+        \newcommand*\Wrappedafterbreak {\kern\Wrappedcontinuationindent\copy\Wrappedcontinuationbox} 
+        % Take advantage of the already applied Pygments mark-up to insert 
+        % potential linebreaks for TeX processing. 
+        %        {, <, #, %, $, ' and ": go to next line. 
+        %        _, }, ^, &, >, - and ~: stay at end of broken line. 
+        % Use of \textquotesingle for straight quote. 
+        \newcommand*\Wrappedbreaksatspecials {% 
+            \def\PYGZus{\discretionary{\char`\_}{\Wrappedafterbreak}{\char`\_}}% 
+            \def\PYGZob{\discretionary{}{\Wrappedafterbreak\char`\{}{\char`\{}}% 
+            \def\PYGZcb{\discretionary{\char`\}}{\Wrappedafterbreak}{\char`\}}}% 
+            \def\PYGZca{\discretionary{\char`\^}{\Wrappedafterbreak}{\char`\^}}% 
+            \def\PYGZam{\discretionary{\char`\&}{\Wrappedafterbreak}{\char`\&}}% 
+            \def\PYGZlt{\discretionary{}{\Wrappedafterbreak\char`\<}{\char`\<}}% 
+            \def\PYGZgt{\discretionary{\char`\>}{\Wrappedafterbreak}{\char`\>}}% 
+            \def\PYGZsh{\discretionary{}{\Wrappedafterbreak\char`\#}{\char`\#}}% 
+            \def\PYGZpc{\discretionary{}{\Wrappedafterbreak\char`\%}{\char`\%}}% 
+            \def\PYGZdl{\discretionary{}{\Wrappedafterbreak\char`\$}{\char`\$}}% 
+            \def\PYGZhy{\discretionary{\char`\-}{\Wrappedafterbreak}{\char`\-}}% 
+            \def\PYGZsq{\discretionary{}{\Wrappedafterbreak\textquotesingle}{\textquotesingle}}% 
+            \def\PYGZdq{\discretionary{}{\Wrappedafterbreak\char`\"}{\char`\"}}% 
+            \def\PYGZti{\discretionary{\char`\~}{\Wrappedafterbreak}{\char`\~}}% 
+        } 
+        % Some characters . , ; ? ! / are not pygmentized. 
+        % This macro makes them "active" and they will insert potential linebreaks 
+        \newcommand*\Wrappedbreaksatpunct {% 
+            \lccode`\~`\.\lowercase{\def~}{\discretionary{\hbox{\char`\.}}{\Wrappedafterbreak}{\hbox{\char`\.}}}% 
+            \lccode`\~`\,\lowercase{\def~}{\discretionary{\hbox{\char`\,}}{\Wrappedafterbreak}{\hbox{\char`\,}}}% 
+            \lccode`\~`\;\lowercase{\def~}{\discretionary{\hbox{\char`\;}}{\Wrappedafterbreak}{\hbox{\char`\;}}}% 
+            \lccode`\~`\:\lowercase{\def~}{\discretionary{\hbox{\char`\:}}{\Wrappedafterbreak}{\hbox{\char`\:}}}% 
+            \lccode`\~`\?\lowercase{\def~}{\discretionary{\hbox{\char`\?}}{\Wrappedafterbreak}{\hbox{\char`\?}}}% 
+            \lccode`\~`\!\lowercase{\def~}{\discretionary{\hbox{\char`\!}}{\Wrappedafterbreak}{\hbox{\char`\!}}}% 
+            \lccode`\~`\/\lowercase{\def~}{\discretionary{\hbox{\char`\/}}{\Wrappedafterbreak}{\hbox{\char`\/}}}% 
+            \catcode`\.\active
+            \catcode`\,\active 
+            \catcode`\;\active
+            \catcode`\:\active
+            \catcode`\?\active
+            \catcode`\!\active
+            \catcode`\/\active 
+            \lccode`\~`\~ 	
+        }
+    \makeatother
+
+    \let\OriginalVerbatim=\Verbatim
+    \makeatletter
+    \renewcommand{\Verbatim}[1][1]{%
+        %\parskip\z@skip
+        \sbox\Wrappedcontinuationbox {\Wrappedcontinuationsymbol}%
+        \sbox\Wrappedvisiblespacebox {\FV@SetupFont\Wrappedvisiblespace}%
+        \def\FancyVerbFormatLine ##1{\hsize\linewidth
+            \vtop{\raggedright\hyphenpenalty\z@\exhyphenpenalty\z@
+                \doublehyphendemerits\z@\finalhyphendemerits\z@
+                \strut ##1\strut}%
+        }%
+        % If the linebreak is at a space, the latter will be displayed as visible
+        % space at end of first line, and a continuation symbol starts next line.
+        % Stretch/shrink are however usually zero for typewriter font.
+        \def\FV@Space {%
+            \nobreak\hskip\z@ plus\fontdimen3\font minus\fontdimen4\font
+            \discretionary{\copy\Wrappedvisiblespacebox}{\Wrappedafterbreak}
+            {\kern\fontdimen2\font}%
+        }%
+        
+        % Allow breaks at special characters using \PYG... macros.
+        \Wrappedbreaksatspecials
+        % Breaks at punctuation characters . , ; ? ! and / need catcode=\active 	
+        \OriginalVerbatim[#1,codes*=\Wrappedbreaksatpunct]%
+    }
+    \makeatother
+
+    % Exact colors from NB
+    \definecolor{incolor}{HTML}{303F9F}
+    \definecolor{outcolor}{HTML}{D84315}
+    \definecolor{cellborder}{HTML}{CFCFCF}
+    \definecolor{cellbackground}{HTML}{F7F7F7}
+    
+    % prompt
+    \makeatletter
+    \newcommand{\boxspacing}{\kern\kvtcb@left@rule\kern\kvtcb@boxsep}
+    \makeatother
+    \newcommand{\prompt}[4]{
+        {\ttfamily\llap{{\color{#2}[#3]:\hspace{3pt}#4}}\vspace{-\baselineskip}}
+    }
+    
+
+    
+    % Prevent overflowing lines due to hard-to-break entities
+    \sloppy 
+    % Setup hyperref package
+    \hypersetup{
+      breaklinks=true,  % so long urls are correctly broken across lines
+      colorlinks=true,
+      urlcolor=urlcolor,
+      linkcolor=linkcolor,
+      citecolor=citecolor,
+      }
+    % Slightly bigger margins than the latex defaults
+    
+    \geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+    
+    
+
+\begin{document}
+    
+    \maketitle
+    
+    
+
+    
+    \hypertarget{functions}{%
+\section{Functions}\label{functions}}
+
+    \hypertarget{arguments}{%
+\subsection{Arguments}\label{arguments}}
+
+Julia functions support both positional arguments and default values:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{1}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{draw\PYZus{}face}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{n}{y}\PY{p}{,} \PY{n}{width}\PY{o}{=}\PY{l+m+mi}{3}\PY{p}{,} \PY{n}{height}\PY{o}{=}\PY{l+m+mi}{4}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{x=}\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{, y=}\PY{l+s+si}{\PYZdl{}y}\PY{l+s}{, width=}\PY{l+s+si}{\PYZdl{}width}\PY{l+s}{, height=}\PY{l+s+si}{\PYZdl{}height}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{draw\PYZus{}face}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{l+m+mi}{30}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+x=10, y=20, width=30, height=4
+    \end{Verbatim}
+
+    However, unlike in Python, positional arguments SHOULD NOT be named when
+the function is called:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{2}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{try}
+    \PY{n}{draw\PYZus{}face}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{,} \PY{n}{width}\PY{o}{=}\PY{l+m+mi}{30}\PY{p}{)}
+\PY{k}{catch} \PY{n}{ex}
+    \PY{n}{ex}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{2}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MethodError(var"\#draw\_face\#\#kw"(), ((width = 30,), draw\_face, 10, 20),
+0x00000000000074de)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Julia also supports a variable number of arguments (called ``varargs'')
+using operator slurping and splatting (e.g., \texttt{arg...}).
+
+This is the equivalent of Python's \texttt{*arg}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{3}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{copy\PYZus{}files}\PY{p}{(}\PY{n}{target\PYZus{}dir}\PY{p}{,} \PY{n}{paths}\PY{o}{...}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{target\PYZus{}dir=}\PY{l+s+si}{\PYZdl{}target\PYZus{}dir}\PY{l+s}{, paths=}\PY{l+s+si}{\PYZdl{}paths}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{copy\PYZus{}files}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{/tmp}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{a.txt}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{b.txt}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+target\_dir=/tmp, paths=("a.txt", "b.txt")
+    \end{Verbatim}
+
+    Keyword arguments are supported, after a semicolon \texttt{;}
+(\texttt{;} is not required when the function is called; however, a good
+practice is to be included):
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{4}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{copy\PYZus{}files2}\PY{p}{(}\PY{n}{paths}\PY{o}{...}\PY{p}{;} \PY{n}{confirm}\PY{o}{=}\PY{n+nb}{false}\PY{p}{,} \PY{n}{target\PYZus{}dir}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{paths=}\PY{l+s+si}{\PYZdl{}paths}\PY{l+s}{, confirm=}\PY{l+s+si}{\PYZdl{}confirm}\PY{l+s}{, }\PY{l+s+si}{\PYZdl{}target\PYZus{}dir}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{copy\PYZus{}files2}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{a.txt}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{b.txt}\PY{l+s}{\PYZdq{}}\PY{p}{;} \PY{n}{target\PYZus{}dir}\PY{o}{=}\PY{l+s}{\PYZdq{}}\PY{l+s}{/tmp}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+paths=("a.txt", "b.txt"), confirm=false, /tmp
+    \end{Verbatim}
+
+    Notes: * \texttt{target\_dir} has no default value, so it is a required
+argument. * \texttt{confimr} has a default value; it is an optiona
+argument. * The order of the keyword arguments does not matter. * The
+arguments cannot be repeated in the function calls (an error messagge is
+produced)
+
+    You can have another operator slurping and splatting in the keyword
+section.
+
+It corresponds to Python's \texttt{**kwargs}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{5}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{copy\PYZus{}files3}\PY{p}{(}\PY{n}{paths}\PY{o}{...}\PY{p}{;} \PY{n}{confirm}\PY{o}{=}\PY{n+nb}{false}\PY{p}{,} \PY{n}{target\PYZus{}dir}\PY{p}{,} \PY{n}{options}\PY{o}{...}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{paths=}\PY{l+s+si}{\PYZdl{}paths}\PY{l+s}{, confirm=}\PY{l+s+si}{\PYZdl{}confirm}\PY{l+s}{, }\PY{l+s+si}{\PYZdl{}target\PYZus{}dir}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{verbose} \PY{o}{=} \PY{n}{options}\PY{p}{[}\PY{l+s+ss}{:verbose}\PY{p}{]}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{verbose=}\PY{l+s+si}{\PYZdl{}verbose}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{provided options are }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{options}\PY{o}{...}\PY{p}{)}\PY{l+s}{)}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{copy\PYZus{}files3}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{a.txt}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{b.txt}\PY{l+s}{\PYZdq{}}\PY{p}{;} \PY{n}{target\PYZus{}dir}\PY{o}{=}\PY{l+s}{\PYZdq{}}\PY{l+s}{/tmp}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{verbose}\PY{o}{=}\PY{n+nb}{true}\PY{p}{,} \PY{n}{timeout}\PY{o}{=}\PY{l+m+mi}{60}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+paths=("a.txt", "b.txt"), confirm=false, /tmp
+verbose=true
+provided options are Pair\{Symbol, Integer\}(:verbose, true)Pair\{Symbol,
+Integer\}(:timeout, 60))
+    \end{Verbatim}
+
+    The \texttt{options} is a dictionary.
+
+The dictionary keys are \textbf{symbols}, e.g., \texttt{:verbose}.
+
+Symbols are like strings, less flexible but faster. Symbols are
+typically used as keys or identifiers.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.45}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.55}}@{}}
+\toprule
+Julia & Python (3.8+ if \texttt{/} is used) \\
+\midrule
+\endhead
+\texttt{function\ foo(a,\ b=2,\ c=3)}~~~~\texttt{...}\texttt{end}\texttt{foo(1,\ 2)\ \#\ positional\ only}
+&
+\texttt{def\ foo(a,\ b=2,\ c=3,\ /):}~~~~\texttt{...}\texttt{foo(1,\ 2)\ \#\ pos\ only\ because\ of\ /} \\
+\texttt{function\ foo(;a=1,\ b,\ c=3)}~~~~\texttt{...}\texttt{end}\texttt{foo(c=30,\ b=2)\ \#\ keyword\ only}
+&
+\texttt{def\ foo(*,\ a=1,\ b,\ c=3):}~~~~\texttt{...}\texttt{foo(c=30,\ b=2)\ \#\ kw\ only\ because\ of\ *} \\
+\texttt{function\ foo(a,\ b=2;\ c=3,\ d)}~~~~\texttt{...}\texttt{end}\texttt{foo(1;\ d=4)\ \#\ pos\ only;\ then\ keyword\ only}
+&
+\texttt{def\ foo(a,\ b=2,\ /,\ *,\ c=3,\ d):}~~~~\texttt{...}\texttt{foo(1,\ d=4)\ \#\ pos\ only\ then\ kw\ only} \\
+\texttt{function\ foo(a,\ b=2,\ c...)}~~~~\texttt{...}\texttt{end}\texttt{foo(1,\ 2,\ 3,\ 4)\ \#\ positional\ only}
+&
+\texttt{def\ foo(a,\ b=2,\ /,\ *c):}~~~~\texttt{...}\texttt{foo(1,\ 2,\ 3,\ 4)\ \#\ positional\ only} \\
+\texttt{function\ foo(a,\ b=1,\ c...;\ d=1,\ e,\ f...)}~~~~\texttt{...}\texttt{end}\texttt{foo(1,\ 2,\ 3,\ 4,\ e=5,\ x=10,\ y=20)}
+&
+\texttt{def\ foo(a,\ b=1,\ /,\ *c,\ d=1,\ e,\ **f):}~~~~\texttt{...}\texttt{foo(1,\ 2,\ 3,\ 4,\ e=5,\ x=10,\ y=20)} \\
+\bottomrule
+\end{longtable}
+
+    \hypertarget{concise-functions}{%
+\subsection{Concise Functions}\label{concise-functions}}
+
+In Julia, the following definition:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{6}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{square}\PY{p}{(}\PY{n}{x}\PY{p}{)} \PY{o}{=} \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{6}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+square (generic function with 1 method)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    is equivalent to:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{7}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{square}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+    \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{7}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+square (generic function with 1 method)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    For example, here's a shorter way to define the \texttt{estimate\_pi()}
+function in Julia:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{8}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{estimate\PYZus{}pi3}\PY{p}{(}\PY{n}{n}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{4} \PY{o}{*} \PY{n}{sum}\PY{p}{(}\PY{p}{(}\PY{n}{isodd}\PY{p}{(}\PY{n}{i}\PY{p}{)} \PY{o}{?} \PY{o}{\PYZhy{}}\PY{l+m+mi}{1} \PY{o}{:} \PY{l+m+mi}{1}\PY{p}{)}\PY{o}{/}\PY{p}{(}\PY{l+m+mi}{2}\PY{n}{i}\PY{o}{+}\PY{l+m+mi}{1}\PY{p}{)} \PY{k}{for} \PY{n}{i} \PY{k}{in} \PY{l+m+mi}{0}\PY{o}{:}\PY{n}{n}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{8}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+estimate\_pi3 (generic function with 1 method)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    To define a function on one line in Python, you need to use a
+\texttt{lambda} (but this is generally frowned upon, since the resulting
+function's name is \texttt{"\textless{}lambda\textgreater{}"}; very
+original name!):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\NormalTok{square }\OperatorTok{=} \KeywordTok{lambda}\NormalTok{ x: x}\OperatorTok{**}\DecValTok{2}
+\ControlFlowTok{assert}\NormalTok{ square.}\VariableTok{\_\_name\_\_} \OperatorTok{==} \StringTok{"\textless{}lambda\textgreater{}"}
+\end{Highlighting}
+\end{Shaded}
+
+    \hypertarget{anonymous-functions}{%
+\subsection{Anonymous Functions}\label{anonymous-functions}}
+
+Just like in Python, you can define anonymous functions:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{9}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{n}{x} \PY{o}{\PYZhy{}\PYZgt{}} \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{9}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Here is the equivalent Python code:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{list}\NormalTok{(}\BuiltInTok{map}\NormalTok{(}\KeywordTok{lambda}\NormalTok{ x: x}\OperatorTok{**}\DecValTok{2}\NormalTok{, }\BuiltInTok{range}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{5}\NormalTok{)))}
+\end{Highlighting}
+\end{Shaded}
+
+Notes: * \texttt{map()} returns an array in Julia, instead of an
+iterator like in Python. * You could use a comprehension Julia as well:
+\texttt{{[}x\^{}2\ for\ x\ in\ 1:4{]}}.
+
+    \begin{longtable}[]{@{}ll@{}}
+\toprule
+Julia & Python \\
+\midrule
+\endhead
+\texttt{x\ -\textgreater{}\ x\^{}2} & \texttt{lambda\ x:\ x**2} \\
+\texttt{(x,y)\ -\textgreater{}\ x\ +\ y} &
+\texttt{lambda\ x,y:\ x\ +\ y} \\
+\texttt{()\ -\textgreater{}\ println("yes")} &
+\texttt{lambda:\ print("yes")} \\
+\bottomrule
+\end{longtable}
+
+    In Python, lambda functions must be simple expressions. They cannot
+contain multiple statements.
+
+In Julia, they can be as long as you want. Indeed, you can create a
+multi-statement block using the syntax
+\texttt{(stmt\_1;\ stmt\_2;\ ...;\ stmt\_n)}. The return value is the
+output of the last statement. For example:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{10}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{n}{x} \PY{o}{\PYZhy{}\PYZgt{}} \PY{p}{(}\PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Number }\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{\PYZdq{}}\PY{p}{)}\PY{p}{;} \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number 1
+Number 2
+Number 3
+Number 4
+    \end{Verbatim}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{10}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This syntax can span multiple lines:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{11}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{n}{x} \PY{o}{\PYZhy{}\PYZgt{}} \PY{p}{(}
+  \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Number }\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{\PYZdq{}}\PY{p}{)}\PY{p}{;}
+  \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}\PY{p}{)}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number 1
+Number 2
+Number 3
+Number 4
+    \end{Verbatim}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{11}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    But in this case, it's probably clearer to use the
+\texttt{begin\ ...\ end} syntax instead:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{12}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{n}{x} \PY{o}{\PYZhy{}\PYZgt{}} \PY{k}{begin}
+        \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Number }\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+    \PY{k}{end}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number 1
+Number 2
+Number 3
+Number 4
+    \end{Verbatim}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{12}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Notice that this syntax allows you to drop the semicolons \texttt{;} at
+the end of each line in the block.
+
+Yet another way to define an anonymous function is using the
+\texttt{function\ (args)\ ...\ end} syntax:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{13}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{k}{function} \PY{p}{(}\PY{n}{x}\PY{p}{)}
+        \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Number }\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+        \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+    \PY{k}{end}\PY{p}{,} \PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number 1
+Number 2
+Number 3
+Number 4
+    \end{Verbatim}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{13}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Lastly, if you're passing the anonymous function as the first argument
+to a function (as is the case in this example), it's usually much
+preferable to define the anonymous function immediately after the
+function call, using the \texttt{do} syntax, like this:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{14}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{map}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)} \PY{k}{do} \PY{n}{x}
+  \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Number }\PY{l+s+si}{\PYZdl{}x}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+  \PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number 1
+Number 2
+Number 3
+Number 4
+    \end{Verbatim}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{14}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This syntax lets you easily define constructs that feel like language
+extensions:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{15}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{my\PYZus{}for}\PY{p}{(}\PY{n}{func}\PY{p}{,} \PY{n}{collection}\PY{p}{)}
+    \PY{k}{for} \PY{n}{i} \PY{k}{in} \PY{n}{collection}
+        \PY{n}{func}\PY{p}{(}\PY{n}{i}\PY{p}{)}
+    \PY{k}{end}
+\PY{k}{end}
+
+\PY{n}{my\PYZus{}for}\PY{p}{(}\PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{)} \PY{k}{do} \PY{n}{i}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{The square of }\PY{l+s+si}{\PYZdl{}i}\PY{l+s}{ is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{i}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}\PY{p}{)}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+The square of 1 is 1
+The square of 2 is 4
+The square of 3 is 9
+The square of 4 is 16
+    \end{Verbatim}
+
+    In fact, Julia has a similar \texttt{foreach()} function.
+
+    The \texttt{do} syntax could be used to write a Domain Specific Language
+(DSL), for example an infrastructure automation DSL:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{16}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{spawn\PYZus{}server}\PY{p}{(}\PY{n}{startup\PYZus{}func}\PY{p}{,} \PY{n}{server\PYZus{}type}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Starting }\PY{l+s+si}{\PYZdl{}server\PYZus{}type}\PY{l+s}{ server}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{server\PYZus{}id} \PY{o}{=} \PY{l+m+mi}{1234}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Configuring server }\PY{l+s+si}{\PYZdl{}server\PYZus{}id}\PY{l+s}{...}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{startup\PYZus{}func}\PY{p}{(}\PY{n}{server\PYZus{}id}\PY{p}{)}
+\PY{k}{end}
+
+\PY{c}{\PYZsh{} This is the DSL part}
+\PY{n}{spawn\PYZus{}server}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{web}\PY{l+s}{\PYZdq{}}\PY{p}{)} \PY{k}{do} \PY{n}{server\PYZus{}id}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Creating HTML pages on server }\PY{l+s+si}{\PYZdl{}server\PYZus{}id}\PY{l+s}{...}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Starting web server
+Configuring server 1234{\ldots}
+Creating HTML pages on server 1234{\ldots}
+    \end{Verbatim}
+
+    It's also quite nice for event-driven code:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{17}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{handlers} \PY{o}{=} \PY{p}{[}\PY{p}{]}
+
+\PY{n}{on\PYZus{}click}\PY{p}{(}\PY{n}{handler}\PY{p}{)} \PY{o}{=} \PY{n}{push!}\PY{p}{(}\PY{n}{handlers}\PY{p}{,} \PY{n}{handler}\PY{p}{)}
+
+\PY{n}{click}\PY{p}{(}\PY{n}{event}\PY{p}{)} \PY{o}{=} \PY{n}{foreach}\PY{p}{(}\PY{n}{handler}\PY{o}{\PYZhy{}\PYZgt{}}\PY{n}{handler}\PY{p}{(}\PY{n}{event}\PY{p}{)}\PY{p}{,} \PY{n}{handlers}\PY{p}{)}
+
+\PY{n}{on\PYZus{}click}\PY{p}{(}\PY{p}{)} \PY{k}{do} \PY{n}{event}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Mouse clicked at }\PY{l+s+si}{\PYZdl{}event}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{on\PYZus{}click}\PY{p}{(}\PY{p}{)} \PY{k}{do} \PY{n}{event}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Beep.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{click}\PY{p}{(}\PY{p}{(}\PY{n}{x}\PY{o}{=}\PY{l+m+mi}{50}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{l+m+mi}{20}\PY{p}{)}\PY{p}{)}
+\PY{n}{click}\PY{p}{(}\PY{p}{(}\PY{n}{x}\PY{o}{=}\PY{l+m+mi}{120}\PY{p}{,} \PY{n}{y}\PY{o}{=}\PY{l+m+mi}{10}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Mouse clicked at (x = 50, y = 20)
+Beep.
+Mouse clicked at (x = 120, y = 10)
+Beep.
+    \end{Verbatim}
+
+    It can also be used to create context managers, for example to
+automatically close an object after it has been used, even if an
+exception is raised:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{18}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{with\PYZus{}database}\PY{p}{(}\PY{n}{func}\PY{p}{,} \PY{n}{name}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Opening connection to database }\PY{l+s+si}{\PYZdl{}name}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{db} \PY{o}{=} \PY{l+s}{\PYZdq{}}\PY{l+s}{a db object for database }\PY{l+s+si}{\PYZdl{}name}\PY{l+s}{\PYZdq{}}
+    \PY{k}{try}
+        \PY{n}{func}\PY{p}{(}\PY{n}{db}\PY{p}{)}
+    \PY{k}{finally}
+        \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Closing connection to database }\PY{l+s+si}{\PYZdl{}name}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{k}{end}
+\PY{k}{end}
+
+\PY{n}{with\PYZus{}database}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{jobs}\PY{l+s}{\PYZdq{}}\PY{p}{)} \PY{k}{do} \PY{n}{db}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{I\PYZsq{}m working with }\PY{l+s+si}{\PYZdl{}db}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{c}{\PYZsh{}error(\PYZdq{}Oops\PYZdq{}) \PYZsh{} try uncommenting this line}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Opening connection to database jobs
+I'm working with a db object for database jobs
+Closing connection to database jobs
+    \end{Verbatim}
+
+    The equivalent code in Python would look like this:
+
+    \begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Database:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name):}
+        \VariableTok{self}\NormalTok{.name }\OperatorTok{=}\NormalTok{ name}
+    \KeywordTok{def} \FunctionTok{\_\_enter\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{):}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Opening connection to database }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}\NormalTok{)}
+        \ControlFlowTok{return} \SpecialStringTok{f"a db object for database }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}
+    \KeywordTok{def} \FunctionTok{\_\_exit\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, }\BuiltInTok{type}\NormalTok{, value, traceback):}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Closing connection to database }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}\NormalTok{)}
+
+\ControlFlowTok{with}\NormalTok{ Database(}\StringTok{"jobs"}\NormalTok{) }\ImportTok{as}\NormalTok{ db:}
+    \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"I\textquotesingle{}m working with }\SpecialCharTok{\{db\}}\SpecialStringTok{"}\NormalTok{)}
+    \CommentTok{\#raise Exception("Oops") \# try uncommenting this line}
+\end{Highlighting}
+\end{Shaded}
+
+Or you could use \texttt{contextlib}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ImportTok{from}\NormalTok{ contextlib }\ImportTok{import}\NormalTok{ contextmanager}
+
+\AttributeTok{@contextmanager}
+\KeywordTok{def}\NormalTok{ database(name):}
+    \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Opening connection to database }\SpecialCharTok{\{}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}\NormalTok{)}
+\NormalTok{    db }\OperatorTok{=} \SpecialStringTok{f"a db object for database }\SpecialCharTok{\{}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}
+    \ControlFlowTok{try}\NormalTok{:}
+        \ControlFlowTok{yield}\NormalTok{ db}
+    \ControlFlowTok{finally}\NormalTok{:}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Closing connection to database }\SpecialCharTok{\{}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{"}\NormalTok{)}
+
+\ControlFlowTok{with}\NormalTok{ database(}\StringTok{"jobs"}\NormalTok{) }\ImportTok{as}\NormalTok{ db:}
+    \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"I\textquotesingle{}m working with }\SpecialCharTok{\{db\}}\SpecialStringTok{"}\NormalTok{)}
+    \CommentTok{\#raise Exception("Oops") \# try uncommenting this line}
+\end{Highlighting}
+\end{Shaded}
+
+    \hypertarget{piping}{%
+\subsection{Piping}\label{piping}}
+
+If you are used to the Object Oriented syntax
+\texttt{"a\ b\ c".upper().split()}, you may feel that writing
+\texttt{split(uppercase("a\ b\ c"))} is a bit backwards. If so, the
+piping operation \texttt{\textbar{}\textgreater{}} is for you:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{19}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+s}{\PYZdq{}}\PY{l+s}{a b c}\PY{l+s}{\PYZdq{}} \PY{o}{|\PYZgt{}} \PY{n}{uppercase} \PY{o}{|\PYZgt{}} \PY{n}{split}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{19}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+3-element Vector\{SubString\{String\}\}:
+ "A"
+ "B"
+ "C"
+\end{Verbatim}
+\end{tcolorbox}
+        
+    If you want to pass more than one argument to some of the functions, you
+can use anonymous functions:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{20}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+s}{\PYZdq{}}\PY{l+s}{a b c}\PY{l+s}{\PYZdq{}} \PY{o}{|\PYZgt{}} \PY{n}{uppercase} \PY{o}{|\PYZgt{}} \PY{n}{split} \PY{o}{|\PYZgt{}} \PY{n}{tokens}\PY{o}{\PYZhy{}\PYZgt{}}\PY{n}{join}\PY{p}{(}\PY{n}{tokens}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{, }\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{20}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+"A, B, C"
+\end{Verbatim}
+\end{tcolorbox}
+        
+    The dotted version of the pipe operator works as you might expect,
+applying the \emph{i}th function of the right array to the \emph{i}th
+value in the left array:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{21}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{p}{[}\PY{n+nb}{π}\PY{o}{/}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{hello}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{4}\PY{p}{]} \PY{o}{.|\PYZgt{}} \PY{p}{[}\PY{n}{sin}\PY{p}{,} \PY{n}{length}\PY{p}{,} \PY{n}{x}\PY{o}{\PYZhy{}\PYZgt{}}\PY{n}{x}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{21}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+3-element Vector\{Real\}:
+  1.0
+  5
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{composition}{%
+\subsection{Composition}\label{composition}}
+
+Julia also lets you compose functions like mathematicians do, using the
+composition operator ∘
+(\texttt{\textbackslash{}circ\textless{}tab\textgreater{}} in the REPL
+or Jupyter):
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{22}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{f} \PY{o}{=} \PY{n}{exp} \PY{o}{∘} \PY{n}{sin} \PY{o}{∘} \PY{n}{sqrt}
+\PY{n}{f}\PY{p}{(}\PY{l+m+mf}{2.0}\PY{p}{)} \PY{o}{==} \PY{n}{exp}\PY{p}{(}\PY{n}{sin}\PY{p}{(}\PY{n}{sqrt}\PY{p}{(}\PY{l+m+mf}{2.0}\PY{p}{)}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{22}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+true
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{methods}{%
+\section{Methods}\label{methods}}
+
+Earlier, we discussed structs, which look a lot like Python classes,
+with instance variables and constructors, but they did not contain any
+methods (just the inner constructors). In Julia, methods are defined
+separately, like regular functions:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{23}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{Person}
+    \PY{n}{name}
+    \PY{n}{age}
+\PY{k}{end}
+
+\PY{k}{function} \PY{n}{greetings}\PY{p}{(}\PY{n}{greeter}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Hi, my name is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{greeter}\PY{o}{.}\PY{n}{name}\PY{p}{)}\PY{l+s}{, I am }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{greeter}\PY{o}{.}\PY{n}{age}\PY{p}{)}\PY{l+s}{ years old.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{p} \PY{o}{=} \PY{n}{Person}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Alice}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{70}\PY{p}{)}
+\PY{n}{greetings}\PY{p}{(}\PY{n}{p}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Alice, I am 70 years old.
+    \end{Verbatim}
+
+    Since the \texttt{greetings()} method in Julia is not bound to any
+particular type, we can use it with any other type we want, as long as
+that type has a \texttt{name} and an \texttt{age} (i.e., if it quacks
+like a duck):
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{24}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{City}
+    \PY{n}{name}
+    \PY{n}{country}
+    \PY{n}{age}
+\PY{k}{end}
+
+\PY{k}{using} \PY{n}{Dates}
+\PY{n}{c} \PY{o}{=} \PY{n}{City}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Auckland}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{New Zealand}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{year}\PY{p}{(}\PY{n}{now}\PY{p}{(}\PY{p}{)}\PY{p}{)} \PY{o}{\PYZhy{}} \PY{l+m+mi}{1840}\PY{p}{)}
+
+\PY{n}{greetings}\PY{p}{(}\PY{n}{c}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Auckland, I am 181 years old.
+    \end{Verbatim}
+
+    You could code this the same way in Python if you wanted to:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Person:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, age):}
+        \VariableTok{self}\NormalTok{.name }\OperatorTok{=}\NormalTok{ name}
+        \VariableTok{self}\NormalTok{.age }\OperatorTok{=}\NormalTok{ age}
+
+\KeywordTok{class}\NormalTok{ City:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, country, age):}
+        \VariableTok{self}\NormalTok{.name }\OperatorTok{=}\NormalTok{ name}
+        \VariableTok{self}\NormalTok{.country }\OperatorTok{=}\NormalTok{ country}
+        \VariableTok{self}\NormalTok{.age }\OperatorTok{=}\NormalTok{ age}
+
+\KeywordTok{def}\NormalTok{ greetings(greeter):}
+    \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Hi there, my name is }\SpecialCharTok{\{}\NormalTok{greeter}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{, I am }\SpecialCharTok{\{}\NormalTok{greeter}\SpecialCharTok{.}\NormalTok{age}\SpecialCharTok{\}}\SpecialStringTok{ years old."}\NormalTok{)}
+
+\NormalTok{p }\OperatorTok{=}\NormalTok{ Person(}\StringTok{"Lucy"}\NormalTok{, }\DecValTok{70}\NormalTok{)}
+\NormalTok{greetings(p)}
+ 
+\ImportTok{from}\NormalTok{ datetime }\ImportTok{import}\NormalTok{ date}
+\NormalTok{c }\OperatorTok{=}\NormalTok{ City(}\StringTok{"Auckland"}\NormalTok{, }\StringTok{"New Zealand"}\NormalTok{, date.today().year }\OperatorTok{{-}} \DecValTok{1840}\NormalTok{)}
+\NormalTok{greetings(c)}
+\end{Highlighting}
+\end{Shaded}
+
+    However, many Python programmers would use inheritance in this case:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{class}\NormalTok{ Greeter:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, age):}
+        \VariableTok{self}\NormalTok{.name }\OperatorTok{=}\NormalTok{ name}
+        \VariableTok{self}\NormalTok{.age }\OperatorTok{=}\NormalTok{ age}
+    \KeywordTok{def}\NormalTok{ greetings(}\VariableTok{self}\NormalTok{):}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Hi there, my name is }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{, I am }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{age}\SpecialCharTok{\}}\SpecialStringTok{ years old."}\NormalTok{)}
+
+\KeywordTok{class}\NormalTok{ Person(Greeter):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, age):}
+        \BuiltInTok{super}\NormalTok{().}\FunctionTok{\_\_init\_\_}\NormalTok{(name, age)}
+
+\KeywordTok{class}\NormalTok{ City(Greeter):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, country, age):}
+        \BuiltInTok{super}\NormalTok{().}\FunctionTok{\_\_init\_\_}\NormalTok{(name, age)}
+        \VariableTok{self}\NormalTok{.country }\OperatorTok{=}\NormalTok{ country}
+
+\NormalTok{p }\OperatorTok{=}\NormalTok{ Person(}\StringTok{"Lucy"}\NormalTok{, }\DecValTok{70}\NormalTok{)}
+\NormalTok{p.greetings()}
+
+\ImportTok{from}\NormalTok{ datetime }\ImportTok{import}\NormalTok{ date}
+\NormalTok{c }\OperatorTok{=}\NormalTok{ City(}\StringTok{"Auckland"}\NormalTok{, }\StringTok{"New Zealand"}\NormalTok{, date.today().year }\OperatorTok{{-}} \DecValTok{1840}\NormalTok{)}
+\NormalTok{c.greetings()}
+\end{Highlighting}
+\end{Shaded}
+
+    \hypertarget{extending-a-function}{%
+\subsection{Extending a Function}\label{extending-a-function}}
+
+One nice thing about having a class hierarchy is that you can override
+methods in subclasses to get specialized behavior for each class. For
+example, in Python you could override the \texttt{greetings()} method
+like this:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Developer(Person):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, age, language):}
+        \BuiltInTok{super}\NormalTok{().}\FunctionTok{\_\_init\_\_}\NormalTok{(name, age)}
+        \VariableTok{self}\NormalTok{.language }\OperatorTok{=}\NormalTok{ language}
+    \KeywordTok{def}\NormalTok{ greetings(}\VariableTok{self}\NormalTok{):}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"Hi there, my name is }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{name}\SpecialCharTok{\}}\SpecialStringTok{, I am }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{age}\SpecialCharTok{\}}\SpecialStringTok{ years old."}\NormalTok{)}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"My favorite language is }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{language}\SpecialCharTok{\}}\SpecialStringTok{."}\NormalTok{)}
+
+\NormalTok{d }\OperatorTok{=}\NormalTok{ Developer(}\StringTok{"Amy"}\NormalTok{, }\DecValTok{40}\NormalTok{, }\StringTok{"Julia"}\NormalTok{)}
+\NormalTok{d.greetings()}
+\end{Highlighting}
+\end{Shaded}
+
+    Notice that the expression \texttt{d.greetings()} will call a different
+method if \texttt{d} is a \texttt{Person} or a \texttt{Developer}. This
+is called ``polymorphism'': the same method call behaves differently
+depending on the type of the object. The language chooses which actual
+method implementation to call, based on the type of \texttt{d}: this is
+called method ``dispatch''. More specifically, since it only depends on
+a single variable, it is called ``single dispatch''.
+
+The good news is that Julia can do single dispatch as well:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{25}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{Developer}
+    \PY{n}{name}
+    \PY{n}{age}
+    \PY{n}{language}
+\PY{k}{end}
+
+\PY{k}{function} \PY{n}{greetings}\PY{p}{(}\PY{n}{dev}\PY{o}{::}\PY{k+kt}{Developer}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Hi, my name is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{name}\PY{p}{)}\PY{l+s}{, I am }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{age}\PY{p}{)}\PY{l+s}{ years old.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{My favorite language is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{language}\PY{p}{)}\PY{l+s}{.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{d} \PY{o}{=} \PY{n}{Developer}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{Amy}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{40}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{Julia}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{n}{greetings}\PY{p}{(}\PY{n}{d}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Amy, I am 40 years old.
+My favorite language is Julia.
+    \end{Verbatim}
+
+    Notice that the \texttt{dev} argument is followed by
+\texttt{::Developer}, which means that this method will only be called
+if the argument has that type.
+
+We have \textbf{extended} the \texttt{greetings} \textbf{function}, so
+that it now has two different implementations, called \textbf{methods},
+each for different argument types: namely,
+\texttt{greetings(dev::Developer)} for arguments of type
+\texttt{Developer}, and \texttt{greetings(greeter)} for values of any
+other type.
+
+You can easily get the list of all the methods of a given function:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{26}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{methods}\PY{p}{(}\PY{n}{greetings}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{26}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\# 2 methods for generic function "greetings":
+[1] greetings(dev::Developer) in Main at In[25]:7
+[2] greetings(greeter) in Main at In[23]:6
+\end{Verbatim}
+\end{tcolorbox}
+        
+    You can also get the list of all the methods which take a particular
+type as argument:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{27}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{methodswith}\PY{p}{(}\PY{n}{Developer}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{27}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+[1] greetings(dev::Developer) in Main at In[25]:7
+\end{Verbatim}
+\end{tcolorbox}
+        
+    When you call the \texttt{greetings()} function, Julia automatically
+dispatches the call to the appropriate method, depending on the type of
+the argument. If Julia can determine at compile time what the type of
+the argument will be, then it optimizes the compiled code so that
+there's no choice to be made at runtime. This is called \textbf{static
+dispatch}, and it can significantly speed up the program. If the
+argument's type can't be determined at compile time, then Julia makes
+the choice at runtime, just like in Python: this is called
+\textbf{dynamic dispatch}.
+
+    \hypertarget{multiple-dispatch}{%
+\subsection{Multiple Dispatch}\label{multiple-dispatch}}
+
+Julia actually looks at the types of \emph{all} the positional
+arguments, not just the first one. This is called \textbf{multiple
+dispatch}. For example:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{28}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{multdisp}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{1}
+\PY{n}{multdisp}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Float64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{2}
+\PY{n}{multdisp}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Float64}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{3}
+\PY{n}{multdisp}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Float64}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Float64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{4}
+
+\PY{n}{multdisp}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{)} \PY{c}{\PYZsh{} try changing the arguments to get each possible output}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{28}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+1
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Julia always chooses the most specific method it can, so the following
+method will only be called if the first argument is neither an
+\texttt{Int64} nor a \texttt{Float64}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{29}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{multdisp}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Any}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{5}
+
+\PY{n}{multdisp}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{10}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{29}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+5
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Julia will raise an exception if there is some ambiguity as to which
+method is the most specific:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{30}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{ambiguity}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{,} \PY{n}{b}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{1}
+\PY{n}{ambiguity}\PY{p}{(}\PY{n}{a}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{2}
+
+\PY{k}{try}
+    \PY{n}{ambiguity}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{)}
+\PY{k}{catch} \PY{n}{ex}
+    \PY{n}{ex}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{30}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MethodError(ambiguity, (10, 20), 0x0000000000007508)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    To solve this problem, you can explicitely define a method for the
+ambiguous case:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{31}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{ambiguity}\PY{p}{(}\PY{n}{a}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{,} \PY{n}{b}\PY{o}{::}\PY{k+kt}{Int64}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{3}
+\PY{n}{ambiguity}\PY{p}{(}\PY{l+m+mi}{10}\PY{p}{,} \PY{l+m+mi}{20}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{31}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+3
+\end{Verbatim}
+\end{tcolorbox}
+        
+    So you can have polymorphism in Julia, just like in Python. This means
+that you can write your algorithms in a generic way, without having to
+know the exact types of the values you are manipulating, and it will
+work fine, as long as these types act in the general way you expect
+(i.e., if they ``quack like ducks''). For example:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{32}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{how\PYZus{}can\PYZus{}i\PYZus{}help}\PY{p}{(}\PY{n}{greeter}\PY{p}{)}
+    \PY{n}{greetings}\PY{p}{(}\PY{n}{greeter}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{How can I help?}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{how\PYZus{}can\PYZus{}i\PYZus{}help}\PY{p}{(}\PY{n}{p}\PY{p}{)} \PY{c}{\PYZsh{} called on a Person}
+\PY{n}{how\PYZus{}can\PYZus{}i\PYZus{}help}\PY{p}{(}\PY{n}{d}\PY{p}{)} \PY{c}{\PYZsh{} called on a Developer}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Alice, I am 70 years old.
+How can I help?
+Hi, my name is Amy, I am 40 years old.
+My favorite language is Julia.
+How can I help?
+    \end{Verbatim}
+
+    \hypertarget{calling-super}{%
+\subsection{\texorpdfstring{Calling
+\texttt{super()}?}{Calling super()?}}\label{calling-super}}
+
+You may have noticed that the \texttt{greetings(dev::Developer)} method
+could be improved, since it currently duplicates the implementation of
+the base method \texttt{greetings(greeter)}. In Python, you would get
+rid of this duplication by calling the base class's \texttt{greetings()}
+method, using \texttt{super()}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Developer(Person):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, name, age, language):}
+        \BuiltInTok{super}\NormalTok{().}\FunctionTok{\_\_init\_\_}\NormalTok{(name, age)}
+        \VariableTok{self}\NormalTok{.language }\OperatorTok{=}\NormalTok{ language}
+    \KeywordTok{def}\NormalTok{ greetings(}\VariableTok{self}\NormalTok{):}
+        \BuiltInTok{super}\NormalTok{().greetings() }\CommentTok{\# \textless{}== THIS!}
+        \BuiltInTok{print}\NormalTok{(}\SpecialStringTok{f"My favorite language is }\SpecialCharTok{\{}\VariableTok{self}\SpecialCharTok{.}\NormalTok{language}\SpecialCharTok{\}}\SpecialStringTok{."}\NormalTok{)}
+
+\NormalTok{d }\OperatorTok{=}\NormalTok{ Developer(}\StringTok{"Amy"}\NormalTok{, }\DecValTok{40}\NormalTok{, }\StringTok{"Julia"}\NormalTok{)}
+\NormalTok{d.greetings()}
+\end{Highlighting}
+\end{Shaded}
+
+In Julia, you can do something pretty similar, although you have to
+implement your own \texttt{super()} function, as it is not part of the
+language:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{33}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{super}\PY{p}{(}\PY{n}{dev}\PY{o}{::}\PY{k+kt}{Developer}\PY{p}{)} \PY{o}{=} \PY{n}{Person}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{name}\PY{p}{,} \PY{n}{dev}\PY{o}{.}\PY{n}{age}\PY{p}{)}
+
+\PY{k}{function} \PY{n}{greetings}\PY{p}{(}\PY{n}{dev}\PY{o}{::}\PY{k+kt}{Developer}\PY{p}{)}
+    \PY{n}{greetings}\PY{p}{(}\PY{n}{super}\PY{p}{(}\PY{n}{dev}\PY{p}{)}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{My favorite language is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{language}\PY{p}{)}\PY{l+s}{.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{greetings}\PY{p}{(}\PY{n}{d}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Amy, I am 40 years old.
+My favorite language is Julia.
+    \end{Verbatim}
+
+    However, this implementation creates a new \texttt{Person} instance when
+calling \texttt{super(dev)}, copying the \texttt{name} and \texttt{age}
+fields. That's okay for small objects, but it's not ideal for larger
+ones. Instead, you can explicitely call the specific method you want by
+using the \texttt{invoke()} function:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{34}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{greetings}\PY{p}{(}\PY{n}{dev}\PY{o}{::}\PY{k+kt}{Developer}\PY{p}{)}
+    \PY{n}{invoke}\PY{p}{(}\PY{n}{greetings}\PY{p}{,} \PY{k+kt}{Tuple}\PY{p}{\PYZob{}}\PY{k+kt}{Any}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{dev}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{My favorite language is }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{dev}\PY{o}{.}\PY{n}{language}\PY{p}{)}\PY{l+s}{.}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{greetings}\PY{p}{(}\PY{n}{d}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Hi, my name is Amy, I am 40 years old.
+My favorite language is Julia.
+    \end{Verbatim}
+
+    The \texttt{invoke()} function expects the following arguments: * The
+first argument is the function to call. * The second argument is the
+type of the desired method's arguments tuple:
+\texttt{Tuple\{TypeArg1,\ TypeArg2,\ etc.\}}. In this case we want to
+call the base function, which takes a single \texttt{Any} argument (the
+\texttt{Any} type is implicit when no type is specified). * Lastly, it
+takes all the arguments to be passed to the method. In this case,
+there's just one: \texttt{dev}.
+
+    As you can see, we managed to get the same advantages Object-Oriented
+programming offers, without defining classes or using inheritance. This
+takes a bit of getting used to, but you might come to prefer this style
+of generic programming. Indeed, OO programming encourage you to bundle
+data and behavior together, but this is not always a good idea. Let's
+look at one example:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Rectangle:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, height, width):}
+        \VariableTok{self}\NormalTok{.height }\OperatorTok{=}\NormalTok{ height}
+        \VariableTok{self}\NormalTok{.width }\OperatorTok{=}\NormalTok{ width}
+    \KeywordTok{def}\NormalTok{ area(}\VariableTok{self}\NormalTok{):}
+        \ControlFlowTok{return} \VariableTok{self}\NormalTok{.height }\OperatorTok{*} \VariableTok{self}\NormalTok{.width}
+
+\KeywordTok{class}\NormalTok{ Square(Rectangle):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, length):}
+        \BuiltInTok{super}\NormalTok{().}\FunctionTok{\_\_init\_\_}\NormalTok{(length, length)}
+\end{Highlighting}
+\end{Shaded}
+
+It makes sense for the \texttt{Square} class to be a subclass of the
+\texttt{Rectangle} class, since a square \textbf{is a} special type of
+rectangle. It also makes sense for the \texttt{Square} class to inherit
+from all of the \texttt{Rectangle} class's behavior, such as the
+\texttt{area()} method. However, it does not really make sense for
+rectangles and squares to have the same memory representation: a
+\texttt{Rectangle} needs two numbers (\texttt{height} and
+\texttt{width}), while a \texttt{Square} only needs one
+(\texttt{length}).
+
+It's possible to work around this issue like this:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# PYTHON}
+\KeywordTok{class}\NormalTok{ Rectangle:}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, height, width):}
+        \VariableTok{self}\NormalTok{.height }\OperatorTok{=}\NormalTok{ height}
+        \VariableTok{self}\NormalTok{.width }\OperatorTok{=}\NormalTok{ width}
+    \KeywordTok{def}\NormalTok{ area(}\VariableTok{self}\NormalTok{):}
+        \ControlFlowTok{return} \VariableTok{self}\NormalTok{.height }\OperatorTok{*} \VariableTok{self}\NormalTok{.width}
+
+\KeywordTok{class}\NormalTok{ Square(Rectangle):}
+    \KeywordTok{def} \FunctionTok{\_\_init\_\_}\NormalTok{(}\VariableTok{self}\NormalTok{, length):}
+        \VariableTok{self}\NormalTok{.length }\OperatorTok{=}\NormalTok{ length}
+    \AttributeTok{@property}
+    \KeywordTok{def}\NormalTok{ width(}\VariableTok{self}\NormalTok{):}
+        \ControlFlowTok{return} \VariableTok{self}\NormalTok{.length}
+    \AttributeTok{@property}
+    \KeywordTok{def}\NormalTok{ height(}\VariableTok{self}\NormalTok{):}
+        \ControlFlowTok{return} \VariableTok{self}\NormalTok{.length}
+\end{Highlighting}
+\end{Shaded}
+
+That's better: now, each square is only represented using a single
+number. We've inherited the behavior, but not the data.
+
+In Julia, you could code this like so:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{35}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{Rectangle}
+    \PY{n}{width}
+    \PY{n}{height}
+\PY{k}{end}
+
+\PY{n}{width}\PY{p}{(}\PY{n}{rect}\PY{o}{::}\PY{k+kt}{Rectangle}\PY{p}{)} \PY{o}{=} \PY{n}{rect}\PY{o}{.}\PY{n}{width}
+\PY{n}{height}\PY{p}{(}\PY{n}{rect}\PY{o}{::}\PY{k+kt}{Rectangle}\PY{p}{)} \PY{o}{=} \PY{n}{rect}\PY{o}{.}\PY{n}{height}
+
+\PY{n}{area}\PY{p}{(}\PY{n}{rect}\PY{p}{)} \PY{o}{=} \PY{n}{width}\PY{p}{(}\PY{n}{rect}\PY{p}{)} \PY{o}{*} \PY{n}{height}\PY{p}{(}\PY{n}{rect}\PY{p}{)}
+
+\PY{k}{struct} \PY{k+kt}{Square}
+    \PY{n}{length}
+\PY{k}{end}
+
+\PY{n}{width}\PY{p}{(}\PY{n}{sq}\PY{o}{::}\PY{k+kt}{Square}\PY{p}{)} \PY{o}{=} \PY{n}{sq}\PY{o}{.}\PY{n}{length}
+\PY{n}{height}\PY{p}{(}\PY{n}{sq}\PY{o}{::}\PY{k+kt}{Square}\PY{p}{)} \PY{o}{=} \PY{n}{sq}\PY{o}{.}\PY{n}{length}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{35}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+height (generic function with 2 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{36}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{area}\PY{p}{(}\PY{n}{Square}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{36}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+25
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Notice that the \texttt{area()} function relies on the getters
+\texttt{width()} and \texttt{height()}, rather than directly on the
+fields \texttt{width} and \texttt{height}. In this way, the argument can
+be of any type at all, as long as it has these getters.
+
+    \hypertarget{abstract-types}{%
+\subsection{Abstract Types}\label{abstract-types}}
+
+One nice thing about the class hierarchy we defined in Python is that it
+makes it clear that a square \textbf{is a} kind of rectangle. Any new
+function you define that takes a \texttt{Rectangle} as an argument will
+automatically accept a \texttt{Square} as well, but no other
+non-rectangle type. In contrast, our \texttt{area()} function currently
+accepts anything at all.
+
+In Julia, a concrete type like \texttt{Square} cannot extend another
+concrete type like \texttt{Rectangle}. However, any type can extend from
+an abstract type. Let's define some abstract types to create a type
+hierarchy for our \texttt{Square} and \texttt{Rectangle} types.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{37}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{abstract type} \PY{k+kt}{AbstractShape} \PY{k}{end}
+\PY{k}{abstract type} \PY{k+kt}{AbstractRectangle} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractShape} \PY{k}{end}  \PY{c}{\PYZsh{} \PYZlt{}: means \PYZdq{}subtype of\PYZdq{}}
+\PY{k}{abstract type} \PY{k+kt}{AbstractSquare} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractRectangle} \PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    The \texttt{\textless{}:} operator means ``subtype of''.
+
+    Now we can attach the \texttt{area()} function to the
+\texttt{AbstractRectangle} type, instead of any type at all:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{38}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{area}\PY{p}{(}\PY{n}{rect}\PY{o}{::}\PY{k+kt}{AbstractRectangle}\PY{p}{)} \PY{o}{=} \PY{n}{width}\PY{p}{(}\PY{n}{rect}\PY{p}{)} \PY{o}{*} \PY{n}{height}\PY{p}{(}\PY{n}{rect}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{38}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+area (generic function with 2 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Now we can define the concrete types, as subtypes of
+\texttt{AbstractRectangle} and \texttt{AbstractSquare}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{39}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{Rectangle\PYZus{}v2} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractRectangle}
+  \PY{n}{width}
+  \PY{n}{height}
+\PY{k}{end}
+
+\PY{n}{width}\PY{p}{(}\PY{n}{rect}\PY{o}{::}\PY{k+kt}{Rectangle\PYZus{}v2}\PY{p}{)} \PY{o}{=} \PY{n}{rect}\PY{o}{.}\PY{n}{width}
+\PY{n}{height}\PY{p}{(}\PY{n}{rect}\PY{o}{::}\PY{k+kt}{Rectangle\PYZus{}v2}\PY{p}{)} \PY{o}{=} \PY{n}{rect}\PY{o}{.}\PY{n}{height}
+
+\PY{k}{struct} \PY{k+kt}{Square\PYZus{}v2} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractSquare}
+  \PY{n}{length}
+\PY{k}{end}
+
+\PY{n}{width}\PY{p}{(}\PY{n}{sq}\PY{o}{::}\PY{k+kt}{Square\PYZus{}v2}\PY{p}{)} \PY{o}{=} \PY{n}{sq}\PY{o}{.}\PY{n}{length}
+\PY{n}{height}\PY{p}{(}\PY{n}{sq}\PY{o}{::}\PY{k+kt}{Square\PYZus{}v2}\PY{p}{)} \PY{o}{=} \PY{n}{sq}\PY{o}{.}\PY{n}{length}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{39}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+height (generic function with 4 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    In short, the Julian approach to type hierarchies looks like this:
+
+\begin{itemize}
+\tightlist
+\item
+  Create a hierarchy of abstract types to represent the concepts you
+  want to implement.
+\item
+  Write functions for these abstract types. Much of your implementation
+  can be coded at that level, manipulating abstract concepts.
+\item
+  Lastly, create concrete types, and write the methods needed to give
+  them the behavior that is expected by the generic algorithms you
+  wrote.
+\end{itemize}
+
+    This pattern is used everywhere in Julia's standard libraries. For
+example, here are the supertypes of \texttt{Float64} and \texttt{Int64}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{40}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{Base}\PY{o}{.}\PY{n}{show\PYZus{}supertypes}\PY{p}{(}\PY{k+kt}{Float64}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Float64 <: AbstractFloat <: Real <: Number <: Any
+    \end{Verbatim}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{41}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{Base}\PY{o}{.}\PY{n}{show\PYZus{}supertypes}\PY{p}{(}\PY{k+kt}{Int64}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Int64 <: Signed <: Integer <: Real <: Number <: Any
+    \end{Verbatim}
+
+    Note: Julia implicitly runs \texttt{using\ Core} and
+\texttt{using\ Base} when starting the REPL. However, the
+\texttt{show\_supertypes()} function is not exported by the
+\texttt{Base} module, thus you cannot access it by just typing
+\texttt{show\_supertypes(Float64)}. Instead, you have to specify the
+module name: \texttt{Base.show\_supertypes(Float64)}.
+
+    And here is the whole hierarchy of \texttt{Number} types:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{42}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{show\PYZus{}hierarchy}\PY{p}{(}\PY{n}{root}\PY{p}{,} \PY{n}{indent}\PY{o}{=}\PY{l+m+mi}{0}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{n}{repeat}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{ }\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{indent} \PY{o}{*} \PY{l+m+mi}{4}\PY{p}{)}\PY{p}{,} \PY{n}{root}\PY{p}{)}
+    \PY{k}{for} \PY{n}{subtype} \PY{k}{in} \PY{n}{subtypes}\PY{p}{(}\PY{n}{root}\PY{p}{)}
+        \PY{n}{show\PYZus{}hierarchy}\PY{p}{(}\PY{n}{subtype}\PY{p}{,} \PY{n}{indent} \PY{o}{+} \PY{l+m+mi}{1}\PY{p}{)}
+    \PY{k}{end}
+\PY{k}{end}
+
+\PY{n}{show\PYZus{}hierarchy}\PY{p}{(}\PY{k+kt}{Number}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+Number
+    Complex
+    Real
+        AbstractFloat
+            BigFloat
+            Float16
+            Float32
+            Float64
+        AbstractIrrational
+            Irrational
+        FixedPointNumbers.FixedPoint
+            FixedPointNumbers.Fixed
+            FixedPointNumbers.Normed
+        Integer
+            Bool
+            Signed
+                BigInt
+                Int128
+                Int16
+                Int32
+                Int64
+                Int8
+            Unsigned
+                UInt128
+                UInt16
+                UInt32
+                UInt64
+                UInt8
+        Rational
+        Ratios.SimpleRatio
+        StatsBase.PValue
+        StatsBase.TestStat
+    \end{Verbatim}
+
+    \hypertarget{iterator-interface}{%
+\subsection{Iterator Interface}\label{iterator-interface}}
+
+You will sometimes want to provide a way to iterate over your custom
+types. In Python, this requires defining the \texttt{\_\_iter\_\_()}
+method which should return an object which implements the
+\texttt{\_\_next\_\_()} method. In Julia, you must define at least two
+functions: * \texttt{iterate(::YourIteratorType)}, which must return
+either \texttt{nothing} if there are no values in the sequence, or
+\texttt{(first\_value,\ iterator\_state)}. *
+\texttt{iterate(::YourIteratorType,\ state)}, which must return either
+\texttt{nothing} if there are no more values, or
+\texttt{(next\_value,\ new\_iterator\_state)}.
+
+For example, let's create a simple iterator for the Fibonacci sequence:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{43}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{FibonacciIterator} \PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{44}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.}\PY{n}{iterate}
+
+\PY{n}{iterate}\PY{p}{(}\PY{n}{f}\PY{o}{::}\PY{k+kt}{FibonacciIterator}\PY{p}{)} \PY{o}{=} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}\PY{p}{)}
+
+\PY{k}{function} \PY{n}{iterate}\PY{p}{(}\PY{n}{f}\PY{o}{::}\PY{k+kt}{FibonacciIterator}\PY{p}{,} \PY{n}{state}\PY{p}{)}
+    \PY{n}{new\PYZus{}state} \PY{o}{=} \PY{p}{(}\PY{n}{state}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,} \PY{n}{state}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{+} \PY{n}{state}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{)}
+    \PY{p}{(}\PY{n}{new\PYZus{}state}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]}\PY{p}{,} \PY{n}{new\PYZus{}state}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{44}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+iterate (generic function with 375 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Now we can iterate over a \texttt{FibonacciIterator} instance:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{45}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{for} \PY{n}{f} \PY{k}{in} \PY{n}{FibonacciIterator}\PY{p}{(}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{n}{f}\PY{p}{)}
+    \PY{n}{f} \PY{o}{\PYZgt{}} \PY{l+m+mi}{10} \PY{o}{\PYZam{}\PYZam{}} \PY{k}{break}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+1
+1
+2
+3
+5
+8
+13
+    \end{Verbatim}
+
+    \hypertarget{indexing-interface}{%
+\subsection{Indexing Interface}\label{indexing-interface}}
+
+You can also create a type that will be indexable like an array
+(allowing syntax like \texttt{a{[}5{]}\ =\ 3}). In Python, this requires
+implementing the \texttt{\_\_getitem\_\_()} and
+\texttt{\_\_setitem\_\_()} methods. In Julia, you must implement the
+\texttt{getindex(A::YourType,\ i)},
+\texttt{setindex!(A::YourType,\ v,\ i)},
+\texttt{firstindex(A::YourType)} and \texttt{lastindex(A::YourType)}
+methods.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{46}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{MySquares} \PY{k}{end}
+
+\PY{k}{import} \PY{n}{Base}\PY{o}{.}\PY{n}{getindex}\PY{p}{,} \PY{n}{Base}\PY{o}{.}\PY{n}{firstindex}
+
+\PY{n}{getindex}\PY{p}{(}\PY{o}{::}\PY{k+kt}{MySquares}\PY{p}{,} \PY{n}{i}\PY{p}{)} \PY{o}{=} \PY{n}{i}\PY{o}{\PYZca{}}\PY{l+m+mi}{2}
+\PY{n}{firstindex}\PY{p}{(}\PY{o}{::}\PY{k+kt}{MySquares}\PY{p}{)} \PY{o}{=} \PY{l+m+mi}{0}
+
+\PY{n}{S} \PY{o}{=} \PY{n}{MySquares}\PY{p}{(}\PY{p}{)}
+\PY{n}{S}\PY{p}{[}\PY{l+m+mi}{10}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{46}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+100
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{47}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{S}\PY{p}{[}\PY{k}{begin}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{47}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+0
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{48}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{getindex}\PY{p}{(}\PY{n}{S}\PY{o}{::}\PY{k+kt}{MySquares}\PY{p}{,} \PY{n}{r}\PY{o}{::}\PY{k+kt}{UnitRange}\PY{p}{)} \PY{o}{=} \PY{p}{[}\PY{n}{S}\PY{p}{[}\PY{n}{i}\PY{p}{]} \PY{k}{for} \PY{n}{i} \PY{k}{in} \PY{n}{r}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{48}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+getindex (generic function with 342 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{49}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{S}\PY{p}{[}\PY{l+m+mi}{1}\PY{o}{:}\PY{l+m+mi}{4}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{49}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Int64\}:
+  1
+  4
+  9
+ 16
+\end{Verbatim}
+\end{tcolorbox}
+        
+    For more details on these interfaces, and to learn how to build
+full-blown array types with broadcasting and more, check out
+\href{https://docs.julialang.org/en/v1/manual/interfaces/}{this page}.
+
+    \hypertarget{creating-a-number-type}{%
+\subsection{Creating a Number Type}\label{creating-a-number-type}}
+
+Let's create a \texttt{MyRational} struct and try to make it mimic the
+built-in \texttt{Rational} type:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{50}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{MyRational} \PY{o}{\PYZlt{}:} \PY{k+kt}{Real}
+    \PY{n}{num} \PY{c}{\PYZsh{} numerator}
+    \PY{n}{den} \PY{c}{\PYZsh{} denominator}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{51}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{MyRational}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{51}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational(2, 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    It would be more convenient and readable if we could type
+\texttt{2\ ⨸\ 3} to create a \texttt{MyRational}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{52}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{o}{⨸}\PY{p}{(}\PY{n}{num}\PY{p}{,} \PY{n}{den}\PY{p}{)}
+    \PY{n}{MyRational}\PY{p}{(}\PY{n}{num}\PY{p}{,} \PY{n}{den}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{52}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+⨸ (generic function with 1 method)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{53}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{53}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational(2, 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    I chose \texttt{⨸} because it's a symbol that Julia's parser treats as a
+binary operator, but which is otherwise not used by Julia (see the full
+\href{https://github.com/JuliaLang/julia/blob/master/src/julia-parser.scm}{list
+of parsed symbols} and their priorities). This particular symbol will
+have the same priority as multiplication and division.
+
+    If you want to know how to type it and check that it is unused, type in
+Juia REPL \texttt{?⨸} (copy/paste the symbol).
+
+The question mark \texttt{?} switches the REPL into a help mode.
+
+    Now let's make it possible to add two \texttt{MyRational} values. We
+want it to be possible for our \texttt{MyRational} type to be used in
+existing algorithms which rely on \texttt{+}, so we must create a new
+method for the \texttt{Base.+} function:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{54}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.+}
+
+\PY{k}{function} \PY{o}{+}\PY{p}{(}\PY{n}{r1}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{,} \PY{n}{r2}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)}
+    \PY{p}{(}\PY{n}{r1}\PY{o}{.}\PY{n}{num} \PY{o}{*} \PY{n}{r2}\PY{o}{.}\PY{n}{den} \PY{o}{+} \PY{n}{r1}\PY{o}{.}\PY{n}{den} \PY{o}{*} \PY{n}{r2}\PY{o}{.}\PY{n}{num}\PY{p}{)} \PY{o}{⨸} \PY{p}{(}\PY{n}{r1}\PY{o}{.}\PY{n}{den} \PY{o}{*} \PY{n}{r2}\PY{o}{.}\PY{n}{den}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{54}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
++ (generic function with 295 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{55}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{3} \PY{o}{⨸} \PY{l+m+mi}{5}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{55}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational(19, 15)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    It's important to import \texttt{Base.+} first, or else you would just
+be defining a new \texttt{+} function in the current module
+(\texttt{Main}), which would not be called by existing algorithms.
+
+    You can easily implement \texttt{*}, \texttt{\^{}} and so on, in much
+the same way.
+
+    Let's change the way \texttt{MyRational} values are printed, to make
+them look a bit nicer. For this, we must create a new method for the
+\texttt{Base.show(io::IO,\ x)} function:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{56}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.}\PY{n}{show}
+
+\PY{k}{function} \PY{n}{show}\PY{p}{(}\PY{n}{io}\PY{o}{::}\PY{k+kt}{IO}\PY{p}{,} \PY{n}{r}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)}
+    \PY{n}{print}\PY{p}{(}\PY{n}{io}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{num}\PY{p}{)}\PY{l+s}{ ⨸ }\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{den}\PY{p}{)}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{3} \PY{o}{⨸} \PY{l+m+mi}{5}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{56}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+19 ⨸ 15
+\end{Verbatim}
+\end{tcolorbox}
+        
+    We can expand the \texttt{show()} function so it can provide an HTML
+representation for \texttt{MyRational} values. This will be called by
+the \texttt{display()} function in Jupyter or Colab:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{57}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{show}\PY{p}{(}\PY{n}{io}\PY{o}{::}\PY{k+kt}{IO}\PY{p}{,} \PY{o}{::}\PY{k+kt}{MIME}\PY{l+s}{\PYZdq{}}\PY{l+s}{text/html}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{r}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)}
+    \PY{n}{print}\PY{p}{(}\PY{n}{io}\PY{p}{,} \PY{l+s}{\PYZdq{}}\PY{l+s}{\PYZlt{}sup\PYZgt{}\PYZlt{}b\PYZgt{}}\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{num}\PY{p}{)}\PY{l+s}{\PYZlt{}/b\PYZgt{}\PYZlt{}/sup\PYZgt{}\PYZam{}frasl;\PYZlt{}sub\PYZgt{}\PYZlt{}b\PYZgt{}}\PY{l+s+si}{\PYZdl{}}\PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{den}\PY{p}{)}\PY{l+s}{\PYZlt{}/b\PYZgt{}\PYZlt{}/sub\PYZgt{}}\PY{l+s}{\PYZdq{}}\PY{p}{)}
+\PY{k}{end}
+
+\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mi}{3} \PY{o}{⨸} \PY{l+m+mi}{5}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{57}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+19 ⨸ 15
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Next, we want to be able to perform any operation involving
+\texttt{MyRational} values and values of other \texttt{Number} types.
+For example, we may want to multiply integers and \texttt{MyRational}
+values. One option is to define a new method like this:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{58}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.*}
+
+\PY{k}{function} \PY{o}{*}\PY{p}{(}\PY{n}{r}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{,} \PY{n}{i}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{)}
+    \PY{p}{(}\PY{n}{r}\PY{o}{.}\PY{n}{num} \PY{o}{*} \PY{n}{i}\PY{p}{)} \PY{o}{⨸} \PY{n}{r}\PY{o}{.}\PY{n}{den}
+\PY{k}{end}
+
+\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3} \PY{o}{*} \PY{l+m+mi}{5}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{58}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+10 ⨸ 3
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Since multiplication is commutative, we need the reverse method as well:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{59}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{o}{*}\PY{p}{(}\PY{n}{i}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{,} \PY{n}{r}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)}
+    \PY{n}{r} \PY{o}{*} \PY{n}{i} \PY{c}{\PYZsh{} this will call the previous method}
+\PY{k}{end}
+
+\PY{l+m+mi}{5} \PY{o}{*} \PY{p}{(}\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3}\PY{p}{)} \PY{c}{\PYZsh{} we need the parentheses since * and ⨸ have the same priority}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{59}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+10 ⨸ 3
+\end{Verbatim}
+\end{tcolorbox}
+        
+    It's cumbersome to have to define these methods for every operation.
+There's a better way, which we will explore in the next two sections.
+
+    \hypertarget{conversion}{%
+\subsection{Conversion}\label{conversion}}
+
+It is possible to provide a way for integers to be automatically
+converted to \texttt{MyRational} values:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{60}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.}\PY{n}{convert}
+
+\PY{n}{MyRational}\PY{p}{(}\PY{n}{x}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{)} \PY{o}{=} \PY{n}{MyRational}\PY{p}{(}\PY{n}{x}\PY{p}{,} \PY{l+m+mi}{1}\PY{p}{)}
+
+\PY{n}{convert}\PY{p}{(}\PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{MyRational}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{x}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{)} \PY{o}{=} \PY{n}{MyRational}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+
+\PY{n}{convert}\PY{p}{(}\PY{n}{MyRational}\PY{p}{,} \PY{l+m+mi}{42}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{60}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+42 ⨸ 1
+\end{Verbatim}
+\end{tcolorbox}
+        
+    The \texttt{Type\{MyRational\}} type is a special type which has a
+single instance: the \texttt{MyRational} type itself. So this
+\texttt{convert()} method only accepts \texttt{MyRational} itself as its
+first argument (and we don't actually use the first argument, so we
+don't even need to give it a name in the function declaration).
+
+    Now integers will be automatically converted to \texttt{MyRational}
+values when you assign them to an array whose element type if
+\texttt{MyRational}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{61}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{a} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3}\PY{p}{]} \PY{c}{\PYZsh{} the element type is MyRational}
+\PY{n}{a}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{=} \PY{l+m+mi}{5}    \PY{c}{\PYZsh{} convert(MyRational, 5) is called automatically}
+\PY{n}{push!}\PY{p}{(}\PY{n}{a}\PY{p}{,} \PY{l+m+mi}{6}\PY{p}{)} \PY{c}{\PYZsh{} convert(MyRational, 6) is called automatically}
+\PY{n}{println}\PY{p}{(}\PY{n}{a}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+MyRational[5 ⨸ 1, 6 ⨸ 1]
+    \end{Verbatim}
+
+    Conversion will also occur automatically in these cases: *
+\texttt{r::MyRational\ =\ 42}: assigning an integer to \texttt{r} where
+\texttt{r} is a local variable with a declared type of
+\texttt{MyRational}. * \texttt{s.b\ =\ 42} if \texttt{s} is a struct and
+\texttt{b} is a field of type \texttt{MyRational} (also when calling
+\texttt{new(42)} on that struct, assuming \texttt{b} is the first
+field). * \texttt{return\ 42} if the return type is declared as
+\texttt{MyRational} (e.g.,
+\texttt{function\ f(x)::MyRational\ ...\ end}).
+
+    However, there is no automatic conversion when calling functions:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{62}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{for\PYZus{}my\PYZus{}rationals\PYZus{}only}\PY{p}{(}\PY{n}{x}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{l+s}{\PYZdq{}}\PY{l+s}{It works:}\PY{l+s}{\PYZdq{}}\PY{p}{,} \PY{n}{x}\PY{p}{)}
+\PY{k}{end}
+
+\PY{k}{try}
+    \PY{n}{for\PYZus{}my\PYZus{}rationals\PYZus{}only}\PY{p}{(}\PY{l+m+mi}{42}\PY{p}{)}
+\PY{k}{catch} \PY{n}{ex}
+    \PY{n}{ex}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{62}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MethodError(for\_my\_rationals\_only, (42,), 0x000000000000752f)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{promotion}{%
+\subsection{Promotion}\label{promotion}}
+
+The \texttt{Base} functions \texttt{+}, \texttt{-}, \texttt{*},
+\texttt{/}, \texttt{\^{}}, etc. all use a ``promotion'' algorithm to
+convert the arguments to the appropriate type. For example, adding an
+integer and a float promotes the integer to a float before the addition
+takes place. These functions use the \texttt{promote()} function for
+this. For example, given several integers and a float, all integers get
+promoted to floats:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{63}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{promote}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mf}{4.0}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{63}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+(1.0, 2.0, 3.0, 4.0)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This is why a sum of integers and floats results in a float:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{64}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+m+mi}{1} \PY{o}{+} \PY{l+m+mi}{2} \PY{o}{+} \PY{l+m+mi}{3} \PY{o}{+} \PY{l+m+mf}{4.0}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{64}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+10.0
+\end{Verbatim}
+\end{tcolorbox}
+        
+    The \texttt{promote()} function is also called when creating an array.
+For example, the following array is a \texttt{Float64} array:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{65}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{a} \PY{o}{=} \PY{p}{[}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{,} \PY{l+m+mf}{4.0}\PY{p}{]}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{65}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+4-element Vector\{Float64\}:
+ 1.0
+ 2.0
+ 3.0
+ 4.0
+\end{Verbatim}
+\end{tcolorbox}
+        
+    What about the \texttt{MyRational} type? Rather than create new methods
+for the \texttt{promote()} function, the recommended approach is to
+create a new method for the \texttt{promote\_rule()} function. It takes
+two types and returns the type to convert to:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{66}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{promote\PYZus{}rule}\PY{p}{(}\PY{k+kt}{Float64}\PY{p}{,} \PY{k+kt}{Int64}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{66}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+Float64
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Let's implement a new method for this function, to make sure that any
+subtype of the \texttt{Integer} type will be promoted to
+\texttt{MyRational}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{67}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{import} \PY{n}{Base}\PY{o}{.}\PY{n}{promote\PYZus{}rule}
+
+\PY{n}{promote\PYZus{}rule}\PY{p}{(}\PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{MyRational}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{T}\PY{p}{\PYZcb{}}\PY{p}{)} \PY{k}{where} \PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{Integer}\PY{p}{\PYZcb{}} \PY{o}{=} \PY{n}{MyRational}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{67}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+promote\_rule (generic function with 162 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This method definition uses \textbf{parametric types}: the type
+\texttt{T} can be any type at all, as long as it is a subtype of the
+\texttt{Integer} abstract type. If you tried to define the method
+\texttt{promote\_rule(::Type\{MyRational\},\ ::Type\{Integer\})}, it
+would expect the type \texttt{Integer} itself as the second argument,
+which would not work, since the \texttt{promote\_rule()} function will
+usually be called with concrete types like \texttt{Int64} as its
+arguments.
+
+    Let's check that it works:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{68}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{promote}\PY{p}{(}\PY{l+m+mi}{5}\PY{p}{,} \PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{68}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+(5 ⨸ 1, 2 ⨸ 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Yep! Now whenever we call \texttt{+}, \texttt{-}, etc., with an integer
+and a \texttt{MyRational} value, the integer will get automatically
+promoted to a \texttt{MyRational} value:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{69}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+m+mi}{5} \PY{o}{+} \PY{l+m+mi}{2} \PY{o}{⨸} \PY{l+m+mi}{3}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{69}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+17 ⨸ 3
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Under the hood: * this called \texttt{+(5,\ 2\ ⨸\ 3)}, * which called
+the \texttt{+(::Number,\ ::Number)} method (thanks to multiple
+dispatch), * which called \texttt{promote(5,\ 2\ ⨸\ 3)}, * which called
+\texttt{promote\_rule(Int64,\ MyRational)}, * which called
+\texttt{promote\_rule(::MyRational,\ ::T)\ where\ \{T\ \textless{}:\ Integer\}},
+* which returned \texttt{MyRational}, * then the
+\texttt{+(::Number,\ ::Number)} method called
+\texttt{convert(MyRational,\ 5)}, * which called \texttt{MyRational(5)},
+* which returned \texttt{MyRational(5,\ 1)}, * and finally
+\texttt{+(::Number,\ ::Number)} called
+\texttt{+(MyRational(5,\ 1),\ MyRational(2,\ 3))}, * which returned
+\texttt{MyRational(17,\ 3)}.
+
+    The benefit of this approach is that we only need to implement the
+\texttt{+}, \texttt{-}, etc. functions for pairs of \texttt{MyRational}
+values, not with all combinations of \texttt{MyRational} values and
+integers.
+
+    If your head hurts, it's perfectly normal. ;-) Writing a new type that
+is easy to use, flexible and plays nicely with existing types takes a
+bit of planning and work, but the point is that you will not write these
+every day, and once you have, they will make your life much easier.
+
+    Now let's handle the case where we want to execute operations with
+\texttt{MyRational} values and floats. In this case, we naturally want
+to promote the \texttt{MyRational} value to a float. We first need to
+define how to convert a \texttt{MyRational} value to any subtype of
+\texttt{AbstractFloat}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{70}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{convert}\PY{p}{(}\PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{T}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{n}{x}\PY{o}{::}\PY{k+kt}{MyRational}\PY{p}{)} \PY{k}{where} \PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractFloat}\PY{p}{\PYZcb{}} \PY{o}{=} \PY{n}{T}\PY{p}{(}\PY{n}{x}\PY{o}{.}\PY{n}{num} \PY{o}{/} \PY{n}{x}\PY{o}{.}\PY{n}{den}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{70}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+convert (generic function with 496 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This \texttt{convert()} works with any type \texttt{T} which is a
+subtype of \texttt{AbstractFloat}. It just computes
+\texttt{x.num\ /\ x.den} and converts the result to type \texttt{T}.
+Let's try it:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{71}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{convert}\PY{p}{(}\PY{k+kt}{Float64}\PY{p}{,} \PY{l+m+mi}{3} \PY{o}{⨸} \PY{l+m+mi}{2}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{71}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+1.5
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Now let's define a \texttt{promote\_rule()} method which will work for
+any type \texttt{T} which is a subtype of \texttt{AbstractFloat}, and
+which will give priority to \texttt{T} over \texttt{MyRational}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{72}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{promote\PYZus{}rule}\PY{p}{(}\PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{MyRational}\PY{p}{\PYZcb{}}\PY{p}{,} \PY{o}{::}\PY{k+kt}{Type}\PY{p}{\PYZob{}}\PY{k+kt}{T}\PY{p}{\PYZcb{}}\PY{p}{)} \PY{k}{where} \PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{AbstractFloat}\PY{p}{\PYZcb{}} \PY{o}{=} \PY{n}{T}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{72}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+promote\_rule (generic function with 163 methods)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{73}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{promote}\PY{p}{(}\PY{l+m+mi}{1} \PY{o}{⨸} \PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mf}{4.0}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{73}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+(0.5, 4.0)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Now we can combine floats and \texttt{MyRational} values easily:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{74}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{l+m+mf}{2.25} \PY{o}{\PYZca{}} \PY{p}{(}\PY{l+m+mi}{1} \PY{o}{⨸} \PY{l+m+mi}{2}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{74}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+1.5
+\end{Verbatim}
+\end{tcolorbox}
+        
+    \hypertarget{parametric-types-and-functions}{%
+\subsection{Parametric Types and
+Functions}\label{parametric-types-and-functions}}
+
+    Julia's \texttt{Rational} type is actually a \textbf{parametric type}
+which ensures that the numerator and denominator have the same type
+\texttt{T}, subtype of \texttt{Integer}. Here's a new version of our
+rational struct which enforces the same constraint:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{75}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{struct} \PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{Integer}\PY{p}{\PYZcb{}}
+    \PY{n}{num}\PY{o}{::}\PY{k+kt}{T}
+    \PY{n}{den}\PY{o}{::}\PY{k+kt}{T}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+    To instantiate this type, we can specify the type \texttt{T}:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{76}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{76}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational2\{BigInt\}(2, 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Alternatively, we can use the \texttt{MyRational2} type's default
+constructor, with two integers of the same type:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{77}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{MyRational2}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{77}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational2\{Int64\}(2, 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    If we want to be able to construct a \texttt{MyRational2} with integers
+of different types, we must write an appropriate constructor which
+handles the promotion rule:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{78}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{MyRational2}\PY{p}{(}\PY{n}{num}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{,} \PY{n}{den}\PY{o}{::}\PY{k+kt}{Integer}\PY{p}{)}
+    \PY{n}{MyRational2}\PY{p}{(}\PY{n}{promote}\PY{p}{(}\PY{n}{num}\PY{p}{,} \PY{n}{den}\PY{p}{)}\PY{o}{...}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{78}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational2
+\end{Verbatim}
+\end{tcolorbox}
+        
+    This constructor accepts two integers of potentially different types,
+and promotes them to the same type. Then it calls the default
+\texttt{MyRational2} constructor which expects two arguments of the same
+type. The syntax \texttt{f(args...)} is analog to Python's
+\texttt{f(*args)}.
+
+    Let's see if this works:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{79}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{MyRational2}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{k+kt}{BigInt}\PY{p}{(}\PY{l+m+mi}{3}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{79}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+MyRational2\{BigInt\}(2, 3)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    Note that all parametrized types such as \texttt{MyRational2\{Int64\}}
+or \texttt{MyRational2\{BigInt\}} are subtypes of \texttt{MyRational2}.
+So if a function accepts a \texttt{MyRational2} argument, you can pass
+it an instance of any specific, parametrized type:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{80}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{for\PYZus{}any\PYZus{}my\PYZus{}rational2}\PY{p}{(}\PY{n}{x}\PY{o}{::}\PY{k+kt}{MyRational2}\PY{p}{)}
+    \PY{n}{println}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+\PY{k}{end}
+
+\PY{n}{for\PYZus{}any\PYZus{}my\PYZus{}rational2}\PY{p}{(}\PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}
+\PY{n}{for\PYZus{}any\PYZus{}my\PYZus{}rational2}\PY{p}{(}\PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{Int64}\PY{p}{\PYZcb{}}\PY{p}{(}\PY{l+m+mi}{1}\PY{p}{,} \PY{l+m+mi}{2}\PY{p}{)}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+MyRational2\{BigInt\}(1, 2)
+MyRational2\{Int64\}(1, 2)
+    \end{Verbatim}
+
+    A more explicit (but verbose) syntax for this function is:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{81}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{function} \PY{n}{for\PYZus{}any\PYZus{}my\PYZus{}rational2}\PY{p}{(}\PY{n}{x}\PY{o}{::}\PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{T}\PY{p}{\PYZcb{}}\PY{p}{)} \PY{k}{where} \PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{Integer}\PY{p}{\PYZcb{}}
+    \PY{n}{println}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+\PY{k}{end}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{81}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+for\_any\_my\_rational2 (generic function with 1 method)
+\end{Verbatim}
+\end{tcolorbox}
+        
+    It's useful to think of types as sets. For example, the \texttt{Int64}
+type represents the set of all 64-bit integer values, so
+\texttt{42\ isa\ Int64}: * When \texttt{x} is an instance of some type
+\texttt{T}, it is an element of the set \texttt{T} represents, and
+\texttt{x\ isa\ T}. * When \texttt{U} is a subtype of \texttt{V},
+\texttt{U} is a subset of \texttt{V}, and \texttt{U\ \textless{}:\ V}.
+
+The \texttt{MyRational2} type itself (without any parameter) represents
+the set of all values of \texttt{MyRational2\{T\}} for all subtypes
+\texttt{T} of \texttt{Integer}. In other words, it is the union of all
+the \texttt{MyRational2\{T\}} types. This is called a \texttt{UnionAll}
+type, and indeed the type \texttt{MyRational2} itself is an instance of
+the \texttt{UnionAll} type:
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{82}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n+nd}{@assert} \PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)} \PY{k}{isa} \PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}}
+\PY{n+nd}{@assert} \PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}}\PY{p}{(}\PY{l+m+mi}{2}\PY{p}{,} \PY{l+m+mi}{3}\PY{p}{)} \PY{k}{isa} \PY{n}{MyRational2}
+\PY{n+nd}{@assert} \PY{n}{MyRational2} \PY{o}{===} \PY{p}{(}\PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{T}\PY{p}{\PYZcb{}} \PY{k}{where} \PY{p}{\PYZob{}}\PY{k+kt}{T} \PY{o}{\PYZlt{}:} \PY{k+kt}{Integer}\PY{p}{\PYZcb{}}\PY{p}{)}
+\PY{n+nd}{@assert} \PY{k+kt}{MyRational2}\PY{p}{\PYZob{}}\PY{k+kt}{BigInt}\PY{p}{\PYZcb{}} \PY{o}{\PYZlt{}:} \PY{k+kt}{MyRational2}
+\PY{n+nd}{@assert} \PY{n}{MyRational2} \PY{k}{isa} \PY{k+kt}{UnionAll}
+\end{Verbatim}
+\end{tcolorbox}
+
+    If we dump the \texttt{MyRational2} type, we can see that it is a
+\texttt{UnionAll} instance, with a parameter type \texttt{T},
+constrained to a subtype of the \texttt{Integer} type (since the upper
+bound \texttt{ub} is \texttt{Integer}):
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{83}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{n}{dump}\PY{p}{(}\PY{n}{MyRational2}\PY{p}{)}
+\end{Verbatim}
+\end{tcolorbox}
+
+    \begin{Verbatim}[commandchars=\\\{\}]
+UnionAll
+  var: TypeVar
+    name: Symbol T
+    lb: Union\{\}
+    ub: Integer <: Real
+  body: MyRational2\{T<:Integer\} <: Any
+    num::T
+    den::T
+    \end{Verbatim}
+
+    \hypertarget{macros}{%
+\section{Macros}\label{macros}}
+
+    All macros start with an \texttt{@} sign: \texttt{@which},
+\texttt{@assert}, \texttt{@time}, \texttt{@benchmark}, \texttt{@btime}
+and \texttt{@doc}.
+
+Macro is a function which can fully inspect the expression that follows
+it, and apply any transformation to that code at parse time, before
+compilation.
+
+This makes it possible for anyone to effectively extend the language in
+any way they please. Whereas C/C++ macros just do simple text
+replacement, \textbf{Julia macros are powerful meta-programming tools}.
+
+On the flip side, this also means that \textbf{each macro has its own
+syntax and behavior}. And they can be dangerous and difficult to
+comprehand.
+
+Here's a simple macro that replaces \texttt{a\ +\ b} expressions with
+\texttt{a\ -\ b}, and leaves other expressions alone.
+
+    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
+\prompt{In}{incolor}{84}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+\PY{k}{macro} \PY{n}{addtosub}\PY{p}{(}\PY{n}{x}\PY{p}{)}
+  \PY{k}{if} \PY{n}{x}\PY{o}{.}\PY{n}{head} \PY{o}{==} \PY{l+s+ss}{:call} \PY{o}{\PYZam{}\PYZam{}} \PY{n}{x}\PY{o}{.}\PY{n}{args}\PY{p}{[}\PY{l+m+mi}{1}\PY{p}{]} \PY{o}{==} \PY{o}{:}\PY{o}{+} \PY{o}{\PYZam{}\PYZam{}} \PY{n}{length}\PY{p}{(}\PY{n}{x}\PY{o}{.}\PY{n}{args}\PY{p}{)} \PY{o}{==} \PY{l+m+mi}{3}
+    \PY{k+kt}{Expr}\PY{p}{(}\PY{l+s+ss}{:call}\PY{p}{,} \PY{o}{:}\PY{o}{\PYZhy{}}\PY{p}{,} \PY{n}{x}\PY{o}{.}\PY{n}{args}\PY{p}{[}\PY{l+m+mi}{2}\PY{p}{]}\PY{p}{,} \PY{n}{x}\PY{o}{.}\PY{n}{args}\PY{p}{[}\PY{l+m+mi}{3}\PY{p}{]}\PY{p}{)}
+  \PY{k}{else}
+    \PY{n}{x}
+  \PY{k}{end}
+\PY{k}{end}
+
+\PY{n+nd}{@addtosub} \PY{l+m+mi}{10} \PY{o}{+} \PY{l+m+mi}{2}
+\end{Verbatim}
+\end{tcolorbox}
+
+            \begin{tcolorbox}[breakable, size=fbox, boxrule=.5pt, pad at break*=1mm, opacityfill=0]
+\prompt{Out}{outcolor}{84}{\boxspacing}
+\begin{Verbatim}[commandchars=\\\{\}]
+8
+\end{Verbatim}
+\end{tcolorbox}
+        
+    In this macro definition, \texttt{:call}, \texttt{:+} and \texttt{:-}
+are \textbf{symbols}. These are similar to strings, only more efficient
+and less flexible. They are typically used as identifiers, such as keys
+in dictionaries.
+
+    If you're curious, the macro works because the parser converts
+\texttt{10\ +\ 2} to \texttt{Expr(:call,\ :+,\ 10,\ 2)} and passes this
+expression to the macro (before compilation). The \texttt{if} statement
+checks that the expression is a function call, where the called function
+is the \texttt{+} function, with two arguments. If so, then the macro
+returns a new expression, corresponding to a call to the \texttt{-}
+function, with the same arguments. So \texttt{a\ +\ b} becomes
+\texttt{a\ -\ b}.
+
+
+    % Add a bibliography block to the postdoc
+    
+    
+    
+\end{document}
