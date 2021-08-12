@@ -8,10 +8,16 @@ To install, in Julia REPL execute:
     import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
 
-### Contents
+The official Julia documentation is available at [https://docs.julialang.org](https://docs.julialang.org).
+
+Julia [discourse https://discourse.julialang.org](https://discourse.julialang.org) is an excellent resource for all kind of questions and insights in addition to [Stack Overflow](https://stackoverflow.com/questions/tagged/julia).
+
+## Contents
 ------------
 
-The notebooks showcase:
+The `JuliaWorkshop` module showcases how to code and perform analyses in Julia.
+
+The `JuliaWorkshop` module covers various topics which are organized into a series of Jupyter and Pluto notebooks:
 * Functions
 * Parallelization
 * GPU acceleration
