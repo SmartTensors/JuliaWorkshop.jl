@@ -5,7 +5,7 @@ A module capturing a series of notebooks and scripts presenting Julia capabiliti
 To install, execute in Julia REPL (if it does not work follow all the steps under `Julia and GIT` [below](#julia-and-git)):
 
 ``` julia
-    import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
+import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
 
 The official Julia documentation is available at [https://docs.julialang.org](https://docs.julialang.org).
@@ -55,8 +55,8 @@ The current stable version is Julia 1.6.2.
 ### Linux installation
 
 ``` bash
-    wget https://julialang-s3.julialang.org/bin/linux/x64/1.6/julia-1.6.2-linux-x86_64.tar.gz
-    tar xvzf julia-1.6.2-linux-x86_64.tar.gz
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.6/julia-1.6.2-linux-x86_64.tar.gz
+tar xvzf julia-1.6.2-linux-x86_64.tar.gz
 ```
 
 The julia executable is `julia-1.6.2/bin/julia` which will open the Julia REPL.
@@ -71,12 +71,14 @@ After downloading [the latest version of Julia](https://julialang.org/downloads/
 You can add in your PATH:
 
 ``` bash
-    export PATH="/Applications/Julia-1.6.app/Contents/Resources/julia/bin:$PATH"
+export PATH="/Applications/Julia-1.6.app/Contents/Resources/julia/bin:$PATH"
 ```
 
 Using `brew` or `mac-ports` is not recommended.
 
 ### Windows installation
+
+Download and install [the latest version of Julia](https://julialang.org/downloads/). This will give you the Julia 1.6.2 program. Opening this program will open a Julia REPL.
 
 ### Julia REPL
 
@@ -92,32 +94,50 @@ GIT needs to be installed and configured as well.
 To make Julia and GIT work behind the LANL firewall execute:
 
 ``` bash
-    export ftp_proxy=http://proxyout.lanl.gov:8080
-    export rsync_proxy=http://proxyout.lanl.gov:8080
-    export http_proxy=http://proxyout.lanl.gov:8080
-    export https_proxy=http://proxyout.lanl.gov:8080
-    export no_proxy=.lanl.gov
-    export ALL_PROXY=proxyout.lanl.gov:8080
+export ftp_proxy=http://proxyout.lanl.gov:8080
+export rsync_proxy=http://proxyout.lanl.gov:8080
+export http_proxy=http://proxyout.lanl.gov:8080
+export https_proxy=http://proxyout.lanl.gov:8080
+export no_proxy=.lanl.gov
+export ALL_PROXY=proxyout.lanl.gov:8080
 ```
 
 You can also do this in the Julia REPL:
 
 ```julia
-    ENV["ftp_proxy"] =  "http://proxyout.lanl.gov:8080"
-    ENV["rsync_proxy"] = "http://proxyout.lanl.gov:8080"
-    ENV["http_proxy"] = "http://proxyout.lanl.gov:8080"
-    ENV["https_proxy"] = "http://proxyout.lanl.gov:8080"
-    ENV["no_proxy"] = ".lanl.gov"
+ENV["ftp_proxy"] =  "http://proxyout.lanl.gov:8080"
+ENV["rsync_proxy"] = "http://proxyout.lanl.gov:8080"
+ENV["http_proxy"] = "http://proxyout.lanl.gov:8080"
+ENV["https_proxy"] = "http://proxyout.lanl.gov:8080"
+ENV["no_proxy"] = ".lanl.gov"
 ```
 
 Now you can install `JuliaWorkshop` module:
 
 ``` julia
-    import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
+import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
 
 If you get "Private key location for 'git@github.com'" julia message, to resolve it execute:
 
 ``` bash
-    ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_rsa
 ```
+
+### Jupyter Notebooks
+
+Jupyter notebooks are in-browser interactive programming environments that we will use for this workshop. The notebooks are run through IJulia. To install IJulia, open a REPL and run
+
+```julia
+import Pkg;
+Pkg.add("IJulia")
+```
+
+To open a Jupyter Notebook session in your browser, run the following in a REPL
+
+```julia
+import IJulia;
+IJulia.notebook()
+```
+
+The first time you run this, it will install `jupyter` using `conda`.
