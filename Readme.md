@@ -63,15 +63,19 @@ The current stable version is Julia 1.6.2.
 The julia executable is `julia-1.6.2/bin/julia` which will open the Julia REPL.
 You can add in your PATH `julia-1.6.2/bin` or link `julia-1.6.2/bin/julia` to your default `bin` folder in your PATH.
 
+Using `apt-get` is not recommended.
+
 ### Mac OS X installation
 
-After downloading and executing, the julia executable is `/Applications/Julia-1.6.app/Contents/Resources/julia/bin/julia`.
+After downloading [the latest version of Julia](https://julialang.org/downloads/) and installing, the julia executable is `/Applications/Julia-1.6.app/Contents/Resources/julia/bin/julia`.
 
 You can add in your PATH:
 
 ``` bash
     export PATH="/Applications/Julia-1.6.app/Contents/Resources/julia/bin:$PATH"
 ```
+
+Using `brew` or `mac-ports` is not recommended.
 
 ### Windows installation
 
