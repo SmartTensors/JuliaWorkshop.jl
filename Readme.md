@@ -2,7 +2,7 @@
 
 A module capturing a series of notebooks and scripts presenting Julia capabilities.
 
-To install, execute in Julia REPL (if it does not work follow all the steps under `Julia and GIT` [below](#Julia-and-GIT)):
+To install, execute in Julia REPL (if it does not work follow all the steps under `Julia and GIT` [below](#julia-and-git)):
 
 ``` julia
     import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
