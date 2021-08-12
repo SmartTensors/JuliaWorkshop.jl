@@ -10,7 +10,11 @@ To install, in Julia REPL execute:
 
 The official Julia documentation is available at [https://docs.julialang.org](https://docs.julialang.org).
 
-Julia [discourse https://discourse.julialang.org](https://discourse.julialang.org) is an excellent resource for all kind of questions and insights in addition to [Stack Overflow](https://stackoverflow.com/questions/tagged/julia).
+The official Julia [discourse https://discourse.julialang.org](https://discourse.julialang.org) is an excellent resource for all kind of questions and insights in addition to [Stack Overflow](https://stackoverflow.com/questions/tagged/julia).
+
+In the Julia community, it is not recommended to push pull requests, submit coding issues, or ask questions before you have checked for existing answers or insights at the [Julia discourse website](https://discourse.julialang.org).
+
+For LANL specific Julia questions, you can e-mail to the LANL mailing list [julialang.lanl.gov](mailto:julialang.lanl.gov)
 
 ## Contents
 ------------
