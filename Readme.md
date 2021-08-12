@@ -1,6 +1,12 @@
 # JuliaWorkshop
 
-A series of notebooks present Julia capabilities.
+A module capturing a series of notebooks and scripts presenting Julia capabilities.
+
+To install, in Julia REPL execute:
+
+``` julia
+    import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
+```
 
 ### Contents
 ------------
@@ -10,19 +16,21 @@ The notebooks showcase:
 * Parallelization
 * GPU acceleration
 
-Parallelization notebook can be accessed using:
+The notebooks can be executed in Jupyter or in the Julia REPL.
+
+For example, the `Parallelization` notebook can be accessed using:
 
 ``` julia
 JuliaWorkshop.notebook("Parallelization")
 ```
 
-Parallelization notebook can be executed as a Julia script using:
+The `Parallelization` notebook can also be executed as a Julia script in the Julia REPL using:
 
 ``` julia
 JuliaWorkshop.notebookscript("Parallelization")
 ```
 
-Parallelization notebook can be processed to generate html, markdown, latex, and script versions using:
+The `Parallelization` notebook can be processed to generate html, markdown, latex, and script versions using:
 
 ``` julia
 JuliaWorkshop.process_notebook("Parallelization")
