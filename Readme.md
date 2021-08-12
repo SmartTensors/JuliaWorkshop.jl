@@ -87,34 +87,7 @@ Julia REPL looks like this:
 ### Julia and GIT
 
 Julia uses GIT for package management.
-GIT needs to be installed as well.
-Add in the `.gitconfig` file in your home directory:
-
-``` git
-[url "git@github.com:"]
-    insteadOf = https://github.com/
-[url "git@gitlab.com:"]
-    insteadOf = https://gitlab.com/
-[url "https://"]
-    insteadOf = git://
-[url "http://"]
-    insteadOf = git://
-```
-
-or execute:
-
-``` bash
-    git config --global url."https://".insteadOf git://
-    git config --global url."http://".insteadOf git://
-    git config --global url."git@gitlab.com:".insteadOf https://gitlab.com/
-    git config --global url."git@github.com:".insteadOf https://github.com/
-```
-
-To resolve "Private key location for 'git@github.com'" julia message, execute:
-
-``` bash
-    ssh-add ~/.ssh/id_rsa
-```
+GIT needs to be installed and configured as well.
 
 To make Julia and GIT work behind the LANL firewall execute:
 
@@ -141,4 +114,10 @@ Now you can install `JuliaWorkshop` module:
 
 ``` julia
     import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
+```
+
+If you get "Private key location for 'git@github.com'" julia message, to resolve it execute:
+
+``` bash
+    ssh-add ~/.ssh/id_rsa
 ```
