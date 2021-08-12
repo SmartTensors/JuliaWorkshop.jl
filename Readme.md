@@ -104,16 +104,16 @@ Add in the `.gitconfig` file in your home directory:
 or execute:
 
 ``` bash
-git config --global url."https://".insteadOf git://
-git config --global url."http://".insteadOf git://
-git config --global url."git@gitlab.com:".insteadOf https://gitlab.com/
-git config --global url."git@github.com:".insteadOf https://github.com/
+    git config --global url."https://".insteadOf git://
+    git config --global url."http://".insteadOf git://
+    git config --global url."git@gitlab.com:".insteadOf https://gitlab.com/
+    git config --global url."git@github.com:".insteadOf https://github.com/
 ```
 
 To resolve "Private key location for 'git@github.com'" julia message, execute:
 
 ``` bash
-ssh-add ~/.ssh/id_rsa
+    ssh-add ~/.ssh/id_rsa
 ```
 
 To make Julia and GIT work behind the LANL firewall execute:
