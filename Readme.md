@@ -2,7 +2,7 @@
 
 A module capturing a series of notebooks and scripts presenting Julia capabilities.
 
-To install, in Julia REPL execute:
+To install, execute in Julia REPL (if it does not work follow all the steps under `Julia and GIT` [below](#Julia-and-GIT)):
 
 ``` julia
     import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
@@ -49,17 +49,6 @@ JuliaWorkshop.process_notebook("Parallelization")
 ## Getting Started
 ------------------
 
-First, if you have not already done so, add the following to ~./bash_profile in your home directory:
-
-``` bash
-    export ftp_proxy=http://proxyout.lanl.gov:8080
-    export rsync_proxy=http://proxyout.lanl.gov:8080
-    export http_proxy=http://proxyout.lanl.gov:8080
-    export https_proxy=http://proxyout.lanl.gov:8080
-    export no_proxy=.lanl.gov
-    export ALL_PROXY=proxyout.lanl.gov:8080
-```
-
 Download and install [the latest version of Julia](https://julialang.org/downloads/).
 The current stable version is Julia 1.6.2.
 
@@ -95,9 +84,10 @@ Julia REPL looks like this:
 
 ![](images/julia_REPL.png)
 
-### Julia + GIT
+### Julia and GIT
 
-Julia uses git for package management.
+Julia uses GIT for package management.
+GIT needs to be installed as well.
 Add in the `.gitconfig` file in your home directory:
 
 ``` git
@@ -124,4 +114,31 @@ To resolve "Private key location for 'git@github.com'" julia message, execute:
 
 ``` bash
 ssh-add ~/.ssh/id_rsa
+```
+
+To make Julia and GIT work behind the LANL firewall execute:
+
+``` bash
+    export ftp_proxy=http://proxyout.lanl.gov:8080
+    export rsync_proxy=http://proxyout.lanl.gov:8080
+    export http_proxy=http://proxyout.lanl.gov:8080
+    export https_proxy=http://proxyout.lanl.gov:8080
+    export no_proxy=.lanl.gov
+    export ALL_PROXY=proxyout.lanl.gov:8080
+```
+
+You can also do this in the Julia REPL:
+
+```julia
+    ENV["ftp_proxy"] =  "http://proxyout.lanl.gov:8080"
+    ENV["rsync_proxy"] = "http://proxyout.lanl.gov:8080"
+    ENV["http_proxy"] = "http://proxyout.lanl.gov:8080"
+    ENV["https_proxy"] = "http://proxyout.lanl.gov:8080"
+    ENV["no_proxy"] = ".lanl.gov"
+```
+
+Now you can install `JuliaWorkshop` module:
+
+``` julia
+    import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
