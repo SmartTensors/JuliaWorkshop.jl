@@ -92,17 +92,18 @@ GIT needs to be installed and configured as well.
 To make Julia and GIT work behind the LANL firewall execute:
 
 ``` bash
+    export ALL_PROXY=proxyout.lanl.gov:8080
     export ftp_proxy=http://proxyout.lanl.gov:8080
     export rsync_proxy=http://proxyout.lanl.gov:8080
     export http_proxy=http://proxyout.lanl.gov:8080
     export https_proxy=http://proxyout.lanl.gov:8080
     export no_proxy=.lanl.gov
-    export ALL_PROXY=proxyout.lanl.gov:8080
 ```
 
 You can also do this in the Julia REPL:
 
 ```julia
+    ENV["ALL_PROXY"] =  "http://proxyout.lanl.gov:8080"
     ENV["ftp_proxy"] =  "http://proxyout.lanl.gov:8080"
     ENV["rsync_proxy"] = "http://proxyout.lanl.gov:8080"
     ENV["http_proxy"] = "http://proxyout.lanl.gov:8080"
