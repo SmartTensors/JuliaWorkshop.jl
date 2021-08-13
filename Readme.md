@@ -20,14 +20,35 @@ For LANL specific Julia questions, you can e-mail to the LANL mailing list [juli
 ## Contents
 ------------
 
-The `JuliaWorkshop` module showcases how to code and perform analyses in Julia.
+The `JuliaWorkshop` module showcases how to code and perform machine-learning analyses in Julia.
 
 The `JuliaWorkshop` module covers various topics which are organized into a series of Jupyter and Pluto notebooks:
 * Functions
 * Parallelization
 * GPU acceleration
+* Machine Learning
 
-The notebooks can be executed in Jupyter or in the Julia REPL.
+Specifically related to Machine Learning, we will cover a series of general, frequently-solved ML tasks such as:
+* Classification
+* Regression
+* Blind source separation
+* Feature extraction
+* Anomaly Detection
+* Spatiotemporal data analytics
+* Filling datagaps
+
+We will also present a series of realworld ML examples related to:
+* Jupiter redspot
+* CO2 monitoring
+* GeoThermal exploration
+* Turbulence
+* Europe Climate
+* California Wildfires
+* Contaminant transport (i.e., water unmixing)
+
+## Notebooks
+
+The `JuliaWorkshop` notebooks can be executed in Jupyter or in the Julia REPL.
 
 For example, the `Parallelization` notebook can be accessed using:
 
@@ -41,10 +62,18 @@ The `Parallelization` notebook can also be executed as a Julia script in the Jul
 	JuliaWorkshop.notebookscript("Parallelization")
 ```
 
+The script above generates a Julia file named `Parallelization.jl` which can be executed in the Julia REPL.
+
 The `Parallelization` notebook can be processed to generate html, markdown, latex, and script versions using:
 
 ``` julia
 	JuliaWorkshop.process_notebook("Parallelization")
+```
+
+To access all the workshop notebooks, execute:
+
+``` julia
+	JuliaWorkshop.notebooks()
 ```
 
 ## Getting Started
