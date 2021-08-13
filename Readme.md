@@ -5,6 +5,7 @@ A module capturing a series of notebooks and scripts presenting Julia capabiliti
 To install, execute in Julia REPL (if it does not work follow all the steps under `Julia and GIT` [below](#julia-and-git)):
 
 ``` julia
+	ENV["PYTHON"] = ""
 	import Pkg
 	Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
@@ -108,7 +109,9 @@ Using `brew` or `mac-ports` is not recommended.
 
 ### Windows installation
 
-Download and install [the latest version of Julia](https://julialang.org/downloads/). This will give you the Julia 1.6.2 program. Opening this program will open a Julia REPL.
+Download and install [the latest version of Julia](https://julialang.org/downloads/).
+This will give you the Julia 1.6.2 program.
+Opening this program will open a Julia REPL.
 
 ### Julia REPL
 
@@ -143,10 +146,12 @@ You can also do this in the Julia REPL:
 	ENV["no_proxy"] = ".lanl.gov"
 ```
 
-Now you can install `JuliaWorkshop` module:
+Now, you can install `JuliaWorkshop` module:
 
 ``` julia
-	import Pkg; Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
+	ENV["PYTHON"] = ""
+	import Pkg
+	Pkg.add(url="https://gitlab.lanl.gov/julialang/juliaworkshop.jl", rev="master")
 ```
 
 If you get "Private key location for 'git@github.com'" julia message, to resolve it execute:
@@ -160,7 +165,7 @@ If you get "Private key location for 'git@github.com'" julia message, to resolve
 Jupyter notebooks are in-browser interactive programming environments that we will use for this workshop.
 The notebooks are run through IJulia.
 
-To access the workshop notebooks, execute:
+To access the `JuliaWorkshop` notebooks, execute:
 
 ``` julia
 	JuliaWorkshop.notebooks()
@@ -171,6 +176,7 @@ When `JuliaWorkshop` is installed it also installs IJulia.
 To install IJulia seperately, open a Julia REPL and run:
 
 ```julia
+	ENV["PYTHON"] = ""
 	import Pkg
 	Pkg.add("IJulia")
 ```
