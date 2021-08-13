@@ -23,7 +23,7 @@ For LANL specific Julia questions, you can e-mail to the LANL mailing list [juli
 The `JuliaWorkshop` module showcases how to code and perform machine-learning analyses in Julia.
 
 The `JuliaWorkshop` module covers various topics which are organized into a series of Jupyter and Pluto notebooks:
-* Functions
+* Functional programming
 * Parallelization
 * GPU acceleration
 * Machine Learning
