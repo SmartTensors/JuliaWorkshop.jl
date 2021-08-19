@@ -1,0 +1,1640 @@
+Signal A (S1) (k-means clustering)
+COLUMN: 679 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 678 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 677 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 682 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'RPL_THEME1' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 701 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'RPL_THEMES' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 703 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 702 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 704 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 681 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'SPL_THEME1' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 706 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_THEME1' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 700 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'SPL_THEMES' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 721 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_TOTAL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 648 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 816 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ALCOPEN Alcohol/Liquor Stores Open business_alcohol_exempt attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 649 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 647 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 650 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 839 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RACECASE Report cases by race/ethnicity race_cases attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 942 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'TEL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 336 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Non-Hispanic White'' | COVERAGE: '100.0%'
+COLUMN: 817 | CATEGORY: 'US Polciy Database' | VARIABLE: 'GUNOPEN Keep Firearms Sellers Open business_firearm_exempt attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 940 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'RWAT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 292 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Driving alone to work' | UNITS: '% Drive Alone (White)'' | COVERAGE: '53.2%'
+COLUMN: 852 | CATEGORY: 'US Polciy Database' | VARIABLE: 'WV_WKSR Waive work search requirement for unemployment insurance unemployment_for_care attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 853 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UIQUAR Expand eligibility of unemployment insurance to anyonewho is quarantined and/or taking care of someone who is quarantined unemployment_for_childcare attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 289 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Driving alone to work' | UNITS: '% Drive Alone'' | COVERAGE: '100.0%'
+COLUMN: 275 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'High school graduation' | UNITS: 'Graduation Rate'' | COVERAGE: '85.0%'
+COLUMN: 946 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'KIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 269 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Diabetes monitoring' | UNITS: '% Receiving HbA1c'' | COVERAGE: '98.6%'
+COLUMN: 372 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'personalOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 841 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RACEDEAT Report deaths by race/ethnicity race_deaths attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 254 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Food environment index' | UNITS: 'Food Environment Index'' | COVERAGE: '99.4%'
+COLUMN: 338 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Female'' | COVERAGE: '100.0%'
+COLUMN: 291 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Driving alone to work' | UNITS: '% Drive Alone (Hispanic)'' | COVERAGE: '41.1%'
+COLUMN: 290 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Driving alone to work' | UNITS: '% Drive Alone (Black)'' | COVERAGE: '37.5%'
+COLUMN: 115 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Number of families' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 370 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'harmUSOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 21 | CATEGORY: '2016 ELECTION' | VARIABLE: '' | UNITS: '(%)'' | COVERAGE: '100.0%'
+COLUMN: 91 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Females' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 362 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'worriedOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 368 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'devharmOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 930 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'D_biep.Black_Weapons_all' | UNITS: 'Rate'' | COVERAGE: '76.4%'
+COLUMN: 374 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'timingOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 935 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'ACCESS' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 71 | CATEGORY: '2015 Census (American Fact Finder)' | VARIABLE: 'Eligible popn' | UNITS: '(%)'' | COVERAGE: '100.0%'
+COLUMN: 119 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Owner-occupied housing' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 970 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DRATX' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 525 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Females Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 389 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'drilloffshore' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 895 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent having an ambulatory visit within 14 days of discharge to home (2015) Rate Medical cohort' | UNITS: 'Rate'' | COVERAGE: '91.4%'
+COLUMN: 888 | CATEGORY: 'Hypertension' | VARIABLE: 'Awareness, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 111 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (married w/children)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 270 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Diabetes monitoring' | UNITS: '% Receiving HbA1c (Black)'' | COVERAGE: '42.9%'
+COLUMN: 406 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'discussOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 981 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'MIG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 358 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'consensusOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 356 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'humanOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 207 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Male life expectancy' | UNITS: '(years)'' | COVERAGE: '99.5%'
+COLUMN: 256 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Access to exercise opportunities' | UNITS: '% With Access'' | COVERAGE: '99.8%'
+COLUMN: 869 | CATEGORY: 'US Polciy Database' | VARIABLE: 'MEDEXP Medicaid Expansion medicaid_expansion attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 69 | CATEGORY: '2015 Census (American Fact Finder)' | VARIABLE: 'Popn over 18 and citizen' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 882 | CATEGORY: 'Hypertension' | VARIABLE: 'Treatment, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 540 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Other pharynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 213 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Life expectancy' | UNITS: '(years)'' | COVERAGE: '99.5%'
+COLUMN: 211 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Male Obesity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 364 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'harmplantsOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 339 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Rural'' | COVERAGE: '99.8%'
+COLUMN: 271 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Diabetes monitoring' | UNITS: '% Receiving HbA1c (White)'' | COVERAGE: '42.9%'
+COLUMN: 924 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'D_biep.White_Good_all' | UNITS: 'Rate'' | COVERAGE: '98.7%'
+COLUMN: 884 | CATEGORY: 'Hypertension' | VARIABLE: 'Control, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 208 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Female life expectancy' | UNITS: '(years)'' | COVERAGE: '99.5%'
+COLUMN: 552 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Pancreatic cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 926 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'D_biep.Straight_Good_all' | UNITS: 'Rate'' | COVERAGE: '85.0%'
+COLUMN: 354 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'happeningOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 384 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'supportRPSOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 274 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Mammography screening' | UNITS: '% Mammography (White)'' | COVERAGE: '30.3%'
+COLUMN: 938 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'LAPTOP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 402 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'localofficialsOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 366 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'futuregenOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 273 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Mammography screening' | UNITS: '% Mammography (Black)'' | COVERAGE: '30.3%'
+COLUMN: 341 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'High school diploma only, 2012-2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 404 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'prienvOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 885 | CATEGORY: 'Hypertension' | VARIABLE: 'Control, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 112 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (married w/o children)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 360 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'affectweatherOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 943 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'VEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 587 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Life expectancy, 2014* Life expectancy' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 387 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'drillANWR' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 392 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'teachGWOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 272 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Mammography screening' | UNITS: '% Mammography'' | COVERAGE: '96.8%'
+COLUMN: 400 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'governorOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 276 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Some college' | UNITS: '% Some College'' | COVERAGE: '100.0%'
+COLUMN: 993 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'WRK' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 342 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Some college or associate's degree, 2012-2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 398 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'congressOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 524 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Both Sexes Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 498 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Peripheral vascular disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 889 | CATEGORY: 'Hypertension' | VARIABLE: 'Awareness, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 683 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 972 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS1' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 325 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Residential segregation - black/white' | UNITS: 'Segregation index'' | COVERAGE: '65.3%'
+COLUMN: 534 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Neoplasms' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 542 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Esophageal cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 598 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in mortality risk, 1980-2014 Mortality risk, age 65-85' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 597 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Mortality risk, 2014* Mortality risk, age 65-85' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 495 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Aortic aneurysm' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 928 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'democrat' | UNITS: 'Rate'' | COVERAGE: '73.4%'
+COLUMN: 883 | CATEGORY: 'Hypertension' | VARIABLE: 'Treatment, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 382 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'reducetaxOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 195 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Tax burden (>$100k)' | UNITS: '(%)'' | COVERAGE: '99.9%'
+COLUMN: 215 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: ' Obesity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 378 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'regulateOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 538 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Nasopharynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 329 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% < 18'' | COVERAGE: '100.0%'
+COLUMN: 550 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Gallbladder & biliary tract ' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 94 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 10-14' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 896 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent having an emergency room visit within 30 days of discharge (2015) Rate Medical cohort' | UNITS: 'Rate'' | COVERAGE: '78.5%'
+COLUMN: 560 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Non-melanoma skin cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 203 | CATEGORY: 'USDA-ERS Urban-Rural Influence' | VARIABLE: 'RUCC_2013' | UNITS: '(#)'' | COVERAGE: '99.9%'
+COLUMN: 496 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Aortic aneurysm' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 973 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS2' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 408 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'mediaweeklyOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 581 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Interstitial lung disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 379 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'CO2limits' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 210 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Female  sufficient activity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 536 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Lip & oral cavity cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 253 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Adult obesity' | UNITS: '% Obese'' | COVERAGE: '100.0%'
+COLUMN: 93 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 5-9' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 554 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Larynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 925 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'D_biep.Male_Career_all' | UNITS: 'Rate'' | COVERAGE: '82.9%'
+COLUMN: 214 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Sufficient activity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 106 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Median age (female)' | UNITS: '(years)'' | COVERAGE: '100.0%'
+COLUMN: 381 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'reducetax' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 687 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'SPL_THEME2' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 941 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'SMARTPHONE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 917 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_ub_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 894 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent seeing a primary care clinician within 14 days of discharge to home (2015) Rate Medical cohort' | UNITS: 'Rate'' | COVERAGE: '86.0%'
+COLUMN: 209 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Male sufficient activity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 914 | CATEGORY: 'Smoking Prevelance' | VARIABLE: ' daily_ub_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 899 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent having an emergency room visit within 30 days of discharge (2015) Rate Surgical cohort' | UNITS: 'Rate'' | COVERAGE: '51.6%'
+COLUMN: 905 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_ub_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 944 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'FPARC' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 908 | CATEGORY: 'Smoking Prevelance' | VARIABLE: ' daily_ub_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 375 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'fundrenewables' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 386 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'rebatesOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 911 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_ub_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 693 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 396 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'citizensOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 920 | CATEGORY: 'Smoking Prevelance' | VARIABLE: ' daily_ub_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 99 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 45-54' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 912 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_mean_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 394 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'corporationsOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 104 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Median age' | UNITS: '(years)'' | COVERAGE: '100.0%'
+COLUMN: 685 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 906 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_mean_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 548 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Liver cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 969 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DRAT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 105 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Median age (male)' | UNITS: '(years)'' | COVERAGE: '100.0%'
+COLUMN: 918 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_mean_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 915 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_mean_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 903 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_mean_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 407 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'mediaweekly' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 909 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_mean_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 913 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_lb_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 596 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in mortality risk, 1980-2014 Mortality risk, age 45-65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 657 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 697 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 92 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age under 5' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 380 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'CO2limitsOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 989 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'SCHG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 468 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 2:
+Household Composition & Disability' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 255 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Physical inactivity' | UNITS: '% Physically Inactive'' | COVERAGE: '100.0%'
+COLUMN: 471 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 5: Epidemiological Factors' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 907 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_lb_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 929 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'republican' | UNITS: 'Rate'' | COVERAGE: '73.4%'
+COLUMN: 521 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Males Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 910 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_lb_male' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 472 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 6: Healthcare System Factors' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 509 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Males Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 500 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Endocarditis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 385 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'rebates' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 527 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Males Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 583 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Other chronic respiratory ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 904 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_lb_all' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 470 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 4: 
+Housing Type & Transportation' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 919 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'daily_lb_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 359 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'affectweather' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 916 | CATEGORY: 'Smoking Prevelance' | VARIABLE: 'total_lb_female' | UNITS: 'Rate'' | COVERAGE: '97.4%'
+COLUMN: 556 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Tracheal, bronchus, & lung ' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 594 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in mortality risk, 1980-2014 Mortality risk, age 25-45' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 488 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Hemorrhagic stroke' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 257 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Excessive drinking' | UNITS: '% Excessive Drinking'' | COVERAGE: '100.0%'
+COLUMN: 939 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'RMSP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 952 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'R65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 592 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in mortality risk, 1980-2014 Mortality risk, age 5-25' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 363 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'harmplants' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 750 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Physician reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 577 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Other pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 737 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Average percent of female Medicare enrollees age 67-69 having at least one mammogram over a two-year period (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '97.5%'
+COLUMN: 376 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'fundrenewablesOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 590 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in mortality risk, 1980-2014 Mortality risk, age 0-5' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 307 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Diabetes prevalence' | UNITS: '% Diabetic'' | COVERAGE: '100.0%'
+COLUMN: 893 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent readmitted within 30 days of discharge (2015) Rate Medical cohort' | UNITS: 'Rate'' | COVERAGE: '69.4%'
+COLUMN: 348 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Civilian_labor_force_2016' | UNITS: '#'' | COVERAGE: '100.0%'
+COLUMN: 544 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Stomach cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 403 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'prienv' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 897 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent readmitted within 30 days of discharge (2015) Rate Surgical cohort' | UNITS: 'Rate'' | COVERAGE: '38.7%'
+COLUMN: 391 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'teachGW' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 365 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'futuregen' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 377 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'regulate' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 873 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RISKCOV Percent at risk for serious illness due to COVID at_risk quantity percent' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 516 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Females Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 100 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 55-64' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 349 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Employed_2016' | UNITS: '#'' | COVERAGE: '100.0%'
+COLUMN: 880 | CATEGORY: 'Hypertension' | VARIABLE: 'Self-reported, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 517 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Both Sexes Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 559 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Non-melanoma skin cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 522 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Females Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 951 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'R60' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 955 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'GASP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 98 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 35-44' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 936 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'BDSP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 287 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Air pollution - particulate matter' | UNITS: 'Average Daily PM2.5'' | COVERAGE: '98.9%'
+COLUMN: 659 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 510 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Females Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 991 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'WKHP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 621 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 651 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 588 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: '% Change in Life Expectancy, 1980-2014 Life expectancy' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 609 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Interpersonal violence' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 994 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DIS' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 279 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children in poverty' | UNITS: '% Children in Poverty (Black)'' | COVERAGE: '46.3%'
+COLUMN: 477 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Cardiovascular diseases' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 992 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'SSP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 855 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UICLDCR Expand eligibility of unemployment insurance to those who have lost childcare/school closures unemployment_extension attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 303 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Infant mortality' | UNITS: 'Infant Mortality Rate (Hispanic)'' | COVERAGE: '7.3%'
+COLUMN: 523 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Both Sexes Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 898 | CATEGORY: 'Medicare post Dischareg Events' | VARIABLE: 'Percent seeing a primary care clinician within 14 days of discharge to home (2015) Rate Surgical cohort' | UNITS: 'Rate'' | COVERAGE: '51.7%'
+COLUMN: 353 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'happening' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 393 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'corporations' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 304 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Infant mortality' | UNITS: 'Infant Mortality Rate (White)'' | COVERAGE: '12.9%'
+COLUMN: 388 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'drillANWROppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 478 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Cardiovascular diseases' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 108 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Average household size' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 357 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'consensus' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 367 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'devharm' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 95 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 15-19' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 565 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Chronic respiratory diseases' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 484 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Cerebrovascular disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 927 | CATEGORY: 'Implicit Bias IAT' | VARIABLE: 'D_biep.Trump_Good_all' | UNITS: 'Rate'' | COVERAGE: '72.5%'
+COLUMN: 974 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS3' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 107 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'House-holds' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 293 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Long commute - driving alone' | UNITS: '% Long Commute - Drives Alone'' | COVERAGE: '100.0%'
+COLUMN: 967 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DOUT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 977 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS6' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 980 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'JWMNP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 486 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Ischemic stroke' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 964 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DDRS' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 499 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Endocarditis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 511 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Both Sexes Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 113 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (male w/ children)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 383 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'supportRPS' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 567 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Chronic obstructive pulmonary ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 968 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DPHY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 90 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Males' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 395 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'citizens' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 810 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RELIGEX Religious Gatherings Exempt Without Clear Social Distance Mandate* religious_exemption attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 302 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Infant mortality' | UNITS: 'Infant Mortality Rate (Black)'' | COVERAGE: '11.1%'
+COLUMN: 965 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DEAR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 975 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS4' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 194 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Tax burden (50-100k)' | UNITS: '(%)'' | COVERAGE: '99.9%'
+COLUMN: 603 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Alcohol use disorders' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 950 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'NR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 405 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'discuss' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 748 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Hospital & skilled nursing facility reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.4%'
+COLUMN: 494 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Atrial fibrillation & flutter' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 564 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Chronic respiratory diseases' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 984 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'NWAV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 116 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Average family size' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 971 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DREM' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 299 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Child mortality' | UNITS: 'Child Mortality Rate (Hispanic)'' | COVERAGE: '11.4%'
+COLUMN: 280 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children in poverty' | UNITS: '% Children in Poverty (Hispanic)'' | COVERAGE: '67.1%'
+COLUMN: 317 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Health care costs' | UNITS: 'Costs'' | COVERAGE: '99.8%'
+COLUMN: 515 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Males Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 988 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'SCH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 355 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'human' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 397 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'congress' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 101 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 65-74' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 566 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Chronic obstructive pulmonary ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 481 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Ischemic heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 251 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Low birthweight' | UNITS: '% LBW (White)'' | COVERAGE: '57.5%'
+COLUMN: 390 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'drilloffshoreOppose' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 440 | CATEGORY: 'Flyover education' | VARIABLE: 'Bachelor's degree (25+)' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 483 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Cerebrovascular disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 655 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 582 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Other chronic respiratory ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 252 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Adult smoking' | UNITS: '% Smokers'' | COVERAGE: '100.0%'
+COLUMN: 298 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Child mortality' | UNITS: 'Child Mortality Rate (Black)'' | COVERAGE: '15.8%'
+COLUMN: 573 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Asbestosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 369 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'harmUS' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 361 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'worried' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 330 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% 65 and over'' | COVERAGE: '100.0%'
+COLUMN: 485 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Ischemic stroke' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 482 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Ischemic heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 97 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 25-34' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 250 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Low birthweight' | UNITS: '% LBW (Hispanic)'' | COVERAGE: '44.3%'
+COLUMN: 178 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Salaries-wages' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 479 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Rheumatic heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 249 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Low birthweight' | UNITS: '% LBW (Black)'' | COVERAGE: '44.2%'
+COLUMN: 172 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Adjusted gross income' | UNITS: '($M)'' | COVERAGE: '100.0%'
+COLUMN: 103 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 85-up' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 137 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Social Security' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 576 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Other pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 844 | CATEGORY: 'US Polciy Database' | VARIABLE: 'NOCOPAY Does not charge copays for incarcerated individuals no_copays attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 187 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Income inequality (25k:200k)' | UNITS: '(ratio)'' | COVERAGE: '86.0%'
+COLUMN: 320 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Median household income' | UNITS: 'Household Income'' | COVERAGE: '100.0%'
+COLUMN: 347 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Median household income' | UNITS: '#'' | COVERAGE: '100.0%'
+COLUMN: 492 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Cardiomyopathy & myocarditis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 607 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Self-harm' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 281 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children in poverty' | UNITS: '% Children in Poverty (White)'' | COVERAGE: '75.6%'
+COLUMN: 529 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Both Sexes Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 948 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'NOC' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 352 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Med_HH_Income_Percent_of_State_Total_2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 949 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'NPF' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 442 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'All Religion' | UNITS: 'per 1,000'' | COVERAGE: '99.9%'
+COLUMN: 286 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Injury deaths' | UNITS: 'Injury Death Rate'' | COVERAGE: '96.5%'
+COLUMN: 102 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 75-84' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 945 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'GRPIP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 323 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Median household income' | UNITS: 'Household income (White)'' | COVERAGE: '87.8%'
+COLUMN: 343 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Bachelor's degree or higher, 2012-2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 438 | CATEGORY: 'Flyover education' | VARIABLE: 'Education attaint' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 979 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'INTP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 311 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Drug overdose deaths' | UNITS: 'Drug Overdose Mortality Rate'' | COVERAGE: '52.7%'
+COLUMN: 350 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Unemployed_2016' | UNITS: '#'' | COVERAGE: '100.0%'
+COLUMN: 268 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Preventable hospital stays' | UNITS: 'Preventable Hosp. Rate'' | COVERAGE: '96.1%'
+COLUMN: 580 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Interstitial lung disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 316 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Uninsured children' | UNITS: '% Uninsured'' | COVERAGE: '100.0%'
+COLUMN: 322 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Median household income' | UNITS: 'Household income (Hispanic)'' | COVERAGE: '78.2%'
+COLUMN: 501 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Other cardiovascular' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 284 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Social associations' | UNITS: 'Association Rate'' | COVERAGE: '100.0%'
+COLUMN: 177 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Salaries-wages' | UNITS: '($/return)'' | COVERAGE: '99.9%'
+COLUMN: 183 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Federal filers' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 175 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Salaries-wages returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 620 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 957 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'MRGP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 959 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'FINCP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 72 | CATEGORY: '2015 Census (American Fact Finder)' | VARIABLE: 'Voter partici-pation' | UNITS: '(%)'' | COVERAGE: '100.0%'
+COLUMN: 169 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Single returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 294 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature age-adjusted mortality' | UNITS: 'Age-Adjusted Mortality (Black)'' | COVERAGE: '42.5%'
+COLUMN: 985 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'NWLA' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 167 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Total returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 141 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Medicare' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 170 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'People in returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 956 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'RNTP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 814 | CATEGORY: 'US Polciy Database' | VARIABLE: 'FMNOENF No legal enforcement of face mask mandate facemast_noenf attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 605 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Drug use disorders' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 168 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Joint returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 312 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Drug overdose deaths - modeled' | UNITS: 'Range Drug Overdose Mortality Rate'' | COVERAGE: '99.7%'
+COLUMN: 313 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Motor vehicle crash deaths' | UNITS: 'MV Mortality Rate'' | COVERAGE: '85.6%'
+COLUMN: 502 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Other cardiovascular' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 987 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'PAP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 990 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'WAGP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 173 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Adjusted gross income' | UNITS: '($/return)'' | COVERAGE: '99.9%'
+COLUMN: 954 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'FULP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 176 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Salaries-wages' | UNITS: '($M)'' | COVERAGE: '100.0%'
+COLUMN: 174 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Adjusted gross income' | UNITS: '($/person)'' | COVERAGE: '99.9%'
+COLUMN: 149 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Veterans' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 295 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature age-adjusted mortality' | UNITS: 'Age-Adjusted Mortality (Hispanic)'' | COVERAGE: '25.4%'
+COLUMN: 528 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Percent Change, 1999-2012, Females Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 626 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 109 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (one male)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 454 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'United Methodist Church' | UNITS: 'per 1,000'' | COVERAGE: '95.1%'
+COLUMN: 441 | CATEGORY: 'Flyover education' | VARIABLE: 'Graduatedegree (25+)' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 117 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Number of housing units' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 327 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Firearm fatalities' | UNITS: 'Firearm Fatalities Rate'' | COVERAGE: '69.5%'
+COLUMN: 110 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (one female)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 193 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Tax burden (<$50k)' | UNITS: '(%)'' | COVERAGE: '99.9%'
+COLUMN: 444 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Main-stream Protestant' | UNITS: 'per 1,000'' | COVERAGE: '99.0%'
+COLUMN: 549 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Gallbladder & biliary tract ' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 604 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: 'Mortality Rate, 2014* Drug use disorders' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 493 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Atrial fibrillation & flutter' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 96 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Age 20-24' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 179 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'State-local returns' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 321 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Median household income' | UNITS: 'Household income (Black)'' | COVERAGE: '61.7%'
+COLUMN: 622 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 652 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_PCI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 606 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: 'Mortality Rate, 2014* Self-harm' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 216 | CATEGORY: 'CDC WONDER' | VARIABLE: 'Suicide rate' | UNITS: '(rate)'' | COVERAGE: '84.1%'
+COLUMN: 439 | CATEGORY: 'Flyover education' | VARIABLE: 'Bachelor's degree (18â€“24)' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 265 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Primary care physicians' | UNITS: 'PCP Rate'' | COVERAGE: '95.7%'
+COLUMN: 121 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Number of farms' | UNITS: '(count)'' | COVERAGE: '98.0%'
+COLUMN: 445 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Catholic' | UNITS: 'per 1,000'' | COVERAGE: '94.1%'
+COLUMN: 707 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 310 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Limited access to healthy foods' | UNITS: '% Limited Access'' | COVERAGE: '99.4%'
+COLUMN: 725 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_UNINSUR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 184 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Federal taxes' | UNITS: '($M)'' | COVERAGE: '100.0%'
+COLUMN: 451 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Presbyterian Church (U.S.A.)' | UNITS: 'per 1,000'' | COVERAGE: '75.0%'
+COLUMN: 120 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Renter-occupied housing' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 983 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'NWAB' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 868 | CATEGORY: 'US Polciy Database' | VARIABLE: 'PDSKLV Paid sick leave paid_sick_leave attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 856 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UIEXTND Extend the amount of time an individual can be on unemployment insurance abortion_limit attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 709 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 628 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 654 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 838 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RACETEST Report testing by race/ethnicity races_test attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 537 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Nasopharynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 813 | CATEGORY: 'US Polciy Database' | VARIABLE: 'FMCITE Face mask mandate enforced by criminal charge/citation facemask_cite attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 835 | CATEGORY: 'US Polciy Database' | VARIABLE: 'PREVTLHL State previously allowed audio-only telehealth audio_telehealth attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 267 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Mental health providers' | UNITS: 'MHP Rate'' | COVERAGE: '91.6%'
+COLUMN: 458 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Evangelical Lutheran Church in America' | UNITS: 'per 1,000'' | COVERAGE: '54.9%'
+COLUMN: 497 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Peripheral vascular disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 459 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Church of the Nazarene' | UNITS: 'per 1,000'' | COVERAGE: '55.6%'
+COLUMN: 186 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Federal taxes' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 772 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'native_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 461 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Christian Churches and Churches of Christ' | UNITS: 'per 1,000'' | COVERAGE: '48.0%'
+COLUMN: 660 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 457 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Lutheran Church' | UNITS: 'per 1,000'' | COVERAGE: '57.4%'
+COLUMN: 266 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Dentists' | UNITS: 'Dentist Rate'' | COVERAGE: '97.4%'
+COLUMN: 182 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'State-local taxes' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 89 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Multirace' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 181 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'State-local taxes' | UNITS: '($/return)'' | COVERAGE: '95.6%'
+COLUMN: 673 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 490 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Hypertensive heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 602 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: 'Mortality Rate, 2014* Alcohol use disorders' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 958 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'VALP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 185 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Federal taxes' | UNITS: '($/return)'' | COVERAGE: '99.9%'
+COLUMN: 139 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Retire-ment (other)' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 670 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 118 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Vacant housing' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 131 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Total' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 198 | CATEGORY: 'ATF' | VARIABLE: 'All fire busin-esses' | UNITS: '(count)'' | COVERAGE: '98.2%'
+COLUMN: 188 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Income inequality (50k:100k)' | UNITS: '(ratio)'' | COVERAGE: '98.9%'
+COLUMN: 436 | CATEGORY: 'Cities' | VARIABLE: 'Population' | UNITS: '#'' | COVERAGE: '96.9%'
+COLUMN: 318 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Other primary care providers' | UNITS: 'Other PCP Rate'' | COVERAGE: '98.9%'
+COLUMN: 976 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS5' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 747 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Hospital & skilled nursing facility reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.4%'
+COLUMN: 433 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'ARSON' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 197 | CATEGORY: 'ATF' | VARIABLE: 'Gun shops' | UNITS: '(count)'' | COVERAGE: '97.9%'
+COLUMN: 412 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Marriage Rate (2010)' | UNITS: 'per 1,000'' | COVERAGE: '99.5%'
+COLUMN: 448 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Church of Christ' | UNITS: 'per 1,000'' | COVERAGE: '77.2%'
+COLUMN: 189 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'AGI inequality (25k:200k)' | UNITS: '(ratio)'' | COVERAGE: '89.8%'
+COLUMN: 667 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 446 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Assemblies of God' | UNITS: 'per 1,000'' | COVERAGE: '81.3%'
+COLUMN: 180 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'State-local taxes' | UNITS: '($M)'' | COVERAGE: '100.0%'
+COLUMN: 668 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 452 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Church of Jesus Christ of Latter-day Saints' | UNITS: 'per 1,000'' | COVERAGE: '59.6%'
+COLUMN: 243 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature death' | UNITS: 'Years of Potential Life Lost Rate (Hispanic)'' | COVERAGE: '26.3%'
+COLUMN: 450 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Non-denomin-ational' | UNITS: 'per 1,000'' | COVERAGE: '84.7%'
+COLUMN: 456 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Seventh-day Adventist Church' | UNITS: 'per 1,000'' | COVERAGE: '57.9%'
+COLUMN: 190 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'AGI inequality (50k:100k)' | UNITS: '(ratio)'' | COVERAGE: '99.1%'
+COLUMN: 455 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Other' | UNITS: 'per 1,000'' | COVERAGE: '86.6%'
+COLUMN: 151 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Comm-unity' | UNITS: '($/person)'' | COVERAGE: '99.9%'
+COLUMN: 427 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'RAPE' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 978 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'HINS7' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 123 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Acreage of crops' | UNITS: '(count)'' | COVERAGE: '98.0%'
+COLUMN: 752 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Outpatient facility reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 662 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 751 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Outpatient facility reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 159 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Education' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 258 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Alcohol-impaired driving deaths' | UNITS: '# Alcohol-Impaired Driving Deaths'' | COVERAGE: '99.2%'
+COLUMN: 333 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Asian'' | COVERAGE: '100.0%'
+COLUMN: 191 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Tax inequality (25k:200k)' | UNITS: '(ratio)'' | COVERAGE: '89.8%'
+COLUMN: 192 | CATEGORY: 'IRS (2010) Tax Data' | VARIABLE: 'Tax inequality (50k:100k)' | UNITS: '(ratio)'' | COVERAGE: '99.0%'
+COLUMN: 421 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Crude Marriage Rate (2000)' | UNITS: 'per 1,000'' | COVERAGE: '98.9%'
+COLUMN: 332 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% American Indian/Alaskan Native'' | COVERAGE: '100.0%'
+COLUMN: 656 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 423 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Adjusted Marriage Rate (2000)' | UNITS: 'per 1,000'' | COVERAGE: '98.9%'
+COLUMN: 674 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 133 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Agri-culture' | UNITS: '($/person)'' | COVERAGE: '99.5%'
+COLUMN: 676 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 85 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Asian' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 84 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'AMERI_ES' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 449 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Episcopal' | UNITS: 'per 1,000'' | COVERAGE: '65.1%'
+COLUMN: 658 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 672 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 122 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Average farm size' | UNITS: '(count)'' | COVERAGE: '98.0%'
+COLUMN: 568 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 773 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'white_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 982 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'MIL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 664 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 161 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Law & Homeland Security' | UNITS: '($/person)'' | COVERAGE: '99.0%'
+COLUMN: 666 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'MP_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 411 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Divorce Rate (2010)' | UNITS: 'per 1,000'' | COVERAGE: '98.8%'
+COLUMN: 570 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Silicosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 768 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'male_juvenile_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 135 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Defense' | UNITS: '($/person)'' | COVERAGE: '92.7%'
+COLUMN: 847 | CATEGORY: 'US Polciy Database' | VARIABLE: 'YESCOPAY Did not waive copays for incarcerated individuals yes_copay attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 145 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Health (other)' | UNITS: '($/person)'' | COVERAGE: '99.9%'
+COLUMN: 740 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Discharges for ambulatory care sensitive conditions per 1,000 Medicare enrollees (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '96.1%'
+COLUMN: 415 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Crude Divorce Rate (2000)' | UNITS: 'per 1,000'' | COVERAGE: '99.1%'
+COLUMN: 157 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Federal (non-defense)' | UNITS: '($/person)'' | COVERAGE: '99.7%'
+COLUMN: 419 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Adjusted Divorce Rate (2000)' | UNITS: 'per 1,000'' | COVERAGE: '99.1%'
+COLUMN: 769 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'aapi_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 574 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Coal workers pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 757 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Durable medical equipment reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.7%'
+COLUMN: 758 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Durable medical equipment reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.7%'
+COLUMN: 795 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'native_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.3%'
+COLUMN: 735 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Average annual percent of diabetic Medicare enrollees age 65-75 having blood lipids (LDL-C) test (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '97.9%'
+COLUMN: 334 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Native Hawaiian/Other Pacific Islander'' | COVERAGE: '100.0%'
+COLUMN: 786 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'regional_jail_flag' | UNITS: 'Total Population'' | COVERAGE: '97.6%'
+COLUMN: 86 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Hawaii/PI' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 783 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_other_fed' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 792 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'aapi_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.1%'
+COLUMN: 794 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'latinx_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 797 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_adm_rate' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 789 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.3%'
+COLUMN: 798 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_pretrial_rate' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 793 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'black_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.3%'
+COLUMN: 779 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_bia' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 774 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'other_race_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.3%'
+ÂªµY,º?
+2öW,º?
+˜íO>,º?
+¾E=Û),º?
+Î¹¹û,º?
+ä$¹¾)º?
+¥ˆ(×£)º?
+ŽáÖA¢)º?
+x9Ýv º?
+²áûråº?
+Q?QºQº?
+­ úBë¹?
+&’îÈµ³¹?
+»7ç¥¹?
+Áxj\”¹?
+øL·ê#&¹?
+óÙŒF Ü¸?
+`ÑG F³¸?
+è°±@ê·?
+äüA\p·?
+¶xŒœ0'·?
+Š<«F`™¶?
+!ye+Ï^¶?
+È†'u<¶?
+¾#n'$¶?
+P3£b×µ?
+¬ËŽ¤X{µ?
+È?N×bsµ?
+;j”"gµ?
+mÑZµ?
+êôÍ µ?
+oîvpï$´?
+“QZV~´?
+¼.«ÜÖ³?
+çjäN'Ô³?
+èø>-åg³?
+›§f3ÀJ³?
+ ßƒÈÉÕ²?
+3Me\{Â²?
+3ìÁS“²?
+Ýè%²?
+¼µã²?
+¬±øæÒù±?
+¾!tžù¼±?
+¨”ö<¦±?
+ùªrã'‘±?
+&Äi„éŽ±?
+ ‘ÏÑs±?
+ªQL—X±?
+-ÎA='C±?
+2M÷ô©7±?
+'‚"þe5±?
+¡5Rá%±?
+&»®9‘±?
+NÅ‹>‹±?
+©‡Á£±?
+¿]=(±?
+GÈ¬©•ú°?
+#øÔÉ‘ö°?
+À¤Òëõ°?
+»u&¡në°?
+º_Ç°?
+†ñ7°€ˆ°?
+(‘3iƒ°?
+ä÷q&°?
+cÓèÍa°?
+góûPK°?
+g\F­B°?
+9Í/_!°?
+”iÿÔ°?
+Ùf0/í¯?
+4ïÔ4øÞ¯?
+¸~¤íÍÓ¯?
+÷¥aŽ®¯?
+YôNñ’h¯?
+Œ~ sg¯?
+ß¡Å]æP¯?
+Qš”Í?¯?
+M6v—¯?
+fá¿@¯?
+/ü ¯?
+ÀD¡ ¯?
+I:T„á®?
+-jÿi§Ú®?
++…÷Ñ®?
+}xb‰œ­®?
+ÖÔË c®?
+ÏboÏS®?
+¸aLƒS®?
+”'ì z:®?
+Vö½Ø®?
+þ'¤r®?
+bMS1 ®?
+xŸ¿H,ý­?
+‡øO€Gº­?
+ý‚Ð6·­?
+¼)¼j­?
+>M€7­?
+ÊÙó´üù¬?
+¡štÕ¬?
+Kò»Ó¹Ð¬?
+Ôi*±—M¬?
+‰‹SµD¬?
+j8ø|7¬?
+QRè/¬?
+˜Œµek¬?
+NT¡ÖÎ	¬?
+¼IýI¬?
+@Áªhò«?
+ ·Ë†`ï«?
+-ˆ¾îîâ«?
+ä±	öÝ«?
+gP8+¶¾«?
+­Ê“	*º«?
+fFzq¡«?
+Ã]¾€š«?
+BÔ¬™«?
+8|E­/—«?
+—Ð¤ÉŒ«?
+­6†Œ«?
+ê…lˆ†«?
+ZF…«?
+Ô.û;Z«?
+$ò%·<F«?
+ÁUfÄ^A«?
+,§f_ô«?
+HòË²	ãª?
+æ£ZLºª?
+%[™ÏØœª?
+ÌžÆï.{ª?
+ þ¯-tª?
+„Z¶ŠyAª?
+×Irµr@ª?
+o™‰Gr?ª?
+×}eÐx6ª?
+ÃŠVÃ$ª?
+vµB¾Û"ª?
+.³á2}ª?
+ÿdDÊª?
+ëÍþ©?
+d-œá[ð©?
+à]ƒ9úë©?
+8Ñ¾Ø¾©?
+]¦š£¿¾©?
+ òê¢´©?
+–KË¸`´©?
+NÛGP´©?
+Ì¾ÁÙÆ®©?
+…„oƒ¡©?
+0çE¶¬‹©?
+©è(†©?
+÷Î…ÞÝt©?
+¥~–s©?
+¸æ“Z8©?
+êë*VØ©?
+Á¸NQ©?
+l ^
+©?
+MoéãóÛ¨?
+M3iî‰Ç¨?
+=™Ùz!®¨?
+ZâØ™×£¨?
+)Ä{›¨?
+q”‘–¨?
+¬ºVqQŠ¨?
+y£,›&…¨?
+oëöÝ]}¨?
+Ü‡Óóˆ_¨?
+ÇÂ:y]¨?
+GuÖlzV¨?
+¶uÚõ#¨?
+ÊÏìÓ¨?
+PÊª¨?
+ö
+¦>	¨?
+aHô=ý§?
+3`â»‘ì§?
+„hG2bæ§?
+ûßxT†Ú§?
+6×¶Ö§?
+»G”2jÇ§?
+€#&Æ§?
+³7	~Å§?
+Äø½]¾§?
+d¸£ãb½§?
+•Ê¡ÿ§³§?
+¿Ça±Ñž§?
+Yå~D/…§?
+Rtî+:„§?
+êœ–OÜƒ§?
+,	Yj§?
+ª·zú_§?
+) \_§?
+Œy	%§?
+ÛYx‡§?
+"c©¹wö¦?
+|G’é¦?
+Ó$åÖâ¦?
+Éò­±¾Þ¦?
+©¶|ñÜ¦?
+4ÄÖÆ(‘¦?
+ß6+Ä€‹¦?
+E)¤ë$€¦?
+¿3î«Æ{¦?
+*}FI¦?
+s'p¤Æ;¦?
+Ij)Ýc,¦?
+Ùa±
+Ý
+¦?
+˜#"C‹¦?
+‰Â-ÙÀ ¦?
+>TŽPù¥?
+ÒGÆ­uó¥?
+}ô‚‹Ñ¥?
+ÞWõÖÉ¿¥?
+…Ž±®)³¥?
+Ð×šÍrª¥?
+|$ õÊ ¥?
+¸ãWŠ¥?
+ 4E¯s¥?
+&»?1Ar¥?
+a{Œ|h¥?
+¸‹û´5;¥?
+ÿQ…Æ;¥?
+ÎXA¥?
+}¢¶Â¥?
+Õ½Žþ¤?
+½}Üænù¤?
+øüñzï¤?
+Ç‹<ê¤?
+Ç‹<ê¤?
+ü-§ìÊ¤?
+ÛÿW/UÊ¤?
+§Ï–þˆÆ¤?
+Æ>|¡Æ¤?
+Ù½j0À¤?
+KÖÄuº¤¤?
+ðà–‘º ¤?
+ƒn-è>r¤?
+wPJøÂh¤?
+«ªö¢Q¤?
+'ò‹JG¤?
+ß×Ë››<¤?
+Dà"ã2¤?
+Â°FW-¤?
+„Å¬‰M+¤?
+ëÐcÎ£?
+Ó?tòÇ£?
+Yëµ
+²£?
+À–sÖaž£?
+D®–Z”£?
+Ú¢±â†£?
+S/&î£}£?
+c¨t»*0£?
+k.7±È'£?
+¡þ°¬£?
+½,'rZú¢?
+Š•®¹ø¢?
+/ñbÓÅæ¢?
+h¢Áà¢?
+{Ÿ âÞ¢?
+É¸ÁüØ¢?
+‘ð–ëÕ¢?
+;Dëó®¢?
+Ìu½ê¬¢?
+P³AÝ¡¢?
+2o<}þœ¢?
+1GJ0ƒ‘¢?
+0±ò
+™¢?
+3%t¢?
+;®v±öj¢?
+¨›g±	^¢?
+þ²ç(¢?
+£¢œÇà¡?
+¿ÖÂÜ¡?
+˜3„µÕ¡?
+$	JÂ»Ë¡?
+T#/IÈ¡?
+ëw†•Ä¡?
+w»¹¢¡?
+˜2úÂ‡¡?
+Id
+~M€¡?
+¦1Û,y¡?
+¸5Í»v¡?
+Î6öñh¡?
+\­©5h¡?
+Î8‘¼‚T¡?
+Q\Â0tN¡?
+ö„B8¡?
+Hz¨#Ú¡?
+•SÊãÙ ?
+%}•¥ØÁ ?
+nëÞñs° ?
+ªâÂO5 ?
+,GspöŸ?
+ktuªŸ?
+C'©Ÿ?
+ÙŒÝ:˜eŸ?
+b	¡Oüž?
+ÖN†0û°ž?
+²±~yŸž?
+iª §wž?
+Þ€Ò·TZž?
+ÇÜjô?
+'í¼¸ò?
+qo¬èç?
+taWŒ?
+vn9Pz?
+KÆÄ¥c?
+QÈå{Ú ?
+/Xè?
+¦®IQJ?
+Ì…×ÀYœ?
+´)à^Xœ?
+ÇßŽñFœ?
+¥…“ÌBœ?
+áêÂká›?
+| ôÊî™›?
+°C}u›?
+°C}u›?
+}ñ?-(›?
+ÚJ²ýš?
+p¸¨l£÷š?
+E£±&š?
+:cC$Vš?
+þçÑ ý™?
+™Þç@¼í™?
+Û_‘r´™?
+î\Þ÷È”™?
+4‰ò.u™?
+ÿñS3s™?
+ËJù\@h™?
+:bÄ"“D™?
+ù‰ØŸ€™?
+ ß;g	™?
+3QŽÎ—?
+.>W÷“—?
+5„“#]\—?
+uè%E\1—?
+˜Tf:.—?
+I8‡×nø–?
+üP^9ö–?
+âg
+ïæ–?
+|¼ã¸ºc–?
+ >††[–?
+Û$¸#–?
+¹}ã•?
+šì‚Óà•?
+ÖUÌ•?
+Ã‚m·•?
+Ò5|y7³•?
+d4Ñä~£•?
+(~?ú:•?
+˜%éû”?
+¹nU0ë”?
+°hÄ	ÿ¹”?
+Åßãå3‡”?
+ìÑ!‚I”?
+g œR-”?
+ã,ÀÓ,”?
+¤ôþ£”?
+Y!Ð
+gõ“?
+F$I±QÐ“?
+Æ¬MšiÁ“?
+°Edá`Ÿ“?
+Å°5R^•“?
+CØ" +ƒ“?
+"ó}Ü`m“?
+2x	Í>“?
+:$p¯(“?
+-Lœ¯c±’?
+Oyâ¥(~’?
+¢­Ì»r’?
+ZÓˆÐP/’?
+Ê0‚UÓ‘?
+‹2kpÚ?
+Y‹\0ÕÖ?
+.L„Í?
+£ÀàÀ?
+í(âŠ´?
+¨bñVÉ¨?
+1-Ë7Z?
+i…™!lK?
+2Åó]M5?
+Ý{?¿“
+Ž?
+ËðŸ³ÐŒ?
+f!¨"Œ?
+sÞ­T¯‹?
+sÞ­T¯‹?
+9Hõ“#‹?
+Õg“IÛŠ?
+íäxïq¾Š?
+Ú"!1Š?
+à¢ÿRcŠ?
+˜»ÌÃ‰?
+j÷;óˆ?
+9âDˆ?
+z\N²8‡?
+j¡9uZE†?
+šÝ«sä,†?
+‚eòvY…?
+2o$ÉM<…?
+íÇž¶…?
+»Vùb„?
+ÝõÃ1ðÐƒ?
+Á<pF¬xƒ?
+Šh…­ºƒ?
+š³Àœž‚?
+@NêlÀD‚?
+Üx;Ú¦?
+¨©ßÂV€?
+ë·SRt?
+§g4?
+/\«åÞ€?
+Ô˜—áÖÔ€?
+)¨!§ Î€?
+ ‘Ú•qÍ€?
+•A>Ä€?
+Y†€q=‹€?
+cÅÄvT´?
+%g ­°Ù~?
+„tÌm»~?
+à	…µb|?
+á…Š¦¶ù{?
+ÈåóúGC{?
+Í_¢(r5{?
+¨ŽÑÍ@'{?
+ØÍºJë{?
+_ó¸€€{?
+O;~z?
+Bƒè^Ÿ\z?
+uÛkÈÃXz?
+š¾¹P(z?
+sÞ Ü|y?
+$väS§êx?
+Ú¹w™w?
+´¥«*@w?
+¤õÏ¨Äv?
+'ì’ñùƒv?
+.K0&žv?
+Ê¸S~ýu?
+²Îø-öt?
+}7W{cZt?
+d`Kˆ¶
+t?
+žö£¦s?
+â_~ms?
+,þà—¢Õr?
+¿€jyr?
+jóD“"r?
+i¡ªlq?
+åjÈp?
+à4¡Î¶op?
+V\Wø÷o?
+1†n?
+I+¥º×k?
+¹ÝáANMk?
+Û+}.j?
+Žn,vÙªi?
+_Ö»VÀh?
+QL<‚h?
+Ql.Ch?
+€P1j>h?
+<Ÿó+X?g?
+î6Z(çf?
+DÑoñ/‰e?
+~úÿ±Ë÷d?
+R”¿èpd?
+³Ø(¥¤]d?
+h`nVd?
+^ã©ãÓc?
+¦fY¿c?
+w$Îóc?
+¼’Ÿb?
+Å¬Ë÷Óïa?
+Óš g©Fa?
+²v×$<`?
+L*;år^?
+ÖÎœ©em]?
+Q°™á¸ˆ[?
+C{êé4X?
+4‡æ`ÕW?
+ƒ±,äV?
+Dg†ÈV?
+•²^tëU?
+ÁvräÁS?
+GîæÆ^{S?
+™—¼œöP?
+¾÷yçÍO?
+Ÿ‰' hM?
+¡=ØØ^M?
+U(Ù¥è>K?
+ž£EèG?
+kâ–F?
++›AÅ¢E?
+æQg^UcE?
+
+?LC?
+½¿®ú÷5B?
+‚–à^ë>?
+B.P@¬>?
+©á}68?
+G‚5	ÑË3?
+ÿj7?»3?
+fß9þnH3?
+tLÉD,?
+¡X77M*?
+ëÃìá²<&?
+œ]ÌO%?
+òÖ@{¹Ë#?
+kýRª7W?
+îÃßô*?
+¸#€°“?
+ÚW
+w{ê?
+Ã{&²‹?
+
+Signal B (S6) (k-means clustering)
+COLUMN: 689 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 469 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 3: 
+Minority Status & Language' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 692 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'RPL_THEME3' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 680 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 691 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'SPL_THEME3' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 473 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'CCVI SCORE
+Higher = More Vulnerable' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 686 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 467 | CATEGORY: 'COVID Community Vulnerability Index' | VARIABLE: 'THEME 1: Socioeconomic Status' | UNITS: 'Index'' | COVERAGE: '100.0%'
+COLUMN: 695 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 699 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'RPL_THEME4' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 690 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 872 | CATEGORY: 'US Polciy Database' | VARIABLE: 'POV18 Percent living under the federal poverty line (2018) poverty quantity percent' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 845 | CATEGORY: 'US Polciy Database' | VARIABLE: 'NOPAYCOV Waived COVID/respiratory illness-related copays during pandemic for incarcerated individuals waive_covidcopay attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 324 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children eligible for free or reduced price lunch' | UNITS: '% Free or Reduced Lunch'' | COVERAGE: '99.4%'
+COLUMN: 694 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 663 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 684 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 698 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'SPL_THEME4' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 688 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'RPL_THEME2' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 526 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Males Awareness' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 861 | CATEGORY: 'US Polciy Database' | VARIABLE: 'LMABRN Made Effort to Limit Abortion Access abortion_limit note text' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 212 | CATEGORY: 'Institute for Health Metrics and Evaluation (2010/11)' | VARIABLE: 'Female obesity' | UNITS: '(%)'' | COVERAGE: '99.5%'
+COLUMN: 508 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Males Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 953 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'ELEP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 871 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UNEMP18 Percent Unemployed (2018) unemployment quantity percent' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 506 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Both Sexes Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 518 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Both Sexes Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 507 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Females Diagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 696 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EPL_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 520 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Males Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 314 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Insufficient sleep' | UNITS: '% Insufficient Sleep'' | COVERAGE: '100.0%'
+COLUMN: 519 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Females Total' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 881 | CATEGORY: 'Hypertension' | VARIABLE: 'Self-reported, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 887 | CATEGORY: 'Hypertension' | VARIABLE: 'Uncontrolled, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 315 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Uninsured adults' | UNITS: '% Uninsured'' | COVERAGE: '100.0%'
+COLUMN: 886 | CATEGORY: 'Hypertension' | VARIABLE: 'Uncontrolled, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 879 | CATEGORY: 'Hypertension' | VARIABLE: 'Total, Female, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 114 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Household (female w/ children)' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 878 | CATEGORY: 'Hypertension' | VARIABLE: 'Total, Male, 2009' | UNITS: 'Rate'' | COVERAGE: '99.6%'
+COLUMN: 245 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Poor or fair health' | UNITS: '% Fair/Poor'' | COVERAGE: '100.0%'
+COLUMN: 247 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Poor mental health days' | UNITS: 'Mentally Unhealthy Days'' | COVERAGE: '100.0%'
+COLUMN: 480 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Rheumatic heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 399 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'governor' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 401 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'localofficials' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 712 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 874 | CATEGORY: 'US Polciy Database' | VARIABLE: 'DEATH18 All-cause deaths 2018 all_cause_deaths quantity people/year' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 264 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Uninsured' | UNITS: '% Uninsured'' | COVERAGE: '100.0%'
+COLUMN: 937 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'FS' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 373 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'timing' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 345 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: '0-17 Poverty rate' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 278 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children in poverty' | UNITS: '% Children in Poverty'' | COVERAGE: '100.0%'
+COLUMN: 260 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Teen births' | UNITS: 'Teen Birth Rate'' | COVERAGE: '95.9%'
+COLUMN: 986 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'NWLK' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 246 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Poor physical health days' | UNITS: 'Physically Unhealthy Days'' | COVERAGE: '100.0%'
+COLUMN: 340 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Less than a high school diploma, 2012-2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 579 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Asthma' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 344 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Overall poverty rate' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 934 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'MULTG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 309 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Food insecurity' | UNITS: '% Food Insecure'' | COVERAGE: '100.0%'
+COLUMN: 261 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Teen births' | UNITS: 'Teen Birth Rate (Black)'' | COVERAGE: '44.8%'
+COLUMN: 305 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Frequent physical distress' | UNITS: '% Frequent Physical Distress'' | COVERAGE: '100.0%'
+COLUMN: 661 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 710 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 283 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Children in single-parent households' | UNITS: '% Single-Parent Households'' | COVERAGE: '100.0%'
+COLUMN: 512 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Both Sexes Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 331 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% African American'' | COVERAGE: '100.0%'
+COLUMN: 487 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Hemorrhagic stroke' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 371 | CATEGORY: 'Yale Climate Opinion' | VARIABLE: 'personal' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 589 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Mortality risk, 2014* Mortality risk, age 0-5' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 595 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Mortality risk, 2014* Mortality risk, age 45-65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 346 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Related children age 5-17 in families in poverty 2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 83 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Black' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 431 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'LARCENY' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 306 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Frequent mental distress' | UNITS: '% Frequent Mental Distress'' | COVERAGE: '100.0%'
+COLUMN: 854 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UIHIRISK Expand eligibility to high-risk individuals in preventative quarantine unemployment_highrisk attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 242 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature death' | UNITS: 'Years of Potential Life Lost Rate (Black)'' | COVERAGE: '41.8%'
+COLUMN: 282 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Income inequality' | UNITS: 'Income Ratio'' | COVERAGE: '99.9%'
+COLUMN: 296 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature age-adjusted mortality' | UNITS: 'Age-Adjusted Mortality (White)'' | COVERAGE: '49.5%'
+COLUMN: 669 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 717 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 593 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Mortality risk, 2014* Mortality risk, age 25-45' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 244 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature death' | UNITS: 'Years of Potential Life Lost Rate (White)'' | COVERAGE: '49.2%'
+COLUMN: 547 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Liver cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 514 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Males Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 724 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_UNINSUR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 716 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 966 | CATEGORY: 'Puma Personal Data' | VARIABLE: 'DEYE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 720 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_THEME4' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 591 | CATEGORY: 'IHME Mortality Risk' | VARIABLE: 'Mortality risk, 2014* Mortality risk, age 5-25' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 569 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 653 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 608 | CATEGORY: 'IHME Drug and Alcohol Mortality and Injury' | VARIABLE: 'Mortality Rate, 2014* Interpersonal violence' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 285 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Violent crime' | UNITS: 'Violent Crime Rate'' | COVERAGE: '94.4%'
+COLUMN: 248 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Low birthweight' | UNITS: '% LBW'' | COVERAGE: '96.7%'
+COLUMN: 640 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 513 | CATEGORY: 'IHME Diabetes Prevalence' | VARIABLE: 'Prevalence, 2012, Females Undiagnosed' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 578 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Asthma' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 425 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'Crime Rate' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 263 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Teen births' | UNITS: 'Teen Birth Rate (White)'' | COVERAGE: '62.4%'
+COLUMN: 443 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Evangelical' | UNITS: 'per 1,000'' | COVERAGE: '99.3%'
+COLUMN: 708 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 326 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Homicides' | UNITS: 'Homicide Rate'' | COVERAGE: '39.6%'
+COLUMN: 300 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Child mortality' | UNITS: 'Child Mortality Rate (White)'' | COVERAGE: '19.2%'
+COLUMN: 491 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Cardiomyopathy & myocarditis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 453 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Southern Baptist Convention' | UNITS: 'per 1,000'' | COVERAGE: '85.6%'
+COLUMN: 335 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Hispanic'' | COVERAGE: '100.0%'
+COLUMN: 429 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'AGASSLT' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 319 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Disconnected youth' | UNITS: '% Disconnected Youth'' | COVERAGE: '65.8%'
+COLUMN: 87 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Hispanic' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 217 | CATEGORY: 'CDC WONDER' | VARIABLE: 'Homicide' | UNITS: ''' | COVERAGE: '44.7%'
+COLUMN: 259 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Sexually transmitted infections' | UNITS: 'Chlamydia Rate'' | COVERAGE: '94.7%'
+COLUMN: 846 | CATEGORY: 'US Polciy Database' | VARIABLE: 'NOPAYALL Waived all copays during pandemic for incarcerated individuals waive_allcopay attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 711 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_THEME2' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 262 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Teen births' | UNITS: 'Teen Birth Rate (Hispanic)'' | COVERAGE: '51.7%'
+COLUMN: 297 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Child mortality' | UNITS: 'Child Mortality Rate'' | COVERAGE: '61.5%'
+COLUMN: 351 | CATEGORY: 'USDA-ERS (Education, Poverty, and Unemployment)' | VARIABLE: 'Unemployment_rate_2016' | UNITS: '%'' | COVERAGE: '100.0%'
+COLUMN: 288 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Severe housing problems' | UNITS: '% Severe Housing Problems'' | COVERAGE: '100.0%'
+COLUMN: 277 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Unemployment' | UNITS: '% Unemployed'' | COVERAGE: '100.0%'
+COLUMN: 719 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 430 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'BURGLRY' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 241 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Premature death' | UNITS: 'Years of Potential Life Lost Rate'' | COVERAGE: '94.2%'
+COLUMN: 432 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'MVTHEFT' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 301 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Infant mortality' | UNITS: 'Infant Mortality Rate'' | COVERAGE: '40.1%'
+COLUMN: 718 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 489 | CATEGORY: 'IHME Cardiovascular Mortalityt Rates' | VARIABLE: 'Mortality Rate, 2014* Hypertensive heart disease' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 308 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'HIV prevalence' | UNITS: 'HIV Prevalence Rate'' | COVERAGE: '77.1%'
+COLUMN: 571 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Silicosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 618 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 428 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'ROBBERY' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 947 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'LNGI' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 630 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 632 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 575 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Coal workers pneumoconiosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 715 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 426 | CATEGORY: 'IPCSR Crime Data 2016 (2012-2014)' | VARIABLE: 'MURDER' | UNITS: 'per 100,000'' | COVERAGE: '95.0%'
+COLUMN: 723 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_UNINSUR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 624 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 616 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_HH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 460 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Church of God (Cleveland, Tennessee)' | UNITS: 'per 1,000'' | COVERAGE: '50.7%'
+COLUMN: 614 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_HU' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 639 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_MOBILE' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 646 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 671 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 634 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 642 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 147 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Income Security' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 675 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 638 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 636 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 644 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'M_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 143 | CATEGORY: 'ERS (2010) Federal Spending' | VARIABLE: 'Medicaid' | UNITS: '($/person)'' | COVERAGE: '100.0%'
+COLUMN: 749 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Physician reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 732 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Number of diabetic Medicare enrollees age 65-75 (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '98.2%'
+COLUMN: 722 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_UNINSUR' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 744 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Medicare enrollees (2014)' | UNITS: '$/enrollee'' | COVERAGE: '99.9%'
+COLUMN: 730 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Number of Medicare beneficiaries (Part B eligible) (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '99.8%'
+COLUMN: 960 | CATEGORY: 'PUMA Household Data' | VARIABLE: 'HUGLC' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 738 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Number of Medicare beneficiaries (Part A eligible) (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '99.8%'
+COLUMN: 739 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Number of Medicare beneficiaries (Part A eligible) (2015) White' | UNITS: 'Rate'' | COVERAGE: '99.8%'
+COLUMN: 629 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_DISABL' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 631 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_SNGPNT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 572 | CATEGORY: 'IHME  Respriatory Disease Mortality' | VARIABLE: 'Mortality Rate, 2014* Asbestosis' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 645 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_GROUPQ' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 627 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_AGE17' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 617 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_POV' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 613 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_HU' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 447 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Baha'i' | UNITS: 'per 1,000'' | COVERAGE: '80.5%'
+COLUMN: 625 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_AGE65' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 754 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Home health agency reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '95.3%'
+COLUMN: 736 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Number of female Medicare enrollees age 67-69 (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '96.7%'
+COLUMN: 619 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_UNEMP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 753 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Home health agency reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '95.3%'
+COLUMN: 623 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 765 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'female_adult_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 787 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_adm' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 424 | CATEGORY: 'BGSU Marriage and Divorce (2000 and 2010)' | VARIABLE: 'Marriage/Divorce Rate (2010)' | UNITS: 'per 1,000'' | COVERAGE: '97.6%'
+COLUMN: 756 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Hospice reimbursements per enrollee (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '91.6%'
+COLUMN: 763 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'female_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.4%'
+COLUMN: 770 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'black_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 764 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'male_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.3%'
+COLUMN: 767 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'male_adult_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 641 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_CROWD' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 784 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'jail_rated_capacity' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 762 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 771 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'latinx_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 775 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_pretrial' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+ X{¿aVz?
+%)Æ¸„Dx?
+—Ø[3èÍw?
+-xNƒYv?
+§æ™Ö<v?
+ˆbŠá±Þt?
+ú‡¯Út?
+øŒ-¤ãÂt?
+LÔDt?
+¾ÍÞýIs?
+7SZr?
+!I_¯OÞq?
+02‡¸*Ìq?
+ò‚ì~µŒq?
+éàÛ¤ðp?
+[¡0ÌÍ=p?
+—½2õeïo?
+‡S¾#x»o?
+è€.To?
+h¥ÙvÏùm?
+×'Hœè’m?
+e—[ÅDm?
+X¢XŸ0m?
+aB»Em?
+›j µl?
+ü×c†'l?
+O±lŸžÒk?
+nï÷ƒPk?
+C$ž9Çyk?
+>³ÛùøMk?
+´3¬Xãúj?
+‹)É–ÁFj?
+ÁW×Îåj?
+Ìæ‘lÌi?
+¾<Ç1åÊi?
+)ÞÐ:%Æi?
+Ð8¦äi?
+)W|&Ôh?
+Ÿ“RŒ™Äh?
+!$'i9€h?
+øÆ°Žzh?
+|Â·üš‹g?
+U’1§æfg?
+ Ã/±Ü)g?
+‡JC¦Îf?
+0¨=§f?
+V(¹ðx‰f?
+¤íÉëff?
+œµ×Lf?
+aSó„ÍCf?
+Žô&*f?
+&Û#£f?
+ >¡H„f?
+S—“Í˜We?
+Äk“µ˜8e?
+³fë^Gãd?
+äAOZÛd?
+lUtÊÊd?
+æYDÕúªd?
+Ÿ:jø}d?
+ ½ëWd?
+õrpVd?
+xµ¼Ã¢Gd?
+©2\/Bd?
+­wÛÆd?
+Õqˆ Çÿc?
+
+twMóþc?
+ê`¿’<èc?
+.»œ{&àc?
+(Òª×¤Ìc?
+[Äù¾c?
+@€gŠc?
+024ì/Jc?
+EÇž@»Bc?
+~7ä°i<c?
+\A­ïzÌb?
+².!qÀ„b?
+®¢O½üƒb?
+]`e=ø¯a?
+Š`a?
+¿uVÆma?
+N©uGÙfa?
+]rM@a?
+Lº½©0a?
+óÔüÚ¾`?
+ž&4à«H`?
+î¸gEB`?
+ž°Ëþ_?
+ÿ§¶³o_?
+Ç˜žê55_?
+Ò)¡ñíß^?
+äù~ì³\?
+ùÄ¾Ÿ?—\?
+îWÏ·„`\?
+vmP>^`\?
+EmSY¯[?
+$«vŽ}[?
+Ù¾ÍÞ<[?
+ŸúWsÙ%[?
+å5xæ¤ÚZ?
+êÍó7e5Y?
+èÁ¯hí¾X?
+“,š4X¯X?
+€¬aX?
+€î¨¶ZX?
+»µygWX?
+¯Ê±ÔW?
+®.g‰W?
+†fà;r’W?
+ÀYìàýæV?
+ÕLxSXV?
+@»»Ê‰ëT?
+„F¹oåT?
+¦ÞÚ¡¢T?
+Gz[3qT?
+‘/ìUk5T?
+ž<«ï'T?
+Æ›á"T?
+8m2žHYS?
+ct-xWaR?
+%ÏØI‰ZR?
+ç®7ÜR?
+¾üáÕ¤Q?
+MF?°ƒöO?
+è?Õo®RO?
+Í3ž]šN?
+r«¥¡Ø”M?
+Nå„2€M?
+@Â4Û˜êL?
+é!›K?
+ÌØ1«öH?
+!MÏïWÊH?
+ÙÔ‡#*%H?
+Ü,"»F?
+½š¯¾’F?
+x–+GF?
+†RëQåÔD?
+¦	ÕG£‹D?
+üôÀMD?
+9ËÏélB?
+qþó…$B?
+ß´o™b½A?
+!í=%§A?
+ŒB8¥A?
+Ñ8³	A?
+¨$ÇMMn??
+ŸüÉŠV>?
+]E!œÓÑ=?
+Ék×RðÅ;?
+¦ÌD3Ì½9?
+F×FW4?
+éÁÈ¥õ”0?
+CýÙð’.?
+$åE5ïº(?
+òw»P{Â'?
+f×ñÁ^&?
+F`<ÕœŒ%?
+¿\ø‘¬8%?
+·wÜ6p$?
+?a}$$?
+jèÆû$ý#?
+t4Vòê…#?
+Ã¿6q#?
+ÓK@ ï"?
+=Yë¸AË"?
+&¼"\åü!?
+Ãˆ.„!?
+®[‡ ?
+ºL’6 ?
+ÑN¡™Ið?
+à"Ï=±¼?
+‹ ¡«„?
+–Üën3?
+™Êoà?
+ª°aÿ?
+`>IÒ`û?
+ø0¾Ò’_?
+4èäz?
+E0u ²?
+0YAN-?
+~»Ýíg ?
+)µµ?
+‘ãº®»}?
+IY†Z£&?
+N·Kè–	?
+*½æoJÿ?
+
+Signal C (S3) (k-means clustering)
+COLUMN: 1001 | CATEGORY: 'COVID-19 (05-07-2020)' | VARIABLE: 'Worst week - deaths (weekly deaths per million)' | UNITS: 'Rate'' | COVERAGE: '78.5%'
+COLUMN: 999 | CATEGORY: 'COVID-19 (05-07-2020)' | VARIABLE: 'Death rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 558 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Malignant skin melanoma' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 539 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Other pharynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 557 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Malignant skin melanoma' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 546 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: '% Change in Mortality Rate, 1980-2014 Colon & rectum cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 533 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Neoplasms' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 555 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Tracheal, bronchus, & lung ' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 553 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Larynx cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 551 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Pancreatic cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 545 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Colon & rectum cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 840 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RACEHOSP Report hospitalizations by race/ethnicity race_hospitalizations attribute flag' | UNITS: 'Classification'' | COVERAGE: '96.8%'
+COLUMN: 535 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Lip & oral cavity cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 541 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Esophageal cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 820 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RSTOUTDR Initially reopen restaurants for outdoor dining only restaurant_outdoor attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN: 543 | CATEGORY: 'IHME Cancer Mortality' | VARIABLE: 'Mortality Rate, 2014* Stomach cancer' | UNITS: 'Rate'' | COVERAGE: '8.3%'
+COLUMN: 79 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn density (2015)' | UNITS: 'ppl/mi2'' | COVERAGE: '100.0%'
+COLUMN: 81 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn density (2010)' | UNITS: 'ppl/mi2'' | COVERAGE: '100.0%'
+COLUMN: 766 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'female_juvenile_jail_pop' | UNITS: 'Total Population'' | COVERAGE: '93.3%'
+COLUMN: 437 | CATEGORY: 'Cities' | VARIABLE: 'LargetCity-County popn ratio' | UNITS: 'ppl/mi2'' | COVERAGE: '96.9%'
+COLUMN: 734 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Average annual percent of diabetic Medicare enrollees age 65-75 having eye examination (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '97.6%'
+COLUMN: 827 | CATEGORY: 'US Polciy Database' | VARIABLE: 'RNTGP Renter grace period or use of security deposit to pay rent renter_grace start date' | UNITS: 'Date'' | COVERAGE: '0.9%'
+COLUMN: 811 | CATEGORY: 'US Polciy Database' | VARIABLE: 'FM_ALL Mandate face mask use by all individuals in public spaces public_masks start date' | UNITS: 'Date'' | COVERAGE: '23.1%'
+COLUMN: 863 | CATEGORY: 'US Polciy Database' | VARIABLE: 'EXTOPFL Patients can receive 14-28 take-home doses of opioid medication opioid_dose start date' | UNITS: 'Date'' | COVERAGE: '2.6%'
+COLUMN: 806 | CATEGORY: 'US Polciy Database' | VARIABLE: 'STAYHOME Stay at home/ shelter in place shelter start date' | UNITS: 'Date'' | COVERAGE: '71.5%'
+COLUMN: 808 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLBSNS Closed non-essential businesses business_closure start date' | UNITS: 'Date'' | COVERAGE: '73.0%'
+COLUMN: 865 | CATEGORY: 'US Polciy Database' | VARIABLE: 'TLHLCL24 Use of telemedicine for schedule II-V prescriptions telemedicine_rx start date' | UNITS: 'Date'' | COVERAGE: '10.9%'
+COLUMN: 755 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Hospice reimbursements per enrollee (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '91.6%'
+COLUMN: 823 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLMOVIE Closed movie theaters theater_closure start date' | UNITS: 'Date'' | COVERAGE: '87.6%'
+COLUMN: 819 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ENDREST Reopen restaurants restaurant_closure end date' | UNITS: 'Date'' | COVERAGE: '94.8%'
+COLUMN: 824 | CATEGORY: 'US Polciy Database' | VARIABLE: 'END_MOV Reopened movie theaters theater_closure end date' | UNITS: 'Date'' | COVERAGE: '61.5%'
+COLUMN: 821 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLGYM Closed gyms gym_closure start date' | UNITS: 'Date'' | COVERAGE: '89.8%'
+COLUMN: 746 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Total Medicare reimbursements per enrollee (Parts A and B) (2014) Price, age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 849 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ENDELECP Resumed elective medical procedures unemployment_waiting_prior attribute flag' | UNITS: 'Date'' | COVERAGE: '77.1%'
+COLUMN: 822 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ENDGYM Reopened gyms gym_closure end date' | UNITS: 'Date'' | COVERAGE: '83.8%'
+COLUMN: 807 | CATEGORY: 'US Polciy Database' | VARIABLE: 'END_STHM End/relax stay at home/shelter in place shelter end date' | UNITS: 'Date'' | COVERAGE: '66.4%'
+COLUMN: 826 | CATEGORY: 'US Polciy Database' | VARIABLE: 'EVICENF Stop enforcement of evictions overall or due to COVID related issues eviction_enforcement start date' | UNITS: 'Date'' | COVERAGE: '46.1%'
+COLUMN: 802 | CATEGORY: 'US Polciy Database' | VARIABLE: 'STEMERG State of emergency emergency start date' | UNITS: 'Date'' | COVERAGE: '100.0%'
+COLUMN: 818 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLREST Closed restaurants except take out restaurant_closure start date' | UNITS: 'Date'' | COVERAGE: '97.9%'
+COLUMN: 834 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ACAENROL Reopened ACA enrollment using a special enrollment period ACA_enrollment start date' | UNITS: 'Date'' | COVERAGE: '12.5%'
+COLUMN: 804 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLDAYCR Closed day cares day_care_closure start date' | UNITS: 'Date'' | COVERAGE: '23.0%'
+COLUMN: 805 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLNURSHM Date banned visitors to nursing homes nursing_home_visit_ban start date' | UNITS: 'Date'' | COVERAGE: '61.8%'
+COLUMN: 733 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Average annual percent of diabetic Medicare enrollees age 65-75 having hemoglobin A1c test (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '98.2%'
+COLUMN: 830 | CATEGORY: 'US Polciy Database' | VARIABLE: 'SNAPALLO SNAP Waiver-Emergency Allotments to Current SNAP Households snap_allotment start date' | UNITS: 'Date'' | COVERAGE: '100.0%'
+COLUMN: 831 | CATEGORY: 'US Polciy Database' | VARIABLE: 'SNAPEBT SNAP Waiver-Pandemic EBT snap_ebt start date' | UNITS: 'Date'' | COVERAGE: '90.8%'
+COLUMN: 809 | CATEGORY: 'US Polciy Database' | VARIABLE: 'END_BSNS Began to reopen businesses business_closure end date' | UNITS: 'Date'' | COVERAGE: '97.9%'
+COLUMN: 836 | CATEGORY: 'US Polciy Database' | VARIABLE: 'TLHLAUD Allow audio-only telehealth medicaid_telehealth start date' | UNITS: 'Date'' | COVERAGE: '50.5%'
+COLUMN: 866 | CATEGORY: 'US Polciy Database' | VARIABLE: 'EXCEMORP Exceptions to emergency oral prescriptions emergency_oral start date' | UNITS: 'Date'' | COVERAGE: '10.7%'
+COLUMN: 745 | CATEGORY: 'Medicare Reimbursements' | VARIABLE: 'Total Medicare reimbursements per enrollee (Parts A and B) (2014) Age, sex & race-adjusted' | UNITS: '$/enrollee'' | COVERAGE: '99.8%'
+COLUMN: 832 | CATEGORY: 'US Polciy Database' | VARIABLE: 'SNAPSUSP SNAP Waiver-Temporary Suspension of Claims Collection snap_suspend start date' | UNITS: 'Date'' | COVERAGE: '50.6%'
+COLUMN: 833 | CATEGORY: 'US Polciy Database' | VARIABLE: 'MED1135W Modify Medicaid requirements with 1135 waivers (date of CMS approval) medicaid_1135_waivers start date' | UNITS: 'Date'' | COVERAGE: '100.0%'
+COLUMN: 815 | CATEGORY: 'US Polciy Database' | VARIABLE: 'FM_EMP Mandate face mask use by employees in public-facing businesses employee_masks start date' | UNITS: 'Date'' | COVERAGE: '64.1%'
+COLUMN: 862 | CATEGORY: 'US Polciy Database' | VARIABLE: 'TLHlBUPR Use of telemedicine/telephone evaluations to initiate buprenorphine prescribing telemedicine_buprenorphine start date' | UNITS: 'Date'' | COVERAGE: '2.3%'
+COLUMN: 851 | CATEGORY: 'US Polciy Database' | VARIABLE: 'WV_WTPRD Waived one week waiting period for unemployment insurance unemployment_work_search attribute flag' | UNITS: 'Date'' | COVERAGE: '75.4%'
+COLUMN: 837 | CATEGORY: 'US Polciy Database' | VARIABLE: 'TLHLMED Allow/expand Medicaid telehealth coverage elective_medical start date' | UNITS: 'Date'' | COVERAGE: '90.4%'
+COLUMN: 828 | CATEGORY: 'US Polciy Database' | VARIABLE: 'UTILSO Order freezing utility shut offs utility_freeze start date' | UNITS: 'Date'' | COVERAGE: '67.9%'
+COLUMN: 731 | CATEGORY: 'Medicare County Rates' | VARIABLE: 'Average annual percent of Medicare enrollees having at least one ambulatory visit to a primary care clinician (2015) Overall' | UNITS: 'Rate'' | COVERAGE: '99.7%'
+COLUMN: 791 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'male_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 788 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_dis' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 825 | CATEGORY: 'US Polciy Database' | VARIABLE: 'EVICINTN Stop Initiation of Evictions overall or due to COVID related issues eviction_initiation start date' | UNITS: 'Date'' | COVERAGE: '38.6%'
+COLUMN: 803 | CATEGORY: 'US Polciy Database' | VARIABLE: 'CLSCHOOL Date closed K-12 schools school_closure start date' | UNITS: 'Date'' | COVERAGE: '98.2%'
+COLUMN: 842 | CATEGORY: 'US Polciy Database' | VARIABLE: 'VISITPER Stopped personal visitation in state prisons visit_personal start date' | UNITS: 'Date'' | COVERAGE: '100.0%'
+COLUMN: 780 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_bop' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 843 | CATEGORY: 'US Polciy Database' | VARIABLE: 'VISITATT Stopped in-person attorney visits in state prisons visit_attorney start date' | UNITS: 'Date'' | COVERAGE: '29.8%'
+COLUMN: 848 | CATEGORY: 'US Polciy Database' | VARIABLE: 'ELECPRCR Suspended elective medical/dental procedures elective_medical end date' | UNITS: 'Date'' | COVERAGE: '70.2%'
+COLUMN: 867 | CATEGORY: 'US Polciy Database' | VARIABLE: 'WVDEAREQ Waive requirement to obtain separate DEA registration to dispense outside home state waive_rx_registration start date' | UNITS: 'Date'' | COVERAGE: '0.5%'
+COLUMN: 829 | CATEGORY: 'US Polciy Database' | VARIABLE: 'MORGFR Froze mortgage payments mortgage_freeze start date' | UNITS: 'Date'' | COVERAGE: '2.0%'
+COLUMN: 850 | CATEGORY: 'US Polciy Database' | VARIABLE: 'WTPRD Prior to pandemic, no state unemployment waiting period; or date waiting period waived not found unemployment_waiting start date' | UNITS: 'Date'' | COVERAGE: '0.0%'
+COLUMN: 864 | CATEGORY: 'US Polciy Database' | VARIABLE: 'HMDLVOP Home delivery of take-home medication by opioid treatment programs opioid_delivery start date' | UNITS: 'Date'' | COVERAGE: '0.2%'
+      ð?
+pù"°vË?
+=ñ°Ô\å„?
+îu?
+5}Ö´~?
+ÇŸ©šâ}|?
+0Šl À\{?
+Ÿ Ø zIz?
+TípB,+x?
+y¡Ç&v?
+5‹[üòt?
+ó­×‹7p?
+çé“Ûm?
+9îB\	Çi?
+£9L¤™h?
+v-“?U?
+ úcyÔ!?
+AK.7¯½!?
+¬À„ë÷¡?
+ˆÔY“s¨?
+&ÇSS0ý>
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+ùœokÍZ<
+
+Signal D (S4) (k-means clustering)
+COLUMN: 1006 | CATEGORY: 'COVID-19 (07-27-2020)' | VARIABLE: 'Case rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1010 | CATEGORY: 'COVID-19 (08-31-2020)' | VARIABLE: 'Case rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1002 | CATEGORY: 'COVID-19 (06-17-2020)' | VARIABLE: 'Case rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1004 | CATEGORY: 'COVID-19 (06-17-2020)' | VARIABLE: 'Worst week - cases (weekly cases per million)' | UNITS: 'Rate'' | COVERAGE: '95.7%'
+COLUMN: 998 | CATEGORY: 'COVID-19 (05-07-2020)' | VARIABLE: 'Case rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1008 | CATEGORY: 'COVID-19 (07-27-2020)' | VARIABLE: 'Worst week - cases (weekly cases per million)' | UNITS: 'Rate'' | COVERAGE: '98.8%'
+COLUMN: 1012 | CATEGORY: 'COVID-19 (08-31-2020)' | VARIABLE: 'Worst week - cases (weekly cases per million)' | UNITS: 'Rate'' | COVERAGE: '99.5%'
+COLUMN: 1000 | CATEGORY: 'COVID-19 (05-07-2020)' | VARIABLE: 'Worst week - cases (weekly cases per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 713 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 88 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'Popn: Other' | UNITS: '(count)'' | COVERAGE: '100.0%'
+COLUMN: 714 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_THEME3' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 705 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'F_NOHSDP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 70 | CATEGORY: '2015 Census (American Fact Finder)' | VARIABLE: 'Non-citizen popn' | UNITS: '(%)'' | COVERAGE: '100.0%'
+COLUMN: 337 | CATEGORY: 'County Health Rankings & Roadmaps (http://www.countyhealthrankings.org/explore-health-rankings)' | VARIABLE: 'Demographics' | UNITS: '% Not Proficient in English'' | COVERAGE: '100.0%'
+COLUMN: 665 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'EP_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 124 | CATEGORY: 'ESRI COUNTIES DATA (2015)' | VARIABLE: 'AVE_SALE12' | UNITS: '(count)'' | COVERAGE: '98.0%'
+      ð?
+|ÝôÍºcï?
+××LZUúí?
+ÿê&7N‡Ù?
+Í3½i^LØ?
+“Òe´ÂÖ?
+VÃùÒzÔ?
+¿é%¶™'Ê?
+w=æîdb?
+éë8Â€™U?
+
+øZ©XT?
+—j³•…R?
+q {LGQ?
+ËLZ‰`öK?
+ÏE|À@œI?
+Ad@E?
+
+Signal E (S5) (k-means clustering)
+COLUMN: 1009 | CATEGORY: 'COVID-19 (07-27-2020)' | VARIABLE: 'Worst week - deaths (weekly deaths per million)' | UNITS: 'Rate'' | COVERAGE: '70.5%'
+COLUMN: 1013 | CATEGORY: 'COVID-19 (08-31-2020)' | VARIABLE: 'Worst week - deaths (weekly deaths per million)' | UNITS: 'Rate'' | COVERAGE: '79.3%'
+COLUMN: 1005 | CATEGORY: 'COVID-19 (06-17-2020)' | VARIABLE: 'Worst week - deaths (weekly deaths per million)' | UNITS: 'Rate'' | COVERAGE: '59.9%'
+COLUMN: 462 | CATEGORY: 'Religion Rates (2010) (http://www.usreligioncensus.org/)' | VARIABLE: 'Black Protestant' | UNITS: 'per 1,000'' | COVERAGE: '47.8%'
+COLUMN: 776 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_prison' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 782 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_marshals' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 778 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_fed' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 785 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'private_jail_flag' | UNITS: 'Total Population'' | COVERAGE: '97.6%'
+COLUMN: 777 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_other_jail' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 790 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'female_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '93.5%'
+COLUMN: 796 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'white_jail_pop_rate' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+COLUMN: 781 | CATEGORY: 'Incarceration Trends' | VARIABLE: 'total_jail_from_ice' | UNITS: 'Total Population'' | COVERAGE: '94.4%'
+      ð?
+kW2{"Xí?
+ÊGÕëz|è?
+ãèZ\Y?
+`+äŠÐú#?
+z²\¯@q#?
+%1šô‚?
+·!'±ÞE?
+zp%ÏÄ?
+D€×Lø^?
+ú»A;}ë
+?
+d[‡O”b	?
+
+Signal F (S2) (k-means clustering)
+COLUMN: 1003 | CATEGORY: 'COVID-19 (06-17-2020)' | VARIABLE: 'Death rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1007 | CATEGORY: 'COVID-19 (07-27-2020)' | VARIABLE: 'Death rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 1011 | CATEGORY: 'COVID-19 (08-31-2020)' | VARIABLE: 'Death rate (per million)' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 812 | CATEGORY: 'US Polciy Database' | VARIABLE: 'FMFINE Face mask mandate enforced by fines facemask_fine attribute flag' | UNITS: 'Classification'' | COVERAGE: '100.0%'
+COLUMN:  78  - Popn count (2015) (per 100,000)
+COLUMN: 615 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_HH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 726 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_DAYPOP' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 637 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_MUNIT' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 643 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_NOVEH' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 633 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_MINRTY' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+COLUMN: 635 | CATEGORY: 'CDC Social Vulnerabilty  Index' | VARIABLE: 'E_LIMENG' | UNITS: 'Rate'' | COVERAGE: '100.0%'
+      ð?
+Q¨<üõÀí?
+šœj ?æ?
+¾„3YÞ@?
+ÒµÌ~G-?
+ká9§Pñ(?
+gõQ»[h(?
+«'öÜñ­"?
+¨uØjk[!?
+¤™Nuì?
+6/ÏR0è?
+

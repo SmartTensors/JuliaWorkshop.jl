@@ -1,0 +1,324 @@
+"78: ESRI Demographics - Popn count (2015) (per 100,000)",0.000938103,2.6498258e-16,2.0695277e-13,0.036268946,A
+21: 2016 ELECTION - (%),0.9530189,0.44739068,0.19802095,0.11799735,B
+466: COVID_06-17-2020 - Case rate (per million) (per million),0.0015854611,2.0668012e-12,0.07350688,0.050794497,C
+467: COVID_06-17-2020 - Death rate (per million) (per million),3.0755266e-16,2.6498258e-16,0.09570469,0.07752802,A
+468: COVID_06-17-2020 - Worst week - cases (weekly cases per million) (per million),4.765023e-5,0.0038059638,0.028133633,0.009189138,C
+469: COVID_06-17-2020 - Worst week - deaths (weekly deaths per million) (per million),1.0248394e-6,0.06385391,0.08655439,0.027312765,D
+470: COVID_05-7-2020 - Case rate (per million) (per million),0.00036072262,2.6498258e-16,0.030049311,0.030318467,A
+471: COVID_05-7-2020 - Death rate (per million) (per million),3.0755266e-16,2.6498258e-16,0.05068272,0.055390477,A
+472: COVID_05-7-2020 - Worst week - cases (weekly cases per million) (per million),0.0017594185,0.00048164016,0.0128289005,0.007541861,C
+473: COVID_05-7-2020 - Worst week - deaths (weekly deaths per million) (per million),0.0058923084,2.9337655e-6,0.015385879,0.055500157,A
+"121: ESRI Demographics - Number of farms (per 100,000)",0.014535264,0.24245669,0.019189063,3.8423222e-16,D
+81: ESRI Demographics - Popn density (2010) (ppl/mi2),3.8392986e-6,2.6498258e-16,0.0005101286,0.013159526,A
+79: ESRI Demographics - Popn density (2015) (ppl/mi2),4.222702e-6,2.6498258e-16,0.0004929996,0.013187916,A
+"197: - Gun shops (per 100,000)",0.026019134,0.07568967,0.010356752,2.9441138e-8,D
+"198: - All fire businesses (per 100,000)",0.03249377,0.084766544,0.010279818,0.0027678187,D
+266: County Health - Dentists (Dentist Rate),0.04020738,0.027261889,0.018138604,0.15076351,A
+331: County Health - Demographics (% African American),3.0755266e-16,2.6498258e-16,0.39922032,0.04069147,C
+295: County Health - Premature age-adjusted mortality (Age-Adjusted Mortality (Hispanic)),0.101579204,0.31778932,0.28586274,0.0532241,D
+"118: ESRI Demographics - Vacant housing (per 100,000)",3.0755266e-16,0.10230331,0.04456655,0.012548653,D
+437: Cities - LargetCity-County popn ratio (ppl/mi2),4.4172327e-7,2.6498258e-16,8.112267e-6,0.0022024375,A
+"117: ESRI Demographics - Number of housing units (per 100,000)",0.068367966,0.17299432,0.095966846,0.08534342,D
+"112: ESRI Demographics - Household (married w/o children) (per 100,000)",0.5149243,0.48020098,0.13877533,0.29816148,B
+"122: ESRI Demographics - Average farm size (per 100,000)",7.918191e-16,0.027620737,0.018748697,0.002442764,D
+265: County Health - Primary care physicians (PCP Rate),0.069582544,0.054802295,0.028557783,0.2279666,A
+287: County Health - Air pollution - particulate matter (Average Daily PM2.5),0.5428854,0.074452244,0.29499033,0.3339701,B
+308: County Health - HIV prevalence (HIV Prevalence Rate),3.0755266e-16,2.6498258e-16,0.17826061,0.07302765,C
+"428: 2016 Crime - ROBBERY (per 100,000)",3.0755266e-16,2.6498258e-16,0.112514846,0.10113005,A
+"109: ESRI Demographics - Household (one male) (per 100,000)",0.07411504,0.16822466,0.117925,0.115961306,D
+216: CDC WONDER - Suicide rate (rate),0.09030697,0.13040642,0.09341832,0.033384193,D
+203: USDA Rural Influence - RUCC_2013 (#),2.2376099e-9,0.90167063,0.5556315,3.8423222e-16,D
+"431: 2016 Crime - LARCENY (per 100,000)",0.23744202,2.6498258e-16,0.28378105,0.38830566,A
+"123: ESRI Demographics - Acreage of crops (per 100,000)",3.0755266e-16,0.06303229,0.0011367184,1.4337957e-5,D
+105: ESRI Demographics - Median age (male) (years),0.3645966,0.41441292,0.17863283,0.24506406,D
+182: 2010 IRS Taxes - State-local taxes ($/person),0.064096496,0.024859443,0.029378003,0.11820448,A
+"114: ESRI Demographics - Household (female w/ children) (per 100,000)",0.23420247,0.0707902,0.6093243,0.23672274,C
+243: County Health - Premature death (Years of Potential Life Lost Rate (Hispanic)),0.021896677,0.09913129,0.061850023,0.00710266,D
+316: County Health - Uninsured children (% Uninsured),0.15504266,0.22753723,0.22006102,0.053520758,D
+"100: ESRI Demographics - Popn: Age 55-64 (per 100,000)",0.299773,0.33139813,0.24457277,0.24667826,B
+"83: ESRI Demographics - Popn: Black (per 100,000)",3.0755266e-16,2.6498258e-16,0.39325422,0.03128686,C
+104: ESRI Demographics - Median age (years),0.3770547,0.4136691,0.20892592,0.25715652,B
+"86: ESRI Demographics - Popn: Hawaii/PI (per 100,000)",6.536446e-5,0.00019477353,0.00050377555,0.0057732654,A
+310: County Health - Limited access to healthy foods (% Limited Access),0.019265864,0.12981467,0.19410263,0.048650224,D
+339: County Health - Demographics (% Rural),0.4147683,0.7581709,0.40769112,3.8423222e-16,D
+"97: ESRI Demographics - Popn: Age 25-34 (per 100,000)",0.27734122,0.07195302,0.29856536,0.34272182,A
+"102: ESRI Demographics - Popn: Age 75-84 (per 100,000)",0.16252619,0.24149245,0.128419,0.103325576,D
+399: Climate Change Survey - governor (%),0.08379691,0.12155827,0.58247596,0.66349685,A
+"101: ESRI Demographics - Popn: Age 65-74 (per 100,000)",0.24505909,0.29996347,0.19922015,0.09744418,D
+400: Climate Change Survey - governorOppose (%),0.79262155,0.32921427,0.048358075,0.114360645,B
+"430: 2016 Crime - BURGLRY (per 100,000)",0.08787261,4.5092538e-8,0.19396631,0.07727362,C
+"462: Religion - Black Protestant (per 1,000)",2.4141824e-15,3.8231224e-6,0.29651546,0.004083093,C
+258: County Health - Alcohol-impaired driving deaths (# Alcohol-Impaired Driving Deaths),0.011689506,0.035135433,0.033432264,2.5830416e-6,D
+"427: 2016 Crime - RAPE (per 100,000)",0.02752929,0.0038335118,0.03413961,0.043446835,A
+286: County Health - Injury deaths (Injury Death Rate),0.18308946,0.20804878,0.27000108,0.034360398,D
+"432: 2016 Crime - MVTHEFT (per 100,000)",0.054291453,5.262349e-12,0.16005,0.13741958,A
+"168: 2010 IRS Taxes - Joint returns (per 100,000)",0.17896189,0.1283541,0.025879467,0.14636353,B
+106: ESRI Demographics - Median age (female) (years),0.39387518,0.41647726,0.24382405,0.27000847,B
+377: Climate Change Survey - regulate (%),0.11467525,0.16984828,0.42554894,0.8438701,A
+314: County Health - Insufficient sleep (% Insufficient Sleep),0.44579798,0.019078197,0.6986542,0.21731718,C
+180: 2010 IRS Taxes - State-local taxes ($M),0.024381423,0.007517046,4.09202e-16,0.12040524,A
+378: Climate Change Survey - regulateOppose (%),0.73214173,0.33511198,0.2383103,0.01270079,B
+"119: ESRI Demographics - Owner-occupied housing (per 100,000)",0.6024579,0.46795726,0.32869223,0.38879353,B
+330: County Health - Demographics (% 65 and over),0.20515928,0.2644812,0.14875737,0.12758191,D
+"107: ESRI Demographics - House-holds (per 100,000)",0.2750293,0.26604363,0.20433506,0.25353688,B
+372: Climate Change Survey - personalOppose (%),0.93139994,0.47432965,2.6953372e-5,0.41754282,B
+285: County Health - Violent crime (Violent Crime Rate),0.07274665,2.4880367e-6,0.3157763,0.13831487,C
+398: Climate Change Survey - congressOppose (%),0.7924953,0.3115131,0.12147297,0.10496405,B
+"98: ESRI Demographics - Popn: Age 35-44 (per 100,000)",0.46854198,0.10225707,0.3020223,0.4013756,B
+370: Climate Change Survey - harmUSOppose (%),0.9671472,0.40221044,0.011740769,0.26441467,B
+"461: Religion - Christian Churches and Churches of Christ (per 1,000)",0.05339394,0.14556755,0.001378736,3.8423222e-16,D
+"96: ESRI Demographics - Popn: Age 20-24 (per 100,000)",0.115032576,0.022259353,0.16830242,0.22240646,A
+383: Climate Change Survey - supportRPS (%),0.033337887,0.14648123,0.43744355,0.80718625,A
+133: 2010 Federal Spending - Agriculture ($/person),3.0755266e-16,0.047315706,0.006411019,7.467817e-5,D
+368: Climate Change Survey - devharmOppose (%),0.97471136,0.3804737,0.009885783,0.13757391,B
+"425: 2016 Crime - Crime Rate (per 100,000)",0.064002246,2.6498258e-16,0.291649,0.13650157,C
+"452: Religion - Church of Jesus Christ of Latter-day Saints (per 1,000)",0.0122250365,0.08788873,5.0601847e-14,0.014335258,D
+358: Climate Change Survey - consensusOppose (%),0.9324462,0.32736924,0.0662003,0.14950548,B
+354: Climate Change Survey - happeningOppose (%),0.87613684,0.33479282,0.030618731,0.06905671,B
+304: County Health - Infant mortality (Infant Mortality Rate (White)),0.5251797,0.079288326,0.6481375,0.01887791,C
+259: County Health - Sexually transmitted infections (Chlamydia Rate),0.027346127,0.00991882,0.26285884,0.12456421,C
+382: Climate Change Survey - reducetaxOppose (%),0.7525479,0.3241802,0.07803054,0.04862082,B
+401: Climate Change Survey - localofficials (%),3.0755266e-16,0.07384447,0.56710577,0.6185538,A
+402: Climate Change Survey - localofficialsOppose (%),0.84372693,0.3180859,0.03458469,0.13793541,B
+385: Climate Change Survey - rebates (%),0.1311966,0.19861323,0.36823797,0.90542006,A
+360: Climate Change Survey - affectweatherOppose (%),0.84785676,0.305267,0.104047015,0.099957705,B
+"429: 2016 Crime - AGASSLT (per 100,000)",0.07099633,2.6498258e-16,0.25434646,0.086471006,C
+267: County Health - Mental health providers (MHP Rate),0.019456452,0.018576197,0.058058925,0.17413354,A
+366: Climate Change Survey - futuregenOppose (%),0.8551002,0.33742765,0.0633882,0.062142137,B
+283: County Health - Children in single-parent households (% Single-Parent Households),0.21258561,0.11433873,0.543516,0.22377992,C
+324: County Health - Children eligible for free or reduced price lunch (% Free or Reduced Lunch),0.38438123,0.22357807,1.0,0.19238855,C
+"116: ESRI Demographics - Average family size (per 100,000)",0.3161204,0.130076,0.3436906,0.34613594,A
+364: Climate Change Survey - harmplantsOppose (%),0.90802777,0.33826536,0.067360744,0.08553659,B
+336: County Health - Demographics (% Non-Hispanic White),0.9833006,0.5523968,3.4704117e-5,0.4661764,B
+333: County Health - Demographics (% Asian),0.007524078,0.00039624638,3.7482916e-12,0.11272021,A
+386: Climate Change Survey - rebatesOppose (%),0.697875,0.29253915,0.2806817,1.4871593e-5,B
+392: Climate Change Survey - teachGWOppose (%),0.86499256,0.30940452,0.08118068,0.03686096,B
+288: County Health - Severe housing problems (% Severe Housing Problems),0.08039168,0.047779955,0.24844167,0.23067176,A
+"108: ESRI Demographics - Average household size (per 100,000)",0.38670027,0.14364842,0.34309885,0.3603828,B
+"115: ESRI Demographics - Number of families (per 100,000)",0.7095623,0.47459802,0.42045328,0.4196162,B
+407: Climate Change Survey - mediaweekly (%),0.23115432,0.35829526,0.03264852,0.6177258,A
+"179: 2010 IRS Taxes - State-local returns (per 100,000)",0.103465594,0.028756866,2.6646555e-15,0.2830334,A
+70: 2015 Census - Non-citizen popn (%),0.011360739,9.464616e-15,0.10582241,0.17216688,A
+439: Education attaint - Bachelor's degree (18–24) (%),0.060318608,0.07250154,4.09202e-16,0.24002954,A
+151: 2010 Federal Spending - Comm-unity ($/person),0.016878026,0.013059408,0.0032577089,0.06639356,A
+"433: 2016 Crime - ARSON (per 100,000)",0.04648294,0.0035156943,0.072986424,0.059960894,C
+371: Climate Change Survey - personal (%),3.0755266e-16,0.09779829,0.4716946,0.45144564,A
+391: Climate Change Survey - teachGW (%),3.004023e-5,0.23579812,0.64732146,0.8286345,A
+381: Climate Change Survey - reducetax (%),0.18514933,0.24817517,0.62033397,0.7892607,A
+384: Climate Change Survey - supportRPSOppose (%),0.8170563,0.34454957,0.2886065,0.057030108,B
+289: County Health - Driving alone to work (% Drive Alone),0.9083131,0.36947832,0.587408,0.5983325,B
+373: Climate Change Survey - timing (%),3.0755266e-16,0.15093075,0.56476736,0.6678707,A
+"84: ESRI Demographics - AMERI_ES (per 100,000)",3.0755266e-16,0.011911663,0.06469624,0.0026054275,C
+374: Climate Change Survey - timingOppose (%),0.99028695,0.36637977,0.095179185,0.09885958,B
+293: County Health - Long commute - driving alone (% Long Commute - Drives Alone),0.43809518,0.11828492,0.2792648,0.28283307,B
+"448: Religion - Church of Christ (per 1,000)",0.05983395,0.03305133,0.067526676,3.8423222e-16,C
+327: County Health - Firearm fatalities (Firearm Fatalities Rate),0.11962066,0.17349099,0.2621781,0.004311338,D
+275: County Health - High school graduation (Graduation Rate),0.8110872,0.46624362,0.4315056,0.6125347,B
+"459: Religion - Church of the Nazarene (per 1,000)",0.06100203,0.12630302,0.02559004,1.3719168e-9,D
+217: CDC WONDER - Homicide (0),0.013499189,1.5292443e-7,0.34604704,0.01738269,C
+394: Climate Change Survey - corporationsOppose (%),0.74344444,0.23966795,0.22154146,0.0072803115,B
+"426: 2016 Crime - MURDER (per 100,000)",0.013350223,0.0030309188,0.15288226,0.028083086,C
+404: Climate Change Survey - prienvOppose (%),0.8984737,0.28985357,0.14985885,0.04557493,B
+408: Climate Change Survey - mediaweeklyOppose (%),0.6827032,0.19809164,0.64121354,0.176853,C
+"103: ESRI Demographics - Popn: Age 85-up (per 100,000)",0.14792547,0.28955972,0.096985996,0.16495685,D
+"99: ESRI Demographics - Popn: Age 45-54 (per 100,000)",0.4129005,0.31622958,0.26054162,0.36295253,B
+397: Climate Change Survey - congress (%),1.3790349e-8,0.16768633,0.4554342,0.7013294,A
+71: 2015 Census - Eligible popn (%),0.5936436,0.42200944,0.38687715,0.43974525,B
+403: Climate Change Survey - prienv (%),0.0059263753,0.26808783,0.5127076,0.81688756,A
+380: Climate Change Survey - CO2limitsOppose (%),0.6758861,0.25980058,0.17380802,0.011775277,B
+"454: Religion - United Methodist Church (per 1,000)",0.1512459,0.17485283,0.08297851,0.017765587,D
+361: Climate Change Survey - worried (%),3.0755266e-16,0.1326831,0.40593702,0.6735057,A
+"69: 2015 Census - Popn over 18 and citizen (per 100,000)",0.56806386,0.373606,0.42262915,0.49721804,B
+326: County Health - Homicides (Homicide Rate),0.023611905,0.0013308398,0.39650515,0.0134938825,C
+210: 2010 Health Metrics - Female sufficient activity (%),0.27737013,0.36905545,1.3182088e-15,0.7081103,A
+311: County Health - Drug overdose deaths (Drug Overdose Mortality Rate),0.20247202,0.15973318,0.2014433,0.06943121,B
+362: Climate Change Survey - worriedOppose (%),1.0,0.37301707,0.2462297,0.09622088,B
+"446: Religion - Assemblies of God (per 1,000)",0.034572907,0.04430414,0.04008638,0.012209344,D
+332: County Health - Demographics (% American Indian/Alaskan Native),3.0755266e-16,0.01588636,0.07224664,0.004712286,C
+396: Climate Change Survey - citizensOppose (%),0.7950816,0.21381636,0.18516192,3.5056644e-7,B
+189: 2010 IRS Taxes - AGI inequality (25k:200k) (ratio),0.03992103,0.02969987,0.033098374,0.03904183,B
+318: County Health - Other primary care providers (Other PCP Rate),0.029787559,0.03256424,0.03923902,0.06719412,A
+"457: Religion - Lutheran Church (per 1,000)",0.0014056828,0.15016276,4.09202e-16,0.019876737,D
+369: Climate Change Survey - harmUS (%),3.0755266e-16,0.16342677,0.4179873,0.61353934,A
+"340: USDA Education, Poverty, and Unemployment - Less than a high school diploma, 2012-2016 (%)",0.20998001,0.066036604,0.56537074,0.023347404,C
+313: County Health - Motor vehicle crash deaths (MV Mortality Rate),0.13655584,0.22303516,0.32332662,3.8423222e-16,D
+273: County Health - Mammography screening (% Mammography (Black)),0.49437794,0.47649965,0.22997716,0.4761382,B
+353: Climate Change Survey - happening (%),4.976945e-5,0.21204627,0.500945,0.8203764,A
+"169: 2010 IRS Taxes - Single returns (per 100,000)",0.13641071,0.11287788,0.19028017,0.2477325,A
+178: 2010 IRS Taxes - Salaries-wages ($/person),0.25961295,0.09468058,0.11430056,0.39348865,A
+248: County Health - Low birthweight (% LBW),0.17376459,0.06649082,0.36728445,0.112368755,C
+"124: ESRI Demographics - AVE_SALE12 (per 100,000)",0.0039824466,0.04077265,0.04112893,0.03206895,D
+379: Climate Change Survey - CO2limits (%),0.18857487,0.28105646,0.53297997,0.83227795,A
+"458: Religion - Evangelical Lutheran Church in America (per 1,000)",3.0755266e-16,0.16582465,4.09202e-16,0.014969398,D
+161: 2010 Federal Spending - Law & Homeland Security ($/person),5.056966e-15,1.0672804e-5,0.006464133,0.042302098,A
+284: County Health - Social associations (Association Rate),0.13632491,0.23127846,0.0844721,0.104829,D
+"342: USDA Education, Poverty, and Unemployment - Some college or associate's degree, 2012-2016 (%)",0.4576922,0.37964872,0.19373003,0.49006468,B
+"92: ESRI Demographics - Popn: Age under 5 (per 100,000)",0.43868703,0.21799412,0.44581673,0.3966812,B
+"424: Marriage and Divorce - Marriage/Divorce Rate (2010) (per 1,000)",0.0004046135,0.006027337,0.014102317,0.013317962,A
+214: 2010 Health Metrics - Sufficient activity (%),0.2725919,0.3456191,8.451378e-12,0.71290964,A
+"88: ESRI Demographics - Popn: Other (per 100,000)",0.023527255,2.307536e-11,0.20012309,0.15006265,C
+256: County Health - Access to exercise opportunities (% With Access),0.56197554,0.21990715,0.12650463,1.0,A
+190: 2010 IRS Taxes - AGI inequality (50k:100k) (ratio),0.023693474,0.026662331,0.031509943,0.042477608,A
+72: 2015 Census - Voter participation (%),0.15168434,0.13668229,0.07582085,0.21914105,A
+337: County Health - Demographics (% Not Proficient in English),0.0015063345,1.36500156e-14,0.10797939,0.10332928,A
+393: Climate Change Survey - corporations (%),0.04521623,0.2280329,0.33199477,0.76451445,A
+191: 2010 IRS Taxes - Tax inequality (25k:200k) (ratio),0.023046276,0.0149929635,0.02472013,0.0182113,B
+209: 2010 Health Metrics - Male sufficient activity (%),0.29673037,0.3176654,0.03140539,0.69954145,A
+"90: ESRI Demographics - Popn: Males (per 100,000)",0.2883219,0.2338159,0.28210282,0.24612993,B
+355: Climate Change Survey - human (%),8.52253e-5,0.17638978,0.378088,0.7176965,A
+149: 2010 Federal Spending - Veterans ($/person),0.15852486,0.10604449,0.16791403,0.08371751,B
+212: 2010 Health Metrics - Female obesity (%),0.45769268,0.21911763,0.76959985,0.16548827,C
+195: 2010 IRS Taxes - Tax burden (>$100k) (%),0.48508528,0.22743402,0.2455416,0.68817335,A
+395: Climate Change Survey - citizens (%),4.341577e-10,0.21860926,0.35245243,0.74365515,A
+159: 2010 Federal Spending - Education ($/person),2.7314904e-6,0.0014156996,0.045687538,0.07358508,A
+359: Climate Change Survey - affectweather (%),0.10528751,0.25779712,0.43573076,0.79980344,A
+389: Climate Change Survey - drilloffshore (%),0.91521466,0.3218332,0.38321006,0.1401532,B
+"419: Marriage and Divorce - Adjusted Divorce Rate (2000) (per 1,000)",0.0076918066,0.0020947095,0.003712042,0.0034976078,B
+"93: ESRI Demographics - Popn: Age 5-9 (per 100,000)",0.50596106,0.23809981,0.4217359,0.4224189,B
+356: Climate Change Survey - humanOppose (%),0.8905124,0.34567818,0.3637001,0.11307201,B
+390: Climate Change Survey - drilloffshoreOppose (%),7.817675e-9,0.18373081,0.27855638,0.650954,A
+388: Climate Change Survey - drillANWROppose (%),0.041699015,0.22702478,0.3919587,0.72816557,A
+"348: USDA Education, Poverty, and Unemployment - Civilian_labor_force_2016 (#)",0.34510097,0.25309405,0.13811249,0.45653424,A
+262: County Health - Teen births (Teen Birth Rate (Hispanic)),0.11889314,0.18606712,0.28588855,0.038843025,D
+367: Climate Change Survey - devharm (%),4.388659e-7,0.23434506,0.40332994,0.7766213,A
+276: County Health - Some college (% Some College),0.40690964,0.3330082,0.060592387,0.7657961,A
+245: County Health - Poor or fair health (% Fair/Poor),0.20686385,0.057443302,0.70244044,0.018698638,C
+192: 2010 IRS Taxes - Tax inequality (50k:100k) (ratio),0.018595602,0.016573993,0.027017705,0.023396261,B
+"85: ESRI Demographics - Popn: Asian (per 100,000)",0.0046417704,2.4706265e-5,9.43951e-14,0.091473214,A
+"349: USDA Education, Poverty, and Unemployment - Employed_2016 (#)",0.33527246,0.24936269,0.11937136,0.44981554,A
+319: County Health - Disconnected youth (% Disconnected Youth),0.17682871,0.13140973,0.38139734,0.022049725,C
+268: County Health - Preventable hospital stays (Preventable Hosp. Rate),0.2710694,0.11471785,0.30714613,0.009838612,C
+375: Climate Change Survey - fundrenewables (%),0.14295922,0.31180108,0.29322433,0.8291202,A
+291: County Health - Driving alone to work (% Drive Alone (Hispanic)),0.783582,0.32886308,0.5514945,0.52574444,B
+387: Climate Change Survey - drillANWR (%),0.8451151,0.27211228,0.3103915,0.08592917,B
+263: County Health - Teen births (Teen Birth Rate (White)),0.22718173,0.094487846,0.32552338,3.8423222e-16,C
+441: Education attaint - Graduatedegree (25+) (%),0.09668857,0.045799684,0.019165872,0.35114622,A
+274: County Health - Mammography screening (% Mammography (White)),0.44645593,0.4745401,0.2316024,0.57365316,B
+"95: ESRI Demographics - Popn: Age 15-19 (per 100,000)",0.3331844,0.17313895,0.32514906,0.3484505,B
+250: County Health - Low birthweight (% LBW (Hispanic)),0.19047703,0.2732163,0.24902123,0.19178328,D
+302: County Health - Infant mortality (Infant Mortality Rate (Black)),0.22058906,1.0,0.41569948,0.10495985,D
+300: County Health - Child mortality (Child Mortality Rate (White)),0.17997174,0.17569736,0.36941677,0.009614456,C
+254: County Health - Food environment index (Food Environment Index),0.77191675,0.38026497,0.21644337,0.7518376,B
+363: Climate Change Survey - harmplants (%),0.002416382,0.29088417,0.40673473,0.8622756,A
+"87: ESRI Demographics - Popn: Hispanic (per 100,000)",0.0047105486,0.008586698,0.1959837,0.1377185,C
+194: 2010 IRS Taxes - Tax burden (50-100k) (%),0.31461334,0.22634174,0.28262335,0.12759194,B
+"170: 2010 IRS Taxes - People in returns (per 100,000)",0.16368435,0.12277013,0.08466781,0.18176502,B
+"344: USDA Education, Poverty, and Unemployment - Overall poverty rate (%)",0.1457214,0.115065336,0.6772451,0.04230539,C
+312: County Health - Drug overdose deaths - modeled (Range Drug Overdose Mortality Rate),0.21248524,0.05799718,0.15958433,0.10352432,B
+177: 2010 IRS Taxes - Salaries-wages ($/return),0.22052644,0.045343067,4.09202e-16,0.36475116,A
+215: 2010 Health Metrics - Obesity (%),0.5603182,0.2636975,0.75040036,0.18877015,C
+"415: Marriage and Divorce - Crude Divorce Rate (2000) (per 1,000)",0.008388276,0.0024418414,0.00261104,0.0028688437,B
+335: County Health - Demographics (% Hispanic),0.0037992042,0.012152317,0.19542955,0.14605108,C
+357: Climate Change Survey - consensus (%),0.0417886,0.2280157,0.30688113,0.74933743,A
+176: 2010 IRS Taxes - Salaries-wages ($M),0.16766173,0.06602067,0.0325156,0.2857517,A
+"412: Marriage and Divorce - Marriage Rate (2010) (per 1,000)",0.04785397,0.022022083,0.03718855,0.044510026,B
+292: County Health - Driving alone to work (% Drive Alone (White)),0.85729426,0.36568508,0.663976,0.62174237,B
+253: County Health - Adult obesity (% Obese),0.56624967,0.25908494,0.57151145,0.18070494,C
+252: County Health - Adult smoking (% Smokers),0.30852154,0.11473219,0.45462257,0.08193349,C
+"346: USDA Education, Poverty, and Unemployment - Related children age 5-17 in families in poverty 2016 (%)",0.124892816,0.11638244,0.6620156,0.010064206,C
+309: County Health - Food insecurity (% Food Insecure),0.22704533,0.1119651,0.5720457,0.121684626,C
+207: 2010 Health Metrics - Male life expectancy (years),0.45634183,0.41885024,0.07383918,0.8277827,A
+247: County Health - Poor mental health days (Mentally Unhealthy Days),0.45163637,0.06382003,0.7155319,0.1264841,C
+365: Climate Change Survey - futuregen (%),0.005528285,0.2752983,0.34007713,0.85591656,A
+325: County Health - Residential segregation - black/white (Segregation index),0.4614194,0.34486312,0.11679457,0.55720717,B
+298: County Health - Child mortality (Child Mortality Rate (Black)),0.18623912,0.85021025,0.3845251,0.06687046,D
+"451: Religion - Presbyterian Church (U.S.A.) (per 1,000)",6.6834064e-6,0.15829578,0.03344429,0.10538494,D
+137: 2010 Federal Spending - Social Security ($/person),0.2311041,0.1888819,0.17741495,0.14320196,B
+208: 2010 Health Metrics - Female life expectancy (years),0.37999165,0.42652917,0.033561602,0.83212525,A
+"120: ESRI Demographics - Renter-occupied housing (per 100,000)",0.04882554,0.052769482,0.114080496,0.13391416,A
+135: 2010 Federal Spending - Defense ($/person),0.0023895355,2.6498258e-16,0.005477366,0.025504239,A
+278: County Health - Children in poverty (% Children in Poverty),0.16108973,0.14199245,0.74250436,0.01611643,C
+264: County Health - Uninsured (% Uninsured),0.19157404,0.15392405,0.51171374,0.055602774,C
+"345: USDA Education, Poverty, and Unemployment - 0-17 Poverty rate (%)",0.16099577,0.14281079,0.74671835,0.015366623,C
+174: 2010 IRS Taxes - Adjusted gross income ($/person),0.15846546,0.07008269,0.053026203,0.28201622,A
+213: 2010 Health Metrics - Life expectancy (years),0.42162082,0.41944873,0.052606124,0.83446455,A
+257: County Health - Excessive drinking (% Excessive Drinking),0.2946042,0.2567522,4.09202e-16,0.6407832,A
+"444: Religion - Main-stream Protestant (per 1,000)",0.05660926,0.20880564,0.0027712116,0.107142374,D
+281: County Health - Children in poverty (% Children in Poverty (White)),0.24924332,0.17456521,0.3878708,0.0029329255,C
+334: County Health - Demographics (% Native Hawaiian/Other Pacific Islander),0.00019205472,0.0003847104,0.0016172657,0.007767268,A
+157: 2010 Federal Spending - Federal (non-defense) ($/person),6.2596496e-6,0.0041908235,0.003746603,0.013306172,A
+338: County Health - Demographics (% Female),0.6947429,0.3890509,0.55299103,0.6698635,B
+306: County Health - Frequent mental distress (% Frequent Mental Distress),0.26635617,0.06052805,0.6020117,0.048523825,C
+"411: Marriage and Divorce - Divorce Rate (2010) (per 1,000)",0.014270157,0.0048955944,0.0045843585,0.005152408,B
+436: Cities - Population (#),0.025009887,0.043571133,0.05964365,0.06238123,A
+"456: Religion - Seventh-day Adventist Church (per 1,000)",0.00067710807,0.055733494,0.052849896,0.027766041,D
+"110: ESRI Demographics - Household (one female) (per 100,000)",0.101447634,0.12067779,0.10973162,0.12389879,B
+376: Climate Change Survey - fundrenewablesOppose (%),0.68550867,0.16167983,0.35889208,0.018504508,B
+"111: ESRI Demographics - Household (married w/children) (per 100,000)",0.70609945,0.32106012,0.25579447,0.54118276,B
+279: County Health - Children in poverty (% Children in Poverty (Black)),0.29272938,0.43258932,0.5155406,0.16849983,D
+260: County Health - Teen births (Teen Birth Rate),0.24594545,0.09082251,0.5953265,1.04460955e-8,C
+143: 2010 Federal Spending - Medicaid ($/person),0.009464066,0.032034304,0.11043406,0.0043411735,C
+315: County Health - Uninsured adults (% Uninsured),0.1949294,0.13069315,0.57166195,0.051408693,C
+244: County Health - Premature death (Years of Potential Life Lost Rate (White)),0.32833382,0.18480554,0.45677122,0.010540814,C
+"421: Marriage and Divorce - Crude Marriage Rate (2000) (per 1,000)",0.024614194,0.009408918,0.01876437,0.021100504,B
+282: County Health - Income inequality (Income Ratio),0.17443158,0.111042485,0.49230865,0.21550708,C
+329: County Health - Demographics (% < 18),0.51781833,0.25758854,0.43259054,0.43362188,B
+141: 2010 Federal Spending - Medicare ($/person),0.16038758,0.1520289,0.2369637,0.059473272,C
+"447: Religion - Baha'i (per 1,000)",3.0755266e-16,0.005798491,0.03621791,0.007190348,C
+"341: USDA Education, Poverty, and Unemployment - High school diploma only, 2012-2016 (%)",0.64795274,0.36768958,0.50526303,0.12805161,B
+272: County Health - Mammography screening (% Mammography),0.4785781,0.31509584,0.2300466,0.6380524,A
+"183: 2010 IRS Taxes - Federal filers (per 100,000)",0.17214675,0.12119171,0.046956312,0.24344319,A
+"460: Religion - Church of God (Cleveland, Tennessee) (per 1,000)",0.061876904,0.018506141,0.09914864,3.8423222e-16,C
+323: County Health - Median household income (Household income (White)),0.17715824,0.079984814,0.04125661,0.45579052,A
+305: County Health - Frequent physical distress (% Frequent Physical Distress),0.2371212,0.066128336,0.62396425,0.03473274,C
+307: County Health - Diabetes prevalence (% Diabetic),0.49179068,0.19974434,0.60842264,0.0941921,C
+261: County Health - Teen births (Teen Birth Rate (Black)),0.29173797,0.24985705,0.5248764,0.06783753,C
+299: County Health - Child mortality (Child Mortality Rate (Hispanic)),0.28108415,0.6593706,0.45715982,0.06722366,D
+"113: ESRI Demographics - Household (male w/ children) (per 100,000)",0.31210718,0.18414815,0.33814523,0.23943089,B
+303: County Health - Infant mortality (Infant Mortality Rate (Hispanic)),0.4896433,0.07210569,0.41824695,0.06716827,C
+"445: Religion - Catholic (per 1,000)",2.370496e-13,0.11467227,4.09202e-16,0.30342093,A
+"343: USDA Education, Poverty, and Unemployment - Bachelor's degree or higher, 2012-2016 (%)",0.12403193,0.104940124,7.292486e-15,0.5013116,A
+246: County Health - Poor physical health days (Physically Unhealthy Days),0.30705515,0.063484676,0.65577525,0.047356274,C
+269: County Health - Diabetes monitoring (% Receiving HbA1c),0.7453325,0.44156978,0.48428646,0.71634525,B
+296: County Health - Premature age-adjusted mortality (Age-Adjusted Mortality (White)),0.36659685,0.13359357,0.48654267,0.021859767,C
+"175: 2010 IRS Taxes - Salaries-wages returns (per 100,000)",0.17512989,0.113919616,0.12300668,0.21858326,A
+290: County Health - Driving alone to work (% Drive Alone (Black)),0.81304586,0.24830659,0.65307325,0.4982034,B
+"89: ESRI Demographics - Popn: Multirace (per 100,000)",0.032674205,0.018637493,0.061000194,0.106689796,A
+"455: Religion - Other (per 1,000)",0.005288792,0.04124216,4.09202e-16,0.051527645,A
+"94: ESRI Demographics - Popn: Age 10-14 (per 100,000)",0.5187926,0.2626191,0.41106647,0.41230312,B
+131: 2010 Federal Spending - Total ($/person),0.017453952,0.0457514,0.073391974,0.06819219,A
+147: 2010 Federal Spending - Income Security ($/person),0.01348759,0.022685023,0.13579749,0.038373716,C
+187: 2010 IRS Taxes - Income inequality (25k:200k) (ratio),0.26352838,0.058004692,0.11805028,0.31546184,A
+277: County Health - Unemployment (% Unemployed),0.12859736,0.04418177,0.31076315,0.054280985,C
+"423: Marriage and Divorce - Adjusted Marriage Rate (2000) (per 1,000)",0.027210947,0.009960025,0.013210548,0.016124541,B
+186: 2010 IRS Taxes - Federal taxes ($/person),0.062538885,0.03001513,0.033538006,0.1441156,A
+"352: USDA Education, Poverty, and Unemployment - Med_HH_Income_Percent_of_State_Total_2016 (%)",0.2748102,0.07602825,1.335891e-15,0.332593,A
+440: Education attaint - Bachelor's degree (25+) (%),0.14646943,0.159127,4.09202e-16,0.58279985,A
+"351: USDA Education, Poverty, and Unemployment - Unemployment_rate_2016 (%)",0.13036577,0.045430887,0.31161472,0.05580858,C
+241: County Health - Premature death (Years of Potential Life Lost Rate),0.123531446,0.069066174,0.29680604,3.0052094e-10,C
+406: Climate Change Survey - discussOppose (%),0.90280145,0.29250753,0.5551811,0.12297893,B
+249: County Health - Low birthweight (% LBW (Black)),0.2900978,0.19298275,0.35325512,0.1107682,C
+294: County Health - Premature age-adjusted mortality (Age-Adjusted Mortality (Black)),0.20164646,0.16296087,0.29447487,0.059582956,C
+405: Climate Change Survey - discuss (%),0.029230133,0.23746741,0.15684566,0.6653018,A
+"450: Religion - Non-denominational (per 1,000)",0.033741016,0.017751282,0.0375179,0.03797024,B
+193: 2010 IRS Taxes - Tax burden (<$50k) (%),0.12369924,0.11510796,0.22539096,0.034139022,C
+139: 2010 Federal Spending - Retirement (other) ($/person),0.048300527,0.027548261,0.07029633,0.052001677,C
+"350: USDA Education, Poverty, and Unemployment - Unemployed_2016 (#)",0.19332543,0.10157752,0.24850616,0.18498406,C
+188: 2010 IRS Taxes - Income inequality (50k:100k) (ratio),0.05176241,0.0268347,0.039827075,0.07172264,A
+271: County Health - Diabetes monitoring (% Receiving HbA1c (White)),0.4972501,0.4548175,0.28735328,0.5649569,B
+270: County Health - Diabetes monitoring (% Receiving HbA1c (Black)),0.5585915,0.5084884,0.36609405,0.5231896,B
+"443: Religion - Evangelical (per 1,000)",0.24415128,0.04616109,0.22643204,3.8423222e-16,C
+"453: Religion - Southern Baptist Convention (per 1,000)",0.12630254,3.3407427e-16,0.2273522,3.8423222e-16,C
+184: 2010 IRS Taxes - Federal taxes ($M),0.0721705,0.04388671,4.09202e-16,0.20786415,A
+242: County Health - Premature death (Years of Potential Life Lost Rate (Black)),0.2826424,0.27445018,0.4740968,0.09886111,C
+438: Education attaint - Education attaint (%),0.118475854,0.12188723,2.3516706e-11,0.46684498,A
+211: 2010 Health Metrics - Male Obesity (%),0.6942002,0.32608026,0.676335,0.23771535,B
+"449: Religion - Episcopal (per 1,000)",3.0755266e-16,0.020563163,0.015583543,0.02556764,A
+280: County Health - Children in poverty (% Children in Poverty (Hispanic)),0.2658092,0.24427027,0.47937885,0.122845925,C
+173: 2010 IRS Taxes - Adjusted gross income ($/return),0.17092605,0.07553217,0.029909763,0.26646784,A
+317: County Health - Health care costs (Costs),0.4100485,0.1337804,0.35128728,0.17184852,B
+"442: Religion - All Religion (per 1,000)",0.20934257,0.18259257,0.19389834,0.16569418,B
+320: County Health - Median household income (Household Income),0.20241801,0.09638818,4.09202e-16,0.43854624,A
+"347: USDA Education, Poverty, and Unemployment - Median household income (#)",0.20241801,0.09638818,4.09202e-16,0.43854624,A
+181: 2010 IRS Taxes - State-local taxes ($/return),0.05387901,0.030927947,0.020690814,0.09931281,A
+"167: 2010 IRS Taxes - Total returns (per 100,000)",0.15647632,0.12014194,0.11246527,0.19887096,A
+255: County Health - Physical inactivity (% Physically Inactive),0.5561366,0.24398622,0.58812666,0.050092146,C
+297: County Health - Child mortality (Child Mortality Rate),0.10929234,0.18525772,0.37150338,0.0154729495,C
+"91: ESRI Demographics - Popn: Females (per 100,000)",0.6188203,0.3989378,0.55523765,0.5726196,B
+321: County Health - Median household income (Household income (Black)),0.10776498,0.054379426,0.00041932447,0.19134873,A
+251: County Health - Low birthweight (% LBW (White)),0.3032753,0.17244531,0.36770153,0.14852658,C
+145: 2010 Federal Spending - Health (other) ($/person),3.0755266e-16,0.0022487827,0.016170433,0.016009858,A
+322: County Health - Median household income (Household income (Hispanic)),0.19795139,0.104034275,0.039974894,0.250214,A
+172: 2010 IRS Taxes - Adjusted gross income ($M),0.22624345,0.13502954,0.09471548,0.33601144,A
+185: 2010 IRS Taxes - Federal taxes ($/return),0.05402994,0.021463495,2.3585031e-7,0.13604319,A
+301: County Health - Infant mortality (Infant Mortality Rate),0.11168638,0.1535355,0.31542805,0.005780974,C
