@@ -1,0 +1,119 @@
+NMFk Notebook: Feature extraction
+-----
+
+An example problem demonstrating how **NMFk** can be applied to extract and clasify features and sensors observing these mixed features.
+
+This type of analysis is related to **blind source separation**
+
+Applying **NMFk**, we can automatically:
+
+- identify the number of the unknown mixed signatures in a dataset 
+- estimate the shape of the unknown mixed signatures
+- estimate how the signatures are mixed at each sensor
+- clasify sensors based on how they observe (are impacted) the extracted features.
+
+<div style="text-align: left; padding-top: 30px; padding-bottom: 30px;">
+    <img src="../../logo/nmfk-logo.png" alt="NMFk" width=20% max-width=125px;/>
+</div>
+
+**NMFk** is a code within the [SmartTensors](https://github.com/SmartTensors) framework.
+
+<div style="text-align: left; padding-top: 30px; padding-bottom: 30px;">
+    <img src="../../logo/SmartTensorsNewSmall.png" alt="NMFk" width=20% max-width=125px;/>
+</div>
+
+If **NMFk** is not installed, first execute in the Julia REPL: `import Pkg; Pkg.add("NMFk"); Pkg.add("Mads")`.
+
+Let us generate 4 random signals with legnth of 100 (this can be considered as 100 ):
+
+The singals look like this:
+
+Now we can mix the signals in matrix `W` to produce a data matrix `X` representing data collected at 10 sensors (e.g., measurement devices or wells at different locations).
+
+Each of the 10 sensors is observing some mixture of the 4 signals in `W`.
+
+The way the 4 signals are mixed at the sensors is represented by the mixing matrix `H`.
+
+Let us define the mixing matrix `H` as:
+
+Each column of the `H` matrix defines how the 3 signals are represented in each sensors.
+
+For example, the first sensor (column 1 above) detects only Signals 1 and 3; Signal 2 is missing because `H[2,1]` is equal to zero.
+
+The second sensor (column 2 above) detects Signals 1, 2 and 4; Signal 3 is missing because `H[3,2]` is equal to zero.
+
+The entries of `H` matrix also define the proportions at which the signals are mixed.
+
+For example, the first sensor (column 1 above) detects Signal 3 times stronger than Signals 1 and 4.
+
+The data matrix `X` is formed by multiplying `W` and `H` matrices. `X` defines the actual data observed.
+
+The data matrix `X` looks like this:
+
+Now, we can assume that we only know the data matrix `X` and the `W` and `H` matrices are unknown.
+
+We can execute **NMFk** and analyze the data matrix `X`.
+
+**NMFk** will automatically:
+
+- identify the number of the unknown mixed signals in `X` 
+- estimate the shape of the unknown mixed signals (i.e., estimate the entries of `W` matrix)
+- estimate how the signals are mixed at the 5 sensors (i.e., estimate the entries of `H` matrix)
+
+This can be done based only on the information in `X`:
+
+**NMFk** returns the estimated optimal number of signals `kopt` which in this case, as expected, is equal to 4.
+
+A plot of the fit and the robustness is shown below:
+
+Acceptable (underfitting) solutions:
+
+**NMFk** also returns estimates of matrices `W` and `H`.
+
+Here the estimates of matrices W and H are stored as `We` and `He` objects.
+
+`We[kopt]` and `He[kopt]` are scaled versions of the original `W` and `H` matrices:
+
+Note that the order of columns ('signals') in `W` and `We[kopt]` are not expected to match.
+
+Also note that the order of rows ('sensors') in `H` and `He[kopt]` are also not expected to match.
+
+The estimated order of 'signals' will be different every time the code is executed.
+
+Below are plots providing comparisons between the original and estimated `W` an `H` matrices.
+
+
+A plot of the original signals:
+
+A plot of the reconstructed signals:
+
+A plot of the original mixing matrix:
+
+A plot of the reconstructed mixing matrix:
+
+Figures above demonstrate the accurate reconstruction of the original `W` and `H` matrices.
+
+**NMFk** results can be further analyzed as demonstrated below:
+
+The code above perform analyses of all the acceptable solutions.
+These are solutions with number of extracted features equal to 2, 3, and 4.
+The solution with 4 features is the optimal one.
+The solutions for 2 and 3 features are underfitting but informative as well.
+
+Extracted features beased on the solutions for 2, 3, and 4 signals look like this:
+
+The 10 sensors are grouped intp 4 groups.
+The sensor grouping is based on which of the 4 signals are mostly detected by the 4 sensors.
+The sensor grouping is listed below:
+
+This grouping is based on analyses of the attribute matrix `H` presented below.
+The grouping process tries to pick up the most important signal observed by each sensor.
+However, there are challanges when more than one signal is present.
+
+The clustering of the sensors into groups at the different levels of clsutering is visualized below:
+
+The biplots below show how the 4 extracted features are projecting the sensors and the timeseries data.
+Here, the features are viewed as basis vectors spanning the sensor/time space.
+Sensors located along the basis vectors (i.e., plot axes) are the most informative to charecterize the data.
+Temporal messurements along the plot axes are also the most important to represent the observed processes.
+
