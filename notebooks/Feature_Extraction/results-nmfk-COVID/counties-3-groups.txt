@@ -1,6360 +1,6333 @@
 Signal A (k-means clustering; remapped)
-KY Owsley
-KY Wolfe
-TX Loving
-KY Breathitt
-AK Prince of Wales-Hyder
-KY Magoffin
-KY Lee
-KY Leslie
-KY McCreary
-KY Powell
-KY Knott
-KY Bath
-MO Carter
-SD Jackson
-KY Metcalfe
-KY Elliott
-KY Letcher
-KY Estill
-KY Johnson
-MO Iron
-IL Clark
-VA Dickenson
-KY Breckinridge
-MI Oscoda
-OK Kiowa
-KY Lawrence
-MO Hickory
-KY Crittenden
-AR Izard
-KY Nicholas
-VA Covington City
-KY Floyd
-KY Robertson
-KY Clinton
-AK Southeast Fairbanks
-KY Wayne
-WV Mingo
-KY Fleming
-OH Vinton
-KY Knox
-KY Clay
-KY Rockcastle
-WV Mercer
-SD Oglala Lakota
-KY Morgan
-NV White Pine
-OH Pike
-OK Jefferson
-VA Bristol City
-IL Scott
-WV Marion
-KY Martin
-AR Calhoun
-KY Pike
-MO Wayne
-AK Ketchikan Gateway
-CO Huerfano
-NM Sierra
-MT Roosevelt
-MO Washington
-MI Lake
-MI Iron
-AR Marion
-IL Edwards
-WV McDowell
-WV Roane
-AR Woodruff
-KY Larue
-ND Rolette
-VA Bland
-WV Boone
-NM Colfax
-TX Mills
-AR Jackson
-AK Nome
-OH Scioto
-WV Raleigh
-WV Wyoming
-MO Reynolds
-KY Whitley
-MI Ontonagon
-KY Rowan
-WV Clay
-SD Bennett
-KY McLean
-OK Harmon
-VA Wise
-AR Fulton
-NM San Miguel
-MO Shelby
-MO Ripley
-MO Macon
-TN Scott
-VA Norton City
-MO Wright
-MO Warren
-NV Churchill
-IL White
-KS Wilson
-WV Fayette
-WI Menominee
-MO Maries
-MI Mackinac
-MO Dent
-MO Schuyler
-OH Jackson
-MO Ozark
-IL Hamilton
-AK Dillingham
-GA Taliaferro
-KY Trimble
-TN Fentress
-OK Coal
-AK Aleutians East
-OK Beckham
-OR Wallowa
-TN Campbell
-VA Buchanan
-WV Lincoln
-IL Hancock
-AR Searcy
-MO Clark
-OK Okfuskee
-OK Cimarron
-MO Dunklin
-AR Monroe
-WA Ferry
-KY Menifee
-KY Caldwell
-AK North Slope
-OK Johnston
-MO Oregon
-AK Juneau
-IL Marshall
-MO Crawford
-OH Meigs
-KY Todd
-MO Dade
-KY Clark
-TX Foard
-MI Clare
-WV Nicholas
-OK Pushmataha
-KS Wichita
-KY Perry
-MT Blaine
-MO Morgan
-TN Morgan
-TN Pickett
-VA Tazewell
-NV Mineral
-KY Mason
-MO Henry
-MO Caldwell
-MO Knox
-KY Montgomery
-AK Northwest Arctic
-MO Ste. Genevieve
-AR Ouachita
-KY Carter
-MO Monroe
-TX Motley
-TN Grundy
-IL Pike
-TX Kent
-TX San Saba
-MI Gogebic
-OK Murray
-OK Marshall
-OK Grant
-OK Woodward
-WV Webster
-NM Mora
-TX Sterling
-MI Osceola
-OH Adams
-PA Forest
-MO Dallas
-OK Dewey
-OK Washita
-TX Coleman
-NM De Baca
-OR Gilliam
-MO Bates
-WV Summers
-OH Harrison
-VA Scott
-OK Leflore
-KY Cumberland
-NE Dundy
-KY Bourbon
-MO Phelps
-OK Atoka
-OR Coos
-KY Boyd
-MI Alcona
-TX Collingsworth
-MI Montmorency
-TN Benton
-TX Hardeman
-TX Kimble
-IL Calhoun
-VA Lee
-IL Hardin
-KY Trigg
-TX Baylor
-IL Saline
-OK Craig
-MO Butler
-MO Texas
-MO Grundy
-WA Pacific
-KS Montgomery
-MO Madison
-KY Pendleton
-WV Lewis
-KS Greeley
-MO Cedar
-MI Gladwin
-TX Delta
-NE Richardson
-TX Montague
-MI Chippewa
-AR Baxter
-TN Union
-OK Latimer
-MI Baraga
-KS Bourbon
-KY Greenup
-NC Graham
-MO De Kalb
-KY Hart
-NV Eureka
-TN Stewart
-MT Wibaux
-KY Taylor
-TN Van Buren
-AR Van Buren
-OH Gallia
-TX King
-KS Chautaqua
-MO Randolph
-MN Cass
-MI Schoolcraft
-MO Worth
-KS Neosho
-MO Linn
-MI Ogemaw
-TN Houston
-AR Scott
-AK Hoonah-Angoon
-KY Harlan
-CO Otero
-KY Mercer
-OK Harper
-OK Sequoyah
-KY Laurel
-CO Bent
-WV Hancock
-TN Lewis
-MI Manistee
-IL Lawrence
-OH Highland
-OK Mcintosh
-SD Butte
-ID Lewis
-CA Siskiyou
-KS Russell
-IL Pope
-KY Grant
-AK Valdez-Cordova
-TX Rains
-IL Dewitt
-KS Allen
-NC Avery
-IL Edgar
-KY Hickman
-KY Ballard
-KY Webster
-NV Storey
-KY Pulaski
-NE Sheridan
-OK Blaine
-OH Morgan
-WV Pendleton
-MI Cheboygan
-SD Ziebach
-AK Wrangell
-TX Jack
-KS Rush
-MO Holt
-KY Lincoln
-PA Elk
-OH Brown
-AR Conway
-IL Marion
-KS Dickinson
-KS Kingman
-KY Union
-TX Terrell
-MO Putnam
-OK Alfalfa
-PA Cameron
-MO Laclede
-MI Roscommon
-TN Clay
-VA Pulaski
-KY Anderson
-MO Lewis
-OR Crook
-OR Baker
-KY Bracken
-MI Menominee
-IN Vermillion
-TX Eastland
-CA Tehama
-MT Hill
-IL Fulton
-KY Harrison
-TN Claiborne
-MT Glacier
-OK Nowata
-TX Llano
-NM Torrance
-AR Logan
-ID Lemhi
-OK Roger Mills
-IA Wayne
-KS Stafford
-MO Howell
-TX Menard
-MO Pike
-WV Hampshire
-OK Lincoln
-MO Lawrence
-IL Henderson
-AR Franklin
-KY Henry
-WV Calhoun
-MI Presque Isle
-AR Poinsett
-MO Montgomery
-MO Miller
-NE Logan
-MO St. Clair
-MO Barton
-IN Knox
-OH Fayette
-PA Fayette
-CA Del Norte
-WV Wetzel
-KS Greenwood
-MO Stone
-AK Kusilvak
-MI Alger
-WA Pend Oreille
-AK Bethel
-MO Douglas
-OR Harney
-IL Clay
-WV Greenbrier
-CA Lake
-KS Trego
-WV Wood
-KS Comanche
-WA Grays Harbor
-KY Boyle
-MI Missaukee
-ID Butte
-OK Seminole
-VA Russell
-MO Harrison
-WV Wirt
-KS Brown
-ID Oneida
-OR Curry
-TX Childress
-CA Trinity
-VA Lancaster
-MI Luce
-ID Bear Lake
-IL Jodaviess
-VA Smyth
-TX Shackelford
-WA Lewis
-ID Clearwater
-VA Giles
-MO Vernon
-TN Grainger
-KY Livingston
-OK Kay
-IL Effingham
-AR Clay
-CA Modoc
-TX Tyler
-WA Mason
-ND Ramsey
-KY Garrard
-OK Haskell
-MI Mason
-MT Sweet Grass
-VA Halifax
-OK Garvin
-OK Pontotoc
-WV Cabell
-ND Logan
-IL Stark
-KY Washington
-KS Decatur
-TX Hamilton
-OH Lawrence
-SD Haakon
-AR Sharp
-OR Lake
-MI Kalkaska
-OR Tillamook
-IL Johnson
-OR Josephine
-PA Greene
-TN Sequatchie
-KS Pratt
-UT Carbon
-TX Wilbarger
-AK Aleutians West
-KY Marshall
-OK Pottawatomie
-PA Sullivan
-KS Harper
-WV Pleasants
-AK Skagway
-KS Clay
-KS Anderson
-KY Green
-CA Shasta
-WA Columbia
-KS Osage
-OK Stephens
-AR Montgomery
-IL Tazewell
-NC Yancey
-SD Dewey
-VA Nelson
-MO Polk
-NE Pawnee
-IN Martin
-KS Elk
-MI Dickinson
-KS Morris
-IN Washington
-MN Clearwater
-OK Ellis
-KS Sherman
-AR Perry
-KS Lincoln
-KY Monroe
-OH Perry
-TN Humphreys
-OH Guernsey
-OR Grant
-MI Delta
-SD Corson
-VA Middlesex
-CA Plumas
-IN Blackford
-KS Ness
-IL Ford
-SD Todd
-WV Barbour
-KS Ellsworth
-KY Owen
-WV Logan
-OR Jackson
-VA Alleghany
-VA Roanoke City
-IL Putnam
-TN Johnson
-KS Woodson
-IL Crawford
-KS Cherokee
-OH Muskingum
-KY McCracken
-MI Arenac
-AR Dallas
-MT Musselshell
-WV Upshur
-SD Gregory
-PA Jefferson
-MO Ray
-IN Owen
-ND Towner
-TN Lincoln
-MI Wexford
-CO Moffat
-OK Pittsburg
-NV Lyon
-MT Sanders
-VA Radford City
-PA Mckean
-ID Custer
-TX Callahan
-KY Jessamine
-TX San Jacinto
-OH Ross
-MI Emmet
-ID Idaho
-KY Franklin
-MO Benton
-WI Washburn
-IA Ringgold
-KS Barber
-CO Fremont
-IN Jay
-VA Bath
-NC Ashe
-AR Prairie
-OK Carter
-NM Grant
-NM Eddy
-IA Page
-KS Cowley
-MO Clinton
-WV Doddridge
-SD Potter
-KS Marshall
-TN Perry
-KS Washington
-IN Warren
-KY Christian
-IL Washington
-MI Benzie
-IN Fountain
-ME Washington
-WI Sawyer
-IL Moultrie
-IL Massac
-TX Hemphill
-KY Nelson
-TN Hawkins
-OK Mayes
-WV Gilmer
-WV Tyler
-TX Ward
-MT Liberty
-KS Wallace
-IN Adams
-WV Braxton
-VA Lunenburg
-NC Madison
-AR Stone
-TN Henry
-WI Burnett
-IL Mercer
-WV Ritchie
-OR Douglas
-OH Noble
-OK Tillman
-MO Livingston
-WA Lincoln
-WI Rusk
-ND Nelson
-TX Archer
-WV Kanawha
-WV Harrison
-IL Wayne
-NV Lincoln
-AR White
-KY Meade
-MN Wadena
-KY Bell
-TX Mitchell
-AR Boone
-OR Klamath
-OK Hughes
-IN Switzerland
-VA Wythe
-AR Greene
-WV Marshall
-TX Upton
-MI Sanilac
-CA Humboldt
-ND Billings
-VA Lexington City
-ME Piscataquis
-OK Cherokee
-MT McCone
-TN Unicoi
 OR Wasco
-AK Lake and Peninsula
-OR Sherman
-MT Deer Lodge
-WA Clallam
-KS Norton
-TN Jackson
-WI Vilas
-SD Perkins
-TX Henderson
-OK Ottawa
-KS Labette
-KS Cloud
-TX Howard
-MO Ralls
-MI Huron
-MO Gasconade
-VA Charlotte
-MO Daviess
-TX Wichita
-MT Chouteau
-KY Hancock
-MI Montcalm
-TN Marion
-CA Alpine
-NC Clay
-MT Valley
-OK Muskogee
-PA Mifflin
-VA Salem City
-OK Okmulgee
-WV Mason
-AR Polk
-MO Shannon
-AK Sitka
-OK Woods
-OH Clinton
-TN Meigs
-VA Hopewell City
-HI Kauai
-MT Silver Bow
-AK Haines
-GA Haralson
-MT Mineral
-KS Marion
-KS Logan
-IL Greene
-OH Champaign
-KS Gove
-WA Wahkiakum
-TX Hutchinson
-MI Isabella
-IL Franklin
-PA Venango
-WV Preston
-AR Grant
-KY Marion
-VA Floyd
-WV Morgan
-MT Dawson
-CO Las Animas
-MO Bollinger
-UT Beaver
-OH Jefferson
-OR Wheeler
-PA Cambria
-WA Garfield
-MI Antrim
-IN Pike
-MN Mille Lacs
-IL Macoupin
-PA Fulton
-WV Mineral
-IN Gibson
-KS Linn
-AR Hempstead
-MO St. Francois
-TX Dickens
-NM Lincoln
-OR Linn
-WV Tucker
-WV Monroe
-WI Langlade
-IL Schuyler
-PA Clearfield
-IN Spencer
-CO Prowers
-MO Barry
-AR Pike
-IL Richland
-NM Chaves
-OR Clatsop
-PA Potter
-MN Lake Of The Woods
-TN Roane
-NC Rockingham
-AK Bristol Bay
-AK Kodiak Island
-KS Atchison
-OH Seneca
-IN Jefferson
-CA Amador
-VA Staunton City
-PA Lawrence
-TN Greene
-TX Clay
-NE Box Butte
-WV Pocahontas
-NC Pamlico
-TX Irion
-TX Wood
-WI Price
-TX Armstrong
-VA Highland
-AR Saline
-WV Brooke
-NE Nuckolls
-IL Bureau
-WV Hardy
-KS Mitchell
-MN Beltrami
-WI Adams
-ID Benewah
-IL Shelby
-MT Pondera
-KY Madison
-KS Reno
-IN Clay
-TN Moore
-IA Decatur
-WA Cowlitz
-AR Arkansas
-NE Dawes
-TN Cannon
-MO Atchison
-KS Kiowa
-IA Keokuk
-WI Jackson
-GA Long
-KS Geary
-WI Florence
-MI Gd. Traverse
-TX Nolan
-NC Transylvania
-NE Johnson
-NE Harlan
-WA Skamania
-PA Mercer
-KS Thomas
-NE Keith
-VA Washington
-OH Paulding
-MT Sheridan
-NC Mitchell
-IL Fayette
-IL Henry
-IN Wayne
-KS Sumner
-NY Chemung
-WI Douglas
-VA Mathews
-SD Fall River
-TN Coffee
-NE Rock
-ME Somerset
-IL Knox
 IL Sangamon
-VA Campbell
-OH Logan
-MO Chariton
-MI Charlevoix
-WI Ashland
-KS Chase
-AK Anchorage
-NE Boyd
-TX Young
-OR Columbia
-MI Newaygo
-TN Sullivan
-IA Lee
-NE Deuel
-MI Calhoun
-OK Love
-VA Lynchburg City
-MO Greene
-KS Butler
-WV Putnam
-AL Cleburne
-CO Dolores
-ID Boundary
-IL Livingston
-ND Pierce
-MO Callaway
-ID Clark
-TX Kinney
-MI Jackson
-IA Fremont
-CO Conejos
-IN Parke
-WV Taylor
-TX Aransas
-TN Hancock
-OK Bryan
-ID Power
-UT Piute
-ME Aroostook
-KY Woodford
-NE Cherry
-VA Pittsylvania
-MI Mecosta
-PA Somerset
-NE Antelope
-IL Woodford
-NE Loup
-NY Essex
-TX Carson
-NV Douglas
-NY Livingston
-TX Wise
-AR Columbia
-MI Lenawee
-NC Swain
-PA Clarion
-TX Mcmullen
-PA Crawford
-NC Currituck
-CA Yuba
-VA Amherst
-MN Redwood
-MN Red Lake
-AZ Greenlee
-NM Valencia
-PA Lycoming
-NM Otero
-KS Lane
-MO Howard
-MO Cooper
-ID Caribou
-NC Hyde
-IL Cumberland
-TN Anderson
-WA Stevens
-KS Rooks
-AK Matanuska-Susitna
-MO Scott
-TX Jeff Davis
-TX Stephens
-IL Logan
-IL Brown
-TN Warren
-KY Henderson
-OH Athens
-SD Mellette
-MN Aitkin
-OK Custer
-MN Traverse
-CA Sierra
-IL Piatt
-VA Poquoson City
-NC Person
-OH Preble
-MN Kanabec
-MO Marion
-CO Kiowa
-CA Mendocino
-NE Chase
-MO Mercer
-MN Fillmore
-VA Craig
-PA Indiana
-NM Roosevelt
-WY Weston
-NE Garfield
-OK Creek
-CA Tuolumne
-TX Wheeler
-ID Bannock
-MT Daniels
-NH Coos
-KS Smith
-IL Bond
-AK Yakutat
-WI Shawano
-TX Palo Pinto
-TX Cooke
-OK Kingfisher
-PA Armstrong
-SD Jones
-KS Miami
-PA Clinton
-TX Upshur
-ME Oxford
-IN Crawford
-WA Asotin
-TX Kerr
-PA Blair
-KS Rice
-KS Edwards
-MO Carroll
-MT Lincoln
-KY Hardin
-WV Ohio
-IN Vigo
-CA Mariposa
-AK Denali
-IN Sullivan
-MI Keweenaw
-MN Swift
-PA Erie
-KS Osborne
-OH Van Wert
-TX Bandera
-TX Haskell
-OR Lane
-MN Stevens
-VA Franklin
-OH Fulton
-ID Bonner
-WI Marquette
-IL Mason
-IN Randolph
-MT Fergus
-SD Campbell
-TN White
-MN Itasca
-KY Scott
-KY Spencer
-VA Hampton City
-KS Jewell
-IA Van Buren
-ND Eddy
-TN Cocke
-NC Onslow
-KS Cheyenne
-AR Garland
-PA Warren
-OR Yamhill
-MO Taney
-IL Alexander
-VA Patrick
-AR Clark
-TN Cumberland
-TX Lipscomb
-MT Lake
-TN Overton
-WI Green Lake
-NY Cattarau
-MI Van Buren
-MO Lafayette
-NC Carteret
-OK Pawnee
-KS Sheridan
-VA King & Queen
-TX Van Zandt
-NE Thayer
-TX Gray
-NE Knox
-ND Bottineau
-WI Oneida
-IL Adams
-NM Harding
-OH Ashland
-NE Burt
-KS Jefferson
-TX Freestone
-TX Hill
-IA Davis
-KY Bullitt
-UT Sevier
-AL Lawrence
-SD McPherson
-NY Tompkins
-IL Grundy
-PA Bradford
-NC Alleghany
-ND Grant
-VA Appomattox
-NE Nemaha
-GA Rabun
-MD Talbot
-AR Crawford
-TN Washington
-TX Comanche
-NY Cayuga
-KY Barren
-TN Franklin
-NE Jefferson
-CO Lincoln
-TX Fannin
-IA Buchanan
-UT Rich
-KS Barton
-IL Mclean
-TX Cass
-IN Union
-IL Williamson
-MN Kittson
-NY Schuyler
-TN Lawrence
-MN Hubbard
-NC Lenoir
-NC Gates
-ME Franklin
-IA Union
-MT Cascade
-MT Powell
-UT Emery
-KS Rawlins
-KY Simpson
-OH Knox
-KY Calloway
-KS Harvey
-IL Vermilion
-NY Chautauq
-MN Lake
-IN Pulaski
-TN Monroe
-MI Houghton
-WA Whitman
-MI Marquette
-OH Crawford
-ND Hettinger
-MO Webster
-CO Rio Blanco
-SD Hughes
-MN Pennington
-IL Christian
-VA Rockbridge
-KS Pawnee
-CO Delta
-ND Golden Valley
-CA Calaveras
-MT Granite
-MT Wheatland
-ID Valley
-KS Republic
-NE Hitchcock
-VA Danville City
-MS Alcorn
-WI Vernon
-MI Eaton
-VA King William
-MI Ingham
-HI Hawaii
-IL Peoria
-NC Watauga
-OH Richland
-MD Garrett
-TN Carroll
-MO Lincoln
-SD Deuel
-IN Fulton
-SD Custer
-KS Ottawa
-IN Huntington
-TX Hockley
-CO Pueblo
-OH Williams
-OK Logan
-SD Walworth
-WI Crawford
-VA Grayson
-VA Amelia
-TX Falls
-MN Roseau
-MI Ionia
-ID Camas
-WI Monroe
-TN Carter
-TX Mcculloch
-PA Bedford
-ID Latah
-NV Elko
-ND Dickey
-NC Cherokee
-ND Sheridan
-WY Goshen
-IA Ida
-TN Marshall
-OR Polk
-AR Cleburne
-OH Carroll
-MN St. Louis
-IA Des Moines
-MO Osage
-GA Chattooga
-AR Lonoke
-TX Trinity
-UT Duchesne
-NY Clinton
-NV Pershing
-UT Wayne
-MN Lac Qui Parle
-NC Alexander
-NE Holt
-IA Chickasaw
-MT Prairie
-OK Garfield
-ME Penobscot
-IA Cass
-IL Jersey
-MA Nantucket
-AL Geneva
-WI Juneau
-NC Richmond
-PA Perry
-WV Berkeley
-TX Winkler
-MN Polk
-NE Brown
-ND Bowman
-IL Macon
-NY Allegany
-CO San Juan
-TN Jefferson
-MO Adair
-OH Shelby
-IN Benton
-IA Calhoun
-GA Dade
-MO Cole
-UT Grand
-MO Christian
-IA Palo Alto
-WY Carbon
-AR Independence
-NC Beaufort
-TX Hopkins
-OH Henry
-WI Dunn
-MO Audrain
-AR Miller
-PA Wayne
-UT Daggett
-IA Adair
-CO Elbert
-ND Foster
-KS Franklin
-HI Kalawao
-AL Coosa
-NC Chowan
-MN Yellow Medicine
-SD Spink
-NC Dare
-MT Teton
-VT Orleans
-MI Barry
-MO Camden
-OH Defiance
-TX Borden
-NV Carson City
-SD Marshall
-WA Jefferson
-WY Natrona
-CO Custer
-VA Waynesboro City
-OH Coshocton
-IA Worth
-IL Montgomery
-WI Chippewa
-VA Madison
-IA Kossuth
-WI Lincoln
-IA Mills
-MN Norman
-NV Esmeralda
-NE Otoe
-MT Treasure
-ID Franklin
-MO Franklin
-IN Rush
-OK Grady
-CO Baca
-ND Mercer
-WI Bayfield
-AR Drew
-NM Luna
-OH Huron
-NY Otsego
-MO Pulaski
-TN Hickman
-IN Brown
-MT Powder River
-NY Herkimer
-WY Sheridan
-NC Craven
-MI Allegan
-ND Williams
-MT Judith Basin
-NY Jefferson
-WY Platte
-NE Arthur
-MN Goodhue
-MT Custer
-KY Campbell
-IA Jefferson
-MI Branch
-HI Maui
-ID Adams
-NC Stokes
-SD Tripp
-NY Chenango
-NE Red Willow
-IA Fayette
-MT Meagher
-NC Haywood
-TX Newton
-OH Union
-SD Harding
-VT Essex
-IA Greene
-CA Butte
-OH Montgomery
-MO Stoddard
-NM Taos
-IA Floyd
-ME Kennebec
-IN Wells
-NY Franklin
-TX Limestone
-VA Gloucester
-MT Richland
-IL Wabash
-WI Waushara
-OK Comanche
-NE Wheeler
-NY Cortland
-UT Uintah
-MO Cass
-NC Caswell
-NE Garden
-TX Bosque
-NE Valley
-IN Vanderburgh
-KS Saline
-PA Northumberland
-IN Posey
-WI Wood
-WY Niobrara
-MI Leelanau
-PA Tioga
-KS Doniphan
-PA Washington
-SD Grant
-WI Barron
-NE Keya Paha
-WY Campbell
-KS McPherson
-FL Citrus
-VT Rutland
+MI Muskegon
 MI Monroe
-WI Pepin
-MN Koochiching
-IA Jackson
-ID Elmore
-MO Andrew
-IN Starke
-PA Westmoreland
-ID Boise
-NE Webster
-WY Big Horn
-VA Northumberland
-NC Cumberland
-OH Clermont
-PA Butler
-MO Jefferson
-IA Adams
-OK Noble
-VT Bennington
-MN Morrison
-OH Hancock
-NY Schoharie
-CO Mesa
-GA Walker
-MN Pope
-WY Sweetwater
-MN Renville
-NY St. Lawrence
-NE Nance
-NE Franklin
-NE Kimball
-TX Swisher
-NE Sherman
-IL Carroll
-KS Sedgwick
-KS Pottawatomie
-SD Hyde
-TX Blanco
-SC Union
-ME Hancock
-OH Clark
-GA McIntosh
-VA Cumberland
-NE Lincoln
-NE Frontier
-MN Chippewa
-MN Isanti
-ND Kidder
-SD Roberts
-MN Sibley
-MN Mcleod
-NH Sullivan
-TX Morris
-ND McKenzie
-TX Lampasas
-MN Brown
-VA Brunswick
-ND Divide
-WY Hot Springs
-MN Becker
-IN Jasper
-IL Menard
-ND Wells
-MN Meeker
-MN Marshall
-ID Gooding
-PA Snyder
-IL Douglas
-MI Kalamazoo
-VA Clarke
-CO Cheyenne
-MN Big Stone
-VA Louisa
-MN Carlton
-NC Macon
-AZ Yavapai
-SD Kingsbury
-KY Daviess
-IA Marion
-NC Rutherford
-MT Carter
-ID Gem
-CO Phillips
-VA Rappahannock
-KS Nemaha
-ND Ward
-ID Madison
-MN Houston
-ND Oliver
-ME Sagadahoc
-KY Kenton
-TX Leon
-IN Wabash
-MI Midland
-ND Barnes
-MI Cass
-ID Fremont
-VA Montgomery
-AK Kenai Peninsula
-SD Meade
-ND Ransom
-WA Thurston
-MT Ravalli
-NC Camden
-MN Pine
-MT Fallon
-NM Lea
-ND Adams
-MN Crow Wing
-NE McPherson
-ME Lincoln
-CO Montezuma
-GA Crawford
-UT Sanpete
-NY Delaware
-VA Henry
-IN DeKalb
-WA Kitsap
-IA Iowa
-OH Morrow
-SD Hamlin
-TX Hood
-MN Faribault
-ID Bingham
-MI St. Joseph
-AL Cherokee
-NE Phelps
-NM Curry
-OR Multnomah
-OH Licking
-SD Sully
-NH Carroll
-NE Hooker
-NH Strafford
-VT Caledonia
-NC Jackson
-TX Grayson
-NE Boone
-NY Oswego
-ME Knox
-WI Polk
-GA Jasper
-VA Dinwiddie
-NE Kearney
-SD Edmunds
-NE Cheyenne
-PA Allegheny
-ND Renville
-PA Montour
-WV Randolph
-TN Blount
-TN Montgomery
-MN Otter Tail
-NC Davidson
-KS Shawnee
-NM Santa Fe
-SD Moody
-IL Lee
-WV Jefferson
-IA Mitchell
-MI Clinton
-NV Nye
-MO Platte
-TX Glasscock
-VA Roanoke
-WI Columbia
-GA Dodge
-NE Cedar
-WA Walla Walla
-MO Clay
-KS Graham
-OH Butler
-GA Fannin
-NC Davie
-TX Hunt
-NY Genese
-MO Cape Girardeau
-IA Sac
-NY Montgomery
-GA Murray
-VA Orange
-PA Centre
-MN Cook
-VA Newport News City
-CO Grand
-PA Union
-WI Taylor
-WA San Juan
-ND Sargent
-SD Lawrence
-NC Lincoln
-ND McLean
-NC Cleveland
-UT Juab
-VA Augusta
-WY Converse
-VA Powhatan
+NV Douglas
+MI Jackson
 TN Knox
-TX Bowie
-OK Canadian
-IA Humboldt
-SD Day
-VT Orange
-NE Blaine
-OR Marion
-SD Hutchinson
-MT Broadwater
-TX Johnson
-NE Greeley
-WY Park
-AR Craighead
-SD Yankton
-TX Franklin
-ND Pembina
-IA Grundy
-OH Holmes
-HI Honolulu
-CO Teller
-MN Wabasha
-NH Belknap
-SD Douglas
-SC Cherokee
-TX Jasper
-MT Park
-VA Buena Vista City
-CO Gilpin
-ND Cavalier
-TX Terry
-IA Benton
-MD Washington
-IA Clayton
-NY Seneca
-SD Bon Homme
-SD Clark
-SC Oconee
-IA Cedar
-SD Brule
-OR Benton
-OR Clackamas
-CO Clear Creek
-IA Harrison
-VA Caroline
-NH Cheshire
-NE York
-WI Iowa
-OK Oklahoma
-WA Clark
-WI Manitowoc
-NM Los Alamos
-MD Calvert
-TX Somervell
-VA New Kent
-TX Gillespie
-KS Ellis
-TX Austin
-MT Jefferson
-SD Miner
-IA Delaware
-CA Sacramento
-ME Androscoggin
-NC Buncombe
-OH Greene
-MN Chisago
-KY Jefferson
-VT Windham
-CO Jackson
-VA Bedford
-CO Archuleta
-IA Jones
-UT Millard
-GA Catoosa
-TX Roberts
-OH Lake
-FL Hernando
-MO Moniteau
-WI Door
-MI Livingston
-PA York
-NY Wayne
-MO Pettis
-MN Rock
-KS Douglas
-WY Sublette
-ID Jefferson
-CA Napa
-VA Essex
-OH Auglaize
-KY Boone
-VT Grand Isle
-TX Parker
-IN Tippecanoe
-IA Henry
-IA Butler
-CA Santa Cruz
-GA Heard
-NE Banner
-CO Rio Grande
-NC Caldwell
-NC Brunswick
-CA Lassen
-OR Deschutes
-OK Mcclain
-KS Hodgeman
-IL Stephenson
-TN Dickson
-OH Hamilton
-KY Fayette
-MS Harrison
-IN Whitley
-IA Madison
-TX Kendall
-ND Steele
-NC Harnett
-MT Carbon
-TX Gaines
-CO Yuma
-IN Monroe
-VT Windsor
-ND Richland
-WI Green
-CA Nevada
-WA Pierce
-SD Charles Mix
-NC Iredell
-TX Smith
-MT Beaverhead
-KY Allen
-MT Petroleum
-IL Lasalle
-TX Milam
-MT Stillwater
-CA Sutter
-IN Putnam
-WY Albany
-NE Clay
-MT Flathead
-MN Douglas
-NH Merrimack
-MO Nodaway
-GA Liberty
-VA York
-NC Nash
-CO Costilla
-IN Miami
-MD Somerset
-MA Dukes
-SD Hand
-PA Adams
-SD Davison
-IA Hardin
-CO La Plata
-AR Faulkner
-OR Lincoln
-GA Union
-MT Lewis & Clark
-NE Thomas
-SD Codington
-CA El Dorado
-IN Porter
-VT Lamoille
-CA Inyo
-TN Maury
-TX Erath
-MO St. Charles
-WI Marinette
-TX Taylor
-NC Pender
-GA Madison
-IA Clinton
-ID Bonneville
-FL Pasco
-ND Stutsman
-IN La Porte
-MO Johnson
-FL Flagler
-MI Ottawa
-IL Dekalb
-ND Walsh
-ME York
-TX Rusk
-IA Howard
-WA Spokane
-WI Lafayette
-VT Franklin
-ND Dunn
-NC Moore
-IA Boone
-SD Brookings
-UT Kane
-NE Seward
-WI Oconto
-MT Missoula
-TX Burnet
-TX Bell
-VA Greene
-KS Stevens
-NC Surry
-ND Traill
-KS Riley
-OR Hood River
-PA Huntingdon
-UT Tooele
-FL Brevard
-NH Grafton
-NE Cuming
-GA Jones
-CO Park
-SD Turner
-MN Waseca
-NE Washington
-WY Lincoln
-OK Beaver
-NM Bernalillo
-WA Skagit
-WI Portage
-OK Cleveland
-WY Crook
-AL Lauderdale
-ND LaMoure
-WI St. Croix
-MO Boone
-MN Le Sueur
-NE Hayes
-NE Grant
-OH Fairfield
-TX Waller
-IA Cherokee
-NE Pierce
-WI Sheboygan
-WI La Crosse
-IN Steuben
-RI Newport
-TX Reeves
-KS Crawford
-MN Dodge
-SC Aiken
-ID Teton
-GA Pickens
-WV Monongalia
-NE Saunders
-KS Gray
-MN Lincoln
-TN Loudon
-VT Washington
-WI Waupaca
-WI Pierce
-NC Catawba
-WY Laramie
-OK Rogers
-TX Rockwall
-WI Eau Claire
-VA Botetourt
-OR Washington
-WI Marathon
-WA Island
-RI Bristol
-NE Scotts Bluff
-WI Kewaunee
-OH Tuscarawas
-SD Hanson
-GA Morgan
-NC Pitt
-OK Payne
-WI Jefferson
-IL Champaign
-GA Effingham
-IA Lyon
-SD Lake
-OH Madison
-WI Rock
-CT Windham
-WI Fond Du Lac
-WI Calumet
-WI Winnebago
-NE Cass
-NE Merrick
-CA Solano
-MT Yellowstone
-AK Fairbanks North Star
+OH Montgomery
+OH Butler
+NV Carson City
+MI Charlevoix
+IL Henderson
+NY Cayuga
+PA Butler
+OH Athens
 VA Warren
-NC Yadkin
+AK Bristol Bay
+AK Matanuska-Susitna
+FL Indian River
+IA Jefferson
+NY Clinton
+OR Clatsop
+ME Androscoggin
+MI Calhoun
+OR Jackson
+IL Jodaviess
+NY Chautauq
+NY Chemung
+IL Will
+NY Hamilton
+OH Stark
+IL Dekalb
+PA Erie
+MI Allegan
+MN Waseca
+FL Okaloosa
+SD Hughes
+VA Orange
+IL Peoria
+CA Mariposa
+FL Volusia
+NY Wayne
+NY St. Lawrence
+IL Greene
+CO Pueblo
+MN Fillmore
+KY Boone
+IL Clinton
+ID Bonneville
+ME Lincoln
+MN Lake
+OK Cleveland
+WI Manitowoc
+KS Sedgwick
+NV Storey
+ME Kennebec
+WI Columbia
+MD Garrett
+AL Madison
+MN Douglas
+PA York
+WA Klickitat
+MT Yellowstone
+AR Benton
+VA Shenandoah
+PA Lebanon
+TN Rutherford
+MI Houghton
 UT Box Elder
-TX Robertson
-WI Trempealeau
-OH Medina
-IL Ogle
-VA Prince George
-IA Carroll
-GA Camden
-MN Benton
-OH Warren
-VT Addison
-NY Saratoga
-ID Kootenai
-IN Kosciusko
-TX Midland
-WI Sauk
-NC New Hanover
-NY Madison
-NC Guilford
-KS Wabaunsee
-NE Wayne
-NE Polk
-CA San Luis Obispo
-TX Coryell
-FL Sumter
-VA Chesapeake City
-GA Paulding
-NE Sioux
-VA Virginia Beach City
-NE Stanton
-ND Stark
-CA Contra Costa
-CA Santa Clara
-UT Iron
-OH Delaware
-CO Boulder
-CA San Diego
-WI Dane
-IA Winneshiek
-NM Dona Ana
-IL Madison
-MN Wright
-VA Albemarle
-IA Scott
-SD Stanley
-TX Montgomery
-MT Garfield
-KY Oldham
-GA Pike
-WI Dodge
-UT Morgan
-NC Cabarrus
-CA Alameda
-MN Steele
-WI Washington
-VA Frederick
-WI Outagamie
-UT Weber
-TX Collin
-NE Buffalo
-CA Sonoma
-NE Butler
-CO Larimer
-SC York
-CA Placer
-TX Denton
-MI Kent
-FL St. Johns
-MT Golden Valley
-VA Charlottesville City
-NV Washoe
-CA Yolo
-WA Kittitas
-CA San Francisco
-IA Warren
-TX Wilson
-VA Spotsylvania
-MN Blue Earth
-VA Fauquier
-SD Sanborn
-ND Morton
-KS Johnson
-IL Kendall
-MN Jackson
-GA Coweta
-MN Sherburne
-NE Lancaster
 SD Pennington
-CA San Benito
-VA Stafford
-MN Washington
-CA Mono
-ME Cumberland
-CA Ventura
-MN Olmsted
-GA Fayette
-CO Hinsdale
-NC Wake
-ND Slope
-NM Rio Arriba
-MD Howard
-CO Pitkin
-GA Forsyth
-MD Harford
-CO Douglas
-UT Davis
-NC Union
-CA San Mateo
-WI Waukesha
-MN Dakota
-CO Garfield
-VA Chesterfield
-TX Williamson
-MN Carver
-CO El Paso
-MN Scott
-MN Anoka
-CO Lake
-CO San Miguel
-MT Gallatin
-NE Sarpy
-SD Lincoln
-      ğ?
-¸fËìdï?
-?nN’í#ï?
-tÆÚÆ8ßî?
-`zĞ¡î?
-k±€b€î?
-w~©\iî?
- [eä•_î?
-n. Úú<î?
-.Äì¥Ëí?
-ë„’:··í?
-‰g?ší?
-,70BĞ‘í?
-BùúZuˆí?
-61ò2¾‡í?
-¼•#€í?
-†n“ê'}í?
-^û€zÀsí?
-Ğ…KrZií?
-Å²?í?
-Sâ¿®Ç6í?
-¥T)öì?
-¦Àx÷@Üì?
-yÖÚì?
-ON»-Òì?
-Ê'ı’AÍì?
-6>şÊì?
-æÇä²¾ì?
- êîC7»ì?
-LjÙ[¸ì?
-„c°ÏŞ·ì?
-SdRF;·ì?
-İÀœx ·ì?
-ì	<½í³ì?
-°ûî®±ì?
-àik‡ì?
-ÉSLµ@ƒì?
-‰X‘pì?
-•ºË~ì?
-jĞQv÷{ì?
-=µ8 vì?
-I½–´|qì?
-&	¢ Ooì?
-¿§Ò¸nì?
-s¢şr‹mì?
-õ·¿álì?
-TdT$`ì?
-Œ¥·´‰]ì?
-Ö&Í¯ê\ì?
-äÚy¿aVì?
-—njƒVì?
-˜¼‹u6Rì?
-õÀ©úPì?
-FAo³Oì?
-YëGÉÆKì?
-DZSp¶Iì?
-K;I¹Bì?
-Å†&Û?ì?
-õFuªr>ì?
-x¿Œ•f2ì?
-§b„lË1ì?
-O?n±e0ì?
-}>Û™7,ì?
-Â‘ùá¿*ì?
-7«v˜X$ì?
-‘uâ·!ì?
-aºŠGì?
-¦ş¯·¶ì?
-éèvƒì?
-'¨kBì?
-É…ì=ì?
-:Çä¦cì?
-ôÜ74ì?
-ôiØúì?
-¨&Ã¸ıë?
-~!h€ıë?
-‰”îJüë?
-TcS¡ğë?
-—øåìë?
-c°„üëë?
-ìg3çë?
-õ‰ßçë?
-ÅÀííäë?
-R*ı¬ãë?
-»D»½İë?
-d3#ãÛë?
-–[•™Öë?
-!“ä$yÓë?
-Ho$"µĞë?
-0ª|b±Ğë?
-üDM´„Íë?
-7ê^Ëë?
-+üıÇë?
-Y½f=Çë?
-§ºæ)¡¼ë?
-ÍSN¹M»ë?
-~#îv>»ë?
-£Š·:»ë?
-…Ÿ·æÜ·ë?
-	ToW¶ë?
- Z´ë?
-Ô5RÑw³ë?
-—İYŸ^³ë?
-^
-@®ë?
-XÅ2\ú­ë?
-â['ƒ¦ë?
-yOBÇ
-¥ë?
-<pJò¤ë?
-W‰£ë?
-ûØSÈá¡ë?
-8ÑÖB¡ë?
-«ê@¶të?
-?ù·H1ë?
-ÎÃŒ oë?
-Ûä*ìšë?
-&D-Ñû—ë?
-S;õ¼—ë?
-©‹á‹^•ë?
-´1¬ãë?
-7Å7ë?
-GøT_+ë?
-ëTß¿ıŒë?
-'VT»¾Šë?
-êªß®„ë?
-P…ğüƒë?
-¼è/µƒë?
-dt(”ƒë?
-Á©Eà‚ë?
-h
-§[ë?
-|UìĞ~ë?
-äRwø€zë?
-µêYÑvë?
--©ë­¹uë?
-TKã+¹së?
-Ÿ¾=R
-së?
-¯€7µoë?
-±†´roë?
-Ñ·İqnë?
-ÚLùæ?në?
-pD!lë?
-íWUˆplë?
-Ó&İçjë?
-óïƒFië?
-¬¼¯gë?
-·4~Ãrdë?
-†¹r“†`ë?
-3ı©¯[ë?
-*‘}ëWë?
-¦¥pÛQë?
-{K>*±Që?
-$ùûÃûMë?
-%bDJKë?
-ÈeşHë?
-±”ûƒAë?
-ğNÀŠ¤?ë?
-(Ê=İ>ë?
-)ÖMÚ±=ë?
-)ü¨9ë?
-	978ë?
-õœé6ë?
-={/ç4ë?
-D\~à0ë?
-éÖj…,ë?
-%Æ/Ì{'ë?
-PQeú÷$ë?
-¨	F›è!ë?
-¹VòÅ ë?
-öş¤´më?
-°8* ë?
- %¨–ë?
-‚6»àÄë?
-ZºM¥ûë?
-4Äëqë?
-ÏWœBsë?
-ŒÄ¡œNë?
-Ák?ë?
-9dz-ë?
-»,	&Ø
-ë?
-¿İ·
-ë?
-a}új9	ë?
-u¾ úë?
-|B¾ë?
-?9óM“ë?
-·or-ë?
-F+qêlë?
-æ‹Q@üë?
-ÎÓ+~ë?
-SºIí ë?
-»o3½üê?
-]7{ó¤úê?
-×î‚±Ÿúê?
-Á§‡Høê?
-©f'z9öê?
-	ÛÓÚõê?
-øZ­Óñê?
-ÙKçuñê?
-`	_2ñê?
-AY
-¾Üğê?
-ªw”6ğê?
-=Eù¦ïê?
-GùRòîê?
-9™Ú¡ùíê?
-{=H$Ìíê?
-°ë¡údíê?
-ó—!¯–êê?
-¨pBØwéê?
-¼A @èê?
-ÁÄ…Õçê?
-ZyñØ‰çê?
-}òtĞäê?
-~È¿!‡ãê?
-¼ñ§âê?
-ajyãáê?
-ärÑø ßê?
-“NPvŞê?
-Èßı]Üê?
-üQ_4 Ûê?
-‚Œp„ÕÚê?
-™¡,@ Úê?
-(İÙÚê?
-¯S&Øê?
-î´ªM¤×ê?
-³;=7Z×ê?
-«'ÈÕ Õê?
-u%©¨Òê?
-+{1ÅôÑê?
-ÑfŒ¢Ñê?
-uÄ6kÑê?
-ÿ~±‡æÏê?
-\"Ïê?
-;üÌlÎê?
-´ĞˆÌê?
-Ú·VŸmÌê?
-Ík,®Ëê?
-x‰7NØÊê?
-Ì2UNDÉê?
-ìlUÉê?
-«„mR`Çê?
-yg©GÆê?
-İ}©ÖÅê?
-<á/Åê?
-âhjxãÁê?
->—D‚šÀê?
-£Åqm®¿ê?
-—4Ë¿»ê?
-Ï¿ªå¸ê?
-š¢¡¸²ê?
-¯Ùmç²ê?
-û4P€q±ê?
-Şi[Çï°ê?
- [ØT¯ê?
-™û”İµ­ê?
-¬£Àr§­ê?
-˜-Ú³¬ê?
-}¿@ò[¬ê?
-¾ö.E¬ê?
-u’=–©ê?
-¶ú+ E©ê?
-€‚H©ê?
-¦xÑzŒ¦ê?
-Œ/]¦ê?
-éX¼¤ê?
-ü¾I<¢ê?
-3Ø¢0œê?
-yÉÇ•ê?
-Ã:peF•ê?
-Ä	™òë”ê?
-ŸC»(“ê?
-¸kæPDê?
-tÖ–âê?
-JÂwƒtŒê?
-b+ô’‹ê?
-ZQŞÍ¨Šê?
-ãT©•k‰ê?
-KÊÖªÁˆê?
-»¡‡ê?
-Ù]†ê?
-[£äè…ê?
-,›û¢ƒê?
-Õ®9#Aƒê?
-lRÚà8‚ê?
-'¶®Àßê?
-œœ§îÏê?
-»É65Nê?
-R !ê?
-}:¸~ê?
-4ã©l~ê?
-¹¸ºác}ê?
-;o:j {ê?
-¦ô›ïdzê?
-IóH† wê?
-mƒP2vê?
-[íUksê?
-I|àJRsê?
-ÉÖ´Æ)sê?
-û|-rê?
-Áµ‚÷pê?
-Qf€‡pê?
-İ,µVoê?
-C'1È\jê?
-:° jê?
-™&7iê?
-’ÖwÀhê?
-¤\·ø»eê?
-šffğNdê?
-*;bê?
-øêkNaê?
-ñ‚6äh_ê?
-•Ú„@_ê?
-ôN¸›ü^ê?
-½¦˜ú]ê?
-Ó9+]ê?
-¯M£‚ø[ê?
-ÎÀûŞ[ê?
-’Êë¡q[ê?
-S×%²Yê?
-±ïæ(Xê?
-z_	¿Wê?
-Ñ-í¼ÿUê?
-µr½7bUê?
-§]Çğ#Uê?
-u}H4´Sê?
-X…	;xSê?
-ÚbÆ›Qê?
-=8KÁ'Nê?
-ûjâ`Lê?
-bĞg=ÃKê?
-=RÎÅIê?
-¡‰ÔäVIê?
-xN*³“Hê?
-šñGbHê?
-A})„XFê?
-Ûê(Dê?
-µ¼ºöDê?
-ÎzåÍCê?
-Ô:˜ÅCê?
-:Ÿx7†Cê?
-Àîs4>Cê?
-°ù¬şäAê?
-%=‰I@ê?
-¥õ9µ??ê?
-Ú€ÊÌ>ê?
-1l¿şŸ>ê?
-[ü”–>ê?
-'…¹<ê?
-¥Ä‰:ê?
-ÕĞI&‹:ê?
-ß=Ê9ê?
-¨şªw¤8ê?
-ƒç/,˜8ê?
-ì-ÙÆ68ê?
-Eü±)ß7ê?
-†ïN7ê?
-=k¦'7ê?
-?fj7ê?
-QvÍpß5ê?
-ÏÖšŠ5ê?
-£ÚG5ê?
-Ü\ö4ê?
-%ÿŸ£ë3ê?
-#œT3ê?
-#8l\0ê?
-¸1zQ0ê?
-Â»Kš}/ê?
-—Ú|ñ+ê?
-ılŒ–Ô)ê?
-F—ßè'ê?
-Y¿š'ê?
-£_Hwş%ê?
-¾™I"ê?
-<Hq!ê?
-¼³›ÛZ!ê?
-˜NG!ê?
-Œ£6#!ê?
-â›\
- ê?
-).0Nhê?
-¢&„ 2ê?
-¶IºÁ$ê?
-t¿Öê?
-¸ î|1ê?
-XUë9ê?
-±¼VŒ)ê?
-}‘r­¿ê?
-J$7’—ê?
-jÿ ê?
-˜Êe¾ê?
-*™{¸3ê?
-x\OV1ê?
-§]{¬ê?
-²ÕE¡‰
-ê?
-ÎXmÃ	ê?
-ÆÑ±½Æê?
-píÍê?
-Ş%\ê?
-?‹öµ9ê?
-L+éfê?
-=[œµµê?
-`ß•çhê?
-Á¥õ1ñÿé?
-c_¼¢ÿé?
-¿†Ëgÿé?
-¿SÅwÇşé?
-åk¤şé?
-c¡e( şé?
-¯Vçşé?
-”W/`®üé?
-¡çâ,šüé?
-,Q$\ûé?
-“!Iûé?
-s‡Ùûé?
-È:n0÷úé?
-”LíIÅúé?
-R»Ö^«úé?
-Rñ(t
-úé?
-Z%;Ë¾øé?
-Æ<Äõé?
-_ı¼—¬óé?
-ˆûä!óé?
-ÑîT™ßòé?
-Åıtyğé?
-óÕÿ~ïé?
-XÜqÌôîé?
-‡“Gªîé?
-}ÚGÆîé?
-U1GÌÓíé?
-
-,áìé?
-ÚšÀ&ëé?
-»z£ğéé?
-…µ èé?
-@	„6ôçé?
-­Sİvçé?
-&2úmçé?
-tĞ>æé?
-•ë†æåé?
-û—IÃäé?
-¡ƒ´Päé?
-âØ	®ãé?
-·<¯-ßé?
-ÙíäÈŞé?
-Ø
-)°Üé?
-ü½gşÒÛé?
-ö}ÍÛé?
-£ÉÍµÛé?
-¯zÓ
-¹Úé?
-ÔàÚ›·Úé?
-‡²!Ş³Úé?
-[†p¸ Ùé?
-^GçØé?
-I Òò´Øé?
-ÃBÌ<Øé?
-#Œ¢3Øé?
-¨eÍ“×é?
-€‡ÑˆÀÖé?
-Ò†#éÖé?
- MÀ)FÖé?
-#Ù‘˜SÕé?
-äß*¢ñÔé?
-A|Å®Ôé?
-MÕLv¿Óé?
-Œ‰ˆîXÓé?
-°»®5zÒé?
-†y}yÑé?
-·>{Ïé?
-¢»nƒcÎé?
-Åè±|IÎé?
-ÿré&œÍé?
-2úÄ¨Ìé?
-ÅÜv`aÌé?
-x\¹ÊÏËé?
-·‚8bËé?
-ÃKh¹Êé?
-‡­råTÊé?
-B&A Éé?
-, XrwÉé?
-ãqİÛÈé?
-”a·Æé?
-¥PvÅé?
-õd¡‡TÅé?
-y©:M@Åé?
-£ÀïÅüÄé?
-+‚¥Š€Ãé?
-‡nÙZÃé?
-.bØ9Ãé?
-ÛÍ"êÂé?
-¬
-5‹Âé?
-‘F`u¿é?
-|Ï=AN¿é?
-&Ó>i¾é?
-\GY±¼é?
-Q© ‹Œ¼é?
-	Ÿ?'êºé?
-g®l€£ºé?
-	ú÷Ö¹é?
-ŠÑ$Ù¹é?
-*ULËi¹é?
-C(¬¦¸é?
-ä•e’¸é?
-\ä¬Ğ·é?
-zˆ:|Æ¶é?
-û7dú–¶é?
-°†¶é?
-Æ´ ’B¶é?
-ùiJ<¶é?
-%W?´é?
-Ë¢]W³é?
-ñ‡.	Ä²é?
-]Z-Ú_²é?
-éÎZŒ±é?
- ±é?
-”HÉ %¯é?
-L³¶D¯é?
-"ÚŒ®é?
-î‡¢­é?
-D,Úb¬é?
-ÂMdÑÓ«é?
-AzáVªé?
-Pğ3±Tªé?
-}ş8&±©é?
-ÂZğ}¨é?
-õ–ÈS§é?
-UÙRo?¦é?
-ˆ…Ò¥é?
-l@ÿ^¥é?
-¹€&´-¤é?
-YŠ®Ù¨£é?
-à-Øœ¢é?
-,™y•h¢é?
-O	Ğ¶¡é?
-„–ÃM é?
-ö
-hDàŸé?
-¯´´Ÿé?
-Çi¦­¦é?
-`°|†é?
-zâ1T÷œé?
-zbÆÏØœé?
-Â%]0”œé?
-<t™ ö›é?
-Š¬ÕÖE›é?
-Ê'|Ššé?
-±Í `qšé?
-KYÔgšé?
-ÑJ
-ÿş˜é?
-Ò¤ß˜é?
-™—‹B˜é?
-{Ê¥Ã—é?
-	¥ë^—é?
-ÇÔ`…—é?
-Ë„k@–é?
-¦v°  –é?
-‚¿ƒ¹q•é?
-ÚHÓŠ”é?
-ªàØê±“é?
-&© z“é?
-N21%A’é?
-Ë\'‘’é?
-1;Ù¸‘é?
-ğ‘é?
-âäT´ é?
-À¯nâé?
-éS(7né?
-ƒİÈ^é?
-±ìş}¾é?
-¯ÁÓé?
-LÎ¯x é?
-ğ¥Œé?
-ÔB4‹é?
-¶´Ú»‹é?
-$ èÖì‰é?
-“9NÔZˆé?
-¿[°Aˆé?
-óØ³4å†é?
-{ë,ü“„é?
-˜ŒIda„é?
-n·æ;!„é?
-8î£Ï–ƒé?
-„fT¹‚é?
-+^Æ/Öé?
-¡P´Mœé?
-Ñ<|œ}é?
-ï§óÑÛ€é?
-Ñe ;«€é?
-±ËZ€é?
-Äví\¬é?
-mQÔË~é?
-sªÂy~é?
-fÈ‡)Ú}é?
-íK.nÄ}é?
-YÃ¦|é?
-Ê4	H|é?
-Søf{é?
-Qp³zé?
-53‰ºyé?
-Ò•fÜZyé?
-¿U^p¬wé?
-‘­=°Õué?
-@¢uué?
-˜­Üasé?
-ƒz§sé?
-¹îré?
-OŸ
-ré?
-úaë¸óqé?
-üÿ(ïqé?
-{8oé?
-T3ûàné?
-»ŒONmé?
-Û‘9§Gmé?
-]nP+lé?
-g‡\½ké?
-C¼™%ké?
-¡æ¶šké?
-KO¥‘ié?
-ll?~ié?
-)–%Ÿ'ié?
-RÈ|hé?
-tP÷gé?
-®ßFµâgé?
-cósb€gé?
-«p…=gé?
-³£ˆ‹fé?
-ÈÕ2fé?
-¯t·¥fé?
-‰©õ¶Öeé?
-ëó-ïÈeé?
-+¬RÍdé?
-ü§3udé?
-då¯:Ddé?
-yÆH}dé?
-(·ÅÈ(cé?
-9…LŠcé?
-R–ÁÛbé?
-Ûş÷`é?
-—E#A3`é?
-ÈG0•_é?
-6şß_é?
-zÎ'ù^é?
-ş¬ÖÂÈ]é?
-Öjn¦]é?
- ç0Óp]é?
-éö4KD]é?
-o Ğ!D]é?
-5sÕ ]é?
-Xm×Xã[é?
-ÉÄ<`Yé?
-øİº'Yé?
-$LèĞÒWé?
-Ï0yŸWé?
-ó\-3¸Ué?
-…7$dUé?
-x¤ÊHSé?
-'­¾Sé?
-ä\ÏsOé?
-;’Û|¼Né?
-Ö§Ë#Né?
-ÉØƒ]¸Mé?
-xf=Mé?
-´™ ³gLé?
-¢iŒù Lé?
-›@¶øJé?
-VLõ~ÙHé?
-5@OHé?
-¤fÚB°Gé?
-æ¯Ñï4Gé?
-´=ÃğFé?
-¼æ'ÖFé?
-6‘ÕEé?
-ÀE„	&Eé?
-ò%, Dé?
-:G¿Dé?
-%ÀävICé?
-|¼@ĞlAé?
-OÚÖVAé?
-/]šj?é?
-‡<§Š>é?
-’-~?>é?
-¬Uoˆ=é?
-WÑ¾˜<é?
-Ó’n–·;é?
-¡hu;é?
-£[aâ4;é?
-6Ğùà9é?
-cü/±`9é?
-Sõ#¿<9é?
-ªù!/z8é?
-|kÜ7é?
-»r3¥5é?
-8³Z5é?
-’r
-¤Ø3é?
-²¶ÅÇ3é?
-İ U´2é?
-!Şÿ¨ß1é?
-"ı´^¼1é?
-•Šl)1é?
-ƒx4¯r0é?
-ÿ	…|n0é?
-Ò¦Ø+0é?
-«qOÁ.é?
-üê]¿‘.é?
-»¬¹Ì³-é?
-x¸Q§-é?
-S s-E-é?
-D¤,é?
-ß¾Ø'È+é?
-”ù“g†+é?
-ÊğƒóÌ*é?
-,©àq§*é?
-$ÔÍ›*é?
-ĞˆqB*é?
-´3¾*é?
-›æÈŠ)é?
-i½z)é?
-ğ4|œ&é?
-¦ğ&W™&é?
-Kù:%é?
-9®Š‹$é?
- è<å`$é?
-»,*²¤#é?
-tz±+#é?
-ÌÂ	#é?
-Àìñø!é?
-îp9z?!é?
-}Œ\ é?
-v;uké?
-'<gÖxé?
-xP
-‰é?
-w‡ê¹é?
-`\¼bé?
-“tslùé?
-ôNßZlé?
-iE…I³é?
-‰,jÀ9é?
-à°t é?
-’‡2ØÓé?
-™Áôy@é?
-â¯e(é?
-İ{:İ¹é?
-èeì’é?
-BÃPu”é?
-#—p+é?
-õé„Öé?
-Ş¶Š©é?
-ÏAté?
-=è“Qé?
-—vß é?
-jüWé?
-SácÀOé?
-$cÔ5é?
-Dnïí é?
-/¢§yÌé?
-Ò½Ë0$
-é?
-.¥ìLç	é?
-6³È	é?
-AÈug	é?
-OsqE^é?
-q†h«é?
-úäÕŸé?
-îE/(ˆé?
-ÂÛ€™?é?
-¯R ?¦é?
-n5Î‚é?
-+ŠÛé?
-$ìğ×é?
-b~q˜ é?
-û´¡$Œé?
-2­|Œ@é?
-l¶t	é?
-V¬{ é?
-AnXÀeÿè?
-DŸå®şè?
-f„bİıè?
-X9í—µıè?
-ÈÂpDıè?
-ij·=ıè?
-ö×ş™üè?
-¸AØĞQüè?
-Ïo]‚Şûè?
-¯0z™Úûè?
-ÖN¹,ôúè?
-­QÄİ×ùè?
-na,Åùè?
-ìY¬¸ùè?
-ğóE*øè?
-¬›Å6÷è?
-Ì”ÙÉöè?
-RªR}Àöè?
-á´™¥öè?
-\ˆfNóõè?
-Yß-™Gõè?
-ó¨Òôè?
-š›¦¦ôè?
-M¯ù[ôè?
-vPğPóè?
-—ê0Kñè?
-qÈNIÿğè?
-½gßëğè?
-jk/Zøïè?
-s•Iş.ïè?
-2f œ+îè?
-Œi¯áíè?
-%>Í¬5íè?
-"¯¥Uëëè?
-Ÿ·†³gêè?
-ä°Zêè?
-;oŸÚéè?
-ÀÃqÇéè?
-—uéè?
-]ÂYÌçè?
-×°'?çè?
-§4tõäåè?
-`Š×!áåè?
-ƒ¦—åè?
-W„Øäè?
-ÃâtJäè?
-‰<àäè?
-ª¡KÿÏãè?
-&^[z¯ãè?
-m¬U0Ÿãè?
-@¥b‘Hàè?
-ÙÎ ßè?
-×õEg0ßè?
-%`[€ßè?
-€ğÚ’İè?
-şC]{İè?
-Å1¯âXÜè?
-AJÏ1Üè?
-/´ïßÜè?
-!ÑÆØè?
-µaÅÇØè?
-aÛúnXØè?
-{æ“ä×è?
-d5(fÔè?
-.Ëd	^Óè?
-uõŠ¸Òè?
-âõøÛÑè?
-Öµ$Ñè?
-‡¦B­Ğè?
-_—¤_UĞè?
-	sâÏè?
-‡
-*€Ïè?
-id–EÏè?
-}?`U¥Îè?
-ìêõnÎè?
-p°4UÍè?
-kW ‘Ëè?
-5vpl¨Êè?
-Å\óNşÉè?
-hºëÈµÈè?
-ø;Ç‹Çè?
-¡VsJÇè?
-'H@æÅè?
-Û“ØE¡Åè?
-E‚?é…Åè?
-ñü"P)Åè?
-fÖg Åè?
-†6Äè?
-,.s$Äè?
-kN¼µÏÁè?
-•<Š¿è?
-áfµ½è?
-&•Vaw½è?
-æĞÈûM½è?
-~"Pï)¼è?
-Î¸ĞŒê»è?
-K8Âİ›»è?
-ÁÚo.ºè?
-&cmY¸è?
-uJUe¶è?
-99ëmµè?
-6Î¤g/µè?
-¦&¸:Æ´è?
-O7kâ³è?
-=u·<³è?
-²MÕØ²è?
-ÙtË}²è?
-˜‰­²è?
-fÔ»g±è?
-ƒ€ËT­°è?
-1<°Z–°è?
-áÕ"#S°è?
-¨)¬¯è?
-‚Íl{“¯è?
-GÎ&Œ®è?
-CÑÌíê­è?
-Mõ+¡n­è?
-A&_e­è?
-{¯„‰­è?
-
-¼€‘¬è?
-”fİZ©è?
- ¿©è?
-ïö×–¨è?
-A^'¨è?
-c ïå¨§è?
-©É½rÓ¦è?
-ps­‰¦è?
-¬ËÏÔ¥è?
-Ô(°Õx¥è?
-šOÓê¥è?
-Êô¦=­¤è?
-„q!Y¤è?
-|Š]K1£è?
-S½™.¢è?
-ÿ]Yÿ‹¡è?
-–Î¿D¡è?
-1K	ú è?
-|¾ìu è?
-Ç`×îŸè?
-|/<ùêŸè?
-EŸè?
-=©\w!Ÿè?
-¹Àe/Ÿè?
-É#Äè?
-©4+.­è?
-Àèl}è?
-¶Bxè?
-É$¹‡!è?
-„]¡rœè?
-G€”Yœè?
-,¯0I›è?
-b$½–è?
-ˆ€„i–è?
-];Œ¬C”è?
-×!¾î“è?
-Od-½’è?
-ö˜Ô‚’è?
-Šw—¥Ô‘è?
-u¿ñR\‘è?
-ÑºT¿!‘è?
-Ù´zõè?
-‹^cyè?
-ÏÊ™)-è?
-©ä:ã¶è?
-/·<•è?
-îï½š›è?
-ÚÇ‰vè?
-ä±³ÊYè?
-ñ‘õŒè?
-¼8éÎŒè?
-Ç·TğÄŒè?
-³ù·_šŒè?
-øÅô¡SŒè?
-è€CH{Šè?
-•>˜FŠè?
-$ñêÏğ‰è?
-€ZúÑÀ‰è?
-ŸÁ•¾y‰è?
-6©U(‰è?
-Gt–ˆè?
-™'‡è?
-,¬I|«†è?
-”]ƒhõ…è?
-òí‹0Æ…è?
-z÷‹o…è?
-Y·Ôîg…è?
-óVK1…è?
-†~İİ‰„è?
-wÏšP„è?
-Y°y+„è?
-É,Ê‡Óƒè?
-±Ì<\Å‚è?
-è1¿‚è?
-Ùã·_è?
-‰ôX4è?
-ª5Ù¶]è?
-¸\è?
-óûÖV~è?
-U0L@ä}è?
-å9•î™}è?
-u›’}è?
-Ò31cÌ|è?
-q&R. |è?
-T<{è?
-¤ˆ^Ñ{è?
-êvútxè?
-·¸g!´vè?
-"Bµ¦vè?
-–ò_+yuè?
-R½[´sè?
-ö¬QZsè?
-J? Psè?
-ù†`òvrè?
-ÒÓê`­qè?
-Ô¿epè?
-JF
-oè?
-£±}‚±nè?
-k¡]mè?
-|5×6Rmè?
-†ë;š2lè?
-ü"¼Nkè?
-o…ÀÂjè?
-½™÷iè?
-³©¯iè?
-éÿu»Ÿiè?
-IÀ¶ˆiè?
-¯Øìpúgè?
-÷EÚeè?
-€|z‹¿eè?
-0Fñšïdè?
-x3¨=îdè?
-j½ Ædè?
- ½pã3dè?
-çef»Qcè?
-9‘R§Fcè?
-¨ïªùcè?
-
-÷ŒÄÏbè?
-ş‡m€bè?
-¸
-ãÖaè?
-QïrwBaè?
-†óÎ`è?
-x±Œ¥`è?
-‡ØäZ_è?
-ŠúõÀ$_è?
-3/=c_è?
-‚=	.^è?
-	”Oƒ]è?
-	&ëe]è?
-6›~]]è?
-çª±Hé\è?
-^|K„W\è?
-Â¨jÄ\è?
-4A£ø[è?
-‰¾H[è?
-J%°?[è?
-¼ûÆùZè?
- ¹3Zè?
-Á+2Yè?
-Ê;£È‰Xè?
-àÌ‚ÛVè?
-¶³°óTè?
-öËïTè?
-ÕWšP°Sè?
-µìy%­Qè?
-lD«™’Qè?
-côzQè?
-yÎQOQè?
-Wfúß2Qè?
-¦¬äxºPè?
-zxL0Pè?
-”ÿ³àPè?
-3¤İûÊOè?
-ÖkÊÚNè?
-šw#¼Nè?
-Ê/uSNè?
-a8šnNè?
-Ğ×¯Mè?
-šBkéMè?
-'jC,öEè?
-QÆƒfEè?
-
-|ùNEè?
-ı~_Dè?
-ß4YÒâBè?
-GıûBè?
-V·UQAè?
-0¿»Ùÿ@è?
-Ğ]¦/c@è?
-Ğs•¹c?è?
-Š±‚ˆ=è?
-hÔ4=è?
-vmÛ{<è?
-	v|¥ø;è?
-\©ä;è?
-o£õÒÔ;è?
-'ü‰iÃ;è?
-~“nM®;è?
-?Úæ=;è?
-4¾p:è?
-ıK«E:è?
-~²³åå9è?
-t%¬9è?
-uË¤9è?
-…›;=8è?
-û {À7è?
-¶—àÔ"7è?
-wQ=¢Í6è?
-e,¶¤5è?
-;9s 
-5è?
- qW¦Õ4è?
-JÄP©¨4è?
-.¤ßj4è?
-MçúÒ3è?
-ÃEtù2è?
-Èfı
-i2è?
-Eµ1è?
-7¿À_1è?
-Îı1è?
-~ÿÍñ0è?
-‡{>‡Ê0è?
-µ.‡£0è?
-ĞÅ-è?
-ë¬G´Ø,è?
-×&Dîã+è?
-Ù^š+è?
-¿üäŒé*è?
-Òz1+*è?
-;UQbö)è?
-åó³lñ)è?
-²]Ä¼é)è?
-şé;ä)è?
-ÕLŠ¼)è?
-5Eª)è?
-åÿ2–)è?
-¿s.È^(è?
- ëï­8'è?
-§úÅy&è?
-IÿÛÔo&è?
-®’ë-S&è?
- ü1ÿ%è?
-Û$˜ô%è?
-ÌÚ§²%è?
-’&€eä$è?
-ŸCÖA"è?
-3ÁfÁ!è?
- ß¹j!è?
-SC½ro!è?
-Ó_ĞWf!è?
-¦2¹J è?
-A»¢Õè?
-µ4[è?
-†»wCHè?
-I[,Y(è?
-KÊ&]è?
-•\Fè?
-ºê˜íè?
-,Ø”ùŸè?
-¬LçéÎè?
-”¹‹^¬è?
-ĞæÌÄÁè?
-Ã¸À-¹è?
-vZè?
-ŒDÈè?
-M½ÆˆXè?
-‚0Ş&0è?
-*`+6jè?
-œÃkè?
-¡ùRÖµè?
-ß	‰è?
-¯póè?
-.Ğsè?
-12[Kè?
-©‡4è?
-7%-ûè?
-îqÚ•è?
-ó4ïñ?è?
-ÛÅÆ·Îè?
-T(Ïé£è?
-¼€xkè?
-Q1jÆZè?
->µ½	<è?
-&‹O‹Üè?
-qà&ƒ?è?
-ûq
-è?
-ş0rJş	è?
-ÿ’j™	è?
--Ó‡s	è?
-âS8èñè?
-‹Ô&“è?
-c³ı‘è?
-ßêàşè?
-ÍÆ¬ìè?
-6Å5dºè?
-˜Ş=Ÿëè?
-¯˜º\’è?
-8%óè?
-.ó9— è?
- JƒAŠ è?
-sJíë è?
-,¬œßüç?
-º³ŞÚüç?
-ğÈ!p’üç?
-ay‡ûç?
-è.Gƒúç?
-°ØÆãfúç?
-}ÅÃ	²ùç?
-£ƒ"_ˆùç?
-Ğ[
-q^ùç?
-Rğáİ¨øç?
-™‰Æ¢øç?
-@W*a|öç?
-w³¢óç?
-¢ßsšóç?
-b7Ÿ«ñòç?
-köiÛòç?
-Ô›ÌEPòç?
-o¡ïKòç?
-÷P~>1òç?
-KÓ[ÁÜñç?
-Ua0r¥ñç?
-fø©qñç?
-n1FNïç?
-¯ãi©„îç?
-³±2f¶íç?
-$ó½Íìç?
-vá9©ìç?
-Â üöïëç?
-)„}ïÎêç?
-èûiºéç?
-Lç;t¯éç?
-ÈeMG¬éç?
-¦–èñÿçç?
-zpm¨=çç?
-ÍJÒæç?
-›  Ëæç?
-¢+Êåç?
-ê~A9 åç?
-ZG#Y½äç?
-]hUòãç?
-Œˆ¿¢ãç?
-‰\"Á&âç?
-Eª-ÿáç?
-~Â@²İáç?
-¿,Ô¢áç?
-İÌ’Ì“áç?
-…ÇÈñnáç?
-2h´Éàç?
-¾û”Vßç?
-¨øô¯Şç?
-1¦f•Şç?
-ã
-8œ<Şç?
-VïŞç?
-™Tåİç?
-|{»©²İç?
-.£7İç?
-!%icÜç?
- ²¯ Üç?
-ë×>8©Ûç?
-w£Ü>¦Ûç?
-J+ŠÛç?
-ÎÛ8>IÚç?
-d£%béØç?
-0Øk9Øç?
-Ù3Æ7K×ç?
-š­X2Öç?
-)ò¹ucÓç?
-Ä3{ÓIÒç?
-šjF”ÀÑç?
-Q{ø`Ñç?
-‹Ï;¦*Ğç?
-™ÓÛİÉÏç?
-Us;!Ïç?
-d”ıÈêÎç?
-İµU·Íç?
-fÖ'™Íç?
-¦o‘RÍç?
-VÆ–6§Ìç?
-Î7BÂËç?
-¸ùüD&Êç?
-w7äóÈç?
-$ë…öÇç?
-Fï•­Çç?
-1khîÆç?
-æ?XEºÆç?
-íE£)Æç?
-©’Æç?
-ktÇòÆç?
-'¥™\·Äç?
-¡ÀM’Äç?
-ÔÓ½PÄç?
-¡É~‚Âç?
-²ª¯zÛÀç?
-æ×N)¿ç?
-•ûOu¾ç?
-Y°ıô¼ç?
-ò•£Ğî»ç?
-¢\ğË5»ç?
-ƒŒáä&»ç?
-k#^*Âºç?
-l2„y‹ºç?
-±
-¸iï¸ç?
-œëÎ”¸ç?
-ä»]w¸ç?
-å´+¦˜·ç?
-­¾Fµç?
-Û¾1ù÷´ç?
-²}÷³ç?
-ÁR³ç?
-9!•ã²ç?
-Ò‚®µ¦±ç?
-m¡^¨ä°ç?
-;ÿD2Ó¯ç?
-gw¼Ğú®ç?
-ŒN1û®ç?
-65şD¬ç?
-ëD9õªç?
-ïÏí!‹ªç?
-ºTšDªç?
-(·¨ç?
-¯²âp[¨ç?
-&›Dj¦ç?
-ş†Q¦ç?
-u@ÕÆÿ¥ç?
-³óqà¢ç?
-ÿ ç?
-#z“çŸç?
-˜8ùì Ÿç?
-dÓ }Zç?
-°sÎFç?
-H}oã›ç?
-Ny;¾šç?
-•pŞ$šç?
-|t»Ë™ç?
-Âi8q¡˜ç?
-‘EµÖ9–ç?
-,˜Ó¶Y•ç?
-Ïá‹/•ç?
-ƒí<K”ç?
-ü2:”ç?
-ÓŞ^K·“ç?
-KÒÿi‘ç?
-†*n¯&‘ç?
-rºr)ç?
-xøu]
-ç?
-­tÉ[ãç?
-	í­™Ê‹ç?
-ëôi’¶‹ç?
--ãg‹ç?
-,ëI‹ç?
-–8§]¹Šç?
-O¨²?Šç?
-‹ü}‰ç?
-^šB÷²ˆç?
-
-Dæû¦ˆç?
-íoZT‡ç?
-?Ãïß†ç?
-9rOçÛ…ç?
-7Â†„ç?
-ËÒC\ƒç?
-€‹»¨Dƒç?
-ugÚ°ç?
-â0¦Âç?
-îß‡N0€ç?
-õİÔç?
-¿ó`e¥~ç?
- âï…}ç?
-Æ´Ù³C|ç?
-mÔm#ö{ç?
-!æ&õszç?
-„Sµ‘¤xç?
-#L #xç?
-Äë¿† wç?
-”ÔKu¸vç?
-øÑÌvç?
-|l`Ğguç?
-ƒ™òŠëtç?
-¥ÍZsç?
-ğàùrç?
-ëh+¯qç?
-#yîÌ‚qç?
-…ô(5qç?
-½,3qç?
-hËÂÖxpç?
-™ Mpç?
-_M{iÃoç?
-!¬Ÿoç?
-Àº2>oç?
-Ø™şÇõnç?
-Ÿ’S”nç?
-À4o_Inç?
-Nfü+nç?
-¯Fz‹¬mç?
-	ıØ[¼lç?
-¹ÊtÔlç?
-Øö‚dViç?
-¸Diç?
-Í¿½‘hgç?
-û\äfç?
-J8YŒfç?
-[–„\meç?
-ÔËÈ}qdç?
-Ï`3dç?
-TãpZbç?
-ü¬ÖáNbç?
-~ITÙ`ç?
-;JFO_ç?
-¿ğ­ÿ^ç?
-]%º2¬^ç?
-›Ğø—’^ç?
-Sm!¿]ç?
-P·\ç?
-‹#ÉI´[ç?
-©xX][ç?
-Òys\[ç?
-/WMÿ	Zç?
-p(‹Xç?
-0ôOãmWç?
-á§šCWç?
-|ûyµºVç?
-BŠHöVç?
-÷¶˜Uç?
-ÛÉ âUç?
-YˆN‰NUç?
-e,bPç?
-û°vLç?
-É·İ½Iç?
-Ç&Ù‹„Iç?
-Uj3îvIç?
-G)CÃŞHç?
-U<³pÑHç?
-¯­GaHç?
-©$·g1Hç?
-g†s¿Hç?
-pL~­éGç?
-A'ÂÔGç?
-¼qKVGç?
-¶šG•hFç?
-Ùø”GDç?
-!ZDç?
-Ú]¶Cç?
-
-)V^Cç?
-Ú‘ÓF?Cç?
-ØáP¢Bç?
-Q­aÃfBç?
-J­>Ô @ç?
-ıfƒ˜á?ç?
-…Ã£˜?ç?
-:°?ç?
-MúáÒö>ç?
-,v3<ç?
-ÁXB3/;ç?
-»¶ìt:ç?
-¡pg<7ç?
-Á]NŠ€6ç?
-iàÈŒ5ç?
-ğ/‰ˆŠ5ç?
-ödd7€5ç?
-\ß­ã³2ç?
-P~¤Ö1ç?
-±†Äyš0ç?
-˜8ëÏ/ç?
-8£°‰½/ç?
-¨ğ!u@/ç?
-µß¼º.ç?
-¬ì-ç?
-+£~è-ç?
-ÿ~q+Ù-ç?
-BÎËÌ-ç?
-@Gúõ,ç?
-Wé‚°+ç?
-–(Ó»Ñ*ç?
-i¼{}*ç?
-ıİú:	*ç?
-º*9ò)ç?
-›nRs(ç?
-¸DMÃ”'ç?
-VÕØY'ç?
-oå71@&ç?
-y†„{	&ç?
-ö&Å &ç?
-C«iC#ç?
-Í9·#ç?
-BUPé ç?
-XJ¹]æ ç?
-®Âœm ç?
-.:_ ç?
-ä‚<7§ç?
-jÌmàgç?
-şVåNç?
-u7É'ç?
-°?‡PÕç?
-Š÷İ ç?
-¤²®ğç?
-ÖGÇxØç?
-%xˆzAç?
-çâÙÁ„ç?
-ÙBÈsEç?
-A/ïï¼ç?
-®êŸç?
-ÃÎâ ç?
-N`Éüç?
-WvVB«ç?
-SÔ0(pç?
-’@Gç?
-+Å…şç?
-åYH¯Úç?
-Šêüµ´ç?
-ôf´± ç?
-Ûd`ç?
-MQr†,ç?
-WG¯ÈÚç?
-Ëoğ‹8
-ç?
-áíC;äç?
-ï¬ô {ç?
-ô»–Ä-ç?
-D=âç?
-È~Êç?
-š€A»ç?
-àpiŞ	ç?
-ì{™ğşæ?
-ÄFÑ²şæ?
-s†­<tüæ?
-"{ÎJ?üæ?
-ÀâŞfõûæ?
-<D\ëûæ?
-ö¶úæ?
- Vpúæ?
-ôÀÖ°˜ùæ?
-À'ğùæ?
-øj¦ùæ?
-v|}û÷æ?
-3#ÿ8Ú÷æ?
-g táöæ?
-¸z/³lõæ?
-·µ_õæ?
-Ëiâu™ôæ?
-å[í!ôæ?
-CYÒÉóæ?
-|ºª¦¦òæ?
-‡ı˜ÖAòæ?
-ÿeƒúFïæ?
-ˆ	R8ïæ?
-À©r¡îæ?
-s7¿î.îæ?
-4´¤£åíæ?
-ÄğZ]”íæ?
-¸G‘íæ?
-:2i¾íæ?
-‡ˆíæ?
-¡Û(_Öìæ?
-±å®…Óëæ?
-€ª‘u(åæ?
-äTGD¢äæ?
-ÿëŞõQäæ?
-`
-?8äæ?
-·@·yãæ?
-y"‡¢ìâæ?
-åü[à±âæ?
-å4e“âæ?
-(ôÊšâæ?
-ùšééàæ?
-&.ø
-¹àæ?
-üQ#`"àæ?
-¢(±‹ßæ?
-dåèÊİæ?
-ÖÉRDˆİæ?
-ğœ’FßÚæ?
-ÜU¦ÍÚØæ?
-djÈe­×æ?
-r¹R5Š×æ?
-ë”ÙåÖæ?
-³Áâ~¶Öæ?
-{¡ÎuªÖæ?
-8¢BÖæ?
-Q„Z3Öæ?
-E^âWÕæ?
-"Ùâq4Õæ?
-î f×	Õæ?
-*sÍ«ŞÒæ?
-!ªÛÒæ?
-‰ÁBçÑæ?
-÷›wÑæ?
-õMÇ`Ğæ?
-½.,µËÏæ?
-ÿ5`]gÏæ?
-êLÈÑÎæ?
-€é—¤ŞÍæ?
-a²mÌæ?
-œ[³ŠÌæ?
-3=0Ëæ?
-…¥‹úÊæ?
-šØ2j„Êæ?
-“Y.İàÉæ?
-·¤<€§Éæ?
-?Œ?‰Éæ?
-Ö­‚•ZÉæ?
-#‚Ët<Éæ?
-¯\$}Èæ?
-òœÖâ/Èæ?
-sòCÜÇæ?
-í³ğ¶Çæ?
-UD‚r´Çæ?
-§\5âÅæ?
-÷İòÅæ?
-Rp¹VÄæ?
-êÌûÉÂæ?
-[{+Ğ^Âæ?
-0´İnÀæ?
-=©¿Ó¿æ?
-=UáİŞ¾æ?
-ïg.Û¾æ?
-£aCè«¾æ?
-]=[ãç½æ?
-¢(œ…Ú½æ?
-õer¿¼æ?
-2Wz~ºæ?
-n ÿ
-ºæ?
-,é<Ge¸æ?
-.úhJd·æ?
-i-tüÚ¶æ?
-¯™ÈRĞµæ?
-ê#kO2µæ?
-ÁšáÔ÷´æ?
-ëM;×²æ?
-88‚]²°æ?
-á‰_¯æ?
-QP£®í­æ?
-äT®yÀ­æ?
-¹®¶e¬æ?
-ø´wªæ?
-f2oı¨æ?
-FG›ì¨æ?
-¤$1“£æ?
-1»tÄ¢æ?
-3•{¾»¡æ?
-Ùinx¡æ?
-q«IYß æ?
-I°ôIC æ?
-|Ã(Ğæ?
- —ÍmÓæ?
- ”Î›æ?
-µõ»d›æ?
-¹r B,šæ?
-ØtøW›—æ?
-õ–æ?
-#}Ü¬•“æ?
-İŠB©’æ?
-X¨J£æ?
-eBı¾Òæ?
-Pò´H´Œæ?
-U³°‚ê‹æ?
-Ì-_JİŠæ?
-Ÿ£q—!Šæ?
-³l%Ì‰æ?
-ŸQhÌƒˆæ?
-ã~Ö‡æ?
-u‚‰„æ?
-*¾©—ä‚æ?
-³¤ªõæ?
-v‹$€æ?
-ëÂ8>æ?
-™p¤8æ?
-˜G3õ~æ?
-¦NØªĞ}æ?
-ßÉM^G{æ?
-ÜPìµzæ?
-%jxæ?
-ñ·8¨ÿwæ?
-vˆ_£¼wæ?
-ûı)©væ?
-ù¯Èuæ?
-›®&s¦uæ?
-X§%–uæ?
-¬½ïqæ?
-¯S¥ãqæ?
-;™±[qæ?
-eJöÚpæ?
-_Ï]pæ?
-¸ÃNÛ²oæ?
-)0bûnæ?
-Vƒ¥ĞÎnæ?
-½ãö1mæ?
-nNø–èlæ?
-øöL¦‡læ?
-õwœÿkæ?
-ì•€,hæ?
-ŒÕr‹ãfæ?
-c0Ç¯eæ?
-‡Oí÷cæ?
-oéz‚Ì`æ?
-fØµ_æ?
-E“ßtì^æ?
-‡sj]]æ?
-;*;oE]æ?
-fÙè]æ?
-Ôû*;¶\æ?
-ŸL ä[[æ?
-\Ë÷gV[æ?
-2ÛSZæ?
-7µOuYæ?
-èâŒSæ?
-ôƒöĞåPæ?
--Ãò¬{Pæ?
-KXVOæ?
-;êèâNæ?
-Õ2QLæ?
-ŞşŞILæ?
-Åfù†tKæ?
-(O£Kæ?
-Ëì(ïÛJæ?
-ºT‚UËJæ?
-ôºHÇJæ?
-¯L™ø%Fæ?
-aÍ8®#Fæ?
-ÁtPIFæ?
-í|üZ£Eæ?
-X$D!ÉBæ?
-s\¥Aæ?
-¿õrœ‘Aæ?
-E~/Ún@æ?
-O²U~¾?æ?
-<­Ú,>æ?
-Q{=V=æ?
-v?†ŞG=æ?
-`n6S7æ?
-mÌƒ7æ?
-ÒqÀ¦¹5æ?
-ÏêNØ/æ?
-¶éE/æ?
-	ıCù¡.æ?
-ïÿœ ^*æ?
-ãŸB"æ?
-\ø8"Ú æ?
-ùSPàx æ?
-r_J–|æ?
-”#f™æ?
-Èfmæ?
-_s±æ?
-ë ¥§•æ?
-B„Wæ?
-¡]Îœøæ?
-õÅÌæ?
-®'0¼•æ?
-KÜéF"æ?
-˜^+0Øæ?
-à‰ˆÀºæ?
-a¥ÿ|ßÿå?
-‘Úâ@ûå?
-E3âÈúå?
-ğŒ6¤úå?
-JxĞÓ5úå?
-9¿¢'úå?
-Z¦œúå?
-Øª`]õå?
-’¡ûcòå?
-µa´õ6ñå?
-†±ÅVÄğå?
-Tî´;'ïå?
-œ"«"İîå?
-´ÕÆ¶ìå?
-XëD!‚ãå?
-1Ú{ÿıâå?
-{àm½áå?
-IØˆ ‚àå?
-'°æ©¹Úå?
-ˆ5œÔûØå?
-3'²ÇØå?
-œöİs`Ñå?
-&ùÄmkĞå?
-W¦¿ÈÎå?
-¢¬ı%dÌå?
-‡&*şÊå?
-˜‰DÃå?
-!\XÃå?
-İ|¡ìÂå?
-Y•Ú¤´å?
-5eP³å?
-&±—%È­å?
-âj*)ªå?
-v²ÈSªå?
-X¯a‰ñ¢å?
-Wüå?
-$¼ösRšå?
-âBl°g–å?
-ù²2‘å?
-1¡¨då?
-$µ§jşŠå?
-yã`xD‡å?
-¬ßM†å?
- }â¦ëƒå?
-çÚDëå?
-›œ³úP~å?
-qÁç4Œ}å?
-ÑÅ“Ûzå?
-&%Õa®uå?
-Øşû¡rå?
-!d¥OÛqå?
-ÃfÎ–•oå?
-+õÕUGoå?
-/,oå?
-«1c&hå?
-QÌ¶u9bå?
-(
-¯’!_å?
-"Gn_å?
-l%–aYå?
-šuŒºSå?
-‘•q·.På?
-@G§çOå?
-	•êJå?
-[ï²®ÎIå?
--$:Gå?
-çqğCå?
-ˆÔ~lAå?
-°P…¡:å?
-áıùÎ98å?
-­‚åüS7å?
-ñæ\±5å?
-ıªVe5å?
-¨É]¾/å?
-¢©$/%.å?
-Ùê?@¤(å?
-;Kıçå?
-¿†3Îå?
-7â´«Àå?
-Çh:å?
-~LJr”å?
-+!›Çå?
-æqiÅnå?
-¿ãGİ	å?
-›êNiå?
-íıö)w÷ä?
-+{xG÷ä?
-¤ŒÒ[Cîä?
-¡9XHíä?
-öP!ìä?
-7İô.Éëä?
-®áğœ9ëä?
-'áp³èä?
-ÓC€æä?
-`Y#âä?
-btgÄïÚä?
-ÈvJ}­Ìä?
-û®f$tÉä?
-Ä;ˆ8y¸ä?
-ÒåÛ±ä?
-æ~Y£‘§ä?
-¦KtRšä?
-#ø$T—ä?
-;]Âì’ä?
-Cìv›pŒä?
-øzùªĞä?
-pc½Íê{ä?
-È÷>`Nzä?
-™g$]jxä?
-E^·¾mä?
-BŸcä?
-é€ÚÖbä?
-ÑÛ#]ä?
-  Ş2Xä?
-ÿ–´Nä?
-Õ›Çò#Fä?
-b4qó@ä?
-»iÅe>ä?
->İE—<ä?
-é7Vú”$ä?
-´Iê±ä?
-õ$ÖS7ä?
-Ş2ÜÇtä?
-´ŒI”2ıã?
-°Pv$Wâã?
-»Än“ÈÓã?
-¾xó]Óã?
-#Pú_Ø³ã?
-ÎÕf"ü+ã?
-
-Signal B (k-means clustering; remapped)
-TN Trousdale
-TN Lake
-AR Lee
-AR Lincoln
-NE Dakota
-MN Nobles
-IA Buena Vista
-TN Bledsoe
-NE Colfax
-FL Lafayette
-IN Cass
-MS Issaquena
-OH Marion
-LA East Carroll
-KS Seward
-KS Ford
-FL Liberty
-SD Buffalo
-TX Kenedy
-GA Echols
-GA Chattahoochee
-OK Texas
-LA Madison
-MS Sharkey
-TX Crockett
-OH Pickaway
-KS Finney
-AR Chicot
-AR Sevier
-CA Imperial
-AZ Santa Cruz
-NE Saline
-TX Moore
-GA Stewart
-TX Lasalle
-AZ Yuma
-AL Bullock
-NE Perkins
-NE Dawson
-TX Jones
-AR Yell
-TX Walker
-IA Crawford
-AL Perry
-TX Brooks
-AR St Francis
-TX Real
-FL Jackson
-LA Allen
-TX Starr
-TX Anderson
-VA Buckingham
-MO McDonald
-TX Maverick
-MS Montgomery
-SC Bamberg
-AR Hot Spring
-TX Knox
-FL Hamilton
-TX Refugio
-TX Cameron
-TX Willacy
-MS Grenada
-MS Sunflower
-LA Franklin
-TN Hardeman
-TX Madison
-FL Miami-Dade
-IA Woodbury
-VA Richmond
-AL Franklin
-TX Titus
-ID Blaine
-MS Noxubee
-VA Manassas City
-AL Crenshaw
-IA Marshall
-FL Gulf
-MS Washington
-TX Grimes
-TX Hale
-TX Val Verde
-MS Scott
-CO Logan
-MS Simpson
-MS Tallahatchie
-AL Wilcox
-TX Parmer
-MS Walthall
-MS Wayne
-FL Gadsden
-GA Bacon
-AL Dallas
-MS Quitman
-LA Acadia
-KS Clark
-MS Winston
-FL Suwannee
-FL Hendry
-TX Dewitt
-IA Wright
-TX Potter
-TX Lavaca
-AR Newton
-AL Conecuh
-VA Accomack
-TX Karnes
-KS Stanton
-MS Covington
-GA Johnson
-MS Bolivar
-WA Yakima
-FL Columbia
-MS Coahoma
-GA Candler
-GA Jefferson
-LA Winn
-MS Copiah
-IA Franklin
-MT Big Horn
-TX Bee
-TX Hidalgo
-MS Leake
-GA Atkinson
-MS Tunica
-FL Madison
-SD Beadle
-TX Victoria
-CA Kings
-KY Muhlenberg
-GA Clinch
-GA Troup
-MS Tishomingo
-LA Catahoula
-TN Wayne
-FL Taylor
-AR Little River
-NC Duplin
-AL Clarke
-GA Coffee
-TX Nueces
+NY Tioga
+LA St. Tammany
+MD Caroline
+IL Mcdonough
+NY Niagara
+VA Rockingham
+NC Cabarrus
+NY Franklin
+IN Allen
+SD Brown
 MN Watonwan
-GA Glynn
-FL Desoto
-TX Bailey
-NE Thurston
-FL Hardee
-MS Lawrence
-GA Colquitt
-SD Lyman
-GA Ben Hill
-MS Jefferson
-TX Caldwell
-MS Tate
-SC Orangeburg
-WA Franklin
-GA Wayne
-TX Throckmorton
-LA Jefferson Davis
-NE Platte
-NC Tyrrell
-GA Jeff Davis
-GA Ware
-AL Marshall
-GA Hall
-OK Mccurtain
-TX Scurry
-TN Macon
-GA Decatur
-TX Gonzales
-AR Nevada
-VA Sussex
-FL Glades
-LA Evangeline
-MS Panola
-GA Tift
-SC Hampton
-TX Jackson
-MS Yazoo
-GA Whitfield
-TX Wharton
-GA Charlton
-AL Escambia
-AL Montgomery
-TX Frio
-AL Walker
-LA Calcasieu
-OR Malheur
-GA Bleckley
-SC Charleston
-VA Manassas Park City
-GA Warren
-TX Webb
-MS Calhoun
-MS Newton
-FL Broward
-GA Emanuel
-GA Laurens
-GA Toombs
-FL Calhoun
-AR Crittenden
-LA Richland
-TX Lamb
-LA Ouachita
-IA Emmet
-FL Washington
-GA Evans
-GA Stephens
-IA Black Hawk
-AL Marengo
-NM Hidalgo
-LA St. Martin
-GA Lowndes
-TN Davidson
-TX Zavala
-GA Miller
-FL Franklin
-KS Wyandotte
-MN Mower
-FL Union
-LA Sabine
-TN Haywood
-OR Morrow
-FL Escambia
-MS Jasper
-SC Calhoun
-LA Vermilion
-SC Saluda
-GA Bibb
-TX Donley
-FL Dixie
-LA St. Helena
-TX Duval
-AL Covington
-AR Howard
-GA Cook
-TX Dallam
-LA Lafayette
-AZ Maricopa
-LA Avoyelles
-AZ La Paz
+IL Gallatin
+MN Benton
+NH Belknap
+IL Boone
+NY Fulton
+KS Geary
+NY Delaware
+CO San Juan
+PA Union
+SC York
+VA Staunton City
+AL Shelby
+IA Warren
+NH Carroll
+KS Shawnee
+WA Douglas
+NE Buffalo
+OK Oklahoma
+AK Hoonah-Angoon
+VA Greene
+NY Jefferson
+IN Porter
+NE Wayne
+OH Lake
+MN Chisago
+WI Grant
 KS Lyon
+MI Berrien
+TX Midland
+FL Brevard
+KY Oldham
+AZ Cochise
+IA Sioux
+NY Chenango
+WI Fond Du Lac
+SC Dorchester
+NY Lewis
+CA Alpine
+NY Montgomery
+VA Surry
+NY Madison
+MT Carbon
+NC Watauga
+MN Kandiyohi
+FL Escambia
+VA Caroline
+WI Dunn
+MN Houston
+TX Lubbock
 KS Leavenworth
 MO Saline
-LA Grant
-MO Sullivan
-ND Benson
-CO Saguache
-GA Lanier
-WA Adams
-OR Umatilla
-LA West Carroll
-ID Washington
-SD Minnehaha
-TX Uvalde
-IA Dickinson
-ID Shoshone
-MS Hinds
-TX Angelina
-FL Gilchrist
-FL Martin
-AL Barbour
-LA Caldwell
-GA Seminole
-AR Mississippi
-FL Okeechobee
-TX Bexar
-AR Washington
-NE Dodge
-AL Washington
-TX Sutton
-SC Greenwood
-MS Warren
-NC Sampson
-CA Kern
-MS Oktibbeha
-FL Jefferson
-LA Tangipahoa
-AL Pike
-FL Collier
-VA Southampton
-SD Faulk
-GA Telfair
-LA Rapides
-IA Plymouth
-ND Sioux
-TN Crockett
-GA Muscogee
-LA Tensas
-GA Treutlen
-TX Galveston
-IA Dallas
-TX Edwards
-AL Dale
-IL Pulaski
-NC Montgomery
-FL Osceola
-MN Todd
-MN Stearns
-TX Garza
-IA Pocahontas
-CO Mineral
-TX Brewster
-FL Bay
-FL Holmes
-NC Wayne
-MS Pontotoc
-GA Wheeler
-SC Barnwell
-IA Taylor
-IN Elkhart
-MS Madison
-FL Baker
-NC Granville
-LA Webster
-AL DeKalb
-LA Lasalle
-TX Live Oak
-MN Pipestone
-MS Jeff Davis
-TX Mason
-AR Jefferson
-AL Monroe
-LA Beauregard
-MS George
-SC Florence
-AL Elmore
-TX Jim Wells
-TX Matagorda
-SC Horry
-MS Lafayette
-TX Camp
-LA Cameron
-TX Castro
-NC Robeson
-GA Franklin
-SC Georgetown
-GA Talbot
-ID Canyon
-TN Shelby
-AL Tuscaloosa
-OR Union
-TX Medina
-MS Lowndes
-CA Tulare
-TX Jefferson
-ID Owyhee
-TX San Patricio
-AL Winston
-AR Johnson
-FL Palm Beach
-CA Merced
-TX Stonewall
-AR Randolph
-GA Pierce
-IA Webster
-IA Winnebago
-TN Lauderdale
-GA Washington
-CA Stanislaus
-TX Calhoun
-MS Union
-SC Dillon
-SC Laurens
-TN Robertson
-AR Desha
-AL Mobile
-TX Goliad
-GA Richmond
-TX Dallas
-GA Wilkes
-VA Culpeper
-SC Chester
-GA Polk
-AL Colbert
-TX Houston
-SC Sumter
-SD Aurora
-FL Orange
-TX Kleberg
-MS Perry
-KY Ohio
-FL Duval
-IA Clarke
-AL Bibb
-TN Putnam
-IA Polk
-VA Martinsville City
-FL Lee
-FL Hillsborough
-TX Pecos
-TX El Paso
-TX Hays
-AL Pickens
-TN Tipton
-FL Manatee
-MS Amite
-KY Warren
-GA Lincoln
-UT Summit
-SC Marlboro
-CO Eagle
-OK Jackson
-FL Putnam
-VA Prince William
-GA Burke
-KY Lewis
-TX Schleicher
-AL Etowah
-GA Grady
-MN Kandiyohi
-TX Harris
-AR Pope
-MS Lee
-FL Polk
-MS Lamar
-AL Clay
-AL Chilton
-TX Brazoria
-TX Dimmit
-ID Minidoka
-TX Chambers
-AL Russell
-SC Newberry
-TN Polk
-ID Jerome
-NC Lee
-TN Rhea
-LA Morehouse
-AL Morgan
-NC Bladen
-GA Tattnall
-IA Sioux
-ND Griggs
-IN Marshall
-CA Marin
-SC Jasper
-LA Vernon
-SC Darlington
-FL Wakulla
-ID Cassia
-AR Phillips
-AL Autauga
-TX Coke
-CA Los Angeles
-IA Hamilton
-TN Dyer
-KS Hamilton
-AZ Gila
-SC Abbeville
-ND Burke
-GA Irwin
-TX Andrews
-TN Henderson
-CA Colusa
-IL Randolph
-SC Dorchester
-GA Gwinnett
-KS Kearny
-AL Lee
-TN DeKalb
-CA San Joaquin
-GA Banks
-MS Marshall
-TX Mclennan
-GA Gilmer
-AR Madison
-GA Montgomery
-SC Richland
-TN Hamblen
-TX Presidio
-GA Marion
-MN Lyon
-GA Meriwether
-TN Smith
-TN Decatur
-IN Tipton
-NE Douglas
-WA Douglas
-TX Sherman
-FL Marion
-FL Santa Rosa
-CA Madera
-MO Perry
-AL Jefferson
-TX Liberty
-GA Chatham
-NV Clark
-FL St. Lucie
-TX Burleson
-MO Buchanan
-IA Cerro Gordo
-SC Greenville
-TN Bedford
-MT Rosebud
-GA Elbert
-MS Prentiss
-MN Cottonwood
-TX Cherokee
-TN McNairy
-FL Pinellas
-NC Mecklenburg
-SC Beaufort
-MS DeSoto
-GA Harris
-GA Twiggs
-IA Johnson
-AR Bradley
-VA Petersburg City
-IL Gallatin
-CO Crowley
-AL Lamar
-CA Fresno
-SD Clay
-IN Clinton
-WA Okanogan
-SC Chesterfield
-AZ Pinal
-KY Carroll
-GA Berrien
-TN Hardin
-WI Brown
-FL Monroe
-IN Dubois
-SC Marion
-GA Newton
-IN Jackson
-TX Tom Green
-AR Cleveland
-UT Wasatch
-AZ Graham
-TX Zapata
-VA Prince Edward
-IN LaGrange
-LA Livingston
-GA Glascock
-TN Rutherford
-AL Fayette
-TN Weakley
-GA Gordon
-AL Henry
-NC Stanly
-ID Ada
-GA DeKalb
-NC Durham
-TX Yoakum
-NC Wilson
-TX Jim Hogg
-ND Cass
-ND Grand Forks
-GA Fulton
-NM Union
-VA Portsmouth City
-GA Clayton
-TX Concho
-TX Polk
-IA Story
-CA Riverside
-LA Bossier
-CA San Bernardino
-MS Benton
-MS Jackson
-TX Orange
-AL St Clair
-SC Kershaw
-MN Rice
-AL Coffee
-MN Murray
-WI Racine
-KY Shelby
-NM Guadalupe
-MI Oceana
-GA Bulloch
-KY Fulton
-NC Wilkes
-AL Jackson
-AR Benton
-MO Jasper
-TN Obion
-ND Mountrail
-FL Indian River
-KS Meade
-TX Bastrop
-VA Nottoway
-TX Travis
-NC Greene
-UT Cache
-GA Douglas
-GA Pulaski
-NC Mcdowell
-AL Calhoun
-MS Rankin
-TX Navarro
-UT Salt Lake
-KS Jackson
-NC Burke
-FL Walton
-GA Dawson
-SC Berkeley
-OK Choctaw
-TN Fayette
-VA Fredericksburg City
-AK Yukon-Koyukuk
-GA Lumpkin
-LA Concordia
-IN Carroll
-AR Ashley
-ID Payette
-FL Okaloosa
-TN Cheatham
-TX Brazos
-CA Santa Barbara
+ME Waldo
+CO Teller
+MN Dodge
+WI Green
+MN Wabasha
+MI Emmet
+MN Steele
+NE Platte
+LA Lafayette
+MN Le Sueur
+NY Cattarau
+AK Lake and Peninsula
+IL Vermilion
+OH Lorain
 IL Warren
-MS Stone
-OR Jefferson
-SD Union
-GA McDuffie
-AR Sebastian
-VA Winchester City
-TX Lubbock
-IA O'Brien
-TN Hamilton
-WA Grant
-TX Hardin
-TN Chester
-IA Clay
-FL Seminole
-NC Bertie
-MS Franklin
-IA Dubuque
-MO New Madrid
-MD Caroline
-TN Bradley
-FL Highlands
-SC Lexington
-TX Cochran
-FL Bradford
-CO Sedgwick
-AL Cullman
-MO Mississippi
-GA Floyd
-GA Cobb
-NC Scotland
-IA Osceola
-TX Ector
-KS Grant
-AZ Pima
-TN Giles
-KY Casey
-FL Levy
-TN Sevier
-NE Madison
-TX Kaufman
-GA Jackson
-AR Cross
-NC Hoke
-AL Blount
-TX Colorado
-CO Washington
-MT Phillips
-AL Talladega
-MO Newton
-AR Carroll
-GA Rockdale
-WV Grant
-NC Warren
-IL Morgan
-GA Hart
-IL Perry
-TX Ellis
-IA Shelby
-TX Fayette
-MO Jackson
-WY Uinta
-IL Winnebago
-NE Morrill
-GA Carroll
-VA Norfolk City
-KS Scott
-AL Shelby
-TN Gibson
-NC Gaston
-NE Gosper
-AZ Cochise
-NC Anson
-AL Baldwin
-IA Pottawattamie
-SC Pickens
-TX Runnels
-SD Brown
-NC Halifax
-GA Henry
-NC Randolph
-ID Lincoln
-GA Clarke
-GA Towns
-MN Grant
-AL Houston
-GA Barrow
-TX Tarrant
-CA Glenn
-AL Limestone
-WA Chelan
-FL Leon
-OH Mercer
-IA Monona
-GA Bryan
+FL Santa Rosa
+PA Luzerne
+NH Sullivan
+IN Lake
+VA Poquoson City
+MO Clay
+MD Talbot
+VA Rappahannock
+WI Rock
+AK Yakutat
+OH Portage
+VA Prince George
+VA New Kent
+PA Pike
+WI Door
+TX Bell
+IL Franklin
 GA Columbia
-TN Wilson
-SC Edgefield
-FL Nassau
-TN Madison
-WI Kenosha
-WY Teton
-TX Gregg
-KS Haskell
-TX Randall
-VA Westmoreland
-VA Richmond City
-TX Hudspeth
-TX Fort Bend
-AL Madison
-IN St. Joseph
-GA White
-ID Twin Falls
-FL Lake
-SC Anderson
-FL Clay
-TX Guadalupe
-IA Hancock
-NC Forsyth
-NV Lander
-CA Orange
-GA Brantley
-MN Freeborn
-FL Volusia
-ND Burleigh
-NC Alamance
-TX Atascosa
-OK Tulsa
-SC Spartanburg
-TN Williamson
-AR Pulaski
-IL Iroquois
-FL Sarasota
-FL Alachua
-AR Union
-NC Johnston
-CA Monterey
-SC Lancaster
+NY Oswego
+NY Greene
+WI Jefferson
+VA Powhatan
+UT Tooele
+MI Saginaw
+ME Hancock
 UT Washington
+MD Washington
+FL Sarasota
+IA Woodbury
+MI Midland
+CA Butte
+WV Monongalia
+MI Eaton
+CO Archuleta
+NY Wyoming
+WI Marathon
+UT Grand
+VA Isle Of Wight
+FL Seminole
+NY Schoharie
+MS Madison
+WA Jefferson
+MD Calvert
+TX Rockwall
+IL St. Clair
+VT Caledonia
+GA Oconee
+IA Poweshiek
+CO Alamosa
+VA Frederick
+CA Yuba
+VA Colonial Heights City
+NC Pitt
+NY Cortland
+TX Brewster
+AK Valdez-Cordova
+WI Iowa
+ID Madison
+CA Humboldt
+CO Park
+IL Mclean
+VA Clarke
+ME Knox
+WI Calumet
+NV Washoe
+VA Salem City
+MN Lyon
+OH Greene
+CA Inyo
+VA Charles City
+ND Burleigh
+AK Bethel
+AK Aleutians West
+AR Washington
+VT Bennington
+NY Washington
+VA Prince Edward
+MN Goodhue
+AK Wrangell
+WI Winnebago
+FL Martin
+NC Buncombe
+MD Worcester
+MT Park
+OH Medina
+VA Roanoke
+MN St. Louis
+MT Lewis & Clark
+MI Genesee
+MI Isabella
+FL St. Johns
+TX Montgomery
+NC Union
+MD St. Mary's
+VA Radford City
+VT Rutland
+AR Pulaski
+MI Gd. Traverse
+IA Bremer
+IA Scott
+VT Orange
+DE Sussex
+MD Carroll
+MI Marquette
+KY Jefferson
+SC Greenville
+WI Pierce
+AK Kodiak Island
+MN Stevens
+NV Churchill
+WI Portage
+WI Walworth
+WI Racine
+WI Washington
+MI Clinton
+OR Yamhill
+SD Union
+WA Grant
+NM Sandoval
 GA Cherokee
-TX Comal
-VA Loudoun
-VA Rockingham
-GA Houston
-UT Utah
+WI St. Croix
+IN Hendricks
+FL Manatee
+IA Dubuque
+TX Brazoria
+MN Mower
+TX Galveston
+WI Sauk
+MN Sherburne
+NY Yates
+OH Summit
+AZ Pinal
+AK Kenai Peninsula
+NY Rensselaer
+IA Winneshiek
+ME Sagadahoc
+AK Skagway
+NY Ontario
+AK Sitka
+SD Brookings
+ND Grand Forks
+OR Lane
+IN Boone
+VA Culpeper
+MI Leelanau
+UT Morgan
+WI Outagamie
+CO La Plata
+MO Platte
+OH Wood
+MN Wright
+NC New Hanover
+PA Lackawanna
+VA Roanoke City
+UT Weber
+OR Polk
+MI Livingston
+MN Cook
+WI Kenosha
+AK Yukon-Koyukuk
+MD Cecil
+VT Franklin
+CO Elbert
+VA King George
+MO St. Louis City
+CA Mendocino
+MD Wicomico
+OH Warren
+AK Haines
+MO Jackson
+GA Douglas
+CO Chaffee
+IL Kane
+NJ Salem
+NC Forsyth
+NY Sullivan
+PA Cumberland
+WA Walla Walla
+NH Cheshire
+WA Spokane
+ME York
+ID Teton
+IN Tippecanoe
+WI Eau Claire
+NM Taos
+IL Champaign
+MD Frederick
+WA Chelan
+OH Geauga
+AK Anchorage
+IL Mchenry
+CO El Paso
+CA Nevada
+FL Lee
+ID Latah
+PA Monroe
+VT Windsor
+FL Duval
+WA Kitsap
+VA Lynchburg City
+FL Pinellas
+MD Queen Anne's
+NM San Miguel
+NY Essex
+HI Kauai
+NE Sarpy
+VT Windham
+NJ Cape May
+OH Lucas
+VT Lamoille
+WA Benton
+CO Gilpin
 MD Dorchester
+VA Fluvanna
+PA Lancaster
+WI La Crosse
+KY Fayette
+CA Sutter
+GA Chatham
+WA Thurston
+CT Windham
+IL Kendall
+NC Chatham
+WA Kittitas
+VA Goochland
+MI Ottawa
+WA Skagit
+TX Nueces
+IL Madison
+NY Steuben
+NY Ulster
+OR Deschutes
+MN Blue Earth
+MT Missoula
+VA Fauquier
+VA Hanover
+GA Henry
+VT Grand Isle
+WA Clark
+NV Clark
+VA Spotsylvania
+NY Schuyler
+PA Berks
+SD Lincoln
+WI Brown
+GA Rockdale
+VA York
+CA El Dorado
+MO Boone
+VA Montgomery
+OR Marion
+MN Winona
+SD Clay
+NE Lancaster
+SD Minnehaha
+IA Black Hawk
+NH Strafford
+NH Merrimack
+SC Beaufort
+DE New Castle
+NY Tompkins
+NH Grafton
+CO Ouray
+NY Otsego
+WY Albany
+MN Stearns
+AK Juneau
+VA Suffolk City
+GA Fayette
+CO Weld
+IA Linn
+WA Island
+VT Washington
+VA Hampton City
+NY Columbia
+MI Macomb
+IL Carroll
+CO Grand
+NY Orleans
+FL St. Lucie
+LA East Baton Rouge
+OH Hamilton
+UT Davis
+FL Monroe
+TX Brazos
+GA Forsyth
+CA Colusa
+VA Portsmouth City
+IN Marion
+NE Douglas
+MN Clay
+TN Williamson
+VA Chesapeake City
+CO Lake
+WA San Juan
+DE Kent
+CA Madera
+MA Berkshire
+WA Pierce
+MI Kalamazoo
+NC Guilford
+VT Addison
+NY Monroe
+IA Polk
+CO Garfield
+TX Tarrant
+NY Dutchess
+PA Dauphin
+WA Franklin
+MN Nicollet
+MN Rice
+NY Putnam
+IL Clark
+ID Ada
+CO Clear Creek
+VA Winchester City
+TX Denton
+MI Kent
+OH Cuyahoga
+UT Wasatch
+MN Anoka
+TN Shelby
+PA Northampton
+MD Charles
+OR Clackamas
+NM Dona Ana
+VA Lexington City
+PA Lehigh
+FL Osceola
+KS Riley
+NJ Cumberland
+MT Gallatin
+MA Dukes
+IN Monroe
+UT Cache
+AK Fairbanks North Star
+WA Yakima
+PA Allegheny
+VA Virginia Beach City
+ND Cass
+FL Collier
+TX Williamson
+TN Davidson
+KS Douglas
+IA Dallas
+OR Hood River
+WA Whitman
+OH Delaware
+TX Hays
+HI Hawaii
+IL Cook
+WI Waukesha
+WI Ozaukee
+RI Washington
+CA Kern
+IL Dupage
+MI Ingham
+VA Chesterfield
+AZ Yuma
+CA Stanislaus
+FL Alachua
+NJ Gloucester
+VA James City
+WA Whatcom
+SC Charleston
+VA Newport News City
+CA San Luis Obispo
+PA Centre
+UT Utah
+NH Rockingham
+CA Tulare
+NY Seneca
+OH Franklin
+MA Barnstable
+NJ Ocean
+MA Franklin
+GA Clarke
+FL Hillsborough
+FL Leon
+CT Middlesex
+RI Newport
+RI Kent
+AK Denali
+MN Scott
+CA Placer
+CO San Miguel
+NM Los Alamos
+AZ Pima
+IL Lake
+NM Bernalillo
+NY Saratoga
+ME Cumberland
+CA Kings
+CA Mono
+MA Bristol
+MN Olmsted
+NH Hillsborough
+IA Story
+RI Bristol
+KS Johnson
+CT Litchfield
+NM Santa Fe
+VA Stafford
+IL Winnebago
+CA Merced
+MN Carver
+CO Larimer
+NJ Warren
+IN Hamilton
+TX Collin
+CO Jefferson
+NJ Sussex
+WI Milwaukee
+AZ Coconino
+OR Benton
+CO Gunnison
+MD Howard
+MN Washington
+CT New London
+NJ Atlantic
+NY Erie
+NY Broome
+PA Bucks
+NY Oneida
+GA Cobb
+WA Snohomish
+CO Routt
+TX Bexar
+ID Blaine
+MN Dakota
+CA Fresno
+MD Anne Arundel
+NY Livingston
+MA Nantucket
+SC Richland
+VA Albemarle
+NY Orange
+HI Kalawao
+CA San Joaquin
+CO Adams
+NY Warren
+CA Napa
+MD Baltimore
+VA Fredericksburg City
+VA Norfolk City
+MI Wayne
+MA Hampden
+FL Orange
+VA Henrico
+AZ Santa Cruz
+CA Solano
+MD Harford
+TX Fort Bend
+NC Wake
+TX El Paso
+IA Johnson
+CO Broomfield
+MA Worcester
+UT Salt Lake
+GA Gwinnett
+FL Palm Beach
+OR Washington
+CO Arapahoe
+CA San Benito
+WI Dane
+UT Summit
+TX Dallas
+CA Sonoma
+VA Richmond City
+MA Plymouth
+AZ Maricopa
+VT Chittenden
+WY Teton
+MD Kent
+PA Delaware
+PA Chester
+CA Sacramento
+CO Douglas
+CO Boulder
+MI Oakland
+RI Providence
+CO Pitkin
+VA Williamsburg City
+CA Imperial
+CA San Bernardino
+NY Albany
+NC Mecklenburg
+LA Orleans
+HI Honolulu
+NC Durham
+HI Maui
+NC Orange
+CA Ventura
 CO Summit
-IL Rock Island
-      ğ?
-| @Tœà?
-Ëåeï~’à?
-*ı‚à?
-wÈ=£İ?
-Â‚8@ynÛ?
-}& ¨bÙ?
-Yrn„Ø?
-—ÁĞ±+JÖ?
-+ê6æi Õ?
--ãfÜ­;Ô?
-ë>gŒ+Ó?
-‚'
-(ŠÓ?
-JÔâªxÓ?
-/|Ó½Ò?
-òùÛ.†Ò?
-ÌkKHøÑ?
-÷7,Œ±…Ñ?
-”¸®ËùĞ?
-¸ï+t ëĞ?
-Ñl¦½¢Ğ?
-E]–‹ Ğ?
-y-ãÜĞ?
-Àñ\ÛŞöÏ?
-è` $ÓÏ?
-ùĞŞsğlÏ?
-øı´ËÏãÎ?
-ÖF%,¾Í?
- SĞ{ntÍ?
-Ïw¢WnÍ?
-§ÚÜA:`Í?
-ÓmrVÍ?
-y&ı$1Í?
-Ğ”^
-™Í?
-h¬nÀ)ãÌ?
-Pö™BüË?
-:;û$Ë?
-) Ğv‚Ê?
-0®Ã‚UÊ?
-÷Ys.Ê?
-GÜğOŸ!É?
-AÏšât É?
-.¯ÿ<ğÈ?
-¦Uá¦ªÈ?
-LËw,§`È?
-i¶‰ìBÈ?
-ú£&¤²ëÇ?
--rû!H=Ç?
-„ú ÉÆÇ?
-djƒàµÆ?
-$´bšÆ?
-§]™Æ?
-µ™õÚKÆ?
-Ÿğï‡"Æ?
-XXÅjôÆ?
-bÂ ãá÷Å?
-	|I?rŞÅ?
-ÕAÃÏÅ?
-'vâğS™Å?
-‚+×/’Å?
-I¦è$pÅ?
-¾İgénÅ?
-ûàÌ"cÅ?
-4o±ÜÅ?
-T`’£úÄ?
-Ê¿-˜­Ä?
-VÊ¡L#ŒÄ?
-4AÌWİoÄ?
-ò‰	lÄ?
-‡—³J!YÄ?
-½ÅVS )Ä?
-¨§µ0#Ä?
-Âf¸œÄ?
-»€ò•{îÃ?
-2|—À“ëÃ?
-mğx¨ûÕÃ?
-¦É3ŸÃ?
-Hahƒ]Ã?
-¥§”<K?Ã?
-)³Æsƒ9Ã?
-´¤ØË%Ã?
-~šÙóåÃ?
-2êÑÅ‹Ã?
-S×õÂ?
-A{.ÍÖÑÂ?
-‚,²%ÄÂ?
-¢<ø”Â?
-Åãø·uÂ?
-µ¤õ‹Â?
-×C+òy…Â?
-U²ÆPÂ?
-ÁÓ·-uÂ?
-Í²Ü^Â?
-÷[†TÂ?
-„Ñ^Ğ9TÂ?
-¨°¯6³6Â?
-š„ñl+Â?
--±u$Â?
-¢ÎæìÁ?
-÷ş_à×Á?
-fL	^ÑÑÁ?
-2HŒ'ÚÂÁ?
-zò)Â[»Á?
-ûwô
-¡¶Á?
-W+ãŞ|Á?
-D–€ÂsÁ?
-;ßšşqÁ?
-K—¢®,mÁ?
-ôSfùMeÁ?
-›[V¢ÅRÁ?
-Ïß×çBÁ?
-ğŞä¢1Á?
-Xiñ¿/Á?
-¼÷åc(Á?
-8…ûœÁ?
-F'eãÁ?
-zâSãÁ?
-Ë¼	/üÀ?
-ÛÓ\=³øÀ?
-5¯ãÅÀ?
-¤s4¦À?
-‘lt|À?
-û/h8vÀ?
-ÊgïÙuÀ?
-µ§UŠuÀ?
-mk”™lÀ?
-âRØ°CTÀ?
-f€Z“À?
-ÑQÛµÀ?
--í4³ë¿?
-D#Ê(|Ğ¿?
-Ğ>±¿?
- Ì„³qŒ¿?
-]N•¡…¿?
-`3İtc¿?
-Æ/Ç‚ÅS¿?
-…Ú{¥?R¿?
-‚+¤p²å¾?
-¶û—Î¾?
-ÓÏ±«ÌÅ¾?
-ÚÿmSÁ¾?
-G§¯ì©¾?
-b·KŒ¡ ¾?
-ìî†t¾?
-ÂÉCù]¾?
-½sƒùÉL¾?
-^Aá…4¾?
-.Í/â°¾?
- èëå¾?
-+Ü:M6ú½?
-iàÿ¨b‘½?
-oˆS™ëR½?
-ÿ#hP½?
-b¿Q E½?
-hŠÛ0C@½?
-Ä•)i$½?
- M@™½?
-œo¥¨<û¼?
-{“ÅZ~é¼?
-ŒĞ›¡Ì¼?
-3¤Äµ¼?
-c%ÑiG–¼?
-Ë¦ ´ÁŒ¼?
-¹<Vöqw¼?
-PGlå6¼?
-/2À°<-¼?
-Ñè¶ 9'¼?
-CB°¼?
-G’æ]Æ¼?
-Óe`
-÷Ş»?
-¼¤­,Ë»?
-‹sÇÆ»?
-”/âÒBÄ»?
-REø¹»?
-_6·‡}»?
-£3¨Ò‘`»?
-ø0®—¸?»?
-G×,7—»?
-ŠÍi†»?
-ì®{D»?
-ŠöUÄş»?
-$?ÒáŒíº?
-‹mVjÆÈº?
-C_<8óÆº?
-jrmÃ¸º?
-ğÏlk°º?
-òºÔD¬º?
-Âc‹7ú º?
-&P³#sº?
-0*I.ımº?
-Â­ÙîUWº?
-ÙÖ(ñÜDº?
-r*X0º?
-¯É„Ìº?
-LØ‡ö¹?
-ff'	ñ¹?
-úAÃ+ùï¹?
-Î3`ˆê¹?
-90¢CÒ¹?
-]ß0_†Ä¹?
-úæş9¾¹?
-ìd¼ª¹?
-+îÓ`„©¹?
-ùåQÌ€¹?
-½
-ï@~¹?
-ŸQ’4^¹?
-¶©o+L¹?
-ÌMC"ËF¹?
-ø[†Ò7¹?
-İ¼›„W¹?
-®F`„šû¸?
-¨Ljù¸?
-¬şs¹ã¸?
-{ıö¼Û¸?
-ÅÇ?wõÖ¸?
-™1[Gª¸?
-Î¶+rŞ¨¸?
-¢AÇ	-£¸?
-M4²˜›¸?
-f$’¾–—¸?
-‚ñWÏÑ”¸?
-cö¾_‹¸?
-¾{ã¼ßŠ¸?
-1#ˆÇ}¸?
-õŞªrùV¸?
-é¯ >lK¸?
-:3¹&ˆ)¸?
-^GY4'¸?
-«é°°¸?
-:H§dº¸?
-–Va~ô¸?
-ºà øS¸?
-&ß`œ
-¸?
-ÿp:t	¸?
-ÛğóÂ¸?
-<,fÙ?¸?
-ç8³×·?
-c¶Ò·?
-ëš’S6Ò·?
-s®Âa|Á·?
->øœAÁ·?
-Vq®î¸·?
-ŞåÙ(¬·?
-v¼¨·?
-˜{<¥·?
-Òà‡õ“·?
- œĞ†·?
-Ù)f·?
-AêæÜ]·?
-‹­îĞ/L·?
-
-)èIE·?
-o‘œ„·?
-	ÂöÄH·?
-•D‹¨û¶?
-)\çêø¶?
-íø~1ô¶?
-SQ>åÉ¶?
-3P™º¶?
-Öµ;³¶?
-Eè#åĞ±¶?
-Äï`é†¶?
-ÔÅTÇø~¶?
-¶ã.G#t¶?
-õœú0şe¶?
-¸Ï^œÖS¶?
-.µ”yş=¶?
--yr¼l2¶?
-¹Ÿ+Æ.¶?
-·blë4.¶?
-¨]L¶?
-Ã©.Ö¶?
-ybìöµ?
-˜½8$ôµ?
-‰Óf"ëµ?
-ƒÁFáµ?
-j\û
-–Éµ?
-àú†Çµ?
-uxøSù±µ?
-FgÚÍ±µ?
-ZA‘6œµ?
-O&ŒÏ¸–µ?
-fám:–µ?
-,/u‹µ?
-ó)ìáÉ‰µ?
-®ÌV(/€µ?
-¼1=‘c}µ?
-3h§1{µ?
-¨½ÏÙmxµ?
-xT`µpµ?
-tË1mµ?
-œÎ¾êdµ?
-PX&Coaµ?
-"²á_µ?
-z¤<kKµ?
-C€I.³Jµ?
-$àú=|>µ?
-ˆ‡,Ø1µ?
-®ğ*µ?
-Êêj%µ?
-‡œK…"µ?
-CcMö#µ?
-&º”ÿÚµ?
-Îâ@ 0µ?
-•»vúı´?
-1÷›¼]ı´?
-m­?‚âü´?
-rrt û´?
-Û¯v|Vî´?
-!İ(Iê´?
-¶¢¹Ø´?
-½hg£Ê´?
-hÃ‡¾qÅ´?
-‰`ÈÄ´?
-º¥ä
-Æ¸´?
-Ø+ˆ°±´?
-îXiTÚ¯´?
-#Œ[tª´?
-‹+ üj©´?
-³³¸—´?
-<ötÒy”´?
-‚ø~%ì‹´?
-Ã©]7v´?
-Hğú‰p´?
-­R÷j´?
-yÒ—c´?
-CáÆZ´?
-®V,2Š>´?
-.;ˆÒ«<´?
-jú¢Ô†2´?
-Q/O/´?
-2„Æ9´?
-Ğ$”¢Ô´?
-–†ã”	´?
-ëfc´?
-K‹i~ı³?
-´ƒø³?
--Šá7ò³?
-ß½E×ï³?
-»rZ®şä³?
-Ñ´Yóâ³?
-Á¶;à³?
-ø±¿#Ô³?
-Y>şêĞ³?
-ÒŸW®É³?
-¥Êô”pÉ³?
-ÕkSq8Æ³?
-ÿDYÄ³?
-H ÷Â³?
-ØĞMu³?
-c¤ õËl³?
-BS[’i³?
-J‚?P³?
-g*Ô2/N³?
-$ÄËáA³?
-¶Î'ä>³?
-ıuî6Š<³?
-É ÒG[4³?
-‰è¤Îè$³?
-DU	Ñ³?
- ÈtìM³?
-û©Ë^ø³?
-ÿÇM³?
-™öRœì²?
-{UÓæ²?
-<éo%¡Ş²?
-¹ƒ:øØ²?
-Š,™íÏ²?
-g»ƒÏ²?
-óXQ“Í²?
-.ò‡MÉ²?
-Áü¬‚Å²?
-ÇØÏT;º²?
-aÄ¾.Ö«²?
-PÀAZ‚£²?
-JOI:f£²?
-ÉÁ]Ö`²?
-dú„²?
-[‰s²?
-X®ƒ¹Ïo²?
-ÄF;ÛOn²?
-“es€=d²?
-Á9ú®c²?
-·ÙEäŒc²?
-ŸÂ`²?
-{²=s^²?
-j.3MZ²?
-ôt\™t5²?
-ãŠmI×/²?
-ô„•l)²?
-:Ş†¤´'²?
-¥^1'²?
-êä	2#²?
-ö`	©²?
-ı¢(²?
-w²8²?
-v¿ìQÂ	²?
-¸£/ e²?
-`7wuíô±?
-†k:W
-ï±?
-j41Ğæ±?
-ğ%¨<à±?
-cá&e—Û±?
-•¤&Ï±?
-¦zù£È±?
-ÍRs¡SÂ±?
-êf‰>¸±?
-Î×‹ádœ±?
-ß€‰±?
-G†Ø‘S‡±?
-Övæ
-ƒ±?
-GöKŒ‚±?
-6ØĞ†Fh±?
-¨µï¡f±?
-=õsÓ`±?
-üÏŸùzY±?
-2ÑÑ“]V±?
-ĞGJV±?
-ş1!¨U±?
-(ö•ÆYH±?
-÷ÓIšE±?
-.¶ıû%B±?
-Jã¾ ;±?
-šÆú¨È8±?
-¨(ÏÔ6±?
-§mĞxç4±?
-BåQ3±?
-T!¡'
-"±?
-ï]~İµ!±?
-ƒúİ ±?
-X8.Uô±?
-!£“ï±?
-–Ô°×±?
-Eyà±?
-mªë!G	±?
-|Ğ2±?
-¾˜Â®·±?
-tà‰´;±?
-ƒéù~«ı°?
-QKZÌ-ı°?
-{1û°?
-ÜÈñÉø°?
-7§(cş÷°?
-†H7}€ğ°?
-Ç«Éç:Ò°?
-fÌËûÆ°?
-M] l¢Â°?
-s;Á’#¿°?
-¨ºÏn“½°?
-²GV8½°?
-Á¹£$¹°?
-!t&‚M¶°?
-è¤İü¬°?
-[½nW”¬°?
-v.Nx\ª°?
- Ôc‰¢°?
-wø¸:É–°?
-“«İ¡°?
-X~QAB°?
-*P÷Dˆ‰°?
-éG»`¢‚°?
-–ó¤zQy°?
-³[âãôk°?
-1Fı21c°?
-ª‚ºÀàa°?
-&<€“3W°?
-RĞ®<ÔU°?
-I“ÃGU°?
-L¶¬«R°?
-NqûO°?
-€&TœO°?
-œÑZ‡H°?
-ùûB&ìG°?
-Z³@°?
-\ĞÉ5>°?
-9)7°?
-Ô£º³Ü0°?
-ÙäOó‚!°?
-÷f~…å°?
-	c]©°?
-Ü—Ér°?
-vjdÎ’°?
-n@Ec¶°?
-šd4u°?
-ÿ ;ÿ¯?
-sÜş¯?
-ü—†‡8ô¯?
-1¸&0ğ¯?
-îá(x?Ü¯?
-a|İªÑ¯?
-RIuÌ¯?
-W.¬GË¯?
-<¯3v£¯?
-A'AÙ¡¯?
-cW¡¯?
-X"e ¯?
-"g]ö]¯?
-˜Èu…¯?
-pİ%°\t¯?
-NW.Ø>¯?
-/¿n¨ç9¯?
-šzf8¯?
-ˆ[ŠÄ5¯?
-r.ˆƒÿ,¯?
-ğØKkÒ¯?
-4shÚæ¯?
-œìR¯?
-Yü”+Éğ®?
-U2Éî®?
-ÉĞP:ì®?
-z%&;Lã®?
-§>iÙ®?
-Ó\–Å®?
-ºV÷3´®?
-8ß`‚¶­®?
-²Yİ¼“®?
-‡½øÇ q®?
-
-`¦`®?
-ª‹©”_®?
-½Ól)V®?
-š§OÅD®?
-àJ5®?
-ã5K 5®?
-Uå/®?
-\ù4¼+®?
-‘m7(®?
-Oõ€«#®?
-sú?©U®?
-¦×x®?
-ò;;4ú­?
-á¸•“ø­?
-áŞÎA÷­?
-ÍY‘£®ö­?
-Àø5¹Põ­?
-]qø¬â­?
-Ç‡‘gÄ­?
-0(É¨½­?
-î*b‚·­?
-µ€‰9Ê£­?
-Ê£Ø<È¡­?
-åX
-™7­?
-â6Óüç­?
-ˆ¥:Ñsƒ­?
-—`'3p­?
-AÏ›Üp­?
-;—³ë-X­?
-ïÁ¾{N­?
-ØÓQÄñH­?
-‰·YBG­?
-¬çƒikE­?
-rì”€:­?
-ntí®X4­?
-Œ1İ33­?
-RÍÌÀÇ­?
-&~+uò¬?
-pü*á¬?
-“n[®Ù¬?
-¨â)£×¬?
-†c²+ÓÇ¬?
-5 ÃvÇ¬?
-ì·ôäDº¬?
-â†úE¥µ¬?
-Úêí°¬?
-Êú¾¯¬?
-<¾¢¬?
-Û6Dn¡¬?
-¼¾^”¬?
-ŒzzDÀ“¬?
-›«—éÙŒ¬?
-oªíHmz¬?
-rÛÿÚ;d¬?
-zauÛV¬?
-’d¤‰S¬?
-é ÷¢R¬?
-îÓ:ÑF¬?
--Š©™ãB¬?
-B:“d¬:¬?
->
-‡œ),¬?
-Ä7ûü+¬?
-”#Çb#¬?
-¹	Ùì¬?
-_õ8d–¬?
-ÔL÷f€¬?
-Â@mş«?
-GêYYş«?
-ou>àñ«?
-CãlGñ«?
-‰=.1†ë«?
-‚Á s!Ú«?
-¤€vàÉ×«?
-€§Œı™Ô«?
-ÀLŒt\Æ«?
-Ÿa¸ø½Å«?
-™”ÄÀ«?
-‘c§š	½«?
-ç¬ïzª«?
-ÿVX ¨«?
-#ŸöZ¦«?
-«Wa¡«?
-Ò|ù±TŸ«?
-)L¼»Qš«?
-âçê
-„«?
-„ñ×fv«?
-eùåj«?
-ñÎ¥âci«?
-–-2tËh«?
-»­Ba;«?
-/ĞBÉ¢3«?
-~¤õK1«?
-u‘} «?
-Àğ °¯«?
-úª?
-™’Ôùª?
-»w]«{÷ª?
-ÿ`óª?
-)¥ƒÛ›èª?
-H°óØª?
-GFÇqÆÓª?
-kœÂP©Ñª?
-„ÏâßĞª?
-¸Ñ]ŸG­ª?
-Ùæ`|¦ª?
-EI·§€ª?
-¼é)ªtª?
-ÒBÕqª?
-wÊ2‘Yeª?
-7WÓ¼ª`ª?
-¦Ì.Zª?
-Ì9û 4ª?
-ô”g7Ã/ª?
-1¯vtp.ª?
-dú`F#ª?
-®wYª?
-©NÒvª?
-Ü·çş^ª?
-İU]NTª?
-ˆ1÷ÆPÿ©?
-án·ø©?
-%+Wkó©?
-D¥_ºï©?
-÷ÿ­é©?
-a€&'à©?
-7™ğ%Şß©?
-4ÉZş×©?
-Œ“™§vÓ©?
-=ŠWÑ©?
-VßûòÍ©?
-,ÉÑÃ©?
-` ofš½©?
-’‹’ó»©?
-B#>Y¶©?
-VÜóğ±©?
-
-äAÓ©°©?
-ÚĞÙ¢°©?
-i½jö£©?
-•ºW;n¢©?
-n…7u•©?
-A¸ÿÖ•©?
-Üıe¢	•©?
-¯ÎÒÚ¨…©?
-ü,Ğu©?
-æIùs©?
-¡²÷;\©?
-UK€õ¸>©?
-âqYŒŠ8©?
-Ìï¢¹h3©?
-}â#Ö©?
- ­GÜó©?
-Ÿ:©?
-ï*Ÿjú¨?
-o1JÆşô¨?
-vW›ô±à¨?
-V—]zà»¨?
-€–rKl»¨?
-@IKª¨?
-ÕEÒéHª¨?
-ıÀ“åÅ–¨?
-ã©’›¤¨?
-3şÿ‡¨?
-âqQ>u¨?
-Ú@vÖëR¨?
-§Ñî6@N¨?
-,3½»C¨?
-¡ìÄè³/¨?
-ÁTåö*.¨?
-í…Â=¾ ¨?
-zKtæ¨?
-ŞyÈ°Ø¨?
-J®oêĞ¨?
-ŠGWhê¨?
-¯"	ÆÊ¨?
-:µ›¨?
-·êhù~¨?
-6™äR•¨?
-	˜Ìı§?
-çß<Pö§?
-€UOÎñ§?
-Ï
-)‰÷í§?
-_!Ş;è§?
-%¥
-ç§?
-”Mù4‘ã§?
-âÊbÍ»İ§?
-E£+VúÑ§?
-\ËÉ¿«Ì§?
-aæ…—…Ä§?
-Ê¿å T³§?
-”/ÓMª§?
-Yåup¶†§?
-wûîÚ½~§?
-yI†'w§?
-I„!¥j§?
-PéMÿ®`§?
-]cy_§?
-lcK\7§?
-´O÷‘%§?
-9¬¡^%§?
-xy¹	$§?
-¶7ë¢™§?
-#¸"ÒÍ§?
-=\€
-§?
-õSM;è¦?
-W«Ù¬±Ù¦?
-ÅŒW:WØ¦?
-Ó¦?
->ag”Ë¦?
-òë$·¦?
--€ş¯'°¦?
-Åb›ÿ­¦?
-I+]«V§¦?
-Ùâ€¹¤¦?
-êö¹åbš¦?
-Ûä†ô}u¦?
- (mım¦?
-‹sÚúõX¦?
-;` R3W¦?
-³÷%R¦?
-—áÍ?7¦?
-jw:ÊH%¦?
-OïÄò¦?
-™äòèÒ¦?
-ÓÎH½2ß¥?
-Û‘1Ş¥?
-øéY3,Ğ¥?
-cRNc³Æ¥?
-Ì=xt¥¥?
-²†¥?
-”–näw¥?
-êbnC‹w¥?
-¼RÄ}q¥?
-Ñö>=¥?
-z·v.Ú¥?
-êÃK¿¬ò¤?
-Ğ#™6ß¤?
-¤‹Qî²¤?
-Ê/È²¤?
-o‚F&Qa¤?
--&›Aa¤?
-t E$‰¤?
-Õ UÎş£?
-;ş5e‚í£?
-$j`è¿Q£?
-
-Signal C (k-means clustering; remapped)
-NY Bronx
-GA Randolph
-GA Hancock
-NY Queens
-NY Kings
-GA Terrell
-GA Early
-VA Galax City
-NJ Essex
-VA Emporia City
-NJ Passaic
+MA Hampshire
+CA Riverside
+NJ Burlington
+VA Charlottesville City
+TX Harris
+CT Hartford
+NJ Camden
+NJ Hunterdon
 NY Richmond
+VA Harrisonburg City
+NY Suffolk
+MN Ramsey
+OR Multnomah
+CA Alameda
+CA Contra Costa
+CA Los Angeles
+CA Marin
+CA Monterey
+CA Orange
+CA San Diego
+CA San Francisco
+CA San Mateo
+CA Santa Barbara
+CA Santa Clara
+CA Santa Cruz
+CA Yolo
+CO Denver
+CO Eagle
+CT Tolland
+CT New Haven
+CT Fairfield
+DC DC
+FL Broward
+FL Miami-Dade
+GA DeKalb
+GA Fulton
+MD Baltimore City
+MD Montgomery
+MD Prince George's
+MA Essex
+MA Middlesex
+MA Norfolk
+MA Suffolk
+MI Washtenaw
+MN Hennepin
+NJ Bergen
+NJ Essex
+NJ Hudson
+NJ Mercer
+NJ Middlesex
+NJ Monmouth
+NJ Morris
+NJ Passaic
+NJ Somerset
 NJ Union
 NY Nassau
-NE Hamilton
-NY New York
-NJ Bergen
-NJ Hudson
-VA Northampton
-MT Toole
-NM McKinley
-GA Wilcox
-LA St. John The Baptist
-OK Greer
+NY Onondaga
 NY Rockland
-GA Turner
-MS Holmes
-LA Bienville
-GA Mitchell
+NY Schenectady
 NY Westchester
-GA Dougherty
-AL Tallapoosa
-MS Neshoba
-NJ Somerset
-NJ Morris
-NJ Warren
-NJ Middlesex
-SC Clarendon
-NJ Mercer
-AL Lowndes
-NY Suffolk
-IA Tama
-GA Sumter
-CO Morgan
-NJ Ocean
-NE Hall
-GA Butts
-MS Leflore
-MI Wayne
-CT Hartford
-GA Jenkins
-GA Upson
-LA East Feliciana
-TX Cottle
-KS Coffey
-CT Fairfield
-NJ Sussex
-VA Colonial Heights City
-OH Monroe
-LA Orleans
-MA Hampden
-MS Kemper
-IN Decatur
-SD Jerauld
-LA St. James
-LA Iberville
-MS Wilkinson
-PA Delaware
-IN Orange
-MO Gentry
-MA Norfolk
-NJ Monmouth
-NM San Juan
-MS Clarke
-MA Essex
-KY Butler
-NY Orange
-NY Orleans
-TX Oldham
-MA Suffolk
-VA Page
-MA Plymouth
-LA West Baton Rouge
-CO Chaffee
-LA Pointe Coupee
-CT New Haven
-KY Jackson
-VA Mecklenburg
-SC Lee
-LA Jefferson
+NY New York
 PA Montgomery
-AL Butler
-RI Providence
-MD Kent
-MS Carroll
-TX Washington
 PA Philadelphia
-MA Middlesex
-NJ Salem
-MS Attala
-LA Red River
-AL Hale
-TX Panola
-GA Baker
-NE Howard
-NJ Hunterdon
-KY Edmonson
-IA Louisa
-OH Mahoning
-MI Macomb
-MS Lauderdale
-MS Claiborne
-KY Adair
-GA Worth
-GA Dooly
-PA Bucks
-GA Clay
-PA Lackawanna
-PA Northampton
-VA Greensville
-TX Hansford
-TX Crane
-CT Middlesex
-WV Jackson
-IA Muscatine
-MA Worcester
-UT San Juan
-MS Humphreys
-LA St. Charles
-KS Phillips
-MS Monroe
-IL Union
-AZ Apache
-IN Greene
-NJ Burlington
-MS Webster
-LA Union
+TX Travis
+VA Arlington
+VA Fairfax
+VA Loudoun
+VA Prince William
+VA Alexandria City
+VA Fairfax City
+VA Falls Church City
+VA Manassas City
+VA Manassas Park City
+WA King
+›_ã>
+Jâ>
+˜ß>
+Àß>
+¹	ß>
+’ÏÜ>
+@Û>
+kzÛ>
+vÛ>
+GÛ>
+8—Ú>
+DqÚ>
+ú»Ù>
+upÙ>
+‘Ù>
+5 Ù>
+.¿Ø>
+x“Ø>
+‡Ø>
+JØ>
+£DØ>
+&&Ø>
+›ÿ×>
+6ş×>
+ M×>
+½6×>
+kÖÖ>
+ˆKÖ>
+;8Ö>
+z%Ö>
+Ö>
+ÛêÕ>
+1ßÕ>
+Õ>
+ë Õ>
+ƒûÔ>
+ÖáÔ>
+Y-Ô>
+zàÓ>
+HØÓ>
+÷­Ó>
+ã”Ó>
+]Ó>
+ÒàÒ>
+¢ÖÒ>
+ïzÒ>
+ovÒ>
+¶ÀÑ>
+”¡Ñ>
+uŸÑ>
+ aÑ>
+ÄNÑ>
+~NÑ>
+>&Ñ>
+ñÑ>
+ŞĞ>
+gzĞ>
+“kĞ>
+l	Ğ>
+^Ï>
+™ºÎ>
+ê¢Î>
+­”Î>
+xcÎ>
+¼XÎ>
+'EÎ>
+)@Î>
+£‘Í>
+’‚Í>
+ÌÍ>
+ƒªÌ>
+SzÌ>
+‡dÌ>
+2QÌ>
+±	Ì>
+=ŞË>
+†õÊ>
+ÉÊ>
+¯ÈÊ>
+eÊ>
+~RÊ>
+áAÊ>
+Á]É>
+©É>
+$çÈ>
+;«È>
+)}È>
+³hÈ>
+úoÇ>
+Œ@Ç>
+Û2Ç>
+*Ç>
+ı³Æ>
+ëšÆ>
+i×Å>
+-ÔÅ>
+á’Å>
+NZÅ>
+ã@Å>
+Ø1Å>
+’Å>
+UÅ>
+¼Å>
+©şÄ>
+ÚÄ>
+oxÄ>
+Ğ*Ä>
+Ä>
+›şÃ>
+»ÊÃ>
+ÚÇÃ>
+¹¡Ã>
+2 Ã>
+²’Ã>
+uÃ>
+ö6Ã>
+.Ã>
+æÂ>
+qOÂ>
+,Â>
+LáÁ>
+ÃÂÁ>
+éÀ>
+âÜÀ>
+-‰À>
+Æ=À>
+†%À>
+ŞÀ>
+Şá¿>
+á²¿>
+…©¿>
+`k¿>
+3¿>
+j'¿>
+ñ·¾>
+©;¾>
+
+é½>
+õæ½>
+«¨½>
+Ÿ½>
+æ½>
+ë$½>
+Ø¸¼>
+Ä’¼>
+”(¼>
+6¼>
+ó»>
+LV»>
+YM»>
+U=»>
+`»>
+ıØº>
+
+Ñº>
+¬º>
+¹Xº>
+9:º>
+¥1º>
+àû¹>
+#õ¹>
+ ¹>
+z¹>
+h¹>
+-¹>
+ƒ[¸>
+û¸>
+$é·>
+á·>
+)µ·>
+Ö„·>
+Ô>·>
+Ë·>
+bô¶>
+‚¶>
+9¶>
+¶>
+­Òµ>
+? µ>
+ºŠµ>
+-ˆµ>
+Šwµ>
+aµ>
+eä´>
+Z£´>
+B´>
+“5´>
+ş³>
+óû³>
+1Ò³>
+«†³>
+ì>³>
+65³>
+„"³>
+0¥²>
+q²>
+â?²>
+|+²>
+€&²>
+›±>
+ğš±>
+R±>
+
+z±>
+YV±>
+Ï±>
+í	±>
+©ï°>
+%¨°>
+¿ë¯>
+Á=¯>
+Ù1¯>
+ü¯>
+S®>
+† ®>
+éû¬>
+If¬>
+@¬>
+[8¬>
+û«>
+9u«>
+Í«>
+m¿ª>
+ª>
+œ$ª>
+`Ù©>
+«º©>
+¤©>
+q©>
+½o©>
+×©>
+vİ¨>
+À¶¨>
+F­¨>
+İ©¨>
+àe¨>
+	c¨>
+¶&¨>
+®S§>
+_H§>
+¼4§>
+¡å¦>
+DĞ¦>
+§¦>
+d¦>
+=V¦>
+J2¦>
+ÎÏ¥>
+Á¥>
+H¹¥>
+ãr¥>
+BS¥>
+=B¥>
+’2¥>
+C‘¤>
+Ç£>
+,µ£>
+À£>
+Š\£>
+Ò¢>
+}“¢>
+µV¢>
+¢Ñ¡>
+¥Æ¡>
+ë¡>
+Ÿ° >
+Z >
+ÒÁŸ>
+¹½Ÿ>
+s`Ÿ>
+Gg>
+[$>
+{×>
+”>
+l›œ>
+z–œ>
+A¸›>
+ñ›>
+e	›>
+…Òš>
+usš>
+Ÿš>
+²È™>
+Z¯™>
+¸ã˜>
+–˜>
+¯j˜>
+f˜>
+Nû—>
+CŸ—>
+Y7—>
+Ğ0—>
+¹(—>
+Ñ–>
+¾À–>
+ ö•>
+kĞ•>
+€•>
+«X•>
+>9•>
+„²”>
+{c”>
+\ü“>
+Âè“>
+ôŞ“>
+r‰“>
+-“>
+´’>
+[®’>
+²K’>
+r’>
+cÒ‘>
+u¤‘>
+p3‘>
+x#‘>
+‘>
+–‘>
+g¬>
+s>
+sK>
+$¾>
+d>
+Äd>
+šS>
+!Ã>
+Ö >
+Eh>
+>
+rã>
+2½>
+-¬Š>
+gŠ>
+Ÿ%Š>
+çµ‰>
+>²‰>
+ä­‰>
+·§‰>
+ºš‰>
+pI‰>
+xgˆ>
+Y?ˆ>
+«‡>
+1n†>
+>J†>
+…ü…>
+İû…>
+Ş…>
+ô¿…>
+È9„>
+Œ'„>
+Aåƒ>
+v¯ƒ>
+rƒ>
+.;ƒ>
+Ô2‚>
+Ä‚>
+ğ>
+‚Ì>
+³9>
+ï >
+J>
+{>
+	ç€>
+e¡€>
+à€>
+€>
+Ÿ8>
+1>
+ë>
+~>
+éü}>
+¦.}>
+iÂz>
+ íx>
+<Õx>
+)Ôx>
+±ix>
+ tw>
+«dw>
+®v>
+æìu>
+˜u>
+ß=t>
+¨s>
+´<r>
+)&r>
+zfq>
+`q>
+ıp>
+ë›o>
+ zo>
+$_o>
+Xo>
+/òn>
+"n>
+€ãl>
+/#l>
+¥Íj>
+¢j>
+G(j>
+!j>
+.Çi>
+„i>
+à`i>
+v
+i>
+4h>
+¡Bg>
+²tf>
+we>
+M’e>
+Çe>
+×d>
+s#c>
+&½a>
+¯\a>
+=j`>
+GM`>
+'$`>
+~`>
+;½_>
+k_>
+/°\>
+dÿ[>
+!ü[>
+L£[>
+UûZ>
+y¹Y>
+¦µY>
+ŠX>
+¼X>
+.^T>
+•ËS>
+Ñ%S>
+±cR>
+s+R>
+nhQ>
+ĞP>
+¨‰N>
+Ï+N>
+N>
+“M>
+Å0L>
+aJ>
+µ5J>
+¶ J>
+q~G>
+2_G>
+ÃòF>
+F>
+UäE>
+:ÕC>
+æB>
+N±B>
+SŠB>
+S8B>
+BÅA>
+A>
+Šï@>
+Gí@>
+×@>
+Áº?>
+ş^?>
+8?>
+-“>>
+wß<>
+}¬<>
+İ¹;>
+÷Z;>
+ßµ9>
+B]9>
+Ö09>
+Á8>
+‚,8>
+íÕ7>
+`³5>
+³£4>
+Øë3>
+Îú2>
+ÌY1>
+40>
+–..>
+ı,>
+³ã+>
+õÇ+>
+×q+>
+*X+>
+[˜*>
+Î†)>
+Âò'>
+~;%>
+Ûà$>
+m$>
+Õ´">
+ª">
+&R">
+s!>
+{½ >
+©  >
+ö>
+#‡>
+Š:>
+İ>
+üd>
+ø>
+j>
+¶ë>
+¶<>
+28>
+R’>
+7Y>
+4>
+Ó
+>
+p>
+±1>
+a>
+	>
+Ê>
+ªÂ>
+\Ò
+>
+
+>
+l¢>
+ÛÀ>
+Vc>
+ƒ>
+†Í>
+Lq>
+{Ş>
+'–>
+`|>
+‰A>
+£|>
+UÈ>
+‹· >
+ı=
+ˆ¨÷=
+ÃĞó=
+zˆí=
+¼dí=
+¸Lì=
+Öê=
+Æ…æ=
+“5æ=
+{´å=
+òå=
+¹®ã=
+àòß=
+¦XŞ=
+»ßÜ=
+#ÌÙ=
+ğtÙ=
+¿Ù=
+Ğ×=
+>&Ó=
+ÆÓ=
+õËÒ=
+Š«Ğ=
+csĞ=
+,Ì=
+…œÊ=
+ÉêÅ=
+·îÄ=
+)¿=
+µ®¼=
+ª‰º=
+¸K·=
+Cµ=
+
+!³=
+~²=
+©°=
+`­=
+¯›¥=
+¶À¤=
+2É£=
+^È£=
+¡Á¢=
+Qí =
+éŸ=
+qÚŸ=
+´cœ=
+²‘š=
+_™=
+‹–=
+p¬•=
+?G”=
+;×‘=
+]7=
+¿$=
+õy‹=
+œ$‰=
+ƒ‰ˆ=
+¬”‡=
+FZ…=
+˜„=
+Mƒ=
+Mg=
+§Ü|=
+ÑÙu=
+Æ_=
+ªN=
+Ì	H=
+^ñ@=
++X:=
+¨1=
+§§.=
+Ğ'=
+”=
+p×=
+eğ=
+L0=
+¯`=
+©¹=
+âñ<
+î<
+•@à<
+ïÒ<
+ãÊ<
+§µ<
+ı´<
+˜{³<
+sE¡<
+aŸq<
+Èie<
+®cM<
+¼¢H<
+¾ª?<
+`ñ:<
+äÃ <
+ç;
+Q1;
+ÈL;
+ ’:
+¡…é9
+ïYû7
+Æ!7
+IJb5
+Â-ú4
+Ñ|2
+‚V#1
+b¸!1
+’1
+’]0
+!B0
+Ÿ8/
+ÔÓå-
+¨.,
+îö,
+@‹¦+
+sÎ˜+
+ÈÛ„+
+úĞ3+
+ê1+
+†J+
+ÒÕ¨*
+Š–S)
+.–
+(
+RIÔ&
+Íú)&
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+w`M%
+
+Signal B (k-means clustering; remapped)
+KY Jackson
+GA Wayne
+MS Smith
+AL Monroe
+FL Taylor
+TX Hall
 KY Gallatin
-PA Berks
-NJ Camden
-AL Chambers
-GA Wilkinson
-MS Lincoln
-SC Fairfield
-GA Calhoun
-GA Webster
-LA Jackson
-AL Sumter
-MS Chickasaw
-GA Lee
-AZ Navajo
-OK Washington
-NY Putnam
-AL Greene
-TX San Augustine
-LA Washington
-GA Brooks
-NY Columbia
+TX Cherokee
+AR Dallas
+TX Scurry
+KY Adair
+TX Lavaca
+TX Navarro
+MO Mississippi
+GA McIntosh
+AR Howard
+MS Lawrence
 TX Red River
-IN Newton
-MA Bristol
-IL Jasper
-LA West Feliciana
-LA Plaquemines
-LA Caddo
-PA Lehigh
-NC Northampton
-MI Oakland
-IA Monroe
+OH Monroe
+OK Washington
+GA Bleckley
+GA Carroll
+TX Upton
+OK Mccurtain
+MS Pontotoc
+GA Schley
+MS Tippah
+AR Union
+AL Escambia
+TX Harrison
+GA Lamar
+TX Mason
+GA Lincoln
+GA Dodge
+FL Washington
+GA Oglethorpe
+OR Umatilla
+TX Briscoe
+TX Jackson
+LA Webster
+GA Irwin
+KY Edmonson
+OK Delaware
+AR Hempstead
+SC Newberry
+NC Nash
+GA Bartow
+TX Limestone
+OK Tillman
+FL Columbia
+NC Hyde
+AL Walker
+IL Cass
+FL Putnam
+GA Bulloch
+NM Mora
+GA Montgomery
 KS Morton
-MA Franklin
-ND Emmons
-NE Custer
-TX Deaf Smith
-GA Appling
-GA Thomas
-NJ Cumberland
-AL Choctaw
-LA Lafourche
-GA Quitman
-PA Beaver
-CT Litchfield
-LA St. Mary
+AL Tuscaloosa
+NM Valencia
+NC Rowan
+MS Choctaw
+AK Nome
+AR Sharp
+TX Haskell
+GA Miller
+TX Howard
+KS Kearny
+SC Georgetown
+LA Caldwell
+TX Sherman
+OK Muskogee
+NC Harnett
+IL Kankakee
+SC Union
+MO St. Louis
+GA Pierce
+NM Curry
+FL Gulf
+AL Randolph
+MN Mahnomen
+AK Dillingham
+TX Lee
+IN Greene
+TN Crockett
+MS Benton
+CO Crowley
+GA Elbert
+SC Kershaw
+GA Stephens
+KY Christian
+CO Logan
+SC Abbeville
+MS Franklin
+NC Alamance
+WV Jackson
+IN Newton
+TX Gregg
+TN Macon
+MS Lafayette
+ID Lincoln
+GA Houston
+AR Columbia
+MS Perry
+GA Barrow
+CO Rio Grande
+TX Terrell
+AL Marshall
+AK Kusilvak
+TX Houston
+KY Graves
+MS Pearl River
+MS Union
 KY Hopkins
-OH Lucas
-NJ Cape May
+TX Dickens
+MO McDonald
+AR Lafayette
+MS Harrison
+GA Polk
+FL Dixie
+TX Colorado
+WA Okanogan
+TX Collingsworth
+IN Madison
+LA Bossier
+GA Floyd
+MS Lee
+TX Bowie
+MO Wright
+KY Fulton
+AL Marion
+KS Haskell
+GA Berrien
+AL Dale
+IN Noble
+TX Ellis
+LA Sabine
+AL Talladega
+KS Stanton
+PA Beaver
+KS Hamilton
+LA West Carroll
+NM Roosevelt
+NC Martin
+AR Hot Spring
+AR Saline
+MT Blaine
+TX Mitchell
+SC Berkeley
+IN Shelby
 IN Johnson
-PA Monroe
-NJ Atlantic
+MO Dunklin
+NC Chowan
+AZ Mohave
+NC Caswell
+IN La Porte
+LA Vermilion
+TX Nolan
+TX Burleson
+IN Grant
+IA Monroe
+SC Spartanburg
+CO Conejos
+NM Otero
+TN Bedford
+AR Poinsett
+GA Chattooga
+TX Robertson
+SC Horry
+IN Howard
+OK Jackson
+IA Franklin
+TX Austin
+TX Milam
+LA Grant
+KY Muhlenberg
+FL Franklin
+SC Cherokee
+IN LaGrange
+TX Hemphill
+TX Wilson
+IL Jasper
+ID Gooding
+AR Lawrence
+TX Lamar
+AZ Gila
+KS Phillips
+AL DeKalb
+NM Catron
+FL Highlands
+ID Minidoka
+AL Coosa
+OH Columbiana
+TX Comanche
+IN Floyd
+KY Logan
+AL Elmore
+TX San Saba
+LA Beauregard
+NM Quay
+NE Howard
+IN Bartholomew
+IA Mahaska
+IL Coles
+TX Smith
+GA Bryan
+TX Polk
+FL Bradford
+NC Burke
+MN Pipestone
+AL Etowah
+GA Franklin
+PA Columbia
+TX Goliad
+ID Cassia
+LA Vernon
+NV Nye
+OK Comanche
+TX Tom Green
+IL Jefferson
+AR Drew
+NC Johnston
+OK Tulsa
+AZ Greenlee
+TX Brown
+FL Baker
+OH Holmes
+NC Perquimans
+AL Bibb
+TX Hunt
+TN McMinn
+AL Autauga
+AR Miller
+TN Madison
+IL Jackson
+AL Covington
+CO Kit Carson
+OH Allen
+AR Ashley
+IL Randolph
+KY Carroll
+MS Jackson
+AR Arkansas
+TX Kaufman
+TX Aransas
+CO Otero
+AR Little River
+TN Hamilton
+MO New Madrid
+NC Henderson
+TX San Jacinto
+ID Canyon
+NM Torrance
+IA Jasper
+TX Menard
+OH Ashtabula
+AL Henry
+TX Rusk
+AR Ouachita
+ID Washington
+AL Calhoun
+MI Hillsdale
+TN Grundy
+TX Coryell
+MS Stone
+SC Lancaster
+IN Clark
+NM Union
+TX Wilbarger
+IN Delaware
+OK Osage
+TX Fisher
+NM Eddy
+IN Scott
+GA Glascock
+KY Clay
+GA Walton
+IN White
+OK Cotton
+AL Chilton
+WY Fremont
+GA Heard
+TN Tipton
+MS Itawamba
+MO Scott
+TN Dyer
+SC Lexington
+FL Bay
+FL Marion
+TX Guadalupe
+IA Washington
+ND Mountrail
+KY Warren
+TN Hamblen
+GA Murray
+TX Glasscock
+ID Power
+CA Del Norte
+OH Wayne
+GA Banks
+TN Sumner
+TX Fannin
+KY Shelby
+IN Montgomery
+TX Coke
+NC Gates
+AL Clay
+TX Chambers
+OK Seminole
+TX Loving
+OK Marshall
+AR Johnson
+ID Twin Falls
+MI Tuscola
+AR Clark
+SC Aiken
+OH Trumbull
+NE Custer
+NE Adams
+TX Hill
+TN Robertson
+IA Wright
+TX Donley
+TX Gray
+SC Anderson
+VA Lunenburg
+TX Fayette
+NE Dodge
+NC Swain
+GA Crawford
+NC Mcdowell
+PA Susquehanna
+KY Todd
+MI Oceana
+OK Sequoyah
+AL Colbert
+GA Jasper
+AR Cross
+IL Rock Island
+KS Stevens
+ND Emmons
+FL Holmes
+ID Nez Perce
+OK Harmon
+WY Washakie
+TN Putnam
+NC Randolph
+MO Macon
+TX Newton
+TX Wheeler
+AR Craighead
+FL Gilchrist
+KY Casey
+MS George
+OK Ottawa
+MS Prentiss
+NM Grant
+AR Woodruff
+NC Gaston
+IA Allamakee
+NC Craven
+LA Lasalle
+NC Cleveland
+KY Lyon
+OH Ottawa
+GA Harris
+TN Fayette
+TN Montgomery
+IN Franklin
+KY Knox
+IN Lawrence
+MI Gratiot
+GA Madison
+LA Livingston
+TX Jasper
+KY Grayson
+TX Wichita
+OK Wagoner
+TN Hardin
+MS DeSoto
+AL Winston
+IL Pulaski
+AR Carroll
+FL Wakulla
+TX Freestone
+IN Harrison
+OK Cherokee
+SD Roberts
+OK Mayes
+OR Jefferson
+NC Stanly
+IN Perry
+FL Charlotte
+TX Stephens
+TN Wayne
+NE Perkins
+IN Marshall
+KS Clark
+MS Lamar
+NC Beaufort
+TX Morris
+MO Sullivan
+PA Carbon
+AL Houston
+NC Wilkes
+KY Bell
+GA Brantley
+VA Westmoreland
+MD Allegany
+MI Otsego
+TX Jeff Davis
+IA Clarke
+WI Forest
+TX Taylor
+OK Okfuskee
+AR Newton
+GA Hart
+OH Darke
+TX Palo Pinto
+IA Davis
+OK Choctaw
+OK Latimer
+MI Iosco
+MI Alpena
+WI Iron
+VA Dinwiddie
+ID Payette
+OH Erie
+GA Gilmer
+VA Essex
+WV Wayne
+OH Putnam
+MI Crawford
+SD Faulk
+TX Trinity
+MO Buchanan
+WV Marion
+AL Morgan
+MS Tishomingo
+TX Hardeman
+IN St. Joseph
+TX Tyler
+FL Clay
+FL Levy
+NC Rutherford
+MI Lapeer
+TX Somervell
+KY Magoffin
+NV Elko
+IL Monroe
+TX Mcculloch
+FL Lake
+WI Clark
+TX Comal
+KY Perry
+MN Wilkin
+GA Rabun
+TN Obion
+IN Dearborn
+CO Montrose
+FL Pasco
+OK Haskell
+MS Hancock
+IA Emmet
+NC Catawba
+WV Mingo
+VA Henry
+KY Russell
+OK Kay
+GA Camden
+GA Jackson
+TN Gibson
+TN Rhea
+OK Custer
+OK Hughes
+KY McCreary
+NC Onslow
+MI Shiawassee
+NC Person
+IN Warrick
+IN Fayette
+WV Logan
+KY Knott
+AL Coffee
+KY Wolfe
+TX Orange
+AR Clay
+NC Jackson
+WV Kanawha
+MS Rankin
+FL Walton
+IA Guthrie
+IN Clinton
+GA Coweta
+OH Belmont
+TX Henderson
+IN Adams
+GA Paulding
+IN Jennings
+TX Sabine
+TN Giles
+PA Franklin
+OK Okmulgee
+IN Morgan
+TX Sterling
+SD Charles Mix
+TX Runnels
+NE Dixon
+NC Yadkin
+KY Simpson
+KY Harlan
+KY Allen
+MT Rosebud
+VA King & Queen
+NM Colfax
+OK Pawnee
+MI Bay
+CO Yuma
+TN Warren
+TX Throckmorton
+IA Lucas
+KY Breathitt
+TX Johnson
+NC Davidson
+TX Young
+VA Bristol City
+IA Plymouth
+VA Wise
+MD Somerset
+AR Pope
+TX Childress
+NC Polk
+OH Miami
+IA Montgomery
+GA Morgan
+TX Motley
+OK Pittsburg
+GA Haralson
+IA Pottawattamie
+NC Pamlico
+TX Leon
+IA Cerro Gordo
+MI Van Buren
+NE Madison
+AL Cherokee
+ID Shoshone
+KY Kenton
+MO Jasper
+MI St. Clair
+VA Cumberland
+IN Hancock
+IL Iroquois
+ND McIntosh
+TN Smith
+TN DeKalb
+AL Fayette
+GA Walker
+OK Creek
+CA Tehama
+GA Pike
+OH Washington
+PA Schuylkill
+VA Amelia
+AR Conway
+IN Vigo
+AR Jackson
+CA Lake
+SD McCook
+OH Madison
+NC Macon
+TN Bradley
+NC Moore
+TN McNairy
+NC Rockingham
+TN Marshall
+IN Tipton
+TN Perry
+NV Lander
+AL Cleburne
+MN Martin
+GA Jones
+TX Hamilton
+AR Cleveland
+OK Beaver
+CO Bent
+OH Sandusky
+IL Macon
+CO Prowers
+KY Hart
+TN Carroll
+VA Carroll
+TX Cass
+NC Surry
+IN Ohio
+GA Effingham
+IN Henry
+TN Marion
+TX Blanco
+TN Henderson
+KY Owsley
+TX Burnet
+MN Todd
+TX Stonewall
+MI Gogebic
+KY Ohio
+OK Pottawatomie
+TX Franklin
+AR Polk
+OH Hardin
+TX Hardin
+PA Juniata
+OH Clark
+MO Pulaski
+IN Putnam
+MT Hill
+OK Harper
+TX Wise
+TX Gillespie
+OH Wyandot
+NC Caldwell
+AR Garland
+OK Carter
+OK Major
+KY Metcalfe
+KY Grant
+IN Ripley
+KY Nicholas
+FL Sumter
+TX Erath
+IA Webster
+GA Dade
+GA White
+IL Alexander
+TN Wilson
+OR Lincoln
+TX Grayson
+CA Lassen
+TN Monroe
+TX Lipscomb
+AR Madison
+MO Barry
+KY Green
+SC Pickens
+TN Sevier
+OK Payne
+GA Lumpkin
+AR Randolph
+OH Hocking
+VA Halifax
+NM Sierra
+CO Huerfano
+LA Cameron
+AL Geneva
+OK Leflore
+VA Norton City
+NC Alleghany
+NC Iredell
+UT Garfield
+NC Pender
+IL Whiteside
+VA Patrick
+OR Union
+KY Carlisle
+KY Franklin
+TN Weakley
+IN Jackson
+KY Lewis
+MI St. Joseph
+FL Hernando
+VA Waynesboro City
+OK Nowata
+OK Mcintosh
+NV Lyon
+TN Chester
+MO Pettis
+PA Montour
+IA Des Moines
+WV Mercer
+IN Dubois
+TN Benton
+PA Northumberland
+AR Sebastian
+VA Grayson
+GA Dawson
+AL Lauderdale
+OK Garvin
+OK Blaine
+MN Beltrami
+KY Bath
+GA Towns
+NE Fillmore
+TN Lawrence
+AL Jackson
+TX Hutchinson
+TN Pickett
+TX Randall
+WV Barbour
+ND McKenzie
+MO Carter
+TX Hopkins
+GA Union
+AL Limestone
+ID Elmore
+FL Citrus
+IN Carroll
+ND McHenry
+WA Ferry
+MO St. Francois
+KS Gray
+SD Aurora
+OK Rogers
+WI Richland
+TN Polk
+TN Cocke
+MS Alcorn
+NE Scotts Bluff
+MI Mackinac
+MO St. Charles
+KY Monroe
+NE McPherson
+IA Taylor
+TX Wood
+WV Cabell
+MO Scotland
+VA Lee
+OK Bryan
+AL St Clair
+IA Appanoose
+TX Bosque
+GA Fannin
+KS Wichita
+TX Jack
+OH Coshocton
+MO Moniteau
+KS Meade
+AZ Yavapai
+MO Stoddard
+IA Dickinson
+WV Clay
+OK Garfield
+KY Rockcastle
+OH Mercer
+NC Davie
+GA Pickens
+IN Vanderburgh
+IL Hancock
+NM De Baca
+IL Brown
+AR Cleburne
+KS Edwards
+OK Pontotoc
+WV Ohio
+IN Starke
+OK Mcclain
+MO Lewis
+PA Wyoming
+OK Lincoln
+KY Taylor
+VA Madison
+KY Jessamine
+AL Lawrence
+UT Sanpete
+TN Morgan
+VA Charlotte
+MI Kalkaska
+KS Montgomery
+TN Maury
+AL Baldwin
+MO Stone
+IL Morgan
+IL Saline
+GA Catoosa
+CO Phillips
+IL Lasalle
+TN Hancock
+AL Lamar
+CO Las Animas
+IN Wayne
+OK Love
+OK Kiowa
+MT Madison
+IA Pocahontas
+NE Gage
+IN Rush
+MI Cass
+KS Crawford
+KY Leslie
+TX Kent
+IA Winnebago
+KY Clark
+NM Lincoln
+TX Kimble
+OH Vinton
+TN Decatur
+KY Campbell
+MI Branch
+VA Northumberland
+CO Montezuma
+KY Montgomery
+KY Henderson
+TX Shackelford
+IN Kosciusko
+MI Oscoda
+TX Montague
+MO Newton
+TN Dickson
+SC Oconee
+TX Kerr
+TN Humphreys
+TN Hickman
+OH Licking
+IN Sullivan
+PA Lycoming
+TX Van Zandt
+TX Cooke
+NC Camden
+NC Brunswick
+AL Blount
+TN White
+TN Union
+IN Jay
+WV Fayette
+FL Flagler
+PA Huntingdon
+MN Itasca
+WI Waupaca
+WV Gilmer
+IA O'Brien
+TN Cheatham
+WV Lincoln
+PA Lawrence
+SD Lake
+IA Henry
+KY Bourbon
+ID Bingham
+TN Campbell
+TX Lampasas
+KY McLean
+MO Taney
+NC Alexander
+WY Johnson
+KY Pike
+MO Franklin
+WY Carbon
+AR Independence
+WV Berkeley
+WV Boone
+OH Scioto
+WV Wyoming
+VA King William
+OK Atoka
+ND Stark
+OK Kingfisher
+OH Fayette
+MN Grant
+ID Benewah
+IN Randolph
+CO Moffat
+IL Stephenson
+KY Carter
+NC Cherokee
+OH Fairfield
+PA Wayne
+OK Johnston
+KY Breckinridge
+KY Daviess
+IL Ford
+TX Hood
+TX Upshur
+KY Morgan
+MO Shannon
+CA Amador
+WV Jefferson
+MO Washington
+MI Sanilac
+OH Adams
+PA Forest
+TX Callahan
+VA Dickenson
+KY Elliott
+TN Meigs
+IN Blackford
+MN Mille Lacs
+FL Nassau
+UT Juab
+KY Wayne
+NY Genese
+TN Carter
+AL Cullman
+KY Lee
+CO Sedgwick
+AR Faulkner
+VA Pittsylvania
+AR Van Buren
+KY Calloway
+IL Fayette
+KS Barton
+AR Pike
+PA Adams
+TX Coleman
+AR Calhoun
+MO Perry
+WI Buffalo
+IL Bond
+KS Jackson
+MI Arenac
+OK Pushmataha
+KY Webster
+MT Liberty
+NV Mineral
+OK Craig
+TN Johnson
+OK Grady
+TN Hawkins
+WA Pend Oreille
+KY Hardin
+MI Lenawee
+IA Clayton
+MN Sibley
+TN Loudon
+IA Hamilton
+TN Franklin
+VA Alleghany
+WI Adams
+WY Uinta
+NE Furnas
+TX Rains
+WV Pendleton
+KY Henry
+TX Foard
+IA Calhoun
+TN Scott
+NV White Pine
+MI Ionia
+MN Cottonwood
+IA Audubon
+MO Warren
+CO Mineral
+KY Floyd
+IL Adams
+TN Greene
+KY Crittenden
+TX Eastland
+PA Indiana
+UT Beaver
+IN Clay
+OH Tuscarawas
+OK Beckham
+IN Miami
+MT Silver Bow
+NY Herkimer
+IL Knox
+AR Stone
+TN Houston
+KS Scott
+MO Audrain
+IL Grundy
+NC Lincoln
+TX Bandera
+IL Cumberland
+TN Cumberland
+MO Henry
+IA Clinton
+AR Crawford
+OK Noble
+MN Chippewa
+VA Amherst
+KS Clay
+KY Johnson
+MI Clare
+OK Stephens
+TN Henry
+TN Grainger
+KS Saline
+TN Anderson
+MO Pike
+TN Unicoi
+KY Barren
+OR Josephine
+MN Renville
+KS Cowley
+IA Floyd
+PA Cambria
+KY Letcher
+NC Haywood
+AR Montgomery
+KY Lincoln
+ND Morton
+IA Humboldt
+WV Roane
+TN Jackson
+PA Mifflin
+VA Buena Vista City
+WA Asotin
+NV Eureka
+OH Ross
+TN Jefferson
+KS Bourbon
+TN Clay
+OH Richland
+IN Fountain
+WI Jackson
+MN Swift
+TX King
+UT Iron
+ND Burke
+MO Jefferson
+IL Perry
+OK Murray
+KY Martin
+NY Allegany
+VA Louisa
+TN Lewis
+OH Carroll
+IN Warren
+MO Adair
+TN Blount
+MI Alcona
+WI Marquette
+MN Koochiching
+IL Calhoun
+PA Westmoreland
+NE Morrill
+WI Bayfield
+IL Christian
+WV Webster
+VA Scott
+WA Pacific
+IN Fulton
+MO Johnson
+VA Botetourt
+IN Pulaski
+AR Prairie
+KY Union
+MN Crow Wing
+NE Chase
+KS Harvey
+MI Wexford
+TN Coffee
+VA Washington
+IA Clay
+MO Greene
+ND Ramsey
+IL Bureau
+IA Wayne
+MI Ogemaw
+OH Guernsey
+OK Coal
+MO Cass
+WV Mineral
+OR Linn
+MT Lake
+IN Wabash
+VA Middlesex
+MI Missaukee
+PA Clinton
+TN Lincoln
+MI Lake
+WA Lewis
+MO Harrison
+MN Polk
+WI Dodge
+KY Clinton
+MO St. Clair
+MI Chippewa
+CO Washington
+OH Crawford
+IL Montgomery
+VA Appomattox
+OK Canadian
+IA Madison
+KY Mason
+WA Grays Harbor
+WV Preston
+KY Boyd
+MT Sweet Grass
+MN Freeborn
+IA Van Buren
+NC Mitchell
+NC Carteret
+WA Columbia
+IA Hancock
+OH Defiance
+PA Mercer
+NM Harding
+WY Sweetwater
+IA Ringgold
+OK Logan
+IA Union
+WV Hampshire
+IN Steuben
+MO Cape Girardeau
+WV Grant
+NC Dare
+KS Atchison
+KY Boyle
+OH Clinton
+IL Jersey
+MO Linn
+NE Seward
+SD Yankton
+OH Auglaize
+VA Wythe
+MI Mecosta
+AR Logan
+WA Mason
+TX Parker
+IL Scott
+IL Pike
+IN Jefferson
+KY Laurel
+MO De Kalb
+VA Buchanan
+IL Livingston
+AR White
+IN DeKalb
+MO Lafayette
+OK Jefferson
+ID Fremont
+WI Kewaunee
+WI Marinette
+IA Butler
+PA Perry
+IL Ogle
+KY Lawrence
+MO Butler
+MN Wadena
+IN Brown
+TN Overton
+MI Huron
+WI Juneau
+KY McCracken
+OH Huron
+IA Delaware
+VA Lancaster
+IN Spencer
+KY Larue
+MO Bates
+KY Menifee
+TN Sequatchie
+IL Douglas
+OH Seneca
+NE Pawnee
+MT Musselshell
+WA Cowlitz
+KY Scott
+IL Macoupin
+IN Whitley
+IL Williamson
+TN Claiborne
+WI Trempealeau
+IA Lee
+OH Perry
+MI Delta
+MN Kanabec
+PA Fayette
+IA Cherokee
+KS Marion
+NE Lincoln
+OH Gallia
+VA Floyd
+ND Griggs
+IA Boone
+MT Lincoln
+OR Wallowa
+TN Washington
+NE Richardson
+CA Shasta
+KY Rowan
+IL Tazewell
+WA Skamania
+MO Cole
+MO Ste. Genevieve
+TX Roberts
+MI Gladwin
+AR Franklin
+OK Cimarron
+CO Delta
+KY Meade
+IN Owen
+AR Searcy
+IL Mercer
+PA Armstrong
+AR Izard
+KY Hickman
+KS Sumner
+IN Jasper
+MN Murray
+IA Osceola
+KY Marshall
+MI Dickinson
+ND Williams
+MO Grundy
+MO Callaway
+MN Cass
+MO Nodaway
+WV Lewis
+MO Camden
+MI Cheboygan
+IA Keokuk
+IL Effingham
+TX Mills
+MO Crawford
+OH Morrow
+ID Bannock
+CO Lincoln
+MO Lawrence
+WV Raleigh
+IA Carroll
+OH Knox
+IL Wayne
+OH Shelby
+PA Fulton
+MO Caldwell
+AR Lonoke
+TN Sullivan
+ND Stutsman
+KY Pulaski
+WV Randolph
+OH Jefferson
+KY Marion
+CO Baca
+IN Gibson
+NE Antelope
+OH Williams
+MO Cooper
+WI Monroe
+IN Huntington
+VA Nelson
+NC Ashe
+KY Whitley
+KY Washington
+PA Greene
+NE Saunders
+KS Pawnee
+PA Clarion
+MI Luce
+WI Sheboygan
+ID Gem
+ID Jefferson
+TN Cannon
+IN Washington
+NC Graham
+MN Brown
+OH Lawrence
+MI Baraga
+KS Labette
+AR Greene
+NE Johnson
+IA Buchanan
+PA Snyder
+IA Howard
+TX Clay
+NC Avery
+NE Washington
+OH Highland
+NC Transylvania
+WV Greenbrier
+KS Stafford
+ND Walsh
+PA Bradford
+MI Montcalm
+IL Woodford
+KY Madison
+SD Bon Homme
+WI Burnett
+NC Stokes
+PA Washington
+IL Shelby
+VA Campbell
+IN Parke
+KS Graham
+WV Monroe
+PA Bedford
+MO Marion
+IA Shelby
+KY Anderson
+MO Douglas
+UT Millard
+VA Gloucester
+MO Dallas
+MO Randolph
+WY Laramie
+KY Bullitt
+IA Monona
+WV Hardy
+OK Dewey
+MT Cascade
+ID Kootenai
+IL Lee
+OH Preble
+KY Estill
+IA Jones
+VA Pulaski
+IA Cedar
+ME Franklin
+KY Nelson
+VA Smyth
+WV Wood
+UT Sevier
+OH Champaign
+KY Livingston
+IA Benton
+PA Tioga
+AR Perry
+IA Lyon
+SD Fall River
+OK Roger Mills
+KS Franklin
+OH Hancock
+MI Newaygo
+MI Iron
+VA Bedford
+OH Clermont
+KS Cherokee
+SD Butte
+MI Benzie
+MI Presque Isle
+TX Kendall
+MN Meeker
+WI Barron
+KS Reno
+KY Fleming
+OH Brown
+NE Sherman
+TX Delta
+WV McDowell
+WA Stevens
+OR Klamath
+MI Manistee
+MO Lincoln
+VA Russell
+VA Augusta
+ID Valley
+OH Harrison
+MI Barry
+VA Covington City
+MI Alger
+SD Meade
+WI Rusk
+OH Ashland
+IA Decatur
+WV Nicholas
+IL Henry
+KS Jewell
+CO Fremont
+IA Grundy
+MI Roscommon
+IA Iowa
+VA Franklin
+KY Owen
+IN Crawford
+KY Cumberland
+OH Meigs
+MO Benton
+ND Ward
+KY Woodford
+IL Fulton
+ME Penobscot
+CA Tuolumne
+WI Langlade
+WV Taylor
+IL Lawrence
+NE Merrick
+WV Harrison
+ND Dunn
+KS Ellis
+TN Roane
+TN Fentress
+KS Chase
+MT Custer
+MN Pennington
+PA Somerset
+WI Polk
+MT Flathead
+KS Trego
+MO Andrew
+MO Laclede
+MT Richland
+IL Pope
+PA Elk
+IL Richland
+NE Cass
+MI Antrim
+MN Morrison
+PA Mckean
+OR Crook
+WV Brooke
+SD Lawrence
+KS Dickinson
+MT Golden Valley
+SD Moody
+AR Grant
+CO Cheyenne
+CA Calaveras
+OH Muskingum
+MN Jackson
+TN Van Buren
+IN Wells
+PA Blair
+WY Campbell
+NE Polk
+AR Boone
+SD Davison
+MN Otter Tail
+ME Aroostook
+OH Logan
+OH Union
+WV Pleasants
+NE Pierce
+KY Caldwell
+PA Jefferson
+WV Mason
+OH Van Wert
+IA Hardin
+MO Gasconade
+MT Stillwater
+MN Yellow Medicine
+KS Rice
+ME Somerset
+WI Wood
+WY Natrona
+MO Putnam
+MO Wayne
+WI Ashland
+WI Waushara
+MO Webster
+IN Knox
+TX Llano
+IL Washington
+IA Cass
+MO Livingston
+OK Woodward
+CO Mesa
+KY Garrard
+MT Ravalli
+MT Beaverhead
+NE Gosper
+ND McLean
+KY Harrison
+PA Warren
+SD Hutchinson
+ID Boise
+WI Taylor
+MN Pine
+CA Modoc
+UT Kane
+AR Scott
+PA Crawford
+CA Siskiyou
+NC Clay
+OR Douglas
+MO Christian
+IL Logan
+IL Dewitt
+IN Switzerland
+TN Stewart
+MO Bollinger
+IN Benton
+OR Baker
+IL Marion
+KY Robertson
+ND Richland
+NC Madison
+OK Alfalfa
+KS Doniphan
+SD Stanley
+SD Brule
+OH Henry
+KY Trimble
+MO Montgomery
+SD Codington
+KY Powell
+MO Howard
+NC Yancey
+UT Uintah
+KY Trigg
+TX Irion
+KS Cloud
+MO Worth
+WI Lafayette
+IA Harrison
+KY Ballard
+MO Carroll
+NV Pershing
+UT Carbon
+IA Fayette
+NE Kimball
+IA Adair
+WY Sublette
+MO Howell
+MO Ripley
+MN Carlton
+OK Woods
+WY Big Horn
+CA Trinity
+IL Mason
+NE Butler
+NE Clay
+KS Wabaunsee
+NE Dawes
+MO Shelby
+UT Duchesne
+AR Baxter
+AR Fulton
+AR Marion
+CA Plumas
+CA Sierra
+CO Custer
+CO Dolores
+CO Hinsdale
+CO Jackson
+CO Kiowa
+CO Rio Blanco
+ID Adams
+ID Bear Lake
+ID Bonner
+ID Boundary
+ID Butte
+ID Camas
+ID Caribou
+ID Clearwater
+ID Custer
+ID Franklin
+ID Idaho
+ID Lemhi
+ID Lewis
+ID Oneida
+IL Putnam
+IL Edgar
+IL White
+IL Hardin
+IL Edwards
+IL Stark
+IL Clay
+IL Hamilton
+IL Schuyler
+IL Massac
+IL Wabash
+IL Marshall
+IL Moultrie
+IL Piatt
+IL Crawford
+IL Johnson
+IL Menard
+IN Martin
+IN Pike
+IN Posey
+IN Union
+IN Vermillion
+IA Adams
+IA Chickasaw
+IA Fremont
+IA Greene
+IA Ida
+IA Jackson
+IA Kossuth
+IA Marion
+IA Mills
+IA Mitchell
+IA Page
+IA Palo Alto
+IA Sac
+IA Worth
+KS Allen
+KS Anderson
+KS Barber
+KS Brown
+KS Butler
+KS Chautaqua
+KS Cheyenne
+KS Comanche
+KS Decatur
+KS Elk
+KS Ellsworth
+KS Gove
+KS Greeley
+KS Greenwood
+KS Harper
+KS Hodgeman
+KS Jefferson
+KS Kingman
+KS Kiowa
+KS Lane
+KS Lincoln
+KS Linn
+KS Logan
+KS Marshall
+KS McPherson
+KS Miami
+KS Mitchell
+KS Morris
+KS Nemaha
+KS Neosho
+KS Ness
+KS Norton
+KS Osage
+KS Osborne
+KS Ottawa
+KS Pottawatomie
+KS Pratt
+KS Rawlins
+KS Republic
+KS Rooks
+KS Rush
+KS Russell
+KS Sheridan
+KS Sherman
+KS Smith
+KS Thomas
+KS Wallace
+KS Washington
+KS Wilson
+KS Woodson
+KY Bracken
+KY Greenup
+KY Hancock
+KY Mercer
+KY Pendleton
+KY Spencer
+ME Oxford
+ME Piscataquis
+ME Washington
+MI Keweenaw
+MI Mason
+MI Menominee
+MI Montmorency
+MI Ontonagon
+MI Osceola
+MI Schoolcraft
+MN Aitkin
+MN Becker
+MN Big Stone
+MN Clearwater
+MN Faribault
+MN Hubbard
+MN Isanti
+MN Kittson
+MN Lac Qui Parle
+MN Lake Of The Woods
+MN Lincoln
+MN Mcleod
+MN Marshall
+MN Norman
+MN Pope
+MN Red Lake
+MN Redwood
+MN Rock
+MN Roseau
+MN Traverse
+MO Atchison
+MO Barton
+MO Cedar
+MO Chariton
+MO Clark
+MO Clinton
+MO Dade
+MO Daviess
+MO Dent
+MO Hickory
+MO Holt
+MO Iron
+MO Knox
+MO Madison
+MO Maries
+MO Mercer
+MO Miller
+MO Monroe
+MO Morgan
+MO Oregon
+MO Osage
+MO Ozark
+MO Phelps
+MO Polk
+MO Ralls
+MO Ray
+MO Reynolds
+MO Schuyler
+MO Texas
+MO Vernon
+MT Broadwater
+MT Carter
+MT Chouteau
+MT Daniels
+MT Dawson
+MT Deer Lodge
+MT Fallon
+MT Fergus
+MT Garfield
+MT Granite
+MT Jefferson
+MT Judith Basin
+MT McCone
+MT Meagher
+MT Mineral
+MT Petroleum
+MT Phillips
+MT Pondera
+MT Powder River
+MT Powell
+MT Prairie
+MT Sanders
+MT Sheridan
+MT Teton
+MT Treasure
+MT Valley
+MT Wheatland
+MT Wibaux
+NE Arthur
+NE Banner
+NE Blaine
+NE Boone
+NE Box Butte
+NE Boyd
+NE Brown
+NE Burt
+NE Cedar
+NE Cherry
+NE Cheyenne
+NE Cuming
+NE Deuel
+NE Dundy
+NE Franklin
+NE Frontier
+NE Garden
+NE Garfield
+NE Grant
+NE Greeley
+NE Harlan
+NE Hayes
+NE Hitchcock
+NE Holt
+NE Hooker
+NE Jefferson
+NE Kearney
+NE Keith
+NE Keya Paha
+NE Knox
+NE Logan
+NE Loup
+NE Nance
+NE Nemaha
+NE Nuckolls
+NE Otoe
+NE Phelps
+NE Red Willow
+NE Rock
+NE Sheridan
+NE Sioux
+NE Stanton
+NE Thayer
+NE Thomas
+NE Valley
+NE Webster
+NE Wheeler
+NE York
+NV Esmeralda
+NV Lincoln
+NH Coos
+NC Currituck
+ND Adams
+ND Barnes
+ND Billings
+ND Bottineau
+ND Bowman
+ND Cavalier
+ND Dickey
+ND Divide
+ND Eddy
+ND Foster
+ND Golden Valley
+ND Grant
+ND Hettinger
+ND Kidder
+ND LaMoure
+ND Logan
+ND Mercer
+ND Nelson
+ND Oliver
+ND Pembina
+ND Pierce
+ND Ransom
+ND Renville
+ND Sargent
+ND Sheridan
+ND Slope
+ND Steele
+ND Towner
+ND Traill
+ND Wells
+OH Fulton
+OH Jackson
+OH Morgan
+OH Noble
+OH Paulding
+OH Pike
+OK Ellis
+OK Grant
+OK Washita
+OR Columbia
+OR Coos
+OR Curry
+OR Gilliam
+OR Grant
+OR Harney
+OR Lake
+OR Sherman
+OR Tillamook
+OR Wheeler
+PA Cameron
+PA Clearfield
+PA Potter
+PA Sullivan
+PA Venango
+SD Campbell
+SD Clark
+SD Custer
+SD Day
+SD Deuel
+SD Douglas
+SD Edmunds
+SD Grant
+SD Gregory
+SD Haakon
+SD Hamlin
+SD Hand
+SD Hanson
+SD Harding
+SD Hyde
+SD Jones
+SD Kingsbury
+SD Marshall
+SD McPherson
+SD Miner
+SD Perkins
+SD Potter
+SD Sanborn
+SD Spink
+SD Sully
+SD Tripp
+SD Turner
+SD Walworth
+TN Moore
+TX Archer
+TX Armstrong
+TX Baylor
+TX Borden
+TX Carson
+UT Daggett
+UT Emery
+UT Piute
+UT Rich
+UT Wayne
+VT Essex
+VT Orleans
+VA Bath
+VA Bland
+VA Craig
+VA Giles
+VA Highland
+VA Mathews
+VA Rockbridge
+VA Tazewell
+WA Clallam
+WA Garfield
+WA Lincoln
+WA Wahkiakum
+WV Braxton
+WV Calhoun
+WV Doddridge
+WV Hancock
+WV Marshall
+WV Morgan
+WV Pocahontas
+WV Putnam
+WV Ritchie
+WV Summers
+WV Tucker
+WV Tyler
+WV Upshur
+WV Wetzel
+WV Wirt
+WI Chippewa
+WI Crawford
+WI Douglas
+WI Florence
+WI Green Lake
+WI Lincoln
+WI Oconto
+WI Oneida
+WI Pepin
+WI Price
+WI Sawyer
+WI Shawano
+WI Vernon
+WI Vilas
+WI Washburn
+WY Converse
+WY Crook
+WY Goshen
+WY Hot Springs
+WY Lincoln
+WY Niobrara
+WY Park
+WY Platte
+WY Sheridan
+WY Weston
+Z3„>
+Œ{>
+åv>
+2q>
+ïq>
+Õ•o>
+1o>
+n>
+XMn>
+/Èm>
+ô¥l>
+—Àj>
+‚•j>
+—‘j>
+	|j>
+rj>
+yhj>
+â“i>
+^Óf>
+ee>
+ëWe>
+¿íd>
+"Öd>
+ˆwd>
+{d>
+±.c>
+&¾b>
+Šb>
+`Ù`>
+[`>
+O_>
+× ^>
+BK\>
+ï \>
+ôZ>
+,uY>
+&åX>
+‡X>
+NX>
+sW>
+ıW>
+ ÜV>
+¬×V>
+ÄV>
+M‘V>
+V>
+mûU>
+¾U>
+c¸U>
+MU>
+/˜T>
+oT>
+T>
+ªÄS>
+–S>
+1+S>
+¡ S>
+È`R>
+pQ>
+ƒeP>
+´O>
+MtN>
+N>
+(wM>
+`DM>
+¦4M>
+“’L>
+ŒL>
+”uL>
+§<L>
+é9L>
+İ/L>
+!òK>
+÷èK>
+ó=K>
+oK>
+1ÕJ>
+ì€J>
+K,J>
+¨ÁI>
+Á©I>
+cßH>
+›ÕH>
+ÅüG>
+€[G>
+WBG>
+Ø"G>
+VMF>
+ıíE>
+«E>
+ı?E>
+›'E>
+CãD>
+ü÷C>
+^ÁC>
+ğğB>
+ŒïB>
+'äA>
+úÀA>
+ã–A>
+÷A>
+~ZA>
+~	A>
+Üî@>
+É”@>
+†d@>
+b1@>
+Ÿ0@>
+m×?>
+Ña?>
+ E?>
+
+à>>
+¬>>
+ÆJ>>
+ş·=>
+ÿ—=>
+=>
+…°<>
+¥;>
+]:>
+®û9>
+èÎ9>
+†š9>
+v9>
+è³8>
+z‰8>
+'a8>
+A;8>
+§ğ7>
+¬Î7>
+·7>
+Ò\7>
+7>
+Îã6>
+ÔY6>
+¢U6>
+X6>
+Àm5>
+íW5>
+Ş:5>
+õş4>
+Èh4>
+9K4>
+4>
+²03>
+Ü2>
+ê2>
+Eå1>
+qØ1>
+ÒÄ1>
+™Ã1>
+åA1>
+r51>
+œ1>
+¶1>
+1>
+^¶0>
+ƒ0>
+¢d0>
+HW->
+åS->
+ş¾,>
+à/,>
+;Ğ+>
+Î©+>
+¾1+>
+-#+>
+¤*>
+H’*>
+µ„*>
+û*>
+Û*>
+wù)>
+»)>
+ÃJ(>
+ÌB(>
+@(>
+ß &>
+k&>
+s^&>
+>*&>
+l&&>
+È%>
+­N%>
+Çş$>
+J$>
+Í$>
+ğ$>
+	Ï#>
+¬#>
+Õp#>
+Êÿ">
+ú">
+6¥">
+ÆŒ">
+\l">
+L_">
+\Ş!>
+z§!>
+Ì}!>
+Ğü >
+dë >
+IÇ >
+Ì] >
+8E >
+l@ >
+0ÿ>
+cĞ>
+D¼>
+ùo>
+ñh>
+­Ø>
+· >
+ì>
+ç£>
+nh>
+h@>
+–<>
+õ4>
+Ô>
+×>
+}î>
+Ìê>
+òR>
+Òç>
+Õ>
+”>
+Œ>
+`{>
+i>
+’ >
+û>
+™”>
+™>
+ôg>
+(×>
+˜”>
+ı>
+é}>
+ls>
+Êˆ>
+ú>
+º:>
+~>
+í»>
+×±>
+Ï±>
+›>
+åX>
+™Q>
+]P>
+2>
+pê>
+±Ë>
+c>
+E>
+T">
+–>
+§i>
+C>
+­Ö>
+¸½>
+^>
+Ç_>
+òS>
+L>
+É->
+‚û>
+°§>
+Oä>
+İx>
+Bg>
+>>
+g>
+ú>
+­>
+•>
+¥‡>
+×k>
+:W>
+R>
+Ãğ>
+/á>
+w>
+aÅ>
+Äµ>
+­>
+¼Œ>
+Ë|>
+
+l>
+TC>
+Í™>
+?>
+…ù>
+4ö>
+¦>
+—>
+JO>
+İ%>
+Æ>
+o>
+öŠ
+>
+˜?
+>
+D'
+>
+'ë	>
+›	>
+î	>
+i	>
+Ie	>
+0	>
+L‚>
+÷r>
+¯>
+o>
+>
+ë>
+N²>
+Ì“>
+úˆ>
+Í>
+N>
+M>
+øÙ>
+­>
+>7>
+õ
+>
+fø>
+2À>
+ª±>
+·~>
+òF>
+¸&>
+>
+Ğê>
+Œy>
+S >
+Ğ>
+í°>
+Qˆ>
+º\>
+"M>
+ŸD>
+ê>
+ó>
+¬>
+v§>
+Å„>
+áb>
+7>
+®6>
+*>
+².>
+á >
+Ø´ >
+¡› >
+iY >
+X >
+mS >
+ÄI >
+Lÿ=
+ÿ=
+D¡ş=
+dTş=
+C	ş=
+›ı=
+!òü=
+­äü=
+Øü=
+Àü=
+œü=
+”òû=
+ç›û=
+¯˜û=
+Dû=
+G û=
+iËú=
+ÁÊú=
+J~ú=
+9
+ú=
+¶ñø=
+sÉø=
+@’ø=
+Öbø=
+‡÷=
+ˆ*÷=
+­÷=
+H÷=
+6÷=
+õö=
+!Vö=
+ö=
+»øõ=
+D„õ=
+¡zõ=
+¦Kô=
+Cô=
+Súó=
+Séó=
+½¹ó=
+qró=
+3ó=
+¸´ñ=
+b™ñ=
+Ø@ñ=
+Ö¥ğ=
+±jğ=
+qğ=
+îúï=
+â“ï=
+‡ï=
+Ú„ï=
+å<ï=
+±ï=
+±î=
+÷vî=
+‰]î=
+M.î=
+N¿í=
+¼‡í=
+Ñßì=
+Tì=
+Qßë=
+İÕë=
+³§ë=
+¶lë=
+èJë=
+çæê=
+Beê=
+dUê=
+¾;ê=
+6Ğé=
+şé=
+µ¾è=
+Y°ç=
+Phç=
+°İæ=
+×æ=
+ì¶å=
+r±å=
+—;ä=
+Êªã=
+ktã=
+Lrã=
+-²â=
+ZCâ=
+â=
+"¨á=
+Ğà=
+6Xß=
+§ß=
+ÀİŞ=
+bƒŞ=
+—·İ=
+Xİ=
+¼yÛ=
+#Û=
+åşÚ=
+¥Ú=
+Ì;Ú=
+ÒØ=
+­Ø=
+ıpØ=
+fkØ=
+Ë>Ø=
+ĞS×=
+{×=
+¢Ö=
+o	Ö=
+3Õ=
+[Õ=
+½÷Ô=
+làÔ=
+óÔ=
+§vÔ=
+hÔ=
+yÜÓ=
+rÓ=
+ÊƒÓ=
+¨ûÒ=
+œìÒ=
+¿kÒ=
+¦SÑ=
++?Ñ=
+ÆĞ=
+¼çÏ=
+D¶Ï=
+JÍ=
+ÉÌ=
+öÌ=
+)Ì=
+ºË=
+QË=
+©LË=
+ìÊ=
+ÃÊ=
+IÑÉ=
+ıĞÉ=
+}ŸÉ=
+A‡É=
+ÉöÈ=
+CÌÈ=
+%EÈ=
+QºÇ=
+V–Ç=
+mÇ=
+ø*Ç=
+*ÍÆ=
+«Æ=
+îkÆ=
+V4Æ=
+&Æ=
+ÌûÅ=
+æÅ=
+mÅ=
+‡ÇÄ=
+·IÄ=
+?ïÃ=
+gªÃ=
+ÊÔÂ=
+KÆÂ=
+ ‡Â=
+Â=
+©¿Á=
+»ªÁ=
+¹Á=
+¨°À=
+w®À=
+÷‡À=
+éÀ=
+sÀ=
+UÀ=
+r¿=
+*C¿=
+î¿=
+à¾=
+ùµ¾=
+G;¾=
+È6¼=
+Ù¼=
+g9»=
+ÎÑº=
+}…º=
+åFº=
+%5º=
+¼õ¹=
+WÂ¹=
+Ü•¹=
+Ì¹=
+ız¹=
+
+¹=
+«ê¸=
+)Ù¸=
+_j¸=
+5¸=
+'ı·=
+ÒÏ·=
+J—·=
+b–·=
+
+/·=
+„ö¶=
+?R¶=
+ºõ´=
+4}´=
+èZ´=
+ÅC´=
+ù³=
+Mİ³=
+ä³³=
+ÆL³=
+—û²=
+S’²=
+P†²=
++@²=
+[±=
+>è°=
+OŸ°=
+•”°=
+­U°=
+E°=
+Ø'°=
+|İ¯=
+ªÄ¯=
+43®=
+—®=
+Â®=
+’õ­=
+“­=
+«‘­=
+
+­=
+ƒo­=
+l6­=
+Å¶¬=
+’˜¬=
+«¬=
+Ap«=
+™ «=
+R˜ª=
+0ª=
+ôY©=
+îX©=
++ä¨=
+vÒ¨=
+Iª¨=
+š¨=
+
+é§=
+=§=
+Íi¦=
+Í¥=
+³¥=
+Ş¤=
+sğ£=
+ç‚£=
+­o£=
+·>£=
+ˆz¢=
+®S¢=
+õİ¡=
+»^¡=
+}%¡=
+¯£ =
+”l =
+Á@ =
+°°Ÿ=
+ì…Ÿ=
+¡rŸ=
+QŸ=
+N"Ÿ=
+Ÿ=
+>p=
+Ó3=
+ú/=
+ë.=
+=
+ÈR=
+P=
+)=
+âÓœ=
+·œœ=
+ixœ=
+ÙSœ=
+˜œ=
+~ä›=
+@Â›=
+7´›=
+ô‹›=
+òÂš=
+Õ™=
+Ê½™=
+]™=
+Ü¿˜=
+P­˜=
+¼t˜=
+Ï<˜=
+Õ)˜=
+˜=
+‹ ˜=
+\î—=
+ã—=
+¨Ö—=
+oÉ—=
+Ö{—=
+^x—=
+²t—=
+Ğr—=
+*—=
+ÿÛ–=
+5+–=
+ê‡•=
+\”=
+¢Ø“=
+§‡“=
+0+“=
+ÿÍ’=
+¥’=
+b¤’=
+Z’=
+Å’=
+İ¤‘=
+¶ˆ‘=
+{!‘=
+gÂ=
+§c=
+Á=
+¥Ï=
+}‹=
+…=
+™Z=
+é =
+\=
+ Ê=
+Øl=
+’4=
+XsŒ=
+^Œ=
+“Œ=
+ª‹=
+?j‹=
+$%‹=
+låŠ=
+ÜÎŠ=
+ü	Š=
+”Ö‰=
+Ä‰=
+~s‰=
+ÓY‰=
+É£ˆ=
+‚3ˆ=
+N'ˆ=
+ˆ=
+ˆŒ‡=
+¹_‡=
+qP‡=
+‚†=
+¯z†=
+/…=
+št…=
+Ùï„=
+8F„=
+;„=
+‹«ƒ=
+Şyƒ=
+Ù_ƒ=
+¼Sƒ=
+[+ƒ=
+Hƒ=
+më‚=
+lé‚=
+Øf‚=
+èõ=
+Å%=
+õõ€=
+ÍÃ€=
+t•€=
+@€=
+ñc€=
+r8€=
+Ç€=
+ªp=
+Ó*=
+%=
+õğ~=
+|µ~=
+Û ~=
+c›~=
+Ú~=
+nî}=
+- |=
+Ù{=
+–¶{=
+ÚM{=
+n={=
+á%z=
+Xìy=
+ûøw=
+1mw=
+Û1u=
+UÆt=
+L°t=
+‡t=
+ºzt=
+²t=
+wís=
+àés=
+´ßs=
+Ós=
+fÉs=
+´Ws=
+År=
+víq=
+ƒq=
+6–p=
+‰p=
+ÌEp=
+Ê8p=
+©mo=
+®«n=
+#Fn=
+Æn=
+¸m=
+³l=
+Ul=
+Îk=
+Øçi=
+xri=
+Şh=
+¶Ÿh=
+˜h=
+úf=
+=”e=
+#pc=
+üÍb=
+A•b=
+xCb=
+!4a=
+9a=
+”Ê`=
+u¥`=
+@—`=
+yv`=
+d`=
+'_`=
+	`=
+6—_=
+Bn_=
+ŞA_=
+æé^=
+]=
+š]=
+âr]=
+ÆZ]=
+Ù
+]=
+Ú~\=
+ ²Z=
+F^Z=
+“?Z=
+¦3Z=
+"Z=
+ÂgY=
+z[Y=
+âáX=
+ÖCX=
+ÓÜW=
+¹ÚW=
+—W=
+ÔˆW=
+®.W=
+‘W=
+J¨V=
+óV=
+I?T=
+©·S=
+_>S=
+f8S=
+šªR=
+5’R=
+ºàQ=
+2zQ=
+UtQ=
+zmQ=
+YUQ=
+îP=
+(-P=
+#-P=
+èO=
+>ÁO=
+%WO=
+SæN=
+üÅN=
+ß¼N=
+{£N=
+ÖQN=
+¡4N=
+U$N=
+ÔòM=
+L±M=
+G¦M=
+²eM=
+±bM=
+ÑôL=
+
+ÛL=
+0L=
+º)L=
+h|K=
+ËHK=
+–J=
+±ÌI=
+]I=
+SOI=
+{«H=
+5OH=
+mÈG=
+ÑG=
+ÒÌF=
+YŒF=
+o…F=
+ƒF=
+ÖE=
+šdE=
++'E=
+¿PC=
+HC=
+óéB=
+L|B=
+ş]A=
+dA=
+zù@=
+_@=
+"6@=
+©2@=
+Õ@=
+&¿?=
+£?=
+ø®>=
+h“>=
+PŠ>=
+²{>=
+>=
+·¹<=
+8”<=
+rs<=
+o1<=
++<=
+ò<=
+¥:=
+¼:=
+ãj:=
+½¬9=
+Öz9=
+Fv9=
+ÈÄ8=
+0ƒ8=
+ 8=
+õS8=
+³8=
+öĞ6=
+RL6=
+±5=
+œ5=
+¹5=
+(¥4=
+œ¹2=
+†¹2=
+ï1=
+ò¨1=
+Mœ1=
+şv1=
+7Í0=
+t0=
+àB0=
+‡0=
+!Ó/=
+,½/=
+ù5/=
+Ä•.=
+Â,.=
+;ÿ-=
+œ-=
+&-=
+·İ,=
+¸Ú+=
+Œ,+=
+ï*=
+=B*=
+$¢)=
+¥m)=
+(=
+Nü&=
+pí&=
+]ƒ&=
+Î
+&=
+X?%=
+>4%=
+¡n$=
+Ğ`$=
+×$=
+‡İ"=
+’"=
+J"=
+Ğ	!=
+¦ï =
+HÎ =
+Ó¸ =
+ô³ =
+Q =
+—8 =
+ÆÆ=
+Š4=
+ù=
+S{=
+‚ÿ=
+lK=
+ÃB=
+X*=
+Ü!=
+|Ê=
+¤D=
+¿=
+ßr=
+@*=
+] =
+º=
+Ãû=
+Â<=
+{;=
+Š=
+ÍR=
+s©=
+wx=
+§h=
+ÌG=
+İÿ=
+®E=
+<#=
+å=
+ö”=
+oæ=
+„3=
+€¢=
+=
+†¢=
+:-=
+å=
+¯=
+¹¬=
+iÊ=
+,¨=
+h=
+a=
+*I=
+Û?=
++=
+›=
+=
+÷=
+ç=
+,.=
+ç“
+=
+Çx
+=
+~ı	=
+à¦	=
+ğa	=
+üJ	=
+î	=
+g=
+°>=
+ /=
+:â=
+ü=
+ie=
+zM=
+y¢=
+Æ*=
+ =
+Ïç=
+y}=
+Š:=
+øû=
+äø=
+ûì=
+y…=
+'W=
+Z×=
+¾ı =
+0¢ =
+Ë =
+1ùÿ<
+ïÏÿ<
+ş¸ÿ<
+ñş<
+ğş<
+÷Jş<
+d¾ı<
+Ûü<
+J™ü<
+lü<
+Æû<
+“ˆû<
+íú<
+eú<
+Ã%ù<
+…xø<
+¤/ø<
+Zø<
+ 4÷<
+©¥õ<
+Q~õ<
+\cõ<
+L@õ<
+åõô<
+æô<
+Äéó<
+›¬ó<
+F[ó<
+wdò<
+cñ<
+÷8ñ<
+¿Ùğ<
+]ğ<
+eêï<
+Î½ï<
++‘î<
+2Oî<
+[Fì<
+œ!é<
+Ëgæ<
+_å<
+¤òä<
+úÊã<
+¥ã<
+Êã<
+‚…á<
+â+á<
+Aà<
+¥à<
+ïĞß<
+=ºß<
+Ú˜Ş<
+uŞ<
+½~Ş<
+HŞ<
+öİ<
+*Ü<
+§Ü<
+åĞÚ<
+XıÙ<
+ñÁÙ<
+ëÙ<
+=á×<
+wøÖ<
+ĞéÖ<
+Ê¼Ö<
+<·Ö<
+2,Ö<
+7åÕ<
+ÜãÔ<
+õBÔ<
+ìÓ<
+ĞvÒ<
+xşĞ<
+Û$Ğ<
+ÍÏ<
+=ÈÏ<
+Ì©Ï<
+jÏ<
++DÏ<
+L­Í<
+ô¶Ë<
+È¨Ë<
+o£Ë<
+¦]Ê<
+`¤É<
+}ÿÈ<
+mQÈ<
+ÍÖÆ<
+®œÆ<
+N‡Æ<
+OÆ<
+/EÆ<
+òÜÄ<
+FÃ<
+«îÂ<
+çèÁ<
+_uÁ<
+$jÁ<
+0À<
+S.¿<
+ı¿<
+ì¾<
+Q[½<
+:)½<
+‘m¼<
+£É»<
+¤»<
+P‚»<
+an»<
+§Òº<
+S½¹<
+…·¹<
+¹<
+P¹<
+P¸<
+Ş!¸<
+â¸<
+ôIµ<
+“´<
+¸³<
+Ù ³<
+€w³<
+/W³<
+‰/³<
+³<
+oU²<
+gé±<
+B»±<
+Şœ±<
+j•±<
+/ß¯<
+bV¯<
+šĞ®<
+»Ç­<
+­<
+#¹«<
+µ—«<
+­«<
+=7ª<
+©ê©<
+n©<
+à[©<
+UZ¨<
+f¸§<
+@)¦<
+:R¤<
+“\¢<
+¿å¡<
+ê¿¡<
+£¡<
+ªŸ<
+õ¡Ÿ<
+üŸ<
+
+Ÿ<
+±¦<
+Í¸<
+ğ`<
+%<
+,Ñœ<
+~æ›<
+f’›<
+ò›<
+òÒš<
+Iš<
+uÆ™<
+ş
+—<
+HJ•<
+«”<
+X”<
+ei“<
+È9“<
+Ó“<
+Ÿ'‘<
+¬±<
+Ú…<
+ÆN<
+ªÅ<
+.ı<
+lI<
+§Œ<
+O,Œ<
+ú‹<
+ª‘‹<
+:æŠ<
+ßˆ<
+ùÓˆ<
+;ˆ<
+/¸‡<
+à¼†<
+­†<
+c†<
+yæ…<
+jc…<
+{+…<
+¶%„<
+¦{ƒ<
+èOƒ<
+·ô‚<
+ç‚<
+¡<
+y<
+ím<
+>F<
+ê4€<
+(#<
+ó~<
+%|<
+:|<
+ÿ{<
+ïx<
+ w<
+Çv<
+¾Yv<
+ Åu<
+ÌÃt<
+^Vt<
+æ“s<
+ÿ3s<
+¬Ær<
+:q<
+•ço<
+ŸÖo<
+Ù'o<
+ƒn<
+Àüm<
+®Êl<
+gjk<
+­©i<
+“lg<
+,g<
+¢¾f<
+Ed<
+zAc<
+pc<
+ˆa<
+CW`<
+Õ/]<
+‘Ù[<
+¹[<
+ÒbY<
+Y<
+}Y<
+u¡W<
+WøU<
+`£U<
+·[U<
+¨OT<
+·‘P<
+ŠFN<
+¥;N<
+Ô’L<
+Ó*L<
+/©I<
+¶I<
+¦eD<
+ÜB<
+,„B<
+Z>A<
+dL@<
+Ét;<
+•:<
+Ê:<
+?8<
+DR7<
+z6<
+l6<
+r5<
+k15<
+İ 1<
+]¤0<
+á*<
+èª(<
+Ó˜(<
+ÿ(<
+Â'<
+í&<
+iÀ&<
+İu!<
+şõ<
+×<
+,ü<
+–¦<
+<
+~ô<
+†O<
+‹"<
+]«<
+X…<
+Ç¹<
+¿n
+<
+R
+<
+”¤	<
+P	<
+o<
+Š’<
+¨·<
+±Ü<
+ˆ~<
+c<
+±Z<
+¼ñ<
+Ùğ<
+±K<
+e¥ <
+<k <
+Bc <
+wû;
+Eø;
+ôvğ;
+îì;
+è¦ë;
+¡é;
+Zßæ;
+·.İ;
+#×;
+à Ö;
+ûjÒ;
+yœÑ;
+0œĞ;
+Ğ³Í;
+/CÍ;
+BÌ;
+q@È;
+ı3Æ;
+*—Å;
+ÖÅÂ;
+:èÀ;
+­³¹;
+ÈÃ´;
+ƒ´;
+d³;
+à
+§;
+c¦¥;
+B¥;
+r£;
+;‰¡;
+û2Ÿ;
+ Ÿ;
+	Ÿ;
+²µ;
+:J;
+¥[˜;
+Ç·•;
+t
+•;
+í“;
+nd’;
+×¨‘;
+ëe‘;
+Ê¯;
+sŸ;
+äû„;
+çƒ;
++‚;
+Z€;
+o^|;
+
+x;
+Ïäv;
+ëÙs;
+·Lq;
+§k;
+î&k;
+—"k;
+tj;
+ÕV;
+ëQ;
+³ÁM;
+IIM;
+¤L;
+ˆ§K;
+’K;
+ŞI;
+÷Ä?;
+b-=;
+äí5;
+‡²1;
+Õ/;
+:è';
+bÏ%;
+ã@$;
+°";
+Íñ;
+ºW;
+!R;
+÷2;
+oÅ;
+X‡;
+Úğ;
+î;÷:
+Úóö:
+Ş‡è:
+Dwã:
+ŞZá:
+€Û:
+9	Ù:
+|ÙØ:
+“TÒ:
+2>Ç:
+MÎº:
+µÈº:
+L[º:
+Ã.®:
+Ù«:
+ª=ª:
+Š>:
+YÛŠ:
+ëª…:
+xáp:
+‘+j:
+‘„f:
+k€_:
+µ/:
+‹"":
+nªÙ9
+ì8R9
+–?,9
+Ì?«8
+>8
+oÌf8
+wO8
+ËØN8
+væ7
+ôök7
+w]‰6
+Néw6
+¦§˜5
+s†û4
+8OÑ4
+Å4
+éüc4
+Mø3
+BÜò3
+.Û˜3
+3
+ÁÉ2
+dØ2
+]ï‰0
+´t70
+€“S/
+8¿
+/
+RÒä.
+0V.
+o7¹-
+d¯ü,
+*[¬,
+“ì)
+|”#)
+Oô)
+æB(
+h(
+U	
+(
+(‚è'
+’I'
+uµD'
+üw'
+yM&
+¨ßr&
+Ã!0%
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+?È$
+
+Signal C (k-means clustering; remapped)
+NY Queens
+NY Kings
+LA Jefferson
+VA Franklin City
+IL Union
+GA Clayton
+AL Jefferson
+IA Marshall
+OH Mahoning
+AK Ketchikan Gateway
+FL Polk
+VA Danville City
+NC Cumberland
+MN Nobles
+IA Muscatine
+CA Glenn
+IN Elkhart
+VA Petersburg City
+AK Petersburg
+VA Hopewell City
+AL Lee
+VA Martinsville City
+AK Northwest Arctic
+WA Adams
+NV Humboldt
+NE Saline
+LA Ascension
+IA Buena Vista
+GA Muscogee
+KS Finney
+VA Accomack
+NM San Juan
+AK North Slope
+OR Malheur
+AK Southeast Fairbanks
+SD Beadle
+OR Morrow
+NE Hall
+VA Richmond
+GA Hall
+MT Glacier
+NE Colfax
+AZ Graham
+AK Aleutians East
+KS Grant
+VA Southampton
+KS Wyandotte
+GA Chattahoochee
+KS Seward
+TX Hidalgo
+NM Chaves
+MS Oktibbeha
+VA Northampton
+GA Liberty
+KS Ford
+NY Bronx
+NM Guadalupe
+TX Webb
+IA Tama
+NM Rio Arriba
+NM Socorro
+TX Kleberg
+VA Page
+VA Mecklenburg
+AL Montgomery
+GA Newton
+TX Bastrop
+GA Glynn
+NE Dawson
+AK Prince of Wales-Hyder
+VA Emporia City
+VA Brunswick
+NM Lea
+CO Saguache
+NE Hamilton
+LA Lincoln
+IA Crawford
+SD Jerauld
+VA Buckingham
+NC Pasquotank
+MS Hinds
+GA Richmond
+VA Sussex
+NC Lee
+IA Wapello
+UT San Juan
+GA Lowndes
+AZ Navajo
+VA Nottoway
+TX Cameron
+NM Hidalgo
+CO Morgan
+TX Ector
+NM Luna
+LA St. Charles
+OH Pickaway
+VA Greensville
+TX Victoria
+MT Big Horn
+TX Waller
+MT Roosevelt
+CO Costilla
+NM Cibola
+LA Caddo
+NC Granville
+NE Dakota
+GA Bibb
+TX Jefferson
+TX Presidio
+IA Louisa
+AL Mobile
+SC Greenwood
+NE Thurston
+SC Edgefield
+TX Caldwell
+LA Calcasieu
+SC Florence
+OH Marion
+TX Walker
+NC Franklin
+SC Jasper
+LA Ouachita
+SC Sumter
+NC Wilson
+TX Medina
+TX Val Verde
+TX Mclennan
+ID Jerome
+KS Coffey
+NC Wayne
+MT Toole
+AZ La Paz
+LA St. John The Baptist
+LA Plaquemines
+ND Sioux
+AZ Apache
+FL Hendry
+VA Galax City
+ND Rolette
+TX Maverick
+LA St. James
+WI Menominee
+TX Nacogdoches
+GA Peach
+GA Whitfield
+LA Rapides
+TX San Patricio
+NM McKinley
+TX Atascosa
+NC Hoke
+GA Long
+FL Jefferson
+LA Lafourche
+TX Marion
+LA Natchitoches
+LA Tangipahoa
+IN Cass
+LA Terrebonne
+GA Lee
+LA West Baton Rouge
+MS Forrest
+GA Dougherty
+TX Pecos
+ND Benson
+TX Calhoun
+FL Gadsden
+GA Greene
+SD Lyman
+IN Decatur
+MS Lowndes
+SC Saluda
+FL Desoto
+TX Potter
+GA Putnam
+LA St. Bernard
+TX Hartley
+TX Uvalde
+ID Owyhee
+TX Washington
+MO Gentry
+TX Jim Wells
+ID Clark
+TX Hockley
+SC Fairfield
+TX Andrews
+TX Yoakum
+TX Ward
+LA St. Martin
+SC Orangeburg
+GA Baldwin
+AR Jefferson
+FL Okeechobee
+LA Iberia
+TX Sutton
+SC Calhoun
+FL Glades
+TX Mcmullen
+NC Montgomery
+TX Reeves
+TX Wharton
+SC Laurens
+SC Darlington
+SD Dewey
+IN Daviess
+NC Lenoir
+GA Monroe
+FL Hardee
+TX Schleicher
+TX Edwards
+SD Bennett
+AL Pike
+SD Ziebach
+LA West Feliciana
+TX Moore
+GA Troup
+TX Frio
+TX Parmer
+TX Bee
+GA Thomas
+MS Warren
+OK Texas
+LA St. Mary
+SC Chester
+FL Madison
+NC Edgecombe
+SC Marion
+SD Oglala Lakota
+TX Kinney
+TX Culberson
+TX Jim Hogg
+TX Ochiltree
+FL Suwannee
+LA Iberville
+TX Angelina
+AR Sevier
+SD Jackson
+LA Jefferson Davis
+NC Anson
+FL Jackson
+SD Corson
+LA Assumption
+AL Russell
+SC Hampton
+SD Todd
+TX Castro
+NC Warren
+FL Liberty
+TX Zapata
+MS Tunica
+GA Gordon
+TX Dimmit
+TX Deaf Smith
+TX Crane
+AR Crittenden
+NC Bertie
+SC Chesterfield
+SC McCormick
+LA St. Helena
+TX Gonzales
+LA Pointe Coupee
+SC Colleton
+NC Halifax
+NC Jones
+SD Mellette
+FL Hamilton
+GA Spalding
+LA Acadia
+NC Scotland
+FL Calhoun
+GA McDuffie
+GA Habersham
+TX Karnes
+GA Pulaski
+FL Lafayette
+GA Tift
+TX Gaines
+NC Hertford
+TX Willacy
+TX Refugio
+LA St. Landry
+FL Union
+NC Richmond
+TX Concho
+TX Lynn
+NC Washington
 LA De Soto
 NC Vance
-VA Harrisonburg City
-TX Hartley
-IL Cook
-NY Erie
-PA Lancaster
-LA St. Landry
-LA Assumption
-GA Habersham
-IA Wapello
-OK Delaware
-GA Baldwin
-NM Catron
-NY Warren
-MI Genesee
-DC DC
-IN Marion
-PA Columbia
-IA Mahaska
-LA St. Tammany
-VA Shenandoah
-IL Jefferson
-GA Macon
-PA Chester
-IN Daviess
-MA Hampshire
-MS Smith
-TX Shelby
-TX Briscoe
-IN Boone
-MS Yalobusha
-NC Chatham
-PA Susquehanna
-SC Williamsburg
-OH Putnam
-NJ Gloucester
-PA Luzerne
-NC Columbus
-MD Prince George's
-VA Charles City
-DE Sussex
-TX Lynn
-NY Ulster
-NY Sullivan
-KY Graves
-VA Falls Church City
-RI Kent
-MA Barnstable
-MS Adams
-AR Lawrence
-VA Henrico
-MI Saginaw
-MD Montgomery
+TX Duval
+SC Bamberg
+IN Orange
+TX Live Oak
+TX Oldham
+TX Hale
+TX Winkler
+LA Allen
+MS Yazoo
+MO Pemiscot
+TX Terry
 LA Claiborne
-IN Noble
-OH Darke
-IN Franklin
-NY Dutchess
-GA Monroe
+LA East Feliciana
+NC Sampson
+SC Barnwell
+TX Zavala
+TX Lasalle
+GA Macon
+TX Titus
+NC Greene
+GA Sumter
+MS Lauderdale
+TX Floyd
+SC Williamsburg
+MS Clay
+NC Duplin
+LA Evangeline
+GA Meriwether
+AR Mississippi
+TX Crockett
+LA Morehouse
+LA Richland
+TX Starr
+TX Liberty
+TX Dawson
 TX Reagan
-OH Ottawa
+GA Talbot
+AR Bradley
+TX Falls
+SC Clarendon
+AL Macon
+LA Avoyelles
+TX Dewitt
+GA Toombs
+GA Grady
+AR St Francis
+TX Bailey
+GA Colquitt
+LA Red River
+GA Screven
+GA Laurens
+TX Dallam
+TX Matagorda
+TX Garza
+TX Hudspeth
+TX Hansford
+SC Dillon
+LA Winn
+GA Washington
+GA Decatur
+TX Cochran
+LA Union
+LA Jackson
+TX Brooks
+LA Washington
+MS Tate
+TX Grimes
+LA Bienville
+MS Marshall
+AR Desha
+TX Swisher
+NC Bladen
+MS Adams
+SC Marlboro
 TX Martin
-MS Pearl River
-MN Wilkin
-LA Iberia
-MD Carroll
-IN Floyd
+TX Madison
+LA Concordia
+TX Crosby
+AR Yell
+TX Real
+MS Winston
+GA Evans
+TN Haywood
+GA Crisp
+TX Anderson
+LA Tensas
+TX Lamb
+TX Camp
+SC Lee
+GA Ware
+GA Brooks
+LA Madison
+GA Marion
+AR Monroe
+GA Wilkes
+GA Treutlen
+AL Pickens
+NC Northampton
+NC Columbus
+GA Seminole
+GA Tattnall
 SC Allendale
-WY Washakie
+MS Pike
+NC Tyrrell
+TX Knox
+AR Phillips
+AR Chicot
+MS Monroe
+GA Burke
+GA Coffee
+GA Lanier
+MS Bolivar
+NC Robeson
+AL Barbour
+MS Washington
+GA Twiggs
+GA Butts
+GA Ben Hill
+GA Wilkinson
 MS Jones
 OK Caddo
-SC Colleton
-VA Arlington
-OH Columbiana
-MI Hillsdale
-IN Howard
-KY Lyon
-IN Madison
-IN Hendricks
-LA East Baton Rouge
-AZ Coconino
-OK Cotton
-TX Culberson
-IL Mcdonough
-ID Nez Perce
-GA Putnam
-NY Tioga
-RI Washington
-IN Harrison
-OH Wayne
-IN Lawrence
-AK Petersburg
-NC Washington
-AL Marion
-GA Greene
-GA Crisp
-IN Shelby
-TX Floyd
-IA Jasper
-MS Tippah
-NE Adams
-NY Albany
-NM Cibola
-IL Cass
-LA St. Bernard
-IN Bartholomew
-MI Tuscola
-MD Charles
-MN Clay
-MN Hennepin
-NY Fulton
-PA Pike
-MS Marion
-NH Hillsborough
-CO Arapahoe
-VA Fluvanna
-MI Otsego
-NC Jones
-TX Hall
-OH Geauga
-NE Fillmore
-TX Harrison
-PA Carbon
-LA Terrebonne
-IN Montgomery
-IN Dearborn
-VA Franklin City
-IA Poweshiek
-IL Lake
-VA Suffolk City
-NC Franklin
-IL Kankakee
-KY Logan
-TX Crosby
-SD McCook
-MS Pike
-MD Baltimore City
-MI Alpena
-TX Nacogdoches
-OH Ashtabula
+GA Charlton
+GA Echols
+SD Buffalo
+MS Coahoma
+TX Cottle
+GA Upson
+AL Clarke
+LA Catahoula
+MS Copiah
+AL Bullock
+AL Butler
+AL Chambers
+AL Choctaw
+AL Conecuh
+AL Crenshaw
+AL Dallas
+AL Franklin
+AL Greene
+AL Hale
+AL Lowndes
+AL Marengo
+AL Perry
+AL Sumter
+AL Tallapoosa
+AL Washington
+AL Wilcox
+AR Lee
+AR Lincoln
+AR Nevada
+GA Appling
+GA Atkinson
+GA Bacon
+GA Baker
+GA Calhoun
+GA Candler
+GA Clay
+GA Clinch
+GA Cook
+GA Dooly
+GA Early
+GA Emanuel
+GA Hancock
+GA Jeff Davis
+GA Jefferson
+GA Jenkins
+GA Johnson
+GA Mitchell
+GA Quitman
+GA Randolph
+GA Stewart
+GA Taliaferro
 GA Taylor
-CO Denver
-MS Forrest
-MD Baltimore
-OH Allen
-MO St. Louis
-LA Ascension
-NY Niagara
-VA Surry
-MI Iosco
-IN Warrick
-NY Steuben
-NC Henderson
-NY Washington
-OH Wood
-VA Fairfax
-MI Lapeer
-DE Kent
-ND McHenry
-NY Greene
-MO St. Louis City
-CO Kit Carson
-WA Benton
-IN Morgan
+GA Telfair
+GA Terrell
+GA Turner
+GA Warren
+GA Webster
+GA Wheeler
+GA Wilcox
+GA Worth
+KY Butler
+LA East Carroll
+LA Franklin
+MS Amite
+MS Attala
+MS Calhoun
+MS Carroll
+MS Chickasaw
+MS Claiborne
+MS Clarke
+MS Covington
 MS Greene
-IL Monroe
-IL Dupage
-KY Grayson
-WI Iron
-GA Spalding
-IN Lake
-TX Marion
-IA Lucas
-IA Washington
-IL Clinton
-ME Waldo
-OH Portage
-LA Lincoln
-CO Weld
-CO Gunnison
-AL Macon
-NV Humboldt
-MS Clay
-CO Broomfield
-PA Dauphin
-OH Washington
-MS Itawamba
-MI Crawford
-MA Berkshire
-GA Oglethorpe
-IL Will
-CT Tolland
-MD Frederick
-IN Ohio
-TX Brown
-OH Trumbull
-IN Hancock
-GA Bartow
-IN White
-IA Allamakee
-IL St. Clair
-MS Choctaw
-WI Milwaukee
-OH Miami
-WI Forest
-NM Socorro
-MI Shiawassee
-VA Goochland
-OH Summit
-AL Randolph
-VA Alexandria City
-NC Perquimans
-NY Oneida
-IL Kane
-VA Williamsburg City
-AZ Mohave
-TN McMinn
-WV Wayne
-IN Grant
-MO Pemiscot
-MN Nicollet
-WY Fremont
-IN Delaware
-IL Boone
-NH Rockingham
-ND McIntosh
-CT New London
-IA Guthrie
-NY Hamilton
-TX Ochiltree
-CO Ouray
-DE New Castle
-VA Fairfax City
-NY Monroe
-LA Natchitoches
-OH Erie
-MD Queen Anne's
-NC Hertford
-OH Belmont
-NC Pasquotank
-MI Berrien
-NC Orange
-MN Winona
-OK Osage
-OH Wyandot
-FL Charlotte
-IN Clark
-NY Lewis
-NC Rowan
-NY Onondaga
-MD St. Mary's
-OH Hardin
-NY Broome
-VA King George
-NE Furnas
-OK Major
-IA Linn
-TN Sumner
-KY Carlisle
-GA Screven
-IN Jennings
-TX Fisher
-NE Dixon
-OH Stark
-CO Montrose
-PA Lebanon
-NC Martin
-NM Quay
-GA Schley
-WY Johnson
-PA Wyoming
-NE Gage
-OK Wagoner
-SC McCormick
-TX Lee
-GA Lamar
-VT Chittenden
-TX Sabine
-MD Wicomico
-NY Yates
-IN Hamilton
-CO Jefferson
-MI Gratiot
+MS Grenada
+MS Holmes
+MS Humphreys
+MS Issaquena
+MS Jasper
+MS Jeff Davis
+MS Jefferson
+MS Kemper
+MS Leake
+MS Leflore
+MS Lincoln
+MS Marion
+MS Montgomery
+MS Neshoba
+MS Newton
+MS Noxubee
+MS Panola
+MS Quitman
+MS Scott
+MS Sharkey
+MS Simpson
+MS Sunflower
+MS Tallahatchie
+MS Walthall
+MS Wayne
+MS Webster
+MS Wilkinson
+MS Yalobusha
 OK Adair
-PA Franklin
-IL Jackson
-IN Perry
-PA Schuylkill
-TX Dawson
-MN Mahnomen
-IN Fayette
-IA Montgomery
-UT Garfield
-CO Alamosa
-MN Martin
-WA King
-MO Scotland
-GA Peach
-IN Allen
-MD Anne Arundel
-KY Russell
-MT Madison
-VA Carroll
-CO Routt
-VA Isle Of Wight
-IA Bremer
-MD Allegany
-VA James City
-WI Grant
-MN Ramsey
-MI Washtenaw
-OH Sandusky
-PA Juniata
-AR Lafayette
-IN Ripley
-IN Henry
-WI Richland
-NY Schenectady
-IL Coles
-MD Worcester
-MI St. Clair
-NY Rensselaer
-MS Hancock
-VA Hanover
-WI Clark
-PA Cumberland
-OH Cuyahoga
-OH Lorain
-NC Edgecombe
-NC Polk
-OH Hocking
-IA Appanoose
-IL Mchenry
-WA Klickitat
-NM Sandoval
-IN Scott
-NY Wyoming
-NY Ontario
-IA Audubon
-MD Cecil
-MI Bay
-CO Adams
-MI Muskegon
-WA Whatcom
-TX Lamar
-GA Oconee
-OH Franklin
-WI Buffalo
-IL Whiteside
-GA Walton
-WA Snohomish
-WI Walworth
-WI Ozaukee
-      ğ?
-µÜcÈï?
-úÖ,<»í?
-ÏƒË€gí?
-q[€Ç…Sê?
-;;Ãàê?
-ÈÑt%aŠç?
-Å“ª<©)å?
-”Éš¾ä?
-÷]Lºã?
-İKüWœã?
-ˆvNã?
-ÖêÖ$…ùâ?
-ıü¥7±?â?
-pü¥õá?
-¦v^(›Ïá?
-ËWæ…á?
-Ô{››ná?
-£×ê:Là?
-îß4o‡Êß?
-¥_ Ï”¾ß?
-,jª÷3yß?
-¾üX/cbß?
-ê_q5ß?
-¿İPŞŞ?
-¥ˆ˜bcŞ?
-ÔjîÕİ?
-2_#8ô¯İ?
-8f¸>’İ?
-¹pÊ_ÎÜ?
-1[¶çáèÛ?
-¸s4H2Û?
-°oD¬æ+Ú?
-+¡#î†¨Ù?
-_É¦œ`Ù?
-	è|‹ÕØ?
-K¸öƒ)hØ?
-¤ ¦‚Ò[Ø?
-ÕEj@#Ø?
-~ı¤¶ü×?
-°JiM¢µ×?
-­)õš×?
-åŠ–œÖ?
-yæhXhÖ?
-²&`6–]Ö?
-ìĞx7ƒUÖ?
-¦Íš]?SÖ?
-nigÈóÖ?
-³”æÖ?
-F¬„‰zúÕ?
-@lÇ;bòÕ?
-kJÏçŞÕ?
-±¦ K´Õ?
-l——/’…Õ?
-#|ÍiDÕ?
-;Vñû;åÔ?
-„ ~´Ô?
-âšı})}Ô?
-†¦¦ïíyÔ?
-K%Øa¯KÔ?
-ç‰ii#Ô?
--*gVøÓ?
-•[ÁÑXÄÓ?
-ğå ƒóÁÓ?
-ÛjS•›Ó?
-C÷)…´NÓ?
-˜(Ct6Ó?
-å:ó n$Ó?
-]íÕŒAÓ?
-ÓGoò´Ó?
-Mx´Ó?
-šK'$±ıÒ?
-5ÓlÆ‰ºÒ?
-å²ñ³í¤Ò?
-B&ÃgdÒ?
-ˆüüM:PÒ?
-MÀùîÒÒ?
-NúÇíÍÒ?
-ú~ãhÒ?
-GË³øÑ?
-8>Ğ«¶Ñ?
-ï2
-B{_Ñ?
-3¼½<!Ñ?
-ÌµYÌÑ?
-ú‡
-¶üĞ?
-ŒSjzôĞ?
-f…NEdåĞ?
-äûÀŒ¦ÜĞ?
-tRİ uÑĞ?
-£x9Êh½Ğ?
-V‘}Ì~¶Ğ?
-“Eõ¶Ğ?
-škŸ…€µĞ?
-7b™§Ğ?
-v";{pĞ?
-(ºäôfĞ?
-¶;²­‚-Ğ?
-X¯ÈµéĞ?
-ëÒG:ÓĞ?
-ÇœmOmŞÏ?
-Gğ.»>ºÏ?
-¬ÙšÍ~Ï?
-c]_T°kÏ?
-Îö¯(gOÏ?
-{ŸÑ%ö1Ï?
-²»û"(Ï?
-0¥©\¹Ï?
-MöååÎ?
-5P¥şsÎ?
-Ubv™mÎ?
-´i©öccÎ?
-@wÊwdEÎ?
-1’ñ?Î?
-kÑë9Î?
-„'HZêÍ?
-ïa3…¬éÍ?
-4t5üÖÍ?
-c±<X/‘Í?
-jˆk{Í?
-ö©—1^Í?
-Ú
-ç-RÍ?
-îjÑ×“!Í?
-=ÊsS”Í?
-Y-:Yä§Ì?
-Îo_Ş}Ì?
-Tc‘=¸nÌ?
-[†_›MÌ?
-ì”jWXFÌ?
-v¼g\SAÌ?
-íÀ7KÀ:Ì?
-m4%Ì?
-÷|Íâ¹÷Ë?
-Ó‡@Ì\ºË?
-O}Ò°âªË?
-¶©À(¥Ë?
-gûğÎ ‘Ë?
-µd“ÚİË?
-6œji!`Ë?
-GgŞWWË?
-ÙUÃ€Õ?Ë?
- )QG2Ë?
-p
--Ë?
-²Ç#oË?
-ÉêË?
+OK Greer
+TN Bledsoe
+TN Hardeman
+TN Lake
+TN Lauderdale
+TN Trousdale
+TX Jones
+TX Kenedy
+TX Panola
+TX San Augustine
+TX Shelby
+ş¹ä>
+0ÜŞ>
+³‚Ü>
+€ŒØ>
+Í7Ø>
+'µÖ>
+ íÔ>
+$ŸÔ>
+å‘Ô>
+Ú.Ò>
+FÏ>
+›¯È>
+V1È>
+y“Ç>
+ö1Ç>
+9şÅ>
+øæÅ>
+v§Å>
+£ğÄ>
+lÄ>
+ÑVÀ>
+èê½>
+*P½>
+ú4½>
+3½>
+š½>
+^ê¼>
+ ‚¼>
+/†º>
+.€º>
+Â¡¹>
+h”¸>
+’?¶>
+tÉµ>
+JE³>
+I®²>
+¨â±>
+u¯>
+â¯>
+§ú®>
+¸®>
+£G­>
+_U¬>
+8%¬>
+Å×«>
+q«>
+"j©>
+â’¨>
+Ò¨>
+ˆ¨>
+·™§>
+™
+¦>
+ùå¥>
+tc¥>
+É¥>
+£¤>
+!:£>
+f#¢>
+·†Ÿ>
+'ã>
+Ê÷>
+µ?>
+>
+2òœ>
+wœ>
+‰sœ>
+ÉC›>
+®Yš>
+o
+™>
+ÅŞ˜>
+X˜>
+‹ğ—>
+Z—>
+óğ–>
+H•>
+tª”>
+‹“>
+„‘>
+üA‘>
+‹«>
+½H>
+¿V>
+I.>
+M>
+]Ü‹>
+ti‹>
+„
+‹>
+–íŠ>
+^ Š>
+–\Š>
+ÿ+Š>
+CŠ>
+F‰>
+¦ˆ>
+ÎÕ‡>
+(‡>
+ ¯…>
+”K„>
+!Ÿ‚>
+ºI‚>
+‚>
+~>
+4£|>
+¡Šw>
+û]u>
+2Cu>
+×·t>
+y%t>
+Êys>
+8p>
+Wo>
+?m>
+•k>
+œ~k>
+öŞi>
+qi>
+aıe>
+{e>
+L[c>
+\§b>
+Ò‘b>
+·÷a>
+cå^>
+ ¿^>
+ù“^>
+‚¤]>
+Ü]>
+ùZ>
+Š(Y>
+#Y>
+˜ŠX>
+éX>
+3XV>
+n U>
+«¤S>
+wR>
+ªP>
+÷2N>
+Á±M>
+GHK>
+ÁJ>
+KGI>
+JI>
+/×H>
+… G>
+sgE>
+MGD>
+…3@>
+¨’?>
+yp<>
+&<>
+%×:>
+Ï¨:>
+c:>
+÷„9>
+8>
+¢ú7>
+×ƒ6>
 
-›ğ¿½ãÊ?
-"Jb·Ê?
-‡BÙ¹¬Ê?
-°aêp¼yÊ?
-è¤ªã¦%Ê?
-%×ÉføÉ?
-‰OHÅ³åÉ?
-_ÜGæ¿É?
-øÀş%¢ˆÉ?
-ÔšO›{É?
-ªk8.\É?
-T"ı’NÉ?
-xÚÿ–@É?
-·u±Œ?É?
-CyHÄıÈ?
-Ìh¡…ìÈ?
-n.Ôù·È?
-H…†"?“È?
-©‰ˆ3i€È?
-¥€ù0gÈ?
-•ÎpsdÈ?
-ÇsS*ÄQÈ?
-)Ê˜èÓ!È?
-^ÌÍ;#úÇ?
-‘£ı‰ÙÇ?
-AŠ*È¤×Ç?
-YøÖÇ¦Ç?
-ÃxúéòÇ?
-³Sp˜ pÇ?
-sÙP”dÇ?
-6­X{PÇ?
-çèHu@Ç?
-”3fï	üÆ?
-N{î´ôÆ?
-éQêHÖÆ?
-…´àPÒÆ?
-İ[$Ó’ËÆ?
-ÅEP¢ÊÆ?
-tL]yÆÆ?
-ú9½ìuÃÆ?
-IƒÏò3ºÆ?
-°´õ®–Æ?
-ìûøZÆ?
-Q&zŞ$,Æ?
-–²M¸ˆÆ?
-û2ûÆ?
-vW`×I·Å?
-\f® Å?
-íYNŠ]Å?
-n£lOÅ?
-°x FÅ?
-4¹"+Å?
-A\˜[m%Å?
-0ø¥nûÅ?
-B—V‘sÌÄ?
-W7%ªÄ?
-æùQeÄ?
-WaÄ?
-YáÔÑÅHÄ?
-øëP¹ê7Ä?
-LÂ‚ÍMÄ?
-1BQûÃ?
-ş[¥¿¢÷Ã?
-´3XšBÑÃ?
-@¾ÑeõÇÃ?
-øª
-	¥Ã?
-h¥)©›Ã?
-tÅq‡Ã?
-'/˜†Ã?
-VÂ¢,uyÃ?
-Œ5C)BÃ?
-Ñubö&Ã?
-I¬ÍƒÃ?
-‡~Y‚Ã?
-¶†í3àÃ?
-Yb¡öÂ?
-oıIÏÂ?
-Ş$Dn¹Â?
-ÖêƒS^²Â?
-Î‹6`Ì›Â?
-„#{€w—Â?
-oèTCs•Â?
-O8×1zÂ?
-„Î+]Â?
-²\´GÂ?
-•c°Ñ8GÂ?
-\âMÊë5Â?
-qÚÛ -Â?
-9rù)Â?
-£³aê#Â?
-›ê_çÂ?
-Q¸³ÕàúÁ?
-\‹ùİÁ?
-dÁOË×Á?
-ŒiE×"ÏÁ?
-’Õr‡\£Á?
-V7Û¡Á?
-û|ìó}Á?
-²Ñ?á1zÁ?
-%œã’PhÁ?
-òÏïIXÁ?
-hB¦.HSÁ?
-Y`OÄ‰=Á?
-ŞÂşº9Á?
-0ê7Öî(Á?
-Ğ/#Ş]Á?
-hgHH«Á?
-ˆ}X şÀ?
-…?·$uñÀ?
-q¾Eó‰ÜÀ?
-C%ôÃÀ?
-D'¼¥À?
-Œ?6GŸÀ?
-dÕÖÖù˜À?
-4‰
-œ²–À?
-‹<Ğôì‡À?
-lªrsÀ?
-`XÂ?´aÀ?
-•HÇ\À?
-|ğ¾\À?
-İ‚I[À?
-š«ØVÀ?
-Ğ »VR@À?
-± ¤¨M)À?
-l¦L‚rÀ?
-íÚWB<À?
-ğM÷&ö¿?
-™éKŒâ¿?
-vh$±ø¾¿?
-Z™{p‘¿?
-z—ì¿şk¿?
-dÔºĞb¿?
-"XÀX¿?
-_y¬ÏE¿?
-nêdı´¿?
-Šæ—¿?
-‰Â~ô1º¾?
-Ş±qe¶…¾?
-\æs:,m¾?
-îêF@a¾?
-Çu¾ê—Y¾?
-Ÿ²ßiTK¾?
-”ı B¥C¾?
-I€Ë,¾?
-$®ëµ,¾?
-5~fó¾?
-Cpdd¾?
-àÂ˜6q÷½?
-Ş#ì|ùÀ½?
-(æç¼£½?
->lù½‚½?
-D:™Õi½?
-):ûxR½?
-†ªã6½?
-	ğU`.½?
-À/^ev½?
-SŞ‡®	õ¼?
-NGRÓÕì¼?
-…JSXÇÔ¼?
-9¸f÷Ï¼?
-«ü|Fë´¼?
-ZÎï°¼?
-æ¦i~¼?
-/ş’g†¼?
-ƒ÷ŒÆ©\¼?
-ÎbpûD¼?
-Í<ˆD¼?
-ÓV…)¼?
-¹¯ğ}k'¼?
-|–„âE!¼?
-ÅÔ
-¼?
-ù«„s¼?
-¦v€4} ¼?
-ó‘€|åß»?
-'3o&Ú»?
-‹Ú‹2¾»?
-÷pf=!¸»?
-ñ\´§/·»?
-­(\ »?
-ŠÜ~Àhl»?
-Zòàyh»?
-äRâîS»?
-=#Æ!47»?
-v†»?
-”Ãuà[»?
-úîØ‹»?
-z£ÁÇ±úº?
-/xÃò‡Ûº?
-~§ó:Óº?
-!ÂeMĞÀº?
-T)e¦º?
-Š©CEƒº?
-³èMŒ¥pº?
-6«3¯/Aº?
-Fö­øl3º?
-*~ñ•1/º?
-à	‘E".º?
-ßÏCº?
-P-gõ¹?
-:A^UŞ¹?
-±ç©P;Ï¹?
-àúæÂ¹?
-ª0İ™º¹?
-ÁÆdjŒ¢¹?
-Ê~Úœú¹?
-R7êÒ<—¹?
-‘$(¯ø‡¹?
-Sqj‡&…¹?
-L`õóp¹?
-ÙŒk¹?
-zƒöwxb¹?
- :U–X¹?
-W€Úş• ¹?
-a®’ûÙ¹?
-ÆÂÊï¸?
-F ×ğµé¸?
-5N¦+PØ¸?
-EBı¢3Ç¸?
-:Axn½¸?
-&Æ3¢¹³¸?
-ı™×$R²¸?
-–“—£§¸?
-‘ÌÉİp¸?
-×•{Jaj¸?
-ßÙS¸?
-€llß%¸?
-0Ş&±½¸?
-T`¬É¸?
-~€†'Ê¸?
-³êë·¸?
-3xXİì·?
-xPÕËì·?
-ß¥RÁß·?
-Še ª·?
-‰ºiÄz¨·?
-?«ı]£§·?
-i
-œ\~¢·?
-J@l5¿˜·?
-¢¶L²_·?
-÷³ærp·?
-t¸U·?
-0”õ‚·?
-w(¤·?
-Š™^#á¶?
-Rl`Í¶?
-Ó·£™‹°¶?
-óÕş7¡¶?
-VÓÁÈ…¶?
-³©3½¬G¶?
-®	rs?¶?
-áIñ$‚4¶?
-çÀ™}F
-¶?
-á»ó–ş¶?
-@péãüµ?
-Å7-ñµ?
-K\{Sàµ?
-q¤4ï^Ğµ?
-#Ú¶Çµ?
-p!ª¨2¯µ?
-s8Á®µ?
-‹Ñü×§µ?
-n!·x¾¢µ?
-Ø=¢­‰µ?
-”2€Ù†µ?
-ÃĞYlµ?
-şFLYµ?
-È .=µ?
-¶7¢ï?:µ?
-ş®Òÿ7µ?
-¯ì_z‰%µ?
-™fÏõİµ?
-Ñ]šiç´?
-dÓ7çâ´?
-BœÙ+Ã´?
-«éVï9»´?
-"›í«µ´?
-€[ƒS){´?
-ôèˆ¯b´?
-!òæÆˆ_´?
-,·F—Q´?
-„G…BP´?
-¡&?1Œ>´?
-@ D‘Î´?
-±‹2ab´?
-Tğ´?
-\{»ı³?
-oV^­ëë³?
-…÷JTfé³?
-‰(\¨_Ğ³?
-3üÓFĞ³?
-w§Ş•%Å³?
-‡«Å³?
-‹ÃHã¼³?
-’ug(	·³?
-æ€eÁÎ³³?
-Oöƒ&°³?
-®º	sS¤³?
-eU>Mc‘³?
-°›H#‘³?
-}{ Èë³?
-tıû22³?
-‡%Åãu³?
-"¢›Z–[³?
-+;ûÖrZ³?
-¡­—+tI³?
-EÚÛ±"³?
-®`ªc³?
-k€¢OX³?
-) -n	ù²?
-ûP›ø²?
-¯KC„Fí²?
-€]–t5Ñ²?
-œuˆ?Æ²?
-ú÷i&¾²?
-æ²ãgº²?
-ÇY$š¢²?
-éN>XC”²?
-?—U€V²?
-rîÎŒ²?
-§å‹¨,z²?
->ş’9ss²?
-. ±~¦c²?
-¸7YÖZ²?
-]ŠmTZ²?
-ª¯_5Ñ&²?
-oËæ6!²?
-Lñønª²?
->L¿~ê±?
-»Ü9<Û±?
- O:WÖ±?
-v›pÏ±?
-¤shYÂ±?
-ª‚„i±±?
-OF{p–±?
-êê±?
-–{xq±?
-\	Sl±?
-«Û4JŸh±?
-Et™÷g±?
-ŠgGa±?
-î¤^±?
-êGQI1Y±?
-vº=¤!T±?
-Gh‹œS±?
-o`àiJ±?
-DqÀcJ±?
-•‹—å±?
-Ü6]É±?
-L›èPÛû°?
-ß{qFû°?
-Û»ROZõ°?
-Ù=Qró°?
-J*gî°?
-;üYâ°?
-Ğˆ$Ú°?
-3½ßf¿°?
-·ºT¨Á¼°?
-1œo¬°?
-K–Ø^t›°?
-¿m(a—°?
-DÆ”ÙŸ…°?
-=NDU°?
-xëĞIhS°?
-ùŠfJ°?
-Ù&2)<°?
-qÈ«'°?
-NÑèo°?
-õôP2ò°?
-JéP·"°?
-,À4G°?
-¢˜nê–÷¯?
-"«İ¯?
-Œ#¼)©Õ¯?
-ìT^~ë”¯?
-nT~YÊ0¯?
-´æû÷ı®?
-üüTXš’®?
-`h®?
-mi¯İ,^®?
-,c‚˜?®?
-½‰™u=®?
-¸ÌÔ­?
-/Ş—Åº­?
-oŞ¢0Ih­?
-b³83b­?
-ÉªXP­?
-œô¸³¢N­?
-u±í$ÿ¬?
-(‹·YÚ¬?
-TÓ7%Í¬?
-æò£Ã¬?
-„Ëgº¬¬?
-¬Á`ò*n¬?
-•m;,x«?
-ÛÔ˜‹P«?
-º	ßÕ«?
-hÚV7ª?
-~ ;ª ¦©?
-ãM…9ƒ7©?
+@5>
+,2>
+*Ï->
+‰>,>
+/,,>
+ü”)>
+×j)>
+dj'>
+˜8'>
+¦Æ&>
+!İ$>
+$9$>
+,à!>
+>q!>
+r² >
+9%>
+Ç >
+À»>
+Ïî>
+ïP>
+D>
+•>
+‰K>
+;˜>
+3İ>
+ñ¤>
+#‹>
+Æ\>
+ßG>
+§ÿ>
+£°>
+sD>
+P+>
+·Ç
+>
+¡~
+>
+ò¨	>
+ÚS>
+$>
+¬&>
+å
+>
+bi>
+TV>
+ûœ>
+Uş >
+¢wÿ=
+¾ş=
+dú=
+Ğù=
+'öø=
+±]ø=
+IÁ÷=
+¤àô=
+úDñ=
+}ñ=
+ÍÊë=
+|ë=
+¥wç=
+)™å=
+ïhå=
+ÉÀâ=
+Iâ=
+{Ş=
+Ÿ|İ=
+ï^Ü=
+ıÚ=
+K2Ú=
+ËÙ=
+mJØ=
+ãb×=
+'–Õ=
+U?Ô=
+ÙÃÒ=
+t¸Ñ=
+ÉÄĞ=
+S˜Í=
+n`Ì=
+ıÃË=
+Ó3É=
+âÆ=
+²Å=
+îaÅ=
+°t¾=
+}~»=
+	¾º=
+=Ÿº=
+vº=
+}c¸=
+YBµ=
+‰µ=
+ÇŠ²=
+¹>²=
+py±=
+DK°=
+›®=
+d•¬=
+œµ©=
+ø“©=
+ˆ8¥=
+æ¤=
+Q¢ =
+ŒŸ=
+=
+İÕ›=
+Ì*˜=
+ÈÕ“=
+ş€“=
+9“=
+'“=
+ª§=
+—K=
+“I=
+ûŒ=
+·ù‹=
+]£‹=
+çKŠ=
+Ğo‰=
+ƒM‡=
+_(‡=
+‡=
+Ô±…=
+K6…=
+M™„=
+a±‚=
+W‹=
+-u=
+~=
+é|=
+ºÙv=
+8t=
+ñ¨p=
+!ğj=
+aÙj=
+Ú j=
+‘<h=
+L†a=
+lŞ^=
+yÏ\=
+G¬Z=
+]¢Z=
+´N=
+Ş³G=
+I“G=
+Í´E=
+×³D=
+CåC=
+<A?=
+*/:=
+¢½5=
+İw1=
+y‚0=
+“^$=
+Âã=
+ú=
+uµ=
+®ë=
+q†=
+8‰=
+À°=
+á4=
+QÑ=
+«¿=
+u™=
+Ü0=
+u=
+-ï
+=
+T¡
+=
+ñR=
+aâ=
+)õ=
+ËÍı<
+„Uç<
+ĞCà<
+`Ù<
+U‰×<
+a-Ó<
+§LÑ<
+N†Î<
+Î%Æ<
+Ê±<
+¶a¤<
+…p£<
+ğì›<
+#‰<
+q®‡<
+a‡<
+ãô…<
+^fr<
+õe<
+Ta<
+Ù|[<
+†ØL<
+ıC<
+5$4<
+Y•3<
+ÿµ#<
+Š£<
+V'<
+|<
+e{<
+ôe<
+ª.<
+8uÿ;
+ĞÂÒ;
+¥ãµ;
+T€™;
+X×;
+s$ğ:
+„Ãë:
+Y(:
+ œñ9
+·¨9
+%!9
+pNÌ8
+F8
+ò—7
+Gë?7
+ êq6
+bF6
+£Ï5
+]½‚5
+0ö[5
+j¹Ú4
+ô¤h4
+ÍKñ3
+Væ¾3
+•?‡3
+Ù€3
+ô±(3
+täà2
+v'1
+ë×Ï0
+Óøf0
+|ÈT0
+m¤/
+Ôz‡/
+»‰/
+„i/
+h/
+ÍÚ×-
+Pe-
+Iëó,
+Ø‰,
+™N,
+9¹J,
+Ôç+,
+ê,
+şÍº+
+(ıª+
+bÍ+
+ÚèE*
+Ü“*
+×Úá)
+[™J)
+ÇO„(
+éĞ¤&
+ÁS‰&
+E›r&
+£#&
+:%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
+‡ş;%
 
