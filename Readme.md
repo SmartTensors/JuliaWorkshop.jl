@@ -1,4 +1,4 @@
-# JuliaWorkshop
+# Julia Workshop Materials
 
 A module capturing a series of notebooks and scripts presenting Julia capabilities.
 
