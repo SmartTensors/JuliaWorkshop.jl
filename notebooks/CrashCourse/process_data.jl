@@ -1,6 +1,8 @@
 import DelimitedFiles
 import XLSX
 import DataFrames
+import Mads
+import Dates
 
 dir = @__DIR__
 cd(dir)
@@ -10,6 +12,8 @@ DelimitedFiles.writedlm(joinpath(dir, "rand.csv"), X, ',')
 Xn = DelimitedFiles.readdlm(joinpath(dir, "rand.csv"), ',')
 @assert(X == Xn)
 rm(joinpath(dir, "rand.csv"))
+Mads.plotseries(Xn)
+Mads.plotseries(Xn; xaxis=Dates.Date(2022,7,14):Dates.Day(1):Dates.Date(2022,7,14)+Dates.Day(9), xmax=Dates.Date(2022,7,14)+Dates.Day(9))
 
 df = DataFrames.DataFrame(Name=["Cats", "Dogs", "Horses"], Value=[1.3, 2.1, 5.5])
 XLSX.openxlsx(joinpath(dir, "test.xlsx"), mode="w") do xf
