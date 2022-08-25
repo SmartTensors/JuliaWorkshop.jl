@@ -16,6 +16,7 @@ Mads.plotseries(Xn)
 Mads.plotseries(Xn; xaxis=Dates.Date(2022,7,14):Dates.Day(1):Dates.Date(2022,7,14)+Dates.Day(9), xmax=Dates.Date(2022,7,14)+Dates.Day(9))
 
 df = DataFrames.DataFrame(Name=["Cats", "Dogs", "Horses"], Value=[1.3, 2.1, 5.5])
+display(df)
 XLSX.openxlsx(joinpath(dir, "test.xlsx"), mode="w") do xf
 	XLSX.addsheet!(xf, "Animals")
 	for (col, name) in enumerate(names(df))
@@ -26,6 +27,7 @@ XLSX.openxlsx(joinpath(dir, "test.xlsx"), mode="w") do xf
 	end
 end
 
-a = XLSX.readtable(joinpath(dir, "test.xlsx"), "Animals"; header=false, stop_in_empty_row=false, first_row=0)
+a = DataFrames.DataFrame(XLSX.readtable(joinpath(dir, "test.xlsx"), "Animals"; header=false, stop_in_empty_row=false, first_row=0))
+display(a)
 
 rm(joinpath(dir, "test.xlsx"))
