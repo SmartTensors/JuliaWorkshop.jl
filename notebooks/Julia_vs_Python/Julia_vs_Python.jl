@@ -8,7 +8,7 @@ function estimate_pi(n)
     4s # or return 4s
 end
 
-p = estimate_pi(100_000_000)
+@time p = estimate_pi(100_000_000)
 println("π ≈ $p")
 println("Error is $(p - π)")
 
@@ -17,15 +17,15 @@ import PyCall
 sys = PyCall.pyimport("sys")
 sys.version
 
-PyCall.py"""
+@time PyCall.py"""
 import math
- 
+
 def estimate_pi(n):
     s = 1.0
     for i in range(1, n + 1):
         s += (-1 if i % 2 else 1) / (2 * i + 1)
     return 4 * s
- 
+
 p = estimate_pi(100_000_000)
 print(f"π ≈ {p}") # f-strings are available in Python 3.6+
 print(f"Error is {p - math.pi}")
@@ -55,6 +55,7 @@ x = range(-5π, 5π; length=100)
 PyPlot.plt.plot(x, sin.(x) ./ x) # we'll discuss this syntax in the next section
 PyPlot.plt.title("sin(x) / x")
 PyPlot.plt.grid("True")
+PyPlot.plt.gcf()
 
 println(collect(range(10, 80, step=20)))
 println(collect(10:20:80)) # 10:20:80 is equivalent to the previous range
