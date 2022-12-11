@@ -31,12 +31,12 @@ Mads.plotseries(x; title="Input")
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_7_0.png)
-    
 
 
-    
+
+
 
 
 ```julia
@@ -44,12 +44,12 @@ Mads.plotseries(y_true; title="True output")
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_8_0.png)
-    
 
 
-    
+
+
 
 Below, `SVR` results using diferent kernels are demonsrated.
 
@@ -61,12 +61,12 @@ Mads.plotseries([y_true SVR.fit(y_true, permutedims(x); kernel_type=SVR.RBF)]; t
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_10_0.png)
-    
 
 
-    
+
+
 
 Predict `y` based on `x` using `LINEAR`:
 
@@ -76,12 +76,12 @@ Mads.plotseries([y_true SVR.fit(y_true, permutedims(x); kernel_type=SVR.LINEAR)]
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_12_0.png)
-    
 
 
-    
+
+
 
 Predict `y` based on `x` using `POLY`:
 
@@ -91,12 +91,12 @@ Mads.plotseries([y_true SVR.fit(y_true, permutedims(x); kernel_type=SVR.POLY)]; 
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_14_0.png)
-    
 
 
-    
+
+
 
 ## Example: Predicting a simple function
 
@@ -117,12 +117,12 @@ Mads.plotseries(x'; xmax=101)
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_19_0.png)
-    
 
 
-    
+
+
 
 We train `SVR` to predict `x` given `y`
 
@@ -339,7 +339,7 @@ After that we want to predict `x` for a given values of `a`, `b` and `c`
 ```julia
 y_predict = [0.75, 0.1, 0.2]
 x_true = y_predict[1] .* t' .^ 0.5 + y_predict[2] .* t' .+ y_predict[3]
-x_predict = [SVR.predict(pmodel[i], y_predict)[1] for i = 1:length(t)];
+x_predict = [SVR.predict(pmodel[i], y_predict)[1] for i = eachindex(t)];
 ```
 
 The obtained result looks like this:
@@ -350,9 +350,9 @@ Mads.plotseries([x_true' x_predict]; names=["True", "Prediction"], xmax=101)
 ```
 
 
-    
+
 ![png](SupportVectorRegression_files/SupportVectorRegression_25_0.png)
-    
 
 
-    
+
+

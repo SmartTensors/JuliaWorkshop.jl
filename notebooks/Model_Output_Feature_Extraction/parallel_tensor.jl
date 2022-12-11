@@ -1,6 +1,6 @@
 
 
-for i = 1:length(a)
+for i = eachindex(a)
 using Distributed
 @distributed for i in 1:1:11
 

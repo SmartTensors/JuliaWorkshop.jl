@@ -25,6 +25,6 @@ pmodel = SVR.train(x, permutedims(y); tol=0.001, epsilon=0.1);
 
 y_predict = [0.75, 0.1, 0.2]
 x_true = y_predict[1] .* t' .^ 0.5 + y_predict[2] .* t' .+ y_predict[3]
-x_predict = [SVR.predict(pmodel[i], y_predict)[1] for i = 1:length(t)];
+x_predict = [SVR.predict(pmodel[i], y_predict)[1] for i = eachindex(t)];
 
 Mads.plotseries([x_true' x_predict]; names=["True", "Prediction"], xmax=101)

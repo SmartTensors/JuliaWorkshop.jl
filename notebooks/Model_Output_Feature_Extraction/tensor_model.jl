@@ -106,7 +106,7 @@ for d in readdir(indir)
                 # continue
                 # end
                 a = HDF5.read(hf, n)
-                # for i = 1:length(a)
+                # for i = eachindex(a)
                 ka = Vector{Int64}(undef, length(a))
                 kaa = Vector{Vector{Int64}}(undef, length(a))
                 wg = Vector{Vector{Int64}}(undef, length(a))
@@ -224,7 +224,7 @@ for d in readdir(indir)
                 kaa = Vector{Vector{Int64}}(undef, length(varnames_long))
                 wg = Vector{Vector{Int64}}(undef, length(varnames_long))
                 wgf = falses(length(varnames_long))
-                for i = 1:length(varnames_long)
+                for i = eachindex(varnames_long)
                         # if "Min stream flow" != varnames_long[i]
                         # continue
                         # end
@@ -270,7 +270,7 @@ for d in readdir(indir)
         @info("Processing $case ...")
         nkrange = 2:20
         nNMF = 10
-        for i = 1:length(varnames_long)
+        for i = eachindex(varnames_long)
                 # if "Min stream flow" != varnames_long[i]
                 # continue
                 # end
@@ -354,7 +354,7 @@ for d in readdir(indir)
                 # end
                 a = HDF5.read(hf, n)
                 a2 = HDF5.read(hf2, n)
-                # for i = 1:length(a)
+                # for i = eachindex(a)
                 ka = Vector{Int64}(undef, length(a))
                 kaa = Vector{Vector{Int64}}(undef, length(a))
                 wg = Vector{Vector{Int64}}(undef, length(a))
@@ -485,7 +485,7 @@ for d in readdir(indir)
                 # continue
                 # end
                 a = HDF5.read(hf, n)
-                # for i = 1:length(a)
+                # for i = eachindex(a)
                 ka = Vector{Int64}(undef, length(a))
                 kaa = Vector{Vector{Int64}}(undef, length(a))
                 wg = Vector{Vector{Int64}}(undef, length(a))
