@@ -1,11 +1,11 @@
 ?exp
 
 function estimate_pi(n)
-    s = 1.0
-    for i in 1:n
-        s += (isodd(i) ? -1 : 1) / (2i + 1)
-    end
-    4s # or return 4s
+	s = 1.0
+	for i in 1:n
+		s += (isodd(i) ? -1 : 1) / (2i + 1)
+	end
+	4s # or return 4s
 end
 
 @time p = estimate_pi(100_000_000)
@@ -21,10 +21,10 @@ sys.version
 import math
 
 def estimate_pi(n):
-    s = 1.0
-    for i in range(1, n + 1):
-        s += (-1 if i % 2 else 1) / (2 * i + 1)
-    return 4 * s
+	s = 1.0
+	for i in range(1, n + 1):
+		s += (-1 if i % 2 else 1) / (2 * i + 1)
+	return 4 * s
 
 p = estimate_pi(100_000_000)
 print(f"π ≈ {p}") # f-strings are available in Python 3.6+
@@ -110,10 +110,10 @@ s = "ångström" # Julia strings are UTF-8 encoded by default
 println(s)
 
 s = "Julia strings
-     can span
-     several lines\n\n
-     and they support the \"usual\" escapes like
-     \x41, \u5bb6, and \U0001f60a!"
+	 can span
+	 several lines\n\n
+	 and they support the \"usual\" escapes like
+	 \x41, \u5bb6, and \U0001f60a!"
 println(s)
 
 s = repeat("tick, ", 10) * "BOOM!"
@@ -133,13 +133,13 @@ occursin("sip", "Mississippi")
 replace("I like coffee", "coffee" => "tea")
 
 s = """
-       1. the first line feed is ignored if it immediately follows \"""
-       2. triple quotes let you use "quotes" easily
-       3. indentation is ignored
-           - up to left-most character
-           - ignoring the first line (the one with \""")
-       4. the final line feed it n̲o̲t̲ ignored
-       """
+	   1. the first line feed is ignored if it immediately follows \"""
+	   2. triple quotes let you use "quotes" easily
+	   3. indentation is ignored
+		   - up to left-most character
+		   - ignoring the first line (the one with \""")
+	   4. the final line feed it n̲o̲t̲ ignored
+	   """
 println("<start>")
 println(s)
 println("<end>")
@@ -152,16 +152,16 @@ s = "The car costs \$10,000"
 println(s)
 
 s = raw"In a raw string, you only need to escape quotes \", but not
-        $ or \. There is one exception, however: the backslash \
-        must be escaped if it's just before quotes like \\\"."
+		$ or \. There is one exception, however: the backslash \
+		must be escaped if it's just before quotes like \\\"."
 println(s)
 
 s = raw"""
    Triple quoted raw strings are possible too: $, \, \t, "
-     - They handle indentation and the first line feed like regular
-       triple quoted strings.
-     - You only need to escape triple quotes like \""", and the
-       backslash before quotes like \\".
+	 - They handle indentation and the first line feed like regular
+	   triple quoted strings.
+	 - You only need to escape triple quotes like \""", and the
+	   backslash before quotes like \\".
    """
 println(s)
 
@@ -174,7 +174,7 @@ s = "cafe\u0301"
 println(s, " has ", length(s), " code points")
 
 for c in "cafe\u0301"
-    display(c)
+	display(c)
 end
 
 sizeof('é')
@@ -202,19 +202,19 @@ println(s[4])
 println(s[5])
 
 try
-    s[2]
+	s[2]
 catch ex
-    ex
+	ex
 end
 
 s[1:3]
 
 for c in s
-    println(c)
+	println(c)
 end
 
 for i in eachindex(s)
-    println(i, ": ", s[i])
+	println(i, ": ", s[i])
 end
 
 findfirst(isequal('t'), "être")
@@ -259,11 +259,11 @@ replace("Want more bread?", r"(?<verb>more|less)" => s"\g<verb> and \g<verb>")
 
 a = 1
 if a == 1
-    println("One")
+	println("One")
 elseif a == 2
-    println("Two")
+	println("Two")
 else
-    println("Other")
+	println("Other")
 end
 
 @assert false ⊻ false == false
@@ -281,34 +281,34 @@ a == 2 || println("Not two")
 
 a = 1
 result = if a == 1
-             "one"
-         else
-             "two"
-         end
+			 "one"
+		 else
+			 "two"
+		 end
 result
 
 a = 1
 result = if a == 2
-            "two"
-          end
+			"two"
+		  end
 
 isnothing(result)
 
 typeof(nothing)
 
 for a in 1:2, b in 1:3, c in 1:2
-    println((a, b, c))
+	println((a, b, c))
 end
 
 for a in 1:2, b in 1:3, c in 1:2
-    println((a, b, c))
-    (a, b, c) == (2, 1, 1) && break
+	println((a, b, c))
+	(a, b, c) == (2, 1, 1) && break
 end
 
 found = false
 for person in ["Joe", "Jane", "Wally", "Jack", "Julia"] # try removing "Wally"
-    println("Looking at $person")
-    person == "Wally" && (found = true; break)
+	println("Looking at $person")
+	person == "Wally" && (found = true; break)
 end
 found || println("I did not find Wally.")
 
@@ -355,8 +355,8 @@ nt.name
 dump(nt)
 
 struct Person
-    name
-    age
+	name
+	age
 end
 
 p = Person("Mary", 30)
@@ -364,44 +364,44 @@ p = Person("Mary", 30)
 p.age
 
 function Person(name)
-    Person(name, -1)
+	Person(name, -1)
 end
 
 function Person()
-    Person("no name")
+	Person("no name")
 end
 
 p = Person()
 
 struct Person2
-    name
-    age
-    function Person2(name)
-        new(name, -1)
-    end
+	name
+	age
+	function Person2(name)
+		new(name, -1)
+	end
 end
 
 function Person2()
-    Person2("no name")
+	Person2("no name")
 end
 
 p = Person2()
 
 try
-    Person2("Bob", 40)
+	Person2("Bob", 40)
 catch ex
-    ex
+	ex
 end
 
 try
-    p.name = "Someone"
+	p.name = "Someone"
 catch ex
-    ex
+	ex
 end
 
 mutable struct Person3
-    name
-    age
+	name
+	age
 end
 
 p = Person3("Lucy", 79)
@@ -441,8 +441,8 @@ push!(a, 9, 16)
 pop!(a)
 
 M = [1   2   3   4
-     5   6   7   8
-     9  10  11  12]
+	 5   6   7   8
+	 9  10  11  12]
 
 M = [1 2 3 4; 5 6 7 8; 9 10 11 12]
 
@@ -451,9 +451,9 @@ M[2:3, 3:4]
 M'
 
 M1 = [1 2
-      3 4]
+	  3 4]
 M2 = [5 6
-      7 8]
+	  7 8]
 vcat(M1, M2)
 
 [M1; M2]
@@ -505,7 +505,7 @@ haskey(d, "love")
 d = Dict(i=>i^2 for i in 1:5)
 
 for (k, v) in d
-    println("$k maps to $v")
+	println("$k maps to $v")
 end
 
 d1 = Dict("tree"=>"arbre", "love"=>"amour", "coffee"=>"café")
@@ -527,13 +527,13 @@ println("Indexing works fine as long as the array is unchanged: ", d[a])
 a[1] = 10
 println("This is the dictionary now: $d")
 try
-    println("Key changed, indexing is now broken: ", d[a])
+	println("Key changed, indexing is now broken: ", d[a])
 catch ex
-    ex
+	ex
 end
 
 for pair in d
-    println(pair)
+	println(pair)
 end
 
 odd = Set([1, 3, 5, 7, 9, 11])
@@ -579,17 +579,17 @@ b = [1, 2, 4]
 @assert a !== b # but they are not the same object
 
 function estimate_pi2(n)
-    4 * sum((isodd(i) ? -1 : 1)/(2i+1) for i in 0:n)
+	4 * sum((isodd(i) ? -1 : 1)/(2i+1) for i in 0:n)
 end
 
 @assert estimate_pi(100) == estimate_pi2(100)
 
 for (i, s) in zip(10:13, ["Ten", "Eleven", "Twelve"])
-    println(i, ": ", s)
+	println(i, ": ", s)
 end
 
 for (i, s) in enumerate(["One", "Two", "Three"])
-    println(i, ": ", s)
+	println(i, ": ", s)
 end
 
 collect(1:5)
@@ -597,47 +597,47 @@ collect(1:5)
 [1:5;]
 
 function fibonacci(n)
-    Channel() do ch
-        a, b = 1, 1
-        for i in 1:n
-            put!(ch, a)
-            a, b = b, a + b
-        end
-    end
+	Channel() do ch
+		a, b = 1, 1
+		for i in 1:n
+			put!(ch, a)
+			a, b = b, a + b
+		end
+	end
 end
 
 for f in fibonacci(10)
-    println(f)
+	println(f)
 end
 
 function draw_face(x, y, width=3, height=4)
-    println("x=$x, y=$y, width=$width, height=$height")
+	println("x=$x, y=$y, width=$width, height=$height")
 end
 
 draw_face(10, 20, 30)
 
 try
-    draw_face(10, 20, width=30)
+	draw_face(10, 20, width=30)
 catch ex
-    ex
+	ex
 end
 
 function copy_files(target_dir, paths...)
-    println("target_dir=$target_dir, paths=$paths")
+	println("target_dir=$target_dir, paths=$paths")
 end
 
 copy_files("/tmp", "a.txt", "b.txt")
 
 function copy_files2(paths...; confirm=false, target_dir)
-    println("paths=$paths, confirm=$confirm, $target_dir")
+	println("paths=$paths, confirm=$confirm, $target_dir")
 end
 
 copy_files2("a.txt", "b.txt"; target_dir="/tmp")
 
 function copy_files3(paths...; confirm=false, target_dir, options...)
-    println("paths=$paths, confirm=$confirm, $target_dir")
-    verbose = options[:verbose]
-    println("verbose=$verbose")
+	println("paths=$paths, confirm=$confirm, $target_dir")
+	verbose = options[:verbose]
+	println("verbose=$verbose")
 end
 
 copy_files3("a.txt", "b.txt"; target_dir="/tmp", verbose=true, timeout=60)
@@ -645,7 +645,7 @@ copy_files3("a.txt", "b.txt"; target_dir="/tmp", verbose=true, timeout=60)
 square(x) = x^2
 
 function square(x)
-    x^2
+	x^2
 end
 
 estimate_pi3(n) = 4 * sum((isodd(i) ? -1 : 1)/(2i+1) for i in 0:n)
@@ -659,14 +659,14 @@ map(x -> (
   x^2), 1:4)
 
 map(x -> begin
-        println("Number $x")
-        x^2
-    end, 1:4)
+		println("Number $x")
+		x^2
+	end, 1:4)
 
 map(function (x)
-        println("Number $x")
-        x^2
-    end, 1:4)
+		println("Number $x")
+		x^2
+	end, 1:4)
 
 map(1:4) do x
   println("Number $x")
@@ -674,25 +674,25 @@ map(1:4) do x
 end
 
 function my_for(func, collection)
-    for i in collection
-        func(i)
-    end
+	for i in collection
+		func(i)
+	end
 end
 
 my_for(1:4) do i
-    println("The square of $i is $(i^2)")
+	println("The square of $i is $(i^2)")
 end
 
 function spawn_server(startup_func, server_type)
-    println("Starting $server_type server")
-    server_id = 1234
-    println("Configuring server $server_id...")
-    startup_func(server_id)
+	println("Starting $server_type server")
+	server_id = 1234
+	println("Configuring server $server_id...")
+	startup_func(server_id)
 end
 
 # This is the DSL part
 spawn_server("web") do server_id
-    println("Creating HTML pages on server $server_id...")
+	println("Creating HTML pages on server $server_id...")
 end
 
 handlers = []
@@ -702,29 +702,29 @@ on_click(handler) = push!(handlers, handler)
 click(event) = foreach(handler->handler(event), handlers)
 
 on_click() do event
-    println("Mouse clicked at $event")
+	println("Mouse clicked at $event")
 end
 
 on_click() do event
-    println("Beep.")
+	println("Beep.")
 end
 
 click((x=50, y=20))
 click((x=120, y=10))
 
 function with_database(func, name)
-    println("Opening connection to database $name")
-    db = "a db object for database $name"
-    try
-        func(db)
-    finally
-        println("Closing connection to database $name")
-    end
+	println("Opening connection to database $name")
+	db = "a db object for database $name"
+	try
+		func(db)
+	finally
+		println("Closing connection to database $name")
+	end
 end
 
 with_database("jobs") do db
-    println("I'm working with $db")
-    #error("Oops") # try uncommenting this line
+	println("I'm working with $db")
+	#error("Oops") # try uncommenting this line
 end
 
 
@@ -739,21 +739,21 @@ f = exp ∘ sin ∘ sqrt
 f(2.0) == exp(sin(sqrt(2.0)))
 
 struct Person
-    name
-    age
+	name
+	age
 end
 
 function greetings(greeter)
-    println("Hi, my name is $(greeter.name), I am $(greeter.age) years old.")
+	println("Hi, my name is $(greeter.name), I am $(greeter.age) years old.")
 end
 
 p = Person("Alice", 70)
 greetings(p)
 
 struct City
-    name
-    country
-    age
+	name
+	country
+	age
 end
 
 import Dates
@@ -762,14 +762,14 @@ c = City("Auckland", "New Zealand", Dates.year(Dates.now()) - 1840)
 greetings(c)
 
 struct Developer
-    name
-    age
-    language
+	name
+	age
+	language
 end
 
 function greetings(dev::Developer)
-    println("Hi, my name is $(dev.name), I am $(dev.age) years old.")
-    println("My favorite language is $(dev.language).")
+	println("Hi, my name is $(dev.name), I am $(dev.age) years old.")
+	println("My favorite language is $(dev.language).")
 end
 
 d = Developer("Amy", 40, "Julia")
@@ -794,17 +794,17 @@ ambig(a::Int64, b) = 1
 ambig(a, b::Int64) = 2
 
 try
-    ambig(10, 20)
+	ambig(10, 20)
 catch ex
-    ex
+	ex
 end
 
 ambig(a::Int64, b::Int64) = 3
 ambig(10, 20)
 
 function how_can_i_help(greeter)
-    greetings(greeter)
-    println("How can I help?")
+	greetings(greeter)
+	println("How can I help?")
 end
 
 how_can_i_help(p) # called on a Person
@@ -813,22 +813,22 @@ how_can_i_help(d) # called on a Developer
 super(dev::Developer) = Person(dev.name, dev.age)
 
 function greetings(dev::Developer)
-    greetings(super(dev))
-    println("My favorite language is $(dev.language).")
+	greetings(super(dev))
+	println("My favorite language is $(dev.language).")
 end
 
 greetings(d)
 
 function greetings(dev::Developer)
-    invoke(greetings, Tuple{Any}, dev)
-    println("My favorite language is $(dev.language).")
+	invoke(greetings, Tuple{Any}, dev)
+	println("My favorite language is $(dev.language).")
 end
 
 greetings(d)
 
 struct Rectangle
-    width
-    height
+	width
+	height
 end
 
 width(rect::Rectangle) = rect.width
@@ -837,7 +837,7 @@ height(rect::Rectangle) = rect.height
 area(rect) = width(rect) * height(rect)
 
 struct Square
-    length
+	length
 end
 
 width(sq::Square) = sq.length
@@ -871,10 +871,10 @@ Base.show_supertypes(Float64)
 Base.show_supertypes(Int64)
 
 function show_hierarchy(root, indent=0)
-    println(repeat(" ", indent * 4), root)
-    for subtype in subtypes(root)
-        show_hierarchy(subtype, indent + 1)
-    end
+	println(repeat(" ", indent * 4), root)
+	for subtype in subtypes(root)
+		show_hierarchy(subtype, indent + 1)
+	end
 end
 
 show_hierarchy(Number)
@@ -886,13 +886,13 @@ import Base.iterate
 iterate(f::FibonacciIterator) = (1, (1, 1))
 
 function iterate(f::FibonacciIterator, state)
-    new_state = (state[2], state[1] + state[2])
-    (new_state[1], new_state)
+	new_state = (state[2], state[1] + state[2])
+	(new_state[1], new_state)
 end
 
 for f in FibonacciIterator()
-    println(f)
-    f > 10 && break
+	println(f)
+	f > 10 && break
 end
 
 struct MySquares end
@@ -912,14 +912,14 @@ getindex(S::MySquares, r::UnitRange) = [S[i] for i in r]
 S[1:4]
 
 struct MyRational <: Real
-    num # numerator
-    den # denominator
+	num # numerator
+	den # denominator
 end
 
 MyRational(2, 3)
 
 function ⨸(num, den)
-    MyRational(num, den)
+	MyRational(num, den)
 end
 
 2 ⨸ 3
@@ -929,7 +929,7 @@ end
 import Base.+
 
 function +(r1::MyRational, r2::MyRational)
-    (r1.num * r2.den + r1.den * r2.num) ⨸ (r1.den * r2.den)
+	(r1.num * r2.den + r1.den * r2.num) ⨸ (r1.den * r2.den)
 end
 
 2 ⨸ 3 + 3 ⨸ 5
@@ -937,13 +937,13 @@ end
 import Base.show
 
 function show(io::IO, r::MyRational)
-    print(io, "$(r.num) ⨸ $(r.den)")
+	print(io, "$(r.num) ⨸ $(r.den)")
 end
 
 2 ⨸ 3 + 3 ⨸ 5
 
 function show(io::IO, ::MIME"text/html", r::MyRational)
-    print(io, "<sup><b>$(r.num)</b></sup>&frasl;<sub><b>$(r.den)</b></sub>")
+	print(io, "<sup><b>$(r.num)</b></sup>&frasl;<sub><b>$(r.den)</b></sub>")
 end
 
 2 ⨸ 3 + 3 ⨸ 5
@@ -951,13 +951,13 @@ end
 import Base.*
 
 function *(r::MyRational, i::Integer)
-    (r.num * i) ⨸ r.den
+	(r.num * i) ⨸ r.den
 end
 
 2 ⨸ 3 * 5
 
 function *(i::Integer, r::MyRational)
-    r * i # this will call the previous method
+	r * i # this will call the previous method
 end
 
 5 * (2 ⨸ 3) # we need the parentheses since * and ⨸ have the same priority
@@ -976,13 +976,13 @@ push!(a, 6) # convert(MyRational, 6) is called automatically
 println(a)
 
 function for_my_rationals_only(x::MyRational)
-    println("It works:", x)
+	println("It works:", x)
 end
 
 try
-    for_my_rationals_only(42)
+	for_my_rationals_only(42)
 catch ex
-    ex
+	ex
 end
 
 promote(1, 2, 3, 4.0)
@@ -1012,8 +1012,8 @@ promote(1 ⨸ 2, 4.0)
 2.25 ^ (1 ⨸ 2)
 
 struct MyRational2{T <: Integer}
-    num::T
-    den::T
+	num::T
+	den::T
 end
 
 MyRational2{BigInt}(2, 3)
@@ -1021,20 +1021,20 @@ MyRational2{BigInt}(2, 3)
 MyRational2(2, 3)
 
 function MyRational2(num::Integer, den::Integer)
-    MyRational2(promote(num, den)...)
+	MyRational2(promote(num, den)...)
 end
 
 MyRational2(2, BigInt(3))
 
 function for_any_my_rational2(x::MyRational2)
-    println(x)
+	println(x)
 end
 
 for_any_my_rational2(MyRational2{BigInt}(1, 2))
 for_any_my_rational2(MyRational2{Int64}(1, 2))
 
 function for_any_my_rational2(x::MyRational2{T}) where {T <: Integer}
-    println(x)
+	println(x)
 end
 
 @assert MyRational2{BigInt}(2, 3) isa MyRational2{BigInt}
@@ -1046,66 +1046,66 @@ end
 dump(MyRational2)
 
 open("test.txt", "w") do f
-    write(f, "This is a test.\n")
-    write(f, "I repeat, this is a test.\n")
+	write(f, "This is a test.\n")
+	write(f, "I repeat, this is a test.\n")
 end
 
 open("test.txt") do f
-    for line in eachline(f)
-        println("[$line]")
-    end
+	for line in eachline(f)
+		println("[$line]")
+	end
 end
 
 open("test.txt") do f
-    s = read(f, String)
+	s = read(f, String)
 end
 
 s = read("test.txt", String)
 
 a = [1]
 try
-    push!(a, 2)
-    #throw("Oops") # try uncommenting this line
-    push!(a, 3)
+	push!(a, 2)
+	#throw("Oops") # try uncommenting this line
+	push!(a, 3)
 catch ex
-    println(ex)
-    push!(a, 4)
+	println(ex)
+	push!(a, 4)
 finally
-    push!(a, 5)
+	push!(a, 5)
 end
 println(a)
 
 choice = 1 # try changing this value (from 1 to 4)
 try
-    choice == 1 && open("/foo/bar/i_dont_exist.txt")
-    choice == 2 && sqrt(-1)
-    choice == 3 && push!(a, "Oops")
-    println("Everything worked like a charm")
+	choice == 1 && open("/foo/bar/i_dont_exist.txt")
+	choice == 2 && sqrt(-1)
+	choice == 3 && push!(a, "Oops")
+	println("Everything worked like a charm")
 catch ex
-    if ex isa SystemError
-        println("Oops. System error #$(ex.errnum) ($(ex.prefix))")
-    elseif ex isa DomainError
-        println("Oh no, I could not compute sqrt(-1)")
-    else
-        println("I got an unexpected error: $ex")
-    end
+	if ex isa SystemError
+		println("Oops. System error #$(ex.errnum) ($(ex.prefix))")
+	elseif ex isa DomainError
+		println("Oh no, I could not compute sqrt(-1)")
+	else
+		println("I got an unexpected error: $ex")
+	end
 end
 
 catch_exception = true
 try
-    println("Try something")
-    #error("ERROR: Catch me!") # try uncommenting this line
-    catch_exception = false
-    #error("ERROR: Don't catch me!") # try uncommenting this line
-    println("No error occurred")
+	println("Try something")
+	#error("ERROR: Catch me!") # try uncommenting this line
+	catch_exception = false
+	#error("ERROR: Don't catch me!") # try uncommenting this line
+	println("No error occurred")
 catch ex
-    if catch_exception
-        println("I caught this exception: $ex")
-    else
-        throw(ex)
-    end
+	if catch_exception
+		println("I caught this exception: $ex")
+	else
+		throw(ex)
+	end
 finally
-    println("The end")
+	println("The end")
 end
 println("After the end")
 
@@ -1117,7 +1117,7 @@ square(x::Number) = x^2
 ?square
 
 """
-    cube(x::Number)
+	cube(x::Number)
 
 Compute the cube of `x`.
 
@@ -1134,7 +1134,7 @@ cube(x) = x^3
 ?cube
 
 """
-    foo(x)
+	foo(x)
 
 Compute the foo of the bar
 """
@@ -1144,7 +1144,7 @@ function foo end  # declares the foo function
 foo(x::Number) = "baz"
 
 """
-    foo(x::String)
+	foo(x::String)
 
 For strings, compute the qux of the bar instead.
 """
@@ -1154,27 +1154,27 @@ foo(x::String) = "qux"
 
 macro addtosub(x)
   if x.head == :call && x.args[1] == :+ && length(x.args) == 3
-    Expr(:call, :-, x.args[2], x.args[3])
+	Expr(:call, :-, x.args[2], x.args[3])
   else
-    x
+	x
   end
 end
 
 @addtosub 10 + 2
 
 module ModA
-    pi = 3.14
-    square(x) = x^2
+	pi = 3.14
+	square(x) = x^2
 
-    module ModB
-        e = 2.718
-        cube(x) = x^3
-    end
+	module ModB
+		e = 2.718
+		cube(x) = x^3
+	end
 
-    module ModC
-        root2 = √2
-        relu(x) = max(0, x)
-    end
+	module ModC
+		root2 = √2
+		relu(x) = max(0, x)
+	end
 end
 
 Main.ModA.ModC.root2
@@ -1198,29 +1198,29 @@ import .ModA.ModC: root2, relu
 import .ModA.ModC.root2, .ModA.ModC.relu
 
 module ModD
-    d = 1
-    module ModE
-        try
-            println(d)
-        catch ex
-            println(ex)
-        end
-    end
-    module ModF
-        f = 2
-        module ModG
-            import ..f
-            import ...d
-            println(f)
-            println(d)
-        end
-    end
+	d = 1
+	module ModE
+		try
+			println(d)
+		catch ex
+			println(ex)
+		end
+	end
+	module ModF
+		f = 2
+		module ModG
+			import ..f
+			import ...d
+			println(f)
+			println(d)
+		end
+	end
 end
 
 module ModH
-    h1 = 1
-    h2 = 2
-    export h1
+	h1 = 1
+	h2 = 2
+	export h1
 end
 
 import .ModH
@@ -1228,9 +1228,9 @@ import .ModH
 println(ModH.h1)
 
 try
-    println(ModH.h2)
+	println(ModH.h2)
 catch ex
-    ex
+	ex
 end
 
 ModH
@@ -1242,9 +1242,9 @@ import .ModH.h2
 ModH.h2
 
 module ModG
-    g1 = 1
-    g2 = 2
-    export g2
+	g1 = 1
+	g2 = 2
+	export g2
 end
 
 import .ModG: g1, g2
@@ -1253,8 +1253,8 @@ println(g1)
 println(g2)
 
 module ModH
-    double(x) = x * 2
-    triple(x) = x * 3
+	double(x) = x * 2
+	triple(x) = x * 3
 end
 
 import .ModH: double
@@ -1269,8 +1269,8 @@ println(ModH.triple(3))
 println(ModH.triple("Three"))
 
 module ModI
-    quadruple(x) = x * 4
-    export quadruple
+	quadruple(x) = x * 4
+	export quadruple
 end
 
 import .ModI
@@ -1314,46 +1314,46 @@ println("Is fantastic? ", Awesome.Fantastic.fantastic)
 popfirst!(LOAD_PATH)
 
 for q in 1:3
-    println(q)
+	println(q)
 end
 
 try
-    println(q) # q is not available here
+	println(q) # q is not available here
 catch ex
-    ex
+	ex
 end
 
 z = 5
 for i in 1:3
-    w = 10
-    println(i * w * z) # i and w are local, z is from the parent scope
+	w = 10
+	println(i * w * z) # i and w are local, z is from the parent scope
 end
 
 for i in 1:3
-    s = 0
-    for j in 1:5
-        s = j # variable s is from the parent scope
-    end
-    println(s)
+	s = 0
+	for j in 1:5
+		s = j # variable s is from the parent scope
+	end
+	println(s)
 end
 
 for i in 1:3
-    s = 0
-    for j in 1:5
-        local s = j # variable s is local now
-    end
-    println(s)
+	s = 0
+	for j in 1:5
+		local s = j # variable s is local now
+	end
+	println(s)
 end
 
 for i in 1:3
-    global p
-    p = i
+	global p
+	p = i
 end
 p
 
 s = 0
 for i in 1:3
-    s = i # implicitly global s: only in REPL Julia 1.5+ or IJulia
+	s = i # implicitly global s: only in REPL Julia 1.5+ or IJulia
 end
 s
 
@@ -1371,32 +1371,32 @@ t = 1
 foo() = t # foo() captures t from the global scope
 
 function bar()
-    t = 5 # this is a new local variable
-    println(foo()) # foo() still uses t from the global scope
+	t = 5 # this is a new local variable
+	println(foo()) # foo() still uses t from the global scope
 end
 
 bar()
 
 function quz()
-    global t
-    t = 5 # we change the global t
-    println(foo()) # and this affects foo()
+	global t
+	t = 5 # we change the global t
+	println(foo()) # and this affects foo()
 end
 
 quz()
 
 function create_multiplier(n)
-    function mul(x)
-        x * n # variable n is captured from the parent scope
-    end
+	function mul(x)
+		x * n # variable n is captured from the parent scope
+	end
 end
 
 mul2 = create_multiplier(2)
 mul2(5)
 
 function create_counter()
-    c = 0
-    inc() = c += 1 # this inner function modifies the c from the outer function
+	c = 0
+	inc() = c += 1 # this inner function modifies the c from the outer function
 end
 
 cnt = create_counter()
@@ -1406,48 +1406,48 @@ println(cnt())
 funcs = []
 i = 1
 while i ≤ 5
-    push!(funcs, ()->i^2)
-    global i += 1
+	push!(funcs, ()->i^2)
+	global i += 1
 end
 for fn in funcs
-    println(fn())
+	println(fn())
 end
 
 funcs = []
 for i in 1:5
-    push!(funcs, ()->i^2)
+	push!(funcs, ()->i^2)
 end
 for fn in funcs
-    println(fn())
+	println(fn())
 end
 
 funcs = []
 i = 1
 while i ≤ 5  # since we are in a while loop...
-    global i
-    local j = i # ...and j is created here, it's a new `j` at each iteration
-    push!(funcs, ()->j^2)
-    i += 1
+	global i
+	local j = i # ...and j is created here, it's a new `j` at each iteration
+	push!(funcs, ()->j^2)
+	i += 1
 end
 for fn in funcs
-    println(fn())
+	println(fn())
 end
 
 funcs = []
 i = 0
 while i < 5
-    let i=i
-        push!(funcs, ()->i^2)
-    end
-    global i += 1
+	let i=i
+		push!(funcs, ()->i^2)
+	end
+	global i += 1
 end
 for fn in funcs
-    println(fn())
+	println(fn())
 end
 
 a = 1
 let a=a+1, b=a
-    println("a=$a, b=$b")
+	println("a=$a, b=$b")
 end
 
 a = 1
@@ -1457,12 +1457,12 @@ foobar(5)
 
 a = 1
 if true
-    a = 2 # same `a` as above
+	a = 2 # same `a` as above
 end
 a
 
 a = 1
 begin
-    a = 2  # same `a` as above
+	a = 2  # same `a` as above
 end
 a
