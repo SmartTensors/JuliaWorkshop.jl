@@ -617,7 +617,7 @@ end
 draw_face(10, 20, 30)
 
 try
-	draw_face(10, 20, width=30)
+	draw_face(10, 20; width=30)
 catch ex
 	ex
 end
